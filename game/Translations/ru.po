@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-07-19 10:04+0000\n"
+"PO-Revision-Date: 2023-07-21 09:04+0000\n"
 "Last-Translator: MacIT <ptichka.denozavra05@mail.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tabletop-club/"
 "game/ru/>\n"
@@ -65,7 +65,7 @@ msgstr "Импорт логов"
 
 #: ../Scenes/MainMenu.tscn:99
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../Scenes/MainMenu.tscn:107
 msgid "Tabletop Club on Itch.io"
@@ -81,11 +81,11 @@ msgstr "Документация"
 
 #: ../Scenes/MainMenu.tscn:134
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../Scenes/MainMenu.tscn:143
 msgid "Matrix.org"
-msgstr ""
+msgstr "Matrix.org"
 
 #: ../Scenes/MainMenu.tscn:152 ../Scenes/MainMenu.tscn:247
 msgid "Information"
@@ -349,11 +349,11 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:492
 msgid "Skip Splash Screen"
-msgstr ""
+msgstr "Пропустить заставку"
 
 #: ../Scenes/OptionsMenu.tscn:500
 msgid "Skips the Godot Engine splash screen when the game starts."
-msgstr ""
+msgstr "Пропускать заставку Godot Engine когда игра запускается."
 
 #: ../Scenes/OptionsMenu.tscn:508
 msgid "Show System Warnings"
