@@ -9,21 +9,24 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 11:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-21 09:05+0000\n"
+"Last-Translator: Yusuf <yusufdundar92@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/tabletop-club/"
+"docs-custom-assets/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:3
 msgid "Asset pack structure"
-msgstr ""
+msgstr "Varlık paket yapısı"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:6
 msgid "Locations for asset packs"
-msgstr ""
+msgstr "Varlık paketleri için yer bilgisi"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:8
 msgid "At the start of the game, Tabletop Club will scan a set of given folders for asset packs. If you want the game to import your asset pack, it needs to be put into one of the following locations:"
@@ -848,7 +851,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:143
 msgid "Piece"
-msgstr ""
+msgstr "Parça"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:None
 msgid "On the table are two chess pieces, a white pawn and a black queen."
