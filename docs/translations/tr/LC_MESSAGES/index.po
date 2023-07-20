@@ -9,23 +9,26 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-21 09:04+0000\n"
+"Last-Translator: Yusuf <yusufdundar92@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/tabletop-club/"
+"docs-index/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: ../../index.rst:25
 #: ../../index.rst:25
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
-msgstr ""
+msgstr "Özel Varlıklar"
 
 #: ../../index.rst:7
 msgid "Tabletop Club Documentation"
