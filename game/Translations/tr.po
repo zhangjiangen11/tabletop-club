@@ -9,26 +9,29 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-21 09:04+0000\n"
+"Last-Translator: Yusuf <yusufdundar92@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/tabletop-club/"
+"game/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
 msgid "Importing assets..."
-msgstr ""
+msgstr "Varlıklar içeri aktarılıyor..."
 
 #: ../Scenes/ImportAssets.tscn:56
 msgid "Missing Asset Folder"
-msgstr ""
+msgstr "Varlık klasörü bulunamadı"
 
 #: ../Scenes/ImportAssets.tscn:62
 msgid "Missing Module"
-msgstr ""
+msgstr "Eksik Modül"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
@@ -295,7 +298,7 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:421
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: ../Scenes/OptionsMenu.tscn:435
 msgid "Language"
