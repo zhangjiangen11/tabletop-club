@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-05-09 08:08+0000\n"
-"Last-Translator: PK <tar4nis+weblate@gmail.com>\n"
+"PO-Revision-Date: 2023-11-16 14:06+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/tabletop-club/"
 "game/pl/>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -2018,7 +2018,7 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:702
 msgid "<Unknown>"
-msgstr ""
+msgstr "<Nieznane>"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:713
 #, python-format
@@ -2046,15 +2046,15 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Load"
-msgstr ""
+msgstr "Załaduj"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:180
 msgid "Sort:"
-msgstr ""
+msgstr "Sortowanie:"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:184
 msgid "Last Modified"
@@ -2071,11 +2071,11 @@ msgstr ""
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:226
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:262
 msgid "Rename"
-msgstr ""
+msgstr "Zmień nazwę"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:227
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplikuj"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:233
 msgid "Invalid name!"
@@ -2114,7 +2114,7 @@ msgstr ""
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:114
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:302
 msgid "All"
-msgstr ""
+msgstr "Wszystko"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:281
 msgid "Boards"
@@ -2122,11 +2122,11 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:282
 msgid "Cards"
-msgstr ""
+msgstr "Karty"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:283
 msgid "Containers"
-msgstr ""
+msgstr "Kontenery"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:284
 msgid "Dice"
@@ -2134,7 +2134,7 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:286
 msgid "Music"
-msgstr ""
+msgstr "Muzyka"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:287
 msgid "Pieces"
@@ -2146,11 +2146,11 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:289
 msgid "Sounds"
-msgstr ""
+msgstr "Dźwięki"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:290
 msgid "Speakers"
-msgstr ""
+msgstr "Głośniki"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:291
 msgid "Stacks"
