@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 11:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-07 13:03+0000\n"
+"Last-Translator: Tibor Eszes <teszes@pm.me>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/tabletop-club/"
+"docs-custom-assets/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:3
 msgid "Asset pack structure"
@@ -343,7 +346,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "All"
-msgstr ""
+msgstr "Minden"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
@@ -365,7 +368,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "Cards"
-msgstr ""
+msgstr "Kártyák"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 msgid "The file name of the back face of the card. The texture must be in the same folder. If blank, no back face texture is applied."
@@ -386,7 +389,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "Tables"
-msgstr ""
+msgstr "Asztalok"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 msgid "``0.5``"
@@ -426,7 +429,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid "Objects"
-msgstr ""
+msgstr "Tárgyak"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 msgid "``#ffffff``"
@@ -494,7 +497,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_types.rst:97
 msgid "Dice"
-msgstr ""
+msgstr "Dobókockák"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
@@ -611,7 +614,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "Skyboxes"
-msgstr ""
+msgstr "Skyboxok"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 msgid "``Vector3(0.0, 0.0, 0.0)``"
@@ -664,7 +667,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "Containers"
-msgstr ""
+msgstr "Tárolók"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "If ``true``, when the container is being shaken upside down, it will randomly drop items out."
@@ -704,7 +707,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "Templates"
-msgstr ""
+msgstr "Sablonok"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "Used to set up textboxes for image templates. See :ref:`asset-type-template` for more information."
@@ -848,7 +851,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:143
 msgid "Piece"
-msgstr ""
+msgstr "Játékelem"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:None
 msgid "On the table are two chess pieces, a white pawn and a black queen."
@@ -860,7 +863,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:154
 msgid "Speaker"
-msgstr ""
+msgstr "Hangszóró"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:None
 msgid "By the corner of the table is a large, metallic gramophone."
@@ -872,7 +875,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:167
 msgid "Timer"
-msgstr ""
+msgstr "Stopper"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:169
 msgid "Timers are objects that can be used as countdowns, stopwatches, or to display the system time. If an audio track is loaded, it will automatically play when the countdown reaches 0."
@@ -901,7 +904,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:199
 msgid "Music"
-msgstr ""
+msgstr "Zene"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:201
 msgid "Music tracks are the same as sounds, but they can also be configured to play in the main menu. See the ``main_menu`` property in :ref:`config-cfg`."
@@ -1102,7 +1105,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:113
 msgid "Audio"
-msgstr ""
+msgstr "Hang"
 
 #: ../../custom_assets/asset_packs/file_types.rst:115
 msgid "As of right now, Tabletop Club supports the following audio formats:"
