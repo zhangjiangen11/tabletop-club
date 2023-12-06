@@ -9,52 +9,65 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-07 14:04+0000\n"
+"Last-Translator: Tibor Eszes <teszes@pm.me>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/tabletop-club/"
+"docs-index/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: ../../index.rst:25
 #: ../../index.rst:25
 msgid "General"
-msgstr ""
+msgstr "Általános"
 
 #: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
-msgstr ""
+msgstr "Egyedi játékeszközök"
 
 #: ../../index.rst:7
 msgid "Tabletop Club Documentation"
-msgstr ""
+msgstr "Tabletop Club dokumentáció"
 
 #: ../../index.rst:9
 msgid "Welcome to the documentation for Tabletop Club, a free and open source tabletop board game simulator! If you're new to the project, feel free to check out the :ref:`about-tabletop-club` page. Otherwise, you can use either the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
+"Üdv a Tabletop Club dokumentációján! A Tabletop Club egy szabad és nyílt "
+"forráskódú asztali társasjátékszimulátor. Ha új vagy a projekten, nézd meg a "
+":ref:`about-tabletop-club` oldalt. Ellenkező esetben használhatod a "
+"tartalomjegyzéket, az oldalsávot vagy a keresőt hogy megtaláld amire "
+"szükséged van!"
 
 #: ../../index.rst:None
 msgid "Screenshots from the game"
-msgstr ""
+msgstr "Képernyőképek a játékból"
 
 #: ../../index.rst:19
 msgid "The documentation, as well as the project in general, is open to suggestions and contributions! If you feel that something is not explained well, or you think that information is missing, then please don't hesitate to open an issue or a pull request on the project's `GitHub repository <https://github.com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
+"A dokumentáció, valamint a projekt általában nyitott javaslatokra és "
+"hozzájárulásokra! Ha úgy érzed hogy valami nincs jól elmagyarázva, vagy úgy "
+"gondolod hogy az információ hiányos, ne habozz és hozz létre egy issue-t "
+"vagy egy pull request-et a projekt `GitHub oldalán <https://github.com/"
+"drwhut/tabletop-club/issues>`_!"
 
 #: ../../index.rst:42
 msgid "Indices and tables"
-msgstr ""
+msgstr "Tárgymutatók és táblázatok"
 
 #: ../../index.rst:44
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:45
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:46
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
