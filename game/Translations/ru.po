@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-07-21 09:04+0000\n"
-"Last-Translator: MacIT <ptichka.denozavra05@mail.ru>\n"
+"PO-Revision-Date: 2024-02-24 13:02+0000\n"
+"Last-Translator: Alexander Ivanov <saiv46.dev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tabletop-club/"
 "game/ru/>\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -45,7 +45,7 @@ msgstr "Одиночная игра"
 #: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:159
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
-msgstr "Многопользовательская игра"
+msgstr "Сетевая игра"
 
 #: ../Scenes/Game/UI/GameUI.tscn:222 ../Scenes/MainMenu.tscn:65
 msgid "Options"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../Scenes/MainMenu.tscn:195 ../Scenes/MainMenu.tscn:242
 msgid "Join Game"
-msgstr "Присоединиться к игре"
+msgstr "Присоединиться"
 
 #: ../Scenes/MainMenu.tscn:201
 msgid "Use a room code to join your friend's lobby."
@@ -1034,23 +1034,23 @@ msgstr "Заголовок"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:60
 msgid "When ticked, this page will be visible to other players."
-msgstr ""
+msgstr "Если флажок установлен, эта страница будет видна другим игрокам."
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:62
 msgid "Public"
-msgstr ""
+msgstr "Публичный"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:94
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:102
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:110
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:122
 msgid "Move Up"
@@ -1073,11 +1073,11 @@ msgstr "Удалить страницу?"
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:147
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:293
 msgid "Templates"
-msgstr ""
+msgstr "Шаблоны"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:151
 msgid "Open"
-msgstr ""
+msgstr "Открыть"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:41
 msgid "Current table:"
@@ -1282,7 +1282,7 @@ msgstr "Немецкий"
 
 #: ../Scripts/MainMenu.gd:110
 msgid "Indonesian"
-msgstr ""
+msgstr "Индонезийский"
 
 #: ../Scripts/MainMenu.gd:111
 msgid "Italian"
@@ -1290,7 +1290,7 @@ msgstr "Итальянский"
 
 #: ../Scripts/MainMenu.gd:112
 msgid "Norwegian"
-msgstr ""
+msgstr "Норвежский"
 
 #: ../Scripts/MainMenu.gd:113
 msgid "Portuguese"
@@ -1302,7 +1302,7 @@ msgstr "Русский"
 
 #: ../Scripts/MainMenu.gd:115
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 #: ../Scripts/MainMenu.gd:216
 msgid "Room code must be four characters long!"
@@ -1896,21 +1896,19 @@ msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:154
 msgid "Privately send a message to another player."
-msgstr ""
+msgstr "Отправить личное сообщение другому игроку."
 
 #: ../Scripts/Game/UI/GameUI.gd:150
-#, fuzzy
-#| msgid "Clear Table"
 msgid "Clear Paint"
-msgstr "Очистить стол"
+msgstr "Очистить Краску"
 
 #: ../Scripts/Game/UI/GameUI.gd:170
 msgid "Welcome to Tabletop Club!"
-msgstr ""
+msgstr "Добро пожаловать в Tabletop Club!"
 
 #: ../Scripts/Game/UI/GameUI.gd:171
 msgid "To view a list of commands, type /? or /help in this chat box."
-msgstr ""
+msgstr "Чтобы посмотреть список команд, введите /? или /help в чат."
 
 #: ../Scripts/Game/UI/GameUI.gd:248
 #, python-format
@@ -1941,10 +1939,8 @@ msgid "%s has left the game."
 msgstr "%s покинул(а) игру."
 
 #: ../Scripts/Game/UI/GameUI.gd:389
-#, fuzzy
-#| msgid "Notebook"
 msgid "View notebook"
-msgstr "Блокнот"
+msgstr "Посмотреть блокнот"
 
 #: ../Scripts/Game/UI/Dialogs/ContainerContentDialog.gd:40
 #, python-format
@@ -2027,17 +2023,16 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:269
 msgid "This player does not have any public pages in their notebook."
-msgstr ""
+msgstr "Данный игрок не имеет публичных страниц в своём блокноте."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:702
 msgid "<Unknown>"
-msgstr ""
+msgstr "<Неизвестный>"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:713
-#, fuzzy, python-format
-#| msgid "Notebook"
+#, python-format
 msgid "%s's Notebook"
-msgstr "Блокнот"
+msgstr "Блокнот %s"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:757
 #, python-format
@@ -2047,7 +2042,7 @@ msgstr "Вы уверены, что хотите удалить страницу
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:849
 #, python-format
 msgid "New %s"
-msgstr ""
+msgstr "Новый %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:121
 #, python-format
