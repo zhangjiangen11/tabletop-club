@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-04-18 21:48+0000\n"
-"Last-Translator: Blood Axe <bloodaxenor@protonmail.com>\n"
+"PO-Revision-Date: 2024-03-19 18:01+0000\n"
+"Last-Translator: corupz <small.kai@hotmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "tabletop-club/game/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../Scenes/ImportAssets.tscn:35
 msgid "Importing assets..."
-msgstr "Importer ressurser..."
+msgstr "Importerer ressurser..."
 
 #: ../Scenes/ImportAssets.tscn:56
 msgid "Missing Asset Folder"
@@ -34,9 +34,10 @@ msgstr "Mangler modul"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
-msgstr "Laster inn …"
+msgstr "Laster inn…"
 
 #: ../Scenes/MainMenu.tscn:51
+#, fuzzy
 msgid "Singleplayer"
 msgstr "Enkeltspiller"
 
@@ -50,6 +51,7 @@ msgid "Options"
 msgstr "Innstillinger"
 
 #: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:316
+#, fuzzy
 msgid "Credits"
 msgstr "Bidragsytere"
 
