@@ -9,52 +9,62 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-10 05:10+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"tabletop-club/docs-index/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: ../../index.rst:25
 #: ../../index.rst:25
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
-msgstr ""
+msgstr "自訂資源"
 
 #: ../../index.rst:7
 msgid "Tabletop Club Documentation"
-msgstr ""
+msgstr "Tabletop Club 文件"
 
 #: ../../index.rst:9
 msgid "Welcome to the documentation for Tabletop Club, a free and open source tabletop board game simulator! If you're new to the project, feel free to check out the :ref:`about-tabletop-club` page. Otherwise, you can use either the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
+"歡迎來到 Tabletop Club "
+"的文件，這是一個免費和開源的桌上棋盤遊戲模擬器！如果你是此專案的新手，"
+"請隨時查看 :ref:`about-tabletop-club` "
+"頁面。否則，你可以使用目錄、側邊欄或搜尋欄來尋找你需要的內容！"
 
 #: ../../index.rst:None
 msgid "Screenshots from the game"
-msgstr ""
+msgstr "遊戲截圖"
 
 #: ../../index.rst:19
 msgid "The documentation, as well as the project in general, is open to suggestions and contributions! If you feel that something is not explained well, or you think that information is missing, then please don't hesitate to open an issue or a pull request on the project's `GitHub repository <https://github.com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
+"此文件以至整個專案都歡迎提供建議和貢獻！如果你覺得某些內容沒有得到很好的解釋"
+"，或者你認為資訊缺失，請隨時在專案的 `GitHub 儲存庫 <https://github.com/"
+"drwhut/tabletop-club/issues>`_上提出問題或拉取請求！"
 
 #: ../../index.rst:42
 msgid "Indices and tables"
-msgstr ""
+msgstr "索引和桌子"
 
 #: ../../index.rst:44
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:45
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:46
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
