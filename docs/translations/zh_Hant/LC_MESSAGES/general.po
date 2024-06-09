@@ -9,45 +9,49 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-09 08:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-10 05:09+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"tabletop-club/docs-general/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: ../../general/about.rst:5
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: ../../general/about.rst:8
 msgid "What is Tabletop Club?"
-msgstr ""
+msgstr "甚麼是 Tabletop Club？"
 
 #: ../../general/about.rst:10
 msgid ""
 "Tabletop Club is a free and open-source tabletop board game simulator! "
 "That's a bit of a mouthful, so I'll break that sentence down a bit:"
-msgstr ""
+msgstr "Tabletop Club 是一款免費和開源的桌上棋盤遊戲模擬器！這有點拗口，所以我將這句"
+"話稍微分拆一下："
 
 #: ../../general/about.rst:14
 msgid "Free"
-msgstr ""
+msgstr "免費"
 
 #: ../../general/about.rst:16
 msgid ""
 "The game is completely free to download and play! You can do so by going to "
 "the :ref:`downloading-binaries` page."
-msgstr ""
+msgstr "遊戲是完全免費下載和遊玩！你可以前往 :ref:`downloading-binaries` 頁面來下載。"
 
 #: ../../general/about.rst:20
 msgid "Open-source"
-msgstr ""
+msgstr "開源"
 
 #: ../../general/about.rst:22
 msgid "This means a few things:"
-msgstr ""
+msgstr "這意味著以下幾點："
 
 #: ../../general/about.rst:24
 msgid ""
@@ -56,6 +60,9 @@ msgid ""
 "means you can compile the game youself from scratch (see :ref:`compiling-"
 "from-source`)."
 msgstr ""
+"遊戲的原始碼公開可見（你可以在 `GitHub 儲存庫 <https://github.com/drwhut/"
+"tabletop-club>`_中看到它）。這也意味著你可以從頭開始自己編譯遊戲（請參閱 :ref"
+":`compiling-from-source`）。"
 
 #: ../../general/about.rst:29
 msgid ""
@@ -63,18 +70,24 @@ msgid ""
 "different ways! For more information about how you can help contribute to "
 "the project, visit the :ref:`contributing` page."
 msgstr ""
+"任何人都可以透過多種不同的方式為 Tabletop Club "
+"的發展做出貢獻！有關如何為此專案做出貢獻的更多資訊，請參閱 "
+":ref:`contributing` 頁面。"
 
 #: ../../general/about.rst:33
 msgid ""
 "The game is licensed under the `MIT License <https://github.com/drwhut/"
 "tabletop-club/blob/master/LICENSE>`_, which is an open, permissive license."
 msgstr ""
+"遊戲是基於 `MIT 許可證 <https://github.com/drwhut/tabletop-club/blob/master/"
+"LICENSE>`_授權，這是一個開放、寬鬆的許可證。"
 
 #: ../../general/about.rst:39
 msgid ""
 "The game's code and project files are licensed under the MIT License, but "
 "some of the assets are licensed under different open licenses."
-msgstr ""
+msgstr "遊戲的程式碼和專案檔案是基於 MIT "
+"許可證授權，但是某些資源根據是基於不同的開放許可證授權。"
 
 #: ../../general/about.rst:42
 msgid ""
@@ -86,7 +99,7 @@ msgstr ""
 
 #: ../../general/about.rst:48
 msgid "Tabletop board game"
-msgstr ""
+msgstr "桌上棋盤遊戲"
 
 #: ../../general/about.rst:50
 msgid ""
@@ -94,7 +107,8 @@ msgid ""
 "games by effectively giving you a box of toys to play with (which include "
 "things like cards, dice, game pieces, and more), and it's up to you what you "
 "do with what you're given!"
-msgstr ""
+msgstr "遊戲旨在透過有效地為你提供一盒玩具（包括紙牌、骰子、遊戲件等）來讓你遊玩你最"
+"喜歡的桌上棋盤遊戲，並由你決定如何使用和你得到了甚麼！"
 
 #: ../../general/about.rst:55
 msgid ""
@@ -104,10 +118,14 @@ msgid ""
 "learn more about how to make assets for Tabletop Club, visit the :ref:`asset-"
 "packs` page."
 msgstr ""
+"但是這款遊戲最酷的一點是任何人都可以為遊戲建立資源！就像將檔案拖曳至資料夾中"
+"一樣簡單，遊戲將匯入它們，然後你可以立即在遊戲中使用它們！"
+"如果你想瞭解有關如何為 Tabletop Club 製作資源的更多資訊，請參閱 :ref:`asset-"
+"packs` 頁面。"
 
 #: ../../general/about.rst:61
 msgid "Simulator"
-msgstr ""
+msgstr "模擬器"
 
 #: ../../general/about.rst:63
 msgid ""
@@ -116,66 +134,72 @@ msgid ""
 "they do in real life, and it also means you can potentially send objects "
 "flying off the edge! Did I also mention you could flip the table?"
 msgstr ""
+"此遊戲不僅是桌遊的模擬器，還有完全模擬的 3D 物理引擎！這意味著遊戲中物件的行"
+"為就像現實生活中的一樣，而且還意味著你有可能將物件飛出邊界！我是否還提到你可"
+"以翻桌子？"
 
 #: ../../general/about.rst:70
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常見問題"
 
 #: ../../general/about.rst:73
 msgid "What platforms can I play Tabletop Club on?"
-msgstr ""
+msgstr "我可以在哪些平台上玩 Tabletop Club？"
 
 #: ../../general/about.rst:75
 msgid "Tabletop Club can be played on any of these platforms:"
-msgstr ""
+msgstr "Tabletop Club 可以在以下任何平台上遊玩："
 
 #: ../../general/about.rst:77
 msgid "Windows 7 or later"
-msgstr ""
+msgstr "Windows 7 或更新版本"
 
 #: ../../general/about.rst:78
 msgid "macOS 10.12 or later"
-msgstr ""
+msgstr "macOS 10.12 或更新版本"
 
 #: ../../general/about.rst:79
 msgid "Linux / \\*BSD"
-msgstr ""
+msgstr "Linux / \\*BSD"
 
 #: ../../general/about.rst:81
 msgid "Your hardware must also have support for OpenGL 3.3."
-msgstr ""
+msgstr "你的硬體也必須支援 OpenGL 3.3。"
 
 #: ../../general/about.rst:83
 msgid ""
 "It is recommended to have at least 1GB of available space on your drive to "
 "accommodate for the game files, as well as any generated files."
-msgstr ""
+msgstr "建議你的儲存空間上至少有 1 GB 的可用空間來容納遊戲檔案以及任何產生的檔案。"
 
 #: ../../general/about.rst:86
 msgid ""
 "Currently there are no plans for the game to be supported on mobile devices "
 "or consoles."
-msgstr ""
+msgstr "此遊戲目前還沒有計劃在行動裝置或遊戲機上支援。"
 
 #: ../../general/about.rst:91
 msgid "Does Tabletop Club support multiplayer?"
-msgstr ""
+msgstr "Tabletop Club 支援多人遊戲嗎？"
 
 #: ../../general/about.rst:93
 msgid ""
 "Yes! You don't need to make an account to play multiplayer, you can just "
 "host a game and start playing with friends!"
-msgstr ""
+msgstr "是的！你無需建立帳戶即可遊玩多人遊戲，你只需要主持遊戲便可以開始與朋友一起遊"
+"玩！"
 
 #: ../../general/about.rst:98
 msgid ""
 "You can change your name and colour in multiplayer by going to :guilabel:"
 "`Options` > :guilabel:`Multiplayer`, and changing the relevant settings."
 msgstr ""
+"你可以前往 :guilabel:`Options` > :guilabel:`Multiplayer` "
+"以變更多人遊戲中的名稱和顏色，也可以變更相關設定。"
 
 #: ../../general/about.rst:104
 msgid "Is Tabletop Club on Steam / GOG / itch.io?"
-msgstr ""
+msgstr "Tabletop Club 在 Steam／GOG／itch.io 上嗎？"
 
 #: ../../general/about.rst:106
 msgid ""
@@ -184,10 +208,13 @@ msgid ""
 "download it from the `itch app <https://itch.io/app>`_ and get automatic "
 "updates."
 msgstr ""
+"遊戲可以在 `itch.io <https://drwhut.itch.io/tabletop-"
+"club>`_上下載！你不僅可以將遊戲作為獨立執行檔下載，還可以從 `itch 應用程式 "
+"<https://itch.io/app>`_上下載並取得自動更新。"
 
 #: ../../general/about.rst:113
 msgid "What stage of development is Tabletop Club at?"
-msgstr ""
+msgstr "Tabletop Club 目前處於甚麼發展階段？"
 
 #: ../../general/about.rst:115
 msgid ""
@@ -197,10 +224,14 @@ msgid ""
 "tabletop-club/issues>`_ for known bugs, feature requests, as well as quality-"
 "of-life tweaks to the game."
 msgstr ""
+"Tabletop Club 目前正在積極發展中。遊戲已經發佈，但是隨著時間的推移，在社群的"
+"幫助下，它一直在不斷改進。在 GitHub 上有`一個問題追蹤器 <https://github.com/"
+"drwhut/tabletop-club/"
+"issues>`_，用於瞭解遊戲的已知錯誤、功能請求以及品質調整。"
 
 #: ../../general/about.rst:123
 msgid "Is there an official Discord or Matrix server that I can join?"
-msgstr ""
+msgstr "有沒有官方 Discord 或 Matrix 伺服器我可以加入的嗎？"
 
 #: ../../general/about.rst:125
 msgid ""
@@ -209,21 +240,25 @@ msgid ""
 "chat with other players about anything from the game itself, to board games "
 "in general, or even to share asset packs that you have made!"
 msgstr ""
+"是的，你可以加入官方 `Discord <https://discord.gg/GqYkGV4WwX>`_ 和 `Matrix "
+"<https://matrix.to/#/#tabletop-club:matrix.org>`_ 伺服器與其他玩家進行聊天以"
+"討論任何事情，從遊戲本身到一般的棋盤遊戲，甚至分享你製作的資源包！"
 
 #: ../../general/about.rst:130
 msgid ""
 "The goal is to create a safe, welcoming environment for everyone regardless "
 "of their background or personality. As long as you abide by the server "
 "rules, you are always free to come in and say hi!"
-msgstr ""
+msgstr "我們的目標是為每個人建立一個安全、溫馨的環境，無論他們的背景或個性如何。只要"
+"你遵守伺服器規則，你就可以隨時進來打招呼！"
 
 #: ../../general/about.rst:136
 msgid "What board games can I play in Tabletop Club?"
-msgstr ""
+msgstr "我可以在 Tabletop Club 遊玩哪些棋盤遊戲？"
 
 #: ../../general/about.rst:138
 msgid "Theoretically, any of them!"
-msgstr ""
+msgstr "理論上來說，任何一個都可以！"
 
 #: ../../general/about.rst:140
 msgid ""
@@ -285,27 +320,27 @@ msgstr ""
 
 #: ../../general/about.rst:177
 msgid ":ref:`asset-type-game`"
-msgstr ""
+msgstr ":ref:`asset-type-game`"
 
 #: ../../general/about.rst:178
 msgid ":ref:`asset-type-music`"
-msgstr ""
+msgstr ":ref:`asset-type-music`"
 
 #: ../../general/about.rst:179
 msgid ":ref:`asset-type-skybox`"
-msgstr ""
+msgstr ":ref:`asset-type-skybox`"
 
 #: ../../general/about.rst:180
 msgid ":ref:`asset-type-sound`"
-msgstr ""
+msgstr ":ref:`asset-type-sound`"
 
 #: ../../general/about.rst:181
 msgid ":ref:`asset-type-table`"
-msgstr ""
+msgstr ":ref:`asset-type-table`"
 
 #: ../../general/about.rst:185
 msgid "Can you add my favourite board game to Tabletop Club?"
-msgstr ""
+msgstr "你可以將我最喜歡的棋盤遊戲增加至 Tabletop Club 嗎？"
 
 #: ../../general/about.rst:187
 msgid ""
@@ -314,6 +349,9 @@ msgid ""
 "asset pack. But that doesn't stop you from making assets for your favourite "
 "board game for private use!"
 msgstr ""
+"為了法律安全，Tabletop Club 將只在預設資源包中分發`公有領域 <https://zh."
+"wikipedia.org/zh-tw/%E5%85%AC%E6%9C%89%E9%A2%86%E5%9F%9F>`_的棋盤遊戲。但是這"
+"並不能阻止你為你最喜歡的棋盤遊戲製作資源供私人使用！"
 
 #: ../../general/about.rst:194
 msgid "Can I share assets I've made on the internet?"
@@ -431,7 +469,7 @@ msgstr ""
 
 #: ../../general/contributing/index.rst:5
 msgid "Contributing"
-msgstr ""
+msgstr "貢獻"
 
 #: ../../general/contributing/pull_request_workflow.rst:5
 msgid "Pull request workflow"
@@ -908,7 +946,7 @@ msgstr ""
 #: ../../general/download/compiling_from_source.rst:155
 #: ../../general/download/compiling_from_source.rst:221
 msgid "Requirements"
-msgstr ""
+msgstr "要求"
 
 #: ../../general/download/compiling_from_source.rst:96
 msgid "To compile Godot for Windows, you'll also need the following:"
@@ -933,7 +971,7 @@ msgstr ""
 #: ../../general/download/compiling_from_source.rst:161
 #: ../../general/download/compiling_from_source.rst:297
 msgid "Compiling"
-msgstr ""
+msgstr "編譯"
 
 #: ../../general/download/compiling_from_source.rst:110
 msgid ""
@@ -1043,7 +1081,7 @@ msgstr ""
 
 #: ../../general/download/compiling_from_source.rst:227
 msgid "pkg-config."
-msgstr ""
+msgstr "pkg-config。"
 
 #: ../../general/download/compiling_from_source.rst:228
 msgid "X11, Xcursor, Ximerama, Xi and XRandR development libraries."
