@@ -9,223 +9,226 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-10 05:09+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"tabletop-club/game/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
 msgid "Importing assets..."
-msgstr ""
+msgstr "正在匯入資源…"
 
 #: ../Scenes/ImportAssets.tscn:56
 msgid "Missing Asset Folder"
-msgstr ""
+msgstr "缺少資源資料夾"
 
 #: ../Scenes/ImportAssets.tscn:62
 msgid "Missing Module"
-msgstr ""
+msgstr "缺少模組"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
-msgstr ""
+msgstr "載入中…"
 
 #: ../Scenes/MainMenu.tscn:51
 msgid "Singleplayer"
-msgstr ""
+msgstr "單人遊戲"
 
 #: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:159
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
-msgstr ""
+msgstr "多人遊戲"
 
 #: ../Scenes/Game/UI/GameUI.tscn:222 ../Scenes/MainMenu.tscn:65
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 #: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:316
 msgid "Credits"
-msgstr ""
+msgstr "鳴謝"
 
 #: ../Scenes/MainMenu.tscn:79
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: ../Scenes/MainMenu.tscn:98 ../Scenes/MainMenu.tscn:341
 msgid "Import Log"
-msgstr ""
+msgstr "匯入日誌"
 
 #: ../Scenes/MainMenu.tscn:99
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../Scenes/MainMenu.tscn:107
 msgid "Tabletop Club on Itch.io"
-msgstr ""
+msgstr "Itch.io 上的 Tabletop Club"
 
 #: ../Scenes/MainMenu.tscn:116
 msgid "Source Code"
-msgstr ""
+msgstr "原始碼"
 
 #: ../Scenes/MainMenu.tscn:125
 msgid "Documentation"
-msgstr ""
+msgstr "文件"
 
 #: ../Scenes/MainMenu.tscn:134
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../Scenes/MainMenu.tscn:143
 msgid "Matrix.org"
-msgstr ""
+msgstr "Matrix.org"
 
 #: ../Scenes/MainMenu.tscn:152 ../Scenes/MainMenu.tscn:247
 msgid "Information"
-msgstr ""
+msgstr "資訊"
 
 #: ../Scenes/MainMenu.tscn:177
 msgid "Host Game"
-msgstr ""
+msgstr "主持遊戲"
 
 #: ../Scenes/MainMenu.tscn:183
 msgid "Create a new lobby for your friends to join over the Internet."
-msgstr ""
+msgstr "建立一個新大廳供你的朋友透過網路加入。"
 
 #: ../Scenes/MainMenu.tscn:195 ../Scenes/MainMenu.tscn:242
 msgid "Join Game"
-msgstr ""
+msgstr "加入遊戲"
 
 #: ../Scenes/MainMenu.tscn:201
 msgid "Use a room code to join your friend's lobby."
-msgstr ""
+msgstr "使用房間代碼加入你朋友的大廳。"
 
 #: ../Scenes/MainMenu.tscn:207
 msgid "Enter Room Code"
-msgstr ""
+msgstr "輸入房間代碼"
 
 #: ../Scenes/MainMenu.tscn:227
 msgid "Room Code:"
-msgstr ""
+msgstr "房間代碼："
 
 #: ../Scenes/MainMenu.tscn:236
 msgid "ABCD"
-msgstr ""
+msgstr "ABCD"
 
 #: ../Scenes/MainMenu.tscn:334
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 #: ../Scenes/OptionsMenu.tscn:48
 msgid "Audio"
-msgstr ""
+msgstr "音訊"
 
 #: ../Scenes/OptionsMenu.tscn:61
 msgid "Master Volume"
-msgstr ""
+msgstr "主音量"
 
 #: ../Scenes/OptionsMenu.tscn:68
 msgid "Sets the overall volume of all sources of sound in the game."
-msgstr ""
+msgstr "設定遊戲中所有聲音來源的總音量。"
 
 #: ../Scenes/OptionsMenu.tscn:79
 msgid "Music Volume"
-msgstr ""
+msgstr "音樂音量"
 
 #: ../Scenes/OptionsMenu.tscn:87
 msgid "Sets the volume of all music sources in the game."
-msgstr ""
+msgstr "設定遊戲中所有音樂來源的音量。"
 
 #: ../Scenes/OptionsMenu.tscn:98
 msgid "Sounds Volume"
-msgstr ""
+msgstr "聲音音量"
 
 #: ../Scenes/OptionsMenu.tscn:106
 msgid ""
 "Sets the volume of sound sources played manually throughout the game, for "
 "example, from speakers."
-msgstr ""
+msgstr "設定整個遊戲過程中手動播放的聲音來源的音量，例如揚聲器。"
 
 #: ../Scenes/OptionsMenu.tscn:117
 msgid "Effects Volume"
-msgstr ""
+msgstr "效果音量"
 
 #: ../Scenes/OptionsMenu.tscn:125
 msgid ""
 "Sets the volume of sound effects played automatically throughout the game, "
 "for example, pieces falling on the table. "
-msgstr ""
+msgstr "設定整個遊戲過程中自動播放的聲音效果的音量，例如棋子掉落在桌子上。 "
 
 #: ../Scenes/OptionsMenu.tscn:142
 msgid "Controls"
-msgstr ""
+msgstr "控制"
 
 #: ../Scenes/OptionsMenu.tscn:155
 msgid "Mouse Horizontal Sensitivity"
-msgstr ""
+msgstr "滑鼠水平靈敏度"
 
 #: ../Scenes/OptionsMenu.tscn:162
 msgid "Sets the horizontal sensitivity of the rotation of the camera."
-msgstr ""
+msgstr "設定相機旋轉的水平靈敏度。"
 
 #: ../Scenes/OptionsMenu.tscn:174
 msgid "Mouse Vertical Sensitivity"
-msgstr ""
+msgstr "滑鼠垂直靈敏度"
 
 #: ../Scenes/OptionsMenu.tscn:182
 msgid "Sets the vertical sensitivity of the rotation of the camera."
-msgstr ""
+msgstr "設定相機旋轉的垂直靈敏度。"
 
 #: ../Scenes/OptionsMenu.tscn:194
 msgid "Mouse Horizontal Invert"
-msgstr ""
+msgstr "滑鼠水平反轉"
 
 #: ../Scenes/OptionsMenu.tscn:202
 msgid "Used to invert the rotation of the camera horizontally."
-msgstr ""
+msgstr "用於水平反轉相機的旋轉。"
 
 #: ../Scenes/OptionsMenu.tscn:209
 msgid "Mouse Vertical Invert"
-msgstr ""
+msgstr "滑鼠垂直反轉"
 
 #: ../Scenes/OptionsMenu.tscn:217
 msgid "Used to invert the rotation of the camera vertically."
-msgstr ""
+msgstr "用於垂直反轉相機的旋轉。"
 
 #: ../Scenes/OptionsMenu.tscn:224
 msgid "Camera Movement Speed"
-msgstr ""
+msgstr "相機移動速度"
 
 #: ../Scenes/OptionsMenu.tscn:232
 msgid "Used to set how fast the camera moves across the table."
-msgstr ""
+msgstr "用於設定相機在桌子上移動的速度。"
 
 #: ../Scenes/OptionsMenu.tscn:244
 msgid "Hold Left Click to Move Camera"
-msgstr ""
+msgstr "按住滑鼠左鍵以移動相機"
 
 #: ../Scenes/OptionsMenu.tscn:252
 msgid ""
 "Used to allow the player to move the camera by dragging the mouse across the "
 "table."
-msgstr ""
+msgstr "用於允許玩家透過拖曳滑鼠來在桌子上移動相機。"
 
 #: ../Scenes/OptionsMenu.tscn:259
 msgid "Zoom Sensitivity"
-msgstr ""
+msgstr "縮放靈敏度"
 
 #: ../Scenes/OptionsMenu.tscn:267
 msgid ""
 "Sets how fast the camera zooms in and out of the table when using the scroll "
 "wheel."
-msgstr ""
+msgstr "設定使用滑鼠滾輪時相機放大縮小桌子的速度。"
 
 #: ../Scenes/OptionsMenu.tscn:279
 msgid "Zoom Invert"
-msgstr ""
+msgstr "縮放反轉"
 
 #: ../Scenes/OptionsMenu.tscn:287
 msgid "Used to invert the direction of zooming when using the scroll wheel."
@@ -264,7 +267,7 @@ msgstr ""
 msgid ""
 "When set, hovering over a card in your hand will display an enhanced preview "
 "of the card after a short period of time."
-msgstr ""
+msgstr "設定後，懸停在手中的卡牌上將在短時間內顯示該卡牌的增強預覽。"
 
 #: ../Scenes/OptionsMenu.tscn:360
 msgid "Hand Preview Delay"
@@ -274,7 +277,7 @@ msgstr ""
 msgid ""
 "Used to set how long the mouse needs to be kept still before a preview of a "
 "card is displayed from the hand."
-msgstr ""
+msgstr "用於設定在手上顯示卡牌預覽之前滑鼠需要懸停的時間。"
 
 #: ../Scenes/OptionsMenu.tscn:380
 msgid "Hand Preview Size"
@@ -294,27 +297,27 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:421
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: ../Scenes/OptionsMenu.tscn:435
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: ../Scenes/OptionsMenu.tscn:455
 msgid "Autosave Interval"
-msgstr ""
+msgstr "自動儲存間隔"
 
 #: ../Scenes/OptionsMenu.tscn:463
 msgid "Used to set how often autosaves are created."
-msgstr ""
+msgstr "用於設定建立自動儲存的頻率。"
 
 #: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:70
 msgid "5 minutes"
-msgstr ""
+msgstr "5 分鐘"
 
 #: ../Scenes/OptionsMenu.tscn:474
 msgid "Autosave File Count"
-msgstr ""
+msgstr "自動儲存檔案數量"
 
 #: ../Scenes/OptionsMenu.tscn:482
 msgid "Used to set the maximum number of autosave files that are made."
@@ -322,27 +325,27 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:492
 msgid "Skip Splash Screen"
-msgstr ""
+msgstr "跳過啟動畫面"
 
 #: ../Scenes/OptionsMenu.tscn:500
 msgid "Skips the Godot Engine splash screen when the game starts."
-msgstr ""
+msgstr "遊戲開始時跳過 Godot 引擎啟動畫面。"
 
 #: ../Scenes/OptionsMenu.tscn:508
 msgid "Show System Warnings"
-msgstr ""
+msgstr "顯示系統警告"
 
 #: ../Scenes/OptionsMenu.tscn:516
 msgid "Displays system warnings in the chat box."
-msgstr ""
+msgstr "在聊天框中顯示系統警告。"
 
 #: ../Scenes/OptionsMenu.tscn:525
 msgid "Show System Errors"
-msgstr ""
+msgstr "顯示系統錯誤"
 
 #: ../Scenes/OptionsMenu.tscn:533
 msgid "Displays system errors in the chat box."
-msgstr ""
+msgstr "在聊天框中顯示系統錯誤。"
 
 #: ../Scenes/OptionsMenu.tscn:561
 msgid "Opens the assets folder in your file explorer."
@@ -358,7 +361,7 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:592
 msgid "Key Bindings"
-msgstr ""
+msgstr "按鍵綁定"
 
 #: ../Scenes/OptionsMenu.tscn:606
 msgid "Move Forward"
@@ -456,7 +459,7 @@ msgstr ""
 #: ../Scripts/Game/CameraController.gd:1530
 #: ../Scripts/Game/CameraController.gd:1585
 msgid "Shuffle"
-msgstr ""
+msgstr "洗牌"
 
 #: ../Scenes/OptionsMenu.tscn:811
 msgid ""
@@ -491,23 +494,23 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:875
 msgid "Quicksave"
-msgstr ""
+msgstr "快速儲存"
 
 #: ../Scenes/OptionsMenu.tscn:883
 msgid "Creates a quicksave file."
-msgstr ""
+msgstr "建立一個快速儲存檔案。"
 
 #: ../Scenes/OptionsMenu.tscn:893
 msgid "Quickload"
-msgstr ""
+msgstr "快速載入"
 
 #: ../Scenes/OptionsMenu.tscn:901
 msgid "Loads the latest quicksave file."
-msgstr ""
+msgstr "載入最新的快速儲存檔案。"
 
 #: ../Scenes/OptionsMenu.tscn:911
 msgid "Toggle UI"
-msgstr ""
+msgstr "切換介面"
 
 #: ../Scenes/OptionsMenu.tscn:919
 msgid "Toggles whether the entire UI is displayed."
@@ -527,12 +530,12 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:953 ../Scenes/OptionsMenu.tscn:1413
 msgid "Reset Bindings"
-msgstr ""
+msgstr "重置綁定"
 
 #: ../Scenes/OptionsMenu.tscn:980 ../Scripts/Game/CameraController.gd:1227
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:185
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: ../Scenes/OptionsMenu.tscn:987
 msgid "The player's displayed name in multiplayer lobbies."
@@ -540,11 +543,11 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:989
 msgid "Player"
-msgstr ""
+msgstr "玩家"
 
 #: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1338
 msgid "Color"
-msgstr ""
+msgstr "顏色"
 
 #: ../Scenes/OptionsMenu.tscn:1005
 msgid "The player's displayed colour in multiplayer lobbies."
@@ -552,7 +555,7 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1015
 msgid "Chat Font Size"
-msgstr ""
+msgstr "聊天字體大小"
 
 #: ../Scenes/OptionsMenu.tscn:1023
 msgid "Changes the size of the text in the chat box."
@@ -561,7 +564,7 @@ msgstr ""
 #: ../Scenes/OptionsMenu.tscn:1025 ../Scenes/OptionsMenu.tscn:1156
 #: ../Scripts/OptionsMenu.gd:80
 msgid "Medium"
-msgstr ""
+msgstr "中"
 
 #: ../Scenes/OptionsMenu.tscn:1034
 msgid "Hide Player Cursors"
@@ -580,7 +583,7 @@ msgstr ""
 msgid ""
 "Used to censor potentially offensive words in the chat window when in "
 "multiplayer lobbies."
-msgstr ""
+msgstr "用於在多人遊戲大廳中審查聊天視窗中潛在的冒犯性字詞。"
 
 #: ../Scenes/OptionsMenu.tscn:1073
 msgid "Video"
@@ -608,11 +611,11 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1126
 msgid "VSync"
-msgstr ""
+msgstr "垂直同步"
 
 #: ../Scenes/OptionsMenu.tscn:1145
 msgid "Shadow Detail"
-msgstr ""
+msgstr "陰影細節"
 
 #: ../Scenes/OptionsMenu.tscn:1165
 msgid "Multisample Anti-Aliasing (MSAA)"
@@ -621,7 +624,7 @@ msgstr ""
 #: ../Scenes/OptionsMenu.tscn:1177 ../Scenes/OptionsMenu.tscn:1199
 #: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:78
 msgid "None"
-msgstr ""
+msgstr "無"
 
 #: ../Scenes/OptionsMenu.tscn:1186
 msgid "Screen Space Ambient Occlusion (SSAO)"
@@ -633,11 +636,11 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:79
 msgid "Low"
-msgstr ""
+msgstr "低"
 
 #: ../Scenes/OptionsMenu.tscn:1228
 msgid "Depth of Field"
-msgstr ""
+msgstr "景深"
 
 #: ../Scenes/OptionsMenu.tscn:1249
 msgid "Depth of Field Amount"
@@ -651,13 +654,13 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1269
 msgid "Depth of Field Distance"
-msgstr ""
+msgstr "景深距離"
 
 #: ../Scenes/OptionsMenu.tscn:1277
 msgid ""
 "Used to set the threshold of what is considered the background when using "
 "depth of field."
-msgstr ""
+msgstr "用於設定使用景深時被視為背景的閾值。"
 
 #: ../Scenes/OptionsMenu.tscn:1289
 msgid "Table Paint Filtering"
@@ -665,20 +668,20 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1312
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: ../Scenes/Game/CameraController.tscn:410
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:154
 #: ../Scenes/OptionsMenu.tscn:1318
 msgid "Apply"
-msgstr ""
+msgstr "套用"
 
 #: ../Scenes/Game/CameraController.tscn:502
 #: ../Scenes/Game/CameraController.tscn:575
 #: ../Scenes/Game/CameraController.tscn:642
 #: ../Scenes/Game/CameraController.tscn:696 ../Scenes/OptionsMenu.tscn:1325
 msgid "OK"
-msgstr ""
+msgstr "好的"
 
 #: ../Scenes/OptionsMenu.tscn:1370
 msgid "Please press a key or button to bind it..."
@@ -686,7 +689,7 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1390
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: ../Scenes/OptionsMenu.tscn:1397
 msgid "Keep video settings?"
@@ -698,7 +701,7 @@ msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1423
 msgid "Warning!"
-msgstr ""
+msgstr "警告！"
 
 #: ../Scenes/RandomMusicPlayer.tscn:23
 msgid "Now Playing:"
@@ -718,7 +721,7 @@ msgstr ""
 
 #: ../Scenes/Game/CameraController.tscn:153
 msgid "Range:"
-msgstr ""
+msgstr "範圍："
 
 #: ../Scenes/Game/CameraController.tscn:173
 msgid "Take X off top"
@@ -730,29 +733,29 @@ msgstr ""
 
 #: ../Scenes/Game/CameraController.tscn:242
 msgid "Position:"
-msgstr ""
+msgstr "位置："
 
 #: ../Scenes/Game/CameraController.tscn:253
 #: ../Scenes/Game/CameraController.tscn:311
 #: ../Scenes/Game/CameraController.tscn:363
 msgid "X:"
-msgstr ""
+msgstr "X："
 
 #: ../Scenes/Game/CameraController.tscn:269
 #: ../Scenes/Game/CameraController.tscn:325
 #: ../Scenes/Game/CameraController.tscn:379
 msgid "Y:"
-msgstr ""
+msgstr "Y："
 
 #: ../Scenes/Game/CameraController.tscn:285
 #: ../Scenes/Game/CameraController.tscn:339
 #: ../Scenes/Game/CameraController.tscn:395
 msgid "Z:"
-msgstr ""
+msgstr "Z："
 
 #: ../Scenes/Game/CameraController.tscn:300
 msgid "Rotation (°):"
-msgstr ""
+msgstr "旋轉（°）："
 
 #: ../Scenes/Game/CameraController.tscn:352
 #: ../Scenes/Game/CameraController.tscn:529
@@ -778,28 +781,28 @@ msgstr ""
 
 #: ../Scenes/Game/CameraController.tscn:561
 msgid "System:"
-msgstr ""
+msgstr "系統："
 
 #: ../Scenes/Game/CameraController.tscn:567
 msgid "Metric"
-msgstr ""
+msgstr "公制"
 
 #: ../Scenes/Game/CameraController.tscn:602
 msgid "Brush Color:"
-msgstr ""
+msgstr "刷子顏色："
 
 #: ../Scenes/Game/CameraController.tscn:615
 msgid "Brush Size:"
-msgstr ""
+msgstr "刷子尺寸："
 
 #: ../Scenes/Game/CameraController.tscn:626
 #: ../Scenes/Game/CameraController.tscn:680
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../Scenes/Game/CameraController.tscn:669
 msgid "Eraser Size:"
-msgstr ""
+msgstr "橡皮擦尺寸："
 
 #: ../Scenes/Game/CameraController.tscn:699
 msgid "Select a track..."
@@ -812,7 +815,7 @@ msgstr ""
 
 #: ../Scenes/Game/Game.tscn:35
 msgid "Missing Assets"
-msgstr ""
+msgstr "缺少資源"
 
 #: ../Scenes/Game/Game.tscn:44
 #, python-format
@@ -822,71 +825,73 @@ msgid ""
 "of %d missing assets, and %d assets differ between your client and the "
 "host's client:"
 msgstr ""
+"主持已匯入你的用戶端缺少的資源。這意味著你無法在遊戲中看到這些資源。總共有 "
+"%d 個缺少的資源，而且你的用戶端和主持的用戶端之間有 %d 個資源不同："
 
 #: ../Scenes/Game/Game.tscn:58
 #, python-format
 msgid ""
 "Your client is also missing %d files, and %d files differ from that of the "
 "host's, which in total is %s of data:"
-msgstr ""
+msgstr "你的用戶端也缺少 %d 個檔案，而且 %d 個檔案與主持的檔案不同，總共有 %s 資料："
 
 #: ../Scenes/Game/Game.tscn:86
 msgid "Yes, download missing assets."
-msgstr ""
+msgstr "是，下載缺少的資源。"
 
 #: ../Scenes/Game/Game.tscn:93
 msgid "No, continue without them."
-msgstr ""
+msgstr "否，忽略並繼續。"
 
 #: ../Scenes/Game/Game.tscn:99
 msgid "Download Assets?"
-msgstr ""
+msgstr "下載資源？"
 
 #: ../Scenes/Game/Game.tscn:108
 msgid "Downloading..."
-msgstr ""
+msgstr "正在下載…"
 
 #: ../Scenes/Game/Game.tscn:123
 msgid "Waiting for download..."
-msgstr ""
+msgstr "正在等待下載…"
 
 #: ../Scenes/Game/Game.tscn:136
 msgid "Waiting to verify integrity..."
-msgstr ""
+msgstr "正在等待驗證完整性…"
 
 #: ../Scenes/Game/Game.tscn:149
 msgid "Waiting to import assets..."
-msgstr ""
+msgstr "正在等待匯入資源…"
 
 #: ../Scenes/Game/Game.tscn:168 ../Scenes/Game/Game.tscn:186
 msgid "Error!"
-msgstr ""
+msgstr "錯誤！"
 
 #: ../Scenes/Game/Game.tscn:176
 msgid "Download Folder Locked"
-msgstr ""
+msgstr "下載資料夾已鎖定"
 
 #: ../Scenes/Game/UI/ChatBox.tscn:54
 msgid "Type a message here..."
-msgstr ""
+msgstr "在此輸入訊息…"
 
 #: ../Scenes/Game/UI/ChatBox.tscn:60
 msgid "Send"
-msgstr ""
+msgstr "傳送"
 
 #: ../Scenes/Game/UI/GameUI.tscn:37 ../Scenes/Game/UI/GameUI.tscn:146
 msgid "Objects"
-msgstr ""
+msgstr "物件"
 
 #: ../Scenes/Game/UI/GameUI.tscn:43 ../Scenes/Game/UI/GameUI.tscn:162
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:285
 msgid "Games"
-msgstr ""
+msgstr "遊戲"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:11
 #: ../Scenes/Game/UI/GameUI.tscn:49
 msgid "Room"
-msgstr ""
+msgstr "房間"
 
 #: ../Scenes/Game/UI/GameUI.tscn:55
 msgid "Notebook"
@@ -894,7 +899,7 @@ msgstr ""
 
 #: ../Scenes/Game/UI/GameUI.tscn:61
 msgid "Flip Table"
-msgstr ""
+msgstr "翻桌"
 
 #: ../Scenes/Game/UI/GameUI.tscn:67
 msgid "Clear Table"
@@ -906,30 +911,30 @@ msgstr ""
 
 #: ../Scenes/Game/UI/GameUI.tscn:83
 msgid "45°"
-msgstr ""
+msgstr "45°"
 
 #: ../Scenes/Game/UI/GameUI.tscn:91
 msgid "Menu"
-msgstr ""
+msgstr "選單"
 
 #: ../Scenes/Game/UI/GameUI.tscn:157
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: ../Scenes/Game/UI/GameUI.tscn:158
 #, python-format
 msgid "Added %s."
-msgstr ""
+msgstr "已新增 %s。"
 
 #: ../Scenes/Game/UI/GameUI.tscn:159
 #, python-format
 msgid "Added %d objects."
-msgstr ""
+msgstr "已新增 %d 個物件。"
 
 #: ../Scenes/Game/UI/GameUI.tscn:166
 #, python-format
 msgid "Loaded %d games."
-msgstr ""
+msgstr "已載入 %d 個遊戲。"
 
 #: ../Scenes/Game/UI/GameUI.tscn:204
 msgid "Back to game"
@@ -937,19 +942,19 @@ msgstr ""
 
 #: ../Scenes/Game/UI/GameUI.tscn:210
 msgid "Save game"
-msgstr ""
+msgstr "儲存遊戲"
 
 #: ../Scenes/Game/UI/GameUI.tscn:216
 msgid "Load game"
-msgstr ""
+msgstr "載入遊戲"
 
 #: ../Scenes/Game/UI/GameUI.tscn:228
 msgid "Quit to main menu"
-msgstr ""
+msgstr "退出至主選單"
 
 #: ../Scenes/Game/UI/GameUI.tscn:234
 msgid "Quit to desktop"
-msgstr ""
+msgstr "退出至桌面"
 
 #: ../Scenes/Game/UI/GameUI.tscn:239
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:164
@@ -958,11 +963,11 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/ContainerContentDialog.tscn:42
 msgid "Take"
-msgstr ""
+msgstr "拿取"
 
 #: ../Scenes/Game/UI/Dialogs/ContainerContentDialog.tscn:50
 msgid "Take All"
-msgstr ""
+msgstr "拿取全部"
 
 #: ../Scenes/Game/UI/Dialogs/DetailsDialog.tscn:12
 msgid "Details"
@@ -978,11 +983,11 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:35
 msgid "+ New Page"
-msgstr ""
+msgstr "+ 新頁面"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:54
 msgid "Title"
-msgstr ""
+msgstr "標題"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:60
 msgid "When ticked, this page will be visible to other players."
@@ -990,19 +995,19 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:62
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:94
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:102
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:110
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:122
 msgid "Move Up"
@@ -1016,20 +1021,20 @@ msgstr ""
 #: ../Scripts/Game/CameraController.gd:1359
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:228
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:143
 msgid "Delete page?"
-msgstr ""
+msgstr "刪除頁面？"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:147
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:293
 msgid "Templates"
-msgstr ""
+msgstr "範本"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:151
 msgid "Open"
-msgstr ""
+msgstr "開啟"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:41
 msgid "Current table:"
@@ -1041,11 +1046,11 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:67
 msgid "Current skybox:"
-msgstr ""
+msgstr "目前天空盒："
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:79
 msgid "Change skybox"
-msgstr ""
+msgstr "變更天空盒"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:93
 msgid "Lamp Type"
@@ -1061,7 +1066,7 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:128
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:134
 msgid "Lamp Color"
@@ -1069,12 +1074,12 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:157
 msgid "Select a skybox..."
-msgstr ""
+msgstr "選擇一個天空盒…"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:161
 #, python-format
 msgid "Loaded %d skyboxes."
-msgstr ""
+msgstr "已載入 %d 個天空盒。"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:164
 msgid "Select a table..."
@@ -1095,7 +1100,7 @@ msgstr ""
 
 #: ../Scenes/Game/UI/Previews/PreviewFilter.tscn:35
 msgid "Type:"
-msgstr ""
+msgstr "類型："
 
 #: ../Scripts/AssetDB.gd:439
 msgid "Cleaning old files..."
@@ -1170,15 +1175,15 @@ msgstr ""
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:709 ../Scripts/Lobby.gd:64
 #: ../Scripts/Lobby.gd:70
 msgid "<No Name>"
-msgstr ""
+msgstr "<沒有名稱>"
 
 #: ../Scripts/MainMenu.gd:95
 msgid "Alpha Testers"
-msgstr ""
+msgstr "Alpha 測試者"
 
 #: ../Scripts/MainMenu.gd:96
 msgid "Contributors"
-msgstr ""
+msgstr "貢獻者"
 
 #: ../Scripts/MainMenu.gd:97
 msgid "Cursors"
@@ -1186,11 +1191,11 @@ msgstr ""
 
 #: ../Scripts/MainMenu.gd:98
 msgid "Developers"
-msgstr ""
+msgstr "開發者"
 
 #: ../Scripts/MainMenu.gd:99
 msgid "Fonts"
-msgstr ""
+msgstr "字體"
 
 #: ../Scripts/MainMenu.gd:100
 msgid "Images"
@@ -1210,107 +1215,107 @@ msgstr ""
 
 #: ../Scripts/MainMenu.gd:104
 msgid "Translators"
-msgstr ""
+msgstr "翻譯者"
 
 #: ../Scripts/MainMenu.gd:106
 msgid "Dutch"
-msgstr ""
+msgstr "荷蘭語"
 
 #: ../Scripts/MainMenu.gd:107
 msgid "Esperanto"
-msgstr ""
+msgstr "世界語"
 
 #: ../Scripts/MainMenu.gd:108
 msgid "French"
-msgstr ""
+msgstr "法語"
 
 #: ../Scripts/MainMenu.gd:109
 msgid "German"
-msgstr ""
+msgstr "德語"
 
 #: ../Scripts/MainMenu.gd:110
 msgid "Indonesian"
-msgstr ""
+msgstr "印尼語"
 
 #: ../Scripts/MainMenu.gd:111
 msgid "Italian"
-msgstr ""
+msgstr "意大利語"
 
 #: ../Scripts/MainMenu.gd:112
 msgid "Norwegian"
-msgstr ""
+msgstr "挪威語"
 
 #: ../Scripts/MainMenu.gd:113
 msgid "Portuguese"
-msgstr ""
+msgstr "葡萄牙語"
 
 #: ../Scripts/MainMenu.gd:114
 msgid "Russian"
-msgstr ""
+msgstr "俄語"
 
 #: ../Scripts/MainMenu.gd:115
 msgid "Spanish"
-msgstr ""
+msgstr "西班牙語"
 
 #: ../Scripts/MainMenu.gd:216
 msgid "Room code must be four characters long!"
-msgstr ""
+msgstr "房間代碼必須是四個字符長！"
 
 #: ../Scripts/MainMenu.gd:221
 msgid "Invalid room code!"
-msgstr ""
+msgstr "無效房間代碼！"
 
 #: ../Scripts/OptionsMenu.gd:30
 msgid "System Default"
-msgstr ""
+msgstr "系統預設"
 
 #: ../Scripts/OptionsMenu.gd:67
 msgid "Never"
-msgstr ""
+msgstr "永不"
 
 #: ../Scripts/OptionsMenu.gd:68
 msgid "30 seconds"
-msgstr ""
+msgstr "30 秒"
 
 #: ../Scripts/OptionsMenu.gd:69
 msgid "1 minute"
-msgstr ""
+msgstr "1 分鐘"
 
 #: ../Scripts/OptionsMenu.gd:71
 msgid "10 minutes"
-msgstr ""
+msgstr "10 分鐘"
 
 #: ../Scripts/OptionsMenu.gd:72
 msgid "30 minutes"
-msgstr ""
+msgstr "30 分鐘"
 
 #: ../Scripts/OptionsMenu.gd:75
 msgid "Borderless Fullscreen"
-msgstr ""
+msgstr "無邊框全螢幕"
 
 #: ../Scripts/OptionsMenu.gd:76
 msgid "Fullscreen"
-msgstr ""
+msgstr "全螢幕"
 
 #: ../Scripts/OptionsMenu.gd:81
 msgid "High"
-msgstr ""
+msgstr "高"
 
 #: ../Scripts/OptionsMenu.gd:82
 msgid "Very High"
-msgstr ""
+msgstr "非常高"
 
 #: ../Scripts/OptionsMenu.gd:83
 msgid "Ultra"
-msgstr ""
+msgstr "極致"
 
 #: ../Scripts/OptionsMenu.gd:85
 msgid "Small"
-msgstr ""
+msgstr "小"
 
 #: ../Scripts/OptionsMenu.gd:87
 msgid "Large"
-msgstr ""
+msgstr "大"
 
 #: ../Scripts/RandomMusicPlayer.gd:34
 msgid "Nothing"
@@ -1373,7 +1378,7 @@ msgstr ""
 
 #: ../Scripts/Game/CameraController.gd:1233
 msgid "Sort by"
-msgstr ""
+msgstr "排序方式"
 
 #: ../Scripts/Game/CameraController.gd:1242
 msgid "Timer"
@@ -1382,12 +1387,12 @@ msgstr ""
 #: ../Scripts/Game/CameraController.gd:1272
 #, python-format
 msgid "Total: %d"
-msgstr ""
+msgstr "總計：%d"
 
 #: ../Scripts/Game/CameraController.gd:1274
 #, python-format
 msgid "Total: %f"
-msgstr ""
+msgstr "總計：%f"
 
 #: ../Scripts/Game/CameraController.gd:1294
 msgid "Collect selected"
@@ -1415,16 +1420,16 @@ msgstr ""
 
 #: ../Scripts/Game/CameraController.gd:1341
 msgid "Cut"
-msgstr ""
+msgstr "剪下"
 
 #: ../Scripts/Game/CameraController.gd:1342
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: ../Scripts/Game/CameraController.gd:1344
 #: ../Scripts/Game/CameraController.gd:1383
 msgid "Paste"
-msgstr ""
+msgstr "貼上"
 
 #: ../Scripts/Game/CameraController.gd:1355
 msgid "Unlock"
@@ -1449,17 +1454,17 @@ msgstr ""
 #: ../Scripts/Game/CameraController.gd:1408
 #, python-format
 msgid "Alt + %s"
-msgstr ""
+msgstr "Alt + %s"
 
 #: ../Scripts/Game/CameraController.gd:1409
 #, python-format
 msgid "Ctrl + %s"
-msgstr ""
+msgstr "Ctrl + %s"
 
 #: ../Scripts/Game/CameraController.gd:1410
 #, python-format
 msgid "Cmd + %s"
-msgstr ""
+msgstr "Cmd + %s"
 
 #: ../Scripts/Game/CameraController.gd:1411
 #, python-format
@@ -1717,7 +1722,7 @@ msgstr ""
 msgid ""
 "Loaded table was saved with a different version of the game (Current: %s, "
 "Table: %s). Load anyway?"
-msgstr ""
+msgstr "載入的桌子是使用不同版本的遊戲儲存的（目前：%s，桌子：%s）。仍要載入嗎？"
 
 #: ../Scripts/Game/Game.gd:1027
 msgid "Loaded table is not in the correct format."
@@ -1986,28 +1991,28 @@ msgstr ""
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:849
 #, python-format
 msgid "New %s"
-msgstr ""
+msgstr "新 %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:121
 #, python-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "已修改：%s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:164
 msgid "Save a file"
-msgstr ""
+msgstr "儲存一個檔案"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Load"
-msgstr ""
+msgstr "載入"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:180
 msgid "Sort:"
-msgstr ""
+msgstr "排序："
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:184
 msgid "Last Modified"
@@ -2015,16 +2020,16 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:210
 msgid "Delete file?"
-msgstr ""
+msgstr "刪除檔案？"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:218
 msgid "Overwrite file?"
-msgstr ""
+msgstr "覆寫檔案？"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:226
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:262
 msgid "Rename"
-msgstr ""
+msgstr "重新命名"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:227
 msgid "Duplicate"
@@ -2032,7 +2037,7 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:233
 msgid "Invalid name!"
-msgstr ""
+msgstr "無效名稱！"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:235
 #, python-format
@@ -2040,54 +2045,56 @@ msgid ""
 "File names cannot contain any of the following characters:\n"
 "%s"
 msgstr ""
+"檔案名稱不能包含以下任何字元：\n"
+"%s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:241
 msgid "Rename file..."
-msgstr ""
+msgstr "重新命名檔案…"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:251
 msgid "Please enter a new name for the file:"
-msgstr ""
+msgstr "請輸入檔案的新名稱："
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:371
 #, python-format
 msgid "Are you sure you want to delete '%s'?"
-msgstr ""
+msgstr "你確定你要刪除「%s」嗎？"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:384
 #, python-format
 msgid "The file '%s' already exists. Are you sure you want to overwrite it?"
-msgstr ""
+msgstr "檔案「%s」已經存在。你確定你要覆寫它嗎？"
 
 #: ../Scripts/Game/UI/Previews/ObjectPreviewGrid.gd:108
 #, python-format
 msgid "Page %d/%d"
-msgstr ""
+msgstr "第 %d／%d 頁"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:114
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:302
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:281
 msgid "Boards"
-msgstr ""
+msgstr "棋盤"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:282
 msgid "Cards"
-msgstr ""
+msgstr "卡牌"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:283
 msgid "Containers"
-msgstr ""
+msgstr "容器"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:284
 msgid "Dice"
-msgstr ""
+msgstr "骰子"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:286
 msgid "Music"
-msgstr ""
+msgstr "音樂"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:287
 msgid "Pieces"
@@ -2095,15 +2102,15 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:288
 msgid "Skyboxes"
-msgstr ""
+msgstr "天空盒"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:289
 msgid "Sounds"
-msgstr ""
+msgstr "聲音"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:290
 msgid "Speakers"
-msgstr ""
+msgstr "揚聲器"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:291
 msgid "Stacks"
@@ -2111,11 +2118,11 @@ msgstr ""
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:292
 msgid "Tables"
-msgstr ""
+msgstr "桌子"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:294
 msgid "Timers"
-msgstr ""
+msgstr "計時器"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
