@@ -9,77 +9,83 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 11:14+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-10 05:09+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"tabletop-club/docs-custom-assets/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:3
 msgid "Asset pack structure"
-msgstr ""
+msgstr "資源包結構"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:6
 msgid "Locations for asset packs"
-msgstr ""
+msgstr "資源包位置"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:8
 msgid "At the start of the game, Tabletop Club will scan a set of given folders for asset packs. If you want the game to import your asset pack, it needs to be put into one of the following locations:"
-msgstr ""
+msgstr "遊戲開始時，Tabletop Club 將掃描一組給定資料夾中的資源包。如果你希望遊戲匯入"
+"你的資源包，則需要將其放入以下位置之一："
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:12
 msgid "``<TABLETOPCLUB_INSTALL_FOLDER>/assets/``"
-msgstr ""
+msgstr "``<TABLETOPCLUB_INSTALL_FOLDER>/assets/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:13
 msgid "``<DOWNLOADS>/TabletopClub/assets/``"
-msgstr ""
+msgstr "``<DOWNLOADS>/TabletopClub/assets/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:14
 msgid "``<DOCUMENTS>/TabletopClub/assets/``"
-msgstr ""
+msgstr "``<DOCUMENTS>/TabletopClub/assets/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:15
 msgid "``<DESKTOP>/TabletopClub/assets/``"
-msgstr ""
+msgstr "``<DESKTOP>/TabletopClub/assets/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:19
 msgid "Creating an asset pack"
-msgstr ""
+msgstr "建立一個資源包"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:21
 msgid "Creating an asset pack is really easy! All you need to do is create a folder in one of the folders mentioned above, and you're done! The name of the folder will be the name of the asset pack."
-msgstr ""
+msgstr "建立一個資源包是非常簡單的！你所需要做的就是在上述資料夾之一中建立一個資料夾"
+"，然後就完成了！該資料夾的名稱將會是資源包的名稱。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:27
 msgid "Sub-folders"
-msgstr ""
+msgstr "子資料夾"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:29
 msgid "Every asset pack divides its assets into different sub-folders, depending on what type of asset it is, and what the file type needed for that asset type is. Note that asset packs don't need to have all of these sub-folders."
-msgstr ""
+msgstr "每個資源包都會將其資源劃分為不同的子資料夾，具體取決於資源的類型以及該資源類"
+"型所需的檔案類型。請注意，資源包不需要包含所有這些子資料夾。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:34
 msgid "Sub-folder"
-msgstr ""
+msgstr "子資料夾"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:34
 msgid "File Type"
-msgstr ""
+msgstr "檔案類型"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:34
 msgid "Asset Type"
-msgstr ""
+msgstr "資源類型"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:34
 msgid "Object Type"
-msgstr ""
+msgstr "物件類型"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
 msgid "``boards/``"
-msgstr ""
+msgstr "``boards/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:40
@@ -94,7 +100,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:66
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:70
 msgid ":ref:`file-type-3d`"
-msgstr ""
+msgstr ":ref:`file-type-3d`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:38
@@ -111,38 +117,38 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:72
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:74
 msgid ":ref:`asset-type-object`"
-msgstr ""
+msgstr ":ref:`asset-type-object`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
 msgid ":ref:`object-type-board`"
-msgstr ""
+msgstr ":ref:`object-type-board`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:38
 msgid "``cards/``"
-msgstr ""
+msgstr "``cards/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:38
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:60
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:72
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:74
 msgid ":ref:`file-type-image`"
-msgstr ""
+msgstr ":ref:`file-type-image`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:38
 msgid ":ref:`object-type-card`"
-msgstr ""
+msgstr ":ref:`object-type-card`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:40
 msgid "``containers/``"
-msgstr ""
+msgstr "``containers/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:40
 msgid ":ref:`object-type-container`"
-msgstr ""
+msgstr ":ref:`object-type-container`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:42
 msgid "``dice/d4/``"
-msgstr ""
+msgstr "``dice/d4/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:42
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:44
@@ -151,39 +157,39 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:50
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:52
 msgid ":ref:`object-type-dice`"
-msgstr ""
+msgstr ":ref:`object-type-dice`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:44
 msgid "``dice/d6/``"
-msgstr ""
+msgstr "``dice/d6/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:46
 msgid "``dice/d8/``"
-msgstr ""
+msgstr "``dice/d8/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:48
 msgid "``dice/d10/``"
-msgstr ""
+msgstr "``dice/d10/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:50
 msgid "``dice/d12/``"
-msgstr ""
+msgstr "``dice/d12/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:52
 msgid "``dice/d20/``"
-msgstr ""
+msgstr "``dice/d20/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:54
 msgid "``games/``"
-msgstr ""
+msgstr "``games/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:54
 msgid ":ref:`file-type-save`"
-msgstr ""
+msgstr ":ref:`file-type-save`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:54
 msgid ":ref:`asset-type-game`"
-msgstr ""
+msgstr ":ref:`asset-type-game`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:54
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:56
@@ -192,137 +198,137 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:66
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:68
 msgid "N/A"
-msgstr ""
+msgstr "不適用"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:56
 msgid "``music/``"
-msgstr ""
+msgstr "``music/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:56
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:62
 msgid ":ref:`file-type-audio`"
-msgstr ""
+msgstr ":ref:`file-type-audio`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:56
 msgid ":ref:`asset-type-music`"
-msgstr ""
+msgstr ":ref:`asset-type-music`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:58
 msgid "``pieces/``"
-msgstr ""
+msgstr "``pieces/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:58
 msgid ":ref:`object-type-piece`"
-msgstr ""
+msgstr ":ref:`object-type-piece`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:60
 msgid "``skyboxes/``"
-msgstr ""
+msgstr "``skyboxes/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:60
 msgid ":ref:`asset-type-skybox`"
-msgstr ""
+msgstr ":ref:`asset-type-skybox`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:62
 msgid "``sounds/``"
-msgstr ""
+msgstr "``sounds/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:62
 msgid ":ref:`asset-type-sound`"
-msgstr ""
+msgstr ":ref:`asset-type-sound`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:64
 msgid "``speakers/``"
-msgstr ""
+msgstr "``speakers/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:64
 msgid ":ref:`object-type-speaker`"
-msgstr ""
+msgstr ":ref:`object-type-speaker`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:66
 msgid "``tables/``"
-msgstr ""
+msgstr "``tables/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:66
 msgid ":ref:`asset-type-table`"
-msgstr ""
+msgstr ":ref:`asset-type-table`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:68
 msgid "``templates/``"
-msgstr ""
+msgstr "``templates/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:68
 msgid ":ref:`file-type-image`, Text"
-msgstr ""
+msgstr ":ref:`file-type-image`, Text"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:68
 msgid ":ref:`asset-type-template`"
-msgstr ""
+msgstr ":ref:`asset-type-template`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:70
 msgid "``timers/``"
-msgstr ""
+msgstr "``timers/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:70
 msgid ":ref:`object-type-timer`"
-msgstr ""
+msgstr ":ref:`object-type-timer`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:72
 msgid "``tokens/cube/``"
-msgstr ""
+msgstr "``tokens/cube/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:72
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:74
 msgid ":ref:`object-type-token`"
-msgstr ""
+msgstr ":ref:`object-type-token`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:74
 msgid "``tokens/cylinder/``"
-msgstr ""
+msgstr "``tokens/cylinder/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:79
 msgid "Configuration files"
-msgstr ""
+msgstr "配置檔案"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:84
 msgid "config.cfg"
-msgstr ""
+msgstr "config.cfg"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:86
 msgid "Every sub-folder can have this file, which allows you to modify the properties of assets in the subfolder."
-msgstr ""
+msgstr "每個子資料夾都可以有這個檔案，它允許你修改子資料夾中資源的屬性。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:89
 msgid "Here is an example of a ``config.cfg`` file:"
-msgstr ""
+msgstr "以下是「config.cfg」檔案的範例："
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:134
 msgid "Here is the full list of properties you can modify in ``config.cfg``:"
-msgstr ""
+msgstr "以下是你可以在「config.cfg」中修改的屬性的完整列表："
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:137
 msgid "Property Name"
-msgstr ""
+msgstr "屬性名稱"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:137
 msgid "Data Type"
-msgstr ""
+msgstr "資料類型"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:137
 msgid "Used By"
-msgstr ""
+msgstr "使用於"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:137
 msgid "Default Value"
-msgstr ""
+msgstr "預設值"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:137
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 msgid "``author``"
-msgstr ""
+msgstr "``author``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
@@ -333,7 +339,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "Text"
-msgstr ""
+msgstr "文字"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:153
@@ -343,7 +349,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
@@ -352,20 +358,20 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:167
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "``\"\"``"
-msgstr ""
+msgstr "``\"\"``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 msgid "The name of the author(s) of the asset."
-msgstr ""
+msgstr "資源作者的名稱。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 msgid "``back_face``"
-msgstr ""
+msgstr "``back_face``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "Cards"
-msgstr ""
+msgstr "卡牌"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 msgid "The file name of the back face of the card. The texture must be in the same folder. If blank, no back face texture is applied."
@@ -373,32 +379,33 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 msgid "``bounce``"
-msgstr ""
+msgstr "``bounce``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:145
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "Number"
-msgstr ""
+msgstr "數字"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "Tables"
-msgstr ""
+msgstr "桌子"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 msgid "``0.5``"
-msgstr ""
+msgstr "``0.5``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 msgid "Defines how high objects bounce off the table. Must be a value between ``0.0`` (no bounce) and ``1.0`` (full bounce)."
-msgstr ""
+msgstr "定義物件從桌子反彈的高度。數值必須是介於 ``0.0``（無反彈）和 ``1."
+"0``（完全反彈）之間。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:145
 msgid "``collision_mode``"
-msgstr ""
+msgstr "``collision_mode``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:145
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:149
@@ -407,7 +414,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:145
 msgid "``0``"
-msgstr ""
+msgstr "``0``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:145
 msgid "Determines the collision shape of the object. See :ref:`file-type-3d` for more details."
@@ -415,22 +422,22 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 msgid "``color``"
-msgstr ""
+msgstr "``color``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:149
 msgid "String"
-msgstr ""
+msgstr "字串"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid "Objects"
-msgstr ""
+msgstr "物件"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 msgid "``#ffffff``"
-msgstr ""
+msgstr "``#ffffff``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:147
 msgid "Multiply the color of the texture by this value."
@@ -438,11 +445,11 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:149
 msgid "``com_adjust``"
-msgstr ""
+msgstr "``com_adjust``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:149
 msgid "``\"volume\"``"
-msgstr ""
+msgstr "``\"volume\"``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:149
 msgid "Defines how the centre-of-mass of the object is automatically adjusted, if at all. See :ref:`file-type-3d` for more details."
@@ -450,14 +457,14 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:151
 msgid "``default``"
-msgstr ""
+msgstr "``default``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:151
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:159
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:163
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "Boolean"
-msgstr ""
+msgstr "布林值"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:151
 msgid "Skyboxes, Tables"
@@ -468,7 +475,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:163
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "``false``"
-msgstr ""
+msgstr "``false``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:151
 msgid "If ``true``, the asset is loaded before the game starts. If ``true`` for multiple assets, one is loaded at random."
@@ -476,15 +483,15 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:153
 msgid "``desc``"
-msgstr ""
+msgstr "``desc``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:153
 msgid "Describes the asset in more detail."
-msgstr ""
+msgstr "更詳細地描述資源。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 msgid "``face_values``"
-msgstr ""
+msgstr "``face_values``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
@@ -494,12 +501,12 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_types.rst:97
 msgid "Dice"
-msgstr ""
+msgstr "骰子"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "``{}``"
-msgstr ""
+msgstr "``{}``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 msgid "Specifies which rotations correspond to what values on the faces of the die. See :ref:`object-type-dice` for more information."
@@ -507,15 +514,15 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 msgid "``hands``"
-msgstr ""
+msgstr "``hands``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 msgid "Array"
-msgstr ""
+msgstr "陣列"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 msgid "``[]``"
-msgstr ""
+msgstr "``[]``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 msgid "The positions of player's hands around the table. See :ref:`asset-type-table` for more information."
@@ -523,48 +530,50 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:159
 msgid "``ignore``"
-msgstr ""
+msgstr "``ignore``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:159
 msgid "If ``true``, it tells the game to ignore this asset when importing the asset pack."
-msgstr ""
+msgstr "如果為 ``true``，它會告訴遊戲在匯入資源包時忽略此資源。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:161
 msgid "``license``"
-msgstr ""
+msgstr "``license``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:161
 msgid "The license the asset is distributed under."
-msgstr ""
+msgstr "資源分發所依據的許可證。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:163
 msgid "``main_menu``"
-msgstr ""
+msgstr "``main_menu``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:163
 msgid "Music, Objects"
-msgstr ""
+msgstr "音樂，物件"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:163
 msgid "If ``true``, objects will have a chance of spawning in the main menu, and music will have a chance of playing in the main menu."
-msgstr ""
+msgstr "如果為 "
+"``true``，則物件將有機會在主選單中產生，並且音樂將有機會在主選單中播放。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 msgid "``mass``"
-msgstr ""
+msgstr "``mass``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "``1.0``"
-msgstr ""
+msgstr "``1.0``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:165
 msgid "The mass of the object in grams (g) when it is spawned in-game. It is recommended to set this value for more realistic physics collisions."
-msgstr ""
+msgstr "物件在遊戲中生成時的質量，以克（g）為單位。建議設定此值以獲得更真實的物理碰撞"
+"。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:167
 msgid "``modified_by``"
-msgstr ""
+msgstr "``modified_by``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:167
 msgid "The name(s) of the people who have modified the asset."
@@ -572,11 +581,11 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 msgid "``name``"
-msgstr ""
+msgstr "``name``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 msgid "``<FILE_NAME>``"
-msgstr ""
+msgstr "``<FILE_NAME>``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 msgid "The name of the asset. Must be unique among its type."
@@ -584,7 +593,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "``paint_plane``"
-msgstr ""
+msgstr "``paint_plane``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
@@ -593,7 +602,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "``Vector2(100.0, 100.0)``"
-msgstr ""
+msgstr "``Vector2(100.0, 100.0)``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "The length and width of the plane in which players can paint on the table. The centre of the plane is at the origin."
@@ -601,7 +610,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 msgid "``rotation``"
-msgstr ""
+msgstr "``rotation``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:175
@@ -611,20 +620,20 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "Skyboxes"
-msgstr ""
+msgstr "天空盒"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 msgid "``Vector3(0.0, 0.0, 0.0)``"
-msgstr ""
+msgstr "``Vector3(0.0, 0.0, 0.0)``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 msgid "Rotates the skybox a number of degrees in the X, Y and Z axes."
-msgstr ""
+msgstr "將天空盒在 X、Y 和 Z 軸上旋轉一定角度。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:175
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "``scale``"
-msgstr ""
+msgstr "``scale``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:175
 msgid "Objects (except Cards)"
@@ -632,7 +641,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:175
 msgid "``Vector3(1.0, 1.0, 1.0)``"
-msgstr ""
+msgstr "``Vector3(1.0, 1.0, 1.0)``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:175
 msgid "Scales the object in the X (width), Y (height) and Z (thickness) axes in centimeters (cm). Note that for objects that use custom 3D models, this value most likely won't reflect the final size of the object."
@@ -640,31 +649,35 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "``Vector2(1.0, 1.0)``"
-msgstr ""
+msgstr "``Vector2(1.0, 1.0)``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "Scales the card in the X (width) and Z (height) axes in centimeters (cm)."
-msgstr ""
+msgstr "在 X（寬度）和 Z（高度）軸上縮放卡片，單位為公分（cm）。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid "``sfx``"
-msgstr ""
+msgstr "``sfx``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid "``\"generic\"``"
-msgstr ""
+msgstr "``\"generic\"``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid "Determines what the object sounds like when it collides with the table. Possible values are: ``\"generic\"``, ``\"glass\"``, ``\"glass_heavy\"``, ``\"glass_light\"``, ``\"metal\"``, ``\"metal_heavy\"``, ``\"metal_light\"``, ``\"soft\"``, ``\"soft_heavy\"``, ``\"tin\"``, ``\"wood\"``, ``\"wood_heavy\"``, ``\"wood_light\"``."
 msgstr ""
+"判斷物件與桌子碰撞時發出的聲音。可能的值為：``\"generic\"``、``\"glass\""
+"``、``\"glass_heavy\"``、``\"glass_light\"``、``\"metal\"``、``\"metal_heavy"
+"\"``、``\"metal_light\"``、``\"soft\"``、``\"soft_heavy\"``、``\"tin\"``、``"
+"\"wood\"``、``\"wood_heavy\"`` 和 ``\"wood_light\"``。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "``shakable``"
-msgstr ""
+msgstr "``shakable``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "Containers"
-msgstr ""
+msgstr "容器"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "If ``true``, when the container is being shaken upside down, it will randomly drop items out."
@@ -672,7 +685,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "``strength``"
-msgstr ""
+msgstr "``strength``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "The strength of the ambient light coming from the skybox."
@@ -680,7 +693,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:187
 msgid "``suit``, ``value``"
-msgstr ""
+msgstr "``suit``, ``value``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:187
 msgid "Number, Text"
@@ -692,7 +705,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:187
 msgid "``null``"
-msgstr ""
+msgstr "``null``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:187
 msgid "A value given to a stackable object that allows it to be sorted in a stack."
@@ -700,11 +713,11 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "``textboxes``"
-msgstr ""
+msgstr "``textboxes``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "Templates"
-msgstr ""
+msgstr "範本"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "Used to set up textboxes for image templates. See :ref:`asset-type-template` for more information."
@@ -712,7 +725,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "``url``"
-msgstr ""
+msgstr "``url``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "The URL where the asset originally came from."
@@ -720,7 +733,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:199
 msgid "stacks.cfg"
-msgstr ""
+msgstr "stacks.cfg"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:201
 msgid "For :ref:`object-type-card` and :ref:`object-type-token` objects, you can add this file to add pre-filled stacks of those objects to the asset pack. A good example of this is for adding pre-filled decks of cards to the game."
@@ -732,7 +745,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:233
 msgid "Translations"
-msgstr ""
+msgstr "翻譯"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:235
 msgid "You can also provide translations for the names and descriptions of assets in the asset pack! This is done using separate configuration files for each language. The name of the file should be ``config.<locale>.cfg``, where ``<locale>`` is the `locale code <https://docs.godotengine.org/en/stable/tutorials/i18n/locales.html>`_ for your language."
@@ -745,6 +758,9 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:247
 msgid "If the language you are translating to is not on this list, unfortunately you will not be able to see the results in-game. However, you can help to translate the project as a whole so your languages does become supported! See :ref:`translating-the-project` for more information."
 msgstr ""
+"如果你要翻譯的語言不在這個列表中，很遺憾你將無法在遊戲中看到結果。但是，你可"
+"以幫助翻譯整個專案，以便你的語言得到支援！有關更多資訊，請參閱 :ref"
+":`translating-the-project`。"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:254
 msgid "These translation files are treated differently to other configuration files. You can only edit the ``name`` and ``desc`` properties of assets in these files. You also cannot apply translations to multiple assets at the same time with wildcards."
@@ -756,11 +772,11 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:3
 msgid "Asset types"
-msgstr ""
+msgstr "資源類型"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:8
 msgid "Object"
-msgstr ""
+msgstr "物件"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:10
 msgid "An object in Tabletop Club refers to anything in-game that is dynamic (that is, it is driven by the physics engine). There are many different types of objects, each with their own special functionality:"
@@ -893,7 +909,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:190
 msgid "Sound"
-msgstr ""
+msgstr "聲音"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:192
 msgid "Sounds can be played through either a :ref:`object-type-speaker` or a :ref:`object-type-timer`."
@@ -901,7 +917,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:199
 msgid "Music"
-msgstr ""
+msgstr "音樂"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:201
 msgid "Music tracks are the same as sounds, but they can also be configured to play in the main menu. See the ``main_menu`` property in :ref:`config-cfg`."
@@ -909,7 +925,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:208
 msgid "Game"
-msgstr ""
+msgstr "遊戲"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:210
 msgid "A game is a :ref:`file-type-save` that has been pre-made such that players can instantly setup the table to play a particular game."
@@ -921,7 +937,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:222
 msgid "Skybox"
-msgstr ""
+msgstr "天空盒"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:224
 msgid "Skyboxes are special textures that determine what the environment around the table looks like."
@@ -969,7 +985,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:293
 msgid "Template"
-msgstr ""
+msgstr "範本"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:None
 msgid "An example of a template being used by the notebook to keep track of\n"
@@ -994,7 +1010,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:3
 msgid "File types"
-msgstr ""
+msgstr "檔案類型"
 
 #: ../../custom_assets/asset_packs/file_types.rst:8
 msgid "Image"
@@ -1002,7 +1018,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:11
 msgid "Supported formats"
-msgstr ""
+msgstr "支援的格式"
 
 #: ../../custom_assets/asset_packs/file_types.rst:13
 msgid "By default, Tabletop Club supports all of the image formats that Godot supports, the list of which can be found `here <https://docs.godotengine.org/en/stable/getting_started/workflow/assets/importing_images.html>`_."
@@ -1010,7 +1026,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:19
 msgid "UV Mappings"
-msgstr ""
+msgstr "UV 映射"
 
 #: ../../custom_assets/asset_packs/file_types.rst:21
 msgid "Every object that uses an image has something called a UV mapping, a way in which the image is \"folded\" onto the 3D object. Remember in maths when you had to \"unfold\" different shapes into nets? This is essentially the reverse of that! Knowing these UV mappings is important if you want your object to look right in-game!"
@@ -1034,7 +1050,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:56
 msgid "3D Model"
-msgstr ""
+msgstr "3D 模型"
 
 #: ../../custom_assets/asset_packs/file_types.rst:58
 msgid "3D models can be exported from almost any 3D modelling software, including Blender and Maya."
@@ -1102,7 +1118,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:113
 msgid "Audio"
-msgstr ""
+msgstr "音訊"
 
 #: ../../custom_assets/asset_packs/file_types.rst:115
 msgid "As of right now, Tabletop Club supports the following audio formats:"
@@ -1126,7 +1142,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/file_types.rst:129
 msgid "Save File"
-msgstr ""
+msgstr "儲存檔案"
 
 #: ../../custom_assets/asset_packs/file_types.rst:131
 msgid "Save files are used to load back a saved state within Tabletop Club. They use the ``.tc`` extension."
@@ -1242,7 +1258,7 @@ msgstr ""
 
 #: ../../custom_assets/tutorials/add_3d_models.rst:85
 msgid "Exporting the model"
-msgstr ""
+msgstr "匯出模型"
 
 #: ../../custom_assets/tutorials/add_3d_models.rst:87
 msgid "When exporting models, there are multiple different formats to choose from. The recommended format for Tabletop Club is glTF 2.0, with both binary (``.glb``) and seperate (``.gltf``) formats supported. However, it is not the only supported option - see :ref:`file-type-3d` for all supported formats."
@@ -1288,7 +1304,7 @@ msgstr ""
 #: ../../custom_assets/tutorials/add_cards_tokens.rst:146
 #: ../../custom_assets/tutorials/add_notebook_templates.rst:119
 msgid "See more"
-msgstr ""
+msgstr "查看更多"
 
 #: ../../custom_assets/tutorials/add_3d_models.rst:115
 msgid "And with that, the next time you launch the game, you should be able to spawn in your 3D model in-game through the :guilabel:`Objects` menu!"
@@ -1540,11 +1556,12 @@ msgstr ""
 
 #: ../../custom_assets/tutorials/add_skyboxes.rst:2
 msgid "Adding skyboxes"
-msgstr ""
+msgstr "正在增加天空盒"
 
 #: ../../custom_assets/tutorials/add_skyboxes.rst:4
 msgid "To add your own skybox to the game, simply create a ``skyboxes`` folder inside your asset pack, then place your skybox image into that folder, like this:"
-msgstr ""
+msgstr "要在遊戲中增加你自己的天空盒，只需要在資源包中建立一個「skyboxes」資料夾，然"
+"後將你的天空盒圖片放入該資料夾中，如下所示："
 
 #: ../../custom_assets/tutorials/add_skyboxes.rst:13
 msgid "Once the skybox has been imported, you can go in-game and press :guilabel:`Room` > :guilabel:`Skybox` > :guilabel:`Change skybox`, select the skybox from your asset pack, then click :guilabel:`Apply`."
@@ -1589,7 +1606,7 @@ msgstr ""
 
 #: ../../custom_assets/tutorials/index.rst:5
 msgid "Tutorials"
-msgstr ""
+msgstr "教學"
 
 #: ../../custom_assets/tutorials/index.rst:7
 msgid "This chapter contains easy-to-follow guides on how to add your own content to Tabletop Club!"
