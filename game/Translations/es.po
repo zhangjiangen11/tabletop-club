@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-08-05 20:22+0100\n"
-"PO-Revision-Date: 2023-05-16 06:37+0000\n"
-"Last-Translator: Jose David M <jquintana202020@gmail.com>\n"
+"PO-Revision-Date: 2024-08-06 18:40+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/tabletop-club/"
 "game/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -67,7 +67,7 @@ msgstr "0"
 
 #: ../Scenes/MainMenu.tscn:106
 msgid "Website"
-msgstr ""
+msgstr "Página web"
 
 #: ../Scenes/MainMenu.tscn:115
 msgid "Source Code"
@@ -79,11 +79,11 @@ msgstr "Documentación"
 
 #: ../Scenes/MainMenu.tscn:133
 msgid "Community"
-msgstr ""
+msgstr "Comunidad"
 
 #: ../Scenes/MainMenu.tscn:142
 msgid "Donate"
-msgstr ""
+msgstr "Donar"
 
 #: ../Scenes/MainMenu.tscn:151 ../Scenes/MainMenu.tscn:246
 msgid "Information"
@@ -1272,7 +1272,7 @@ msgstr "Traductores"
 
 #: ../Scripts/MainMenu.gd:106
 msgid "Chinese"
-msgstr ""
+msgstr "Chino"
 
 #: ../Scripts/MainMenu.gd:107
 msgid "Dutch"
@@ -1304,7 +1304,7 @@ msgstr "Noruego"
 
 #: ../Scripts/MainMenu.gd:114
 msgid "Polish"
-msgstr ""
+msgstr "Polaco"
 
 #: ../Scripts/MainMenu.gd:115
 msgid "Portuguese"
@@ -1446,16 +1446,13 @@ msgid "Timer"
 msgstr "Temporizador"
 
 #: ../Scripts/Game/CameraController.gd:1278
-#, fuzzy
-#| msgid "Value: %d"
 msgid "Value: (None)"
-msgstr "Valor: %d"
+msgstr "Valor: (Ninguno)"
 
 #: ../Scripts/Game/CameraController.gd:1280
-#, fuzzy, python-format
-#| msgid "Value: %d"
+#, python-format
 msgid "Value: %s"
-msgstr "Valor: %d"
+msgstr "Valor: %s"
 
 #: ../Scripts/Game/CameraController.gd:1284
 #, python-format
