@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-09 09:02+0100\n"
+"POT-Creation-Date: 2024-08-05 20:22+0100\n"
 "PO-Revision-Date: 2024-01-16 02:06+0000\n"
 "Last-Translator: Alex Mauer <hawke@hawkesnest.net>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/tabletop-club/"
@@ -41,7 +41,7 @@ msgstr "Ŝargado..."
 msgid "Singleplayer"
 msgstr "Unu ludanto"
 
-#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:159
+#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:158
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
 msgstr "Pluraj ludantoj"
@@ -50,7 +50,7 @@ msgstr "Pluraj ludantoj"
 msgid "Options"
 msgstr "Agordoj"
 
-#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:316
+#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:315
 msgid "Credits"
 msgstr "Agnoskoj"
 
@@ -58,67 +58,67 @@ msgstr "Agnoskoj"
 msgid "Quit"
 msgstr "Eliri"
 
-#: ../Scenes/MainMenu.tscn:98 ../Scenes/MainMenu.tscn:341
+#: ../Scenes/MainMenu.tscn:97 ../Scenes/MainMenu.tscn:340
 msgid "Import Log"
 msgstr "protokolo de importaĵoj"
 
-#: ../Scenes/MainMenu.tscn:99
+#: ../Scenes/MainMenu.tscn:98
 msgid "0"
 msgstr "0"
 
-#: ../Scenes/MainMenu.tscn:107
-msgid "Tabletop Club on Itch.io"
-msgstr "Tabletop Club en Itch.io"
+#: ../Scenes/MainMenu.tscn:106
+msgid "Website"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:116
+#: ../Scenes/MainMenu.tscn:115
 msgid "Source Code"
 msgstr "Fontokodo"
 
-#: ../Scenes/MainMenu.tscn:125
+#: ../Scenes/MainMenu.tscn:124
 msgid "Documentation"
 msgstr "Dokumentado"
 
-#: ../Scenes/MainMenu.tscn:134
-msgid "Discord"
-msgstr "Discord"
+#: ../Scenes/MainMenu.tscn:133
+msgid "Community"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:143
-msgid "Matrix.org"
-msgstr "Matrix.org"
+#: ../Scenes/MainMenu.tscn:142
+msgid "Donate"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:152 ../Scenes/MainMenu.tscn:247
+#: ../Scenes/MainMenu.tscn:151 ../Scenes/MainMenu.tscn:246
 msgid "Information"
 msgstr "Informoj"
 
-#: ../Scenes/MainMenu.tscn:177
+#: ../Scenes/MainMenu.tscn:176
 msgid "Host Game"
 msgstr "Gastigi ludon"
 
-#: ../Scenes/MainMenu.tscn:183
+#: ../Scenes/MainMenu.tscn:182
 msgid "Create a new lobby for your friends to join over the Internet."
 msgstr "Kreas novan vestiblon, al kiuj viaj amikoj povas aliĝi Interrete."
 
-#: ../Scenes/MainMenu.tscn:195 ../Scenes/MainMenu.tscn:242
+#: ../Scenes/MainMenu.tscn:194 ../Scenes/MainMenu.tscn:241
 msgid "Join Game"
 msgstr "Aliĝi al ludo"
 
-#: ../Scenes/MainMenu.tscn:201
+#: ../Scenes/MainMenu.tscn:200
 msgid "Use a room code to join your friend's lobby."
 msgstr "Vi povas uzi ĉambrokodon por aliĝi al vestiblo de amiko."
 
-#: ../Scenes/MainMenu.tscn:207
+#: ../Scenes/MainMenu.tscn:206
 msgid "Enter Room Code"
 msgstr "Enigu ĉambrokodon"
 
-#: ../Scenes/MainMenu.tscn:227
+#: ../Scenes/MainMenu.tscn:226
 msgid "Room Code:"
 msgstr "Ĉambrokodo:"
 
-#: ../Scenes/MainMenu.tscn:236
+#: ../Scenes/MainMenu.tscn:235
 msgid "ABCD"
 msgstr "ABCD"
 
-#: ../Scenes/MainMenu.tscn:334
+#: ../Scenes/MainMenu.tscn:333
 msgid "Error"
 msgstr "Eraro"
 
@@ -322,7 +322,7 @@ msgstr "Intervalo de aŭtomata konservado"
 msgid "Used to set how often autosaves are created."
 msgstr "Uzebla por agordi kiom ofte aŭtomataj konservaĵoj kreiĝas."
 
-#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:70
+#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:72
 msgid "5 minutes"
 msgstr "5 minutoj"
 
@@ -461,7 +461,7 @@ msgid ""
 "orientation."
 msgstr "Remetas la elektitan aŭ musumatan pecon en ĝian defaŭltan orientiĝon."
 
-#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1577
+#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1589
 msgid "Rotate Piece"
 msgstr "Turni pecon"
 
@@ -470,8 +470,8 @@ msgid "Rotates the the piece that is selected, or that the mouse is over."
 msgstr "Turnas la elektitan aŭ musumatan pecon."
 
 #: ../Scenes/OptionsMenu.tscn:803 ../Scripts/Game/CameraController.gd:1210
-#: ../Scripts/Game/CameraController.gd:1530
-#: ../Scripts/Game/CameraController.gd:1585
+#: ../Scripts/Game/CameraController.gd:1542
+#: ../Scripts/Game/CameraController.gd:1597
 msgid "Shuffle"
 msgstr "Miksi"
 
@@ -561,7 +561,7 @@ msgstr "La montrata nomo de la ludanto en plurludantaj vestibloj."
 msgid "Player"
 msgstr "Ludanto"
 
-#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1338
+#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1350
 msgid "Color"
 msgstr "Koloro"
 
@@ -578,7 +578,7 @@ msgid "Changes the size of the text in the chat box."
 msgstr "Ŝanĝas la grandecon de la teksto en la babilujo."
 
 #: ../Scenes/OptionsMenu.tscn:1025 ../Scenes/OptionsMenu.tscn:1156
-#: ../Scripts/OptionsMenu.gd:80
+#: ../Scripts/OptionsMenu.gd:82
 msgid "Medium"
 msgstr "Meza"
 
@@ -617,7 +617,7 @@ msgstr "Fenestra reĝimo"
 msgid "Sets the mode in which the game window is displayed."
 msgstr "Agordas la reĝimon, en kiu montriĝas la ludfenestro."
 
-#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:74
+#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:76
 msgid "Windowed"
 msgstr "Fenestra"
 
@@ -642,7 +642,7 @@ msgid "Multisample Anti-Aliasing (MSAA)"
 msgstr "Multspecimena glatigo (MSAA)"
 
 #: ../Scenes/OptionsMenu.tscn:1177 ../Scenes/OptionsMenu.tscn:1199
-#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:78
+#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:80
 msgid "None"
 msgstr "Neniu"
 
@@ -654,7 +654,7 @@ msgstr "Ekranspaca ĉirkaŭa ombrigo (SSAO)"
 msgid "Skybox Radiance Detail"
 msgstr "Detaleco de ĉiela radiado"
 
-#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:79
+#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:81
 msgid "Low"
 msgstr "Malalta"
 
@@ -790,7 +790,7 @@ msgid "Value:"
 msgstr "Valoro:"
 
 #: ../Scenes/Game/CameraController.tscn:442
-#: ../Scripts/Game/CameraController.gd:1288
+#: ../Scripts/Game/CameraController.gd:1300
 msgid "Set value"
 msgstr "Agordi valoron"
 
@@ -1045,7 +1045,7 @@ msgid "Move Down"
 msgstr "Movi malsupren"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:138
-#: ../Scripts/Game/CameraController.gd:1359
+#: ../Scripts/Game/CameraController.gd:1371
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:228
 msgid "Delete"
 msgstr "Forigi"
@@ -1129,7 +1129,7 @@ msgstr "Pakaĵo:"
 msgid "Type:"
 msgstr "Tipo:"
 
-#: ../Scripts/AssetDB.gd:439
+#: ../Scripts/AssetDB.gd:433
 msgid "Cleaning old files..."
 msgstr "Purigado de malnovaj dosieroj..."
 
@@ -1137,11 +1137,11 @@ msgstr "Purigado de malnovaj dosieroj..."
 msgid "Not bound"
 msgstr "Ne bindita"
 
-#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1440
+#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1452
 msgid "Left Mouse Button"
 msgstr "Maldekstra musbutono"
 
-#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1497
+#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1509
 msgid "Right Mouse Button"
 msgstr "Dekstra musbutono"
 
@@ -1250,50 +1250,58 @@ msgid "Translators"
 msgstr "Tradukistoj"
 
 #: ../Scripts/MainMenu.gd:106
+msgid "Chinese"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:107
 msgid "Dutch"
 msgstr "Nederlanda"
 
-#: ../Scripts/MainMenu.gd:107
+#: ../Scripts/MainMenu.gd:108
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: ../Scripts/MainMenu.gd:108
+#: ../Scripts/MainMenu.gd:109
 msgid "French"
 msgstr "Franca"
 
-#: ../Scripts/MainMenu.gd:109
+#: ../Scripts/MainMenu.gd:110
 msgid "German"
 msgstr "Germana"
 
-#: ../Scripts/MainMenu.gd:110
+#: ../Scripts/MainMenu.gd:111
 msgid "Indonesian"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:111
+#: ../Scripts/MainMenu.gd:112
 msgid "Italian"
 msgstr "Itala"
 
-#: ../Scripts/MainMenu.gd:112
+#: ../Scripts/MainMenu.gd:113
 msgid "Norwegian"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:113
+#: ../Scripts/MainMenu.gd:114
+msgid "Polish"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:115
 msgid "Portuguese"
 msgstr "Portugala"
 
-#: ../Scripts/MainMenu.gd:114
+#: ../Scripts/MainMenu.gd:116
 msgid "Russian"
 msgstr "Rusa"
 
-#: ../Scripts/MainMenu.gd:115
+#: ../Scripts/MainMenu.gd:117
 msgid "Spanish"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:216
+#: ../Scripts/MainMenu.gd:218
 msgid "Room code must be four characters long!"
 msgstr "Ĉambrokodo devas esti kvar signojn longa!"
 
-#: ../Scripts/MainMenu.gd:221
+#: ../Scripts/MainMenu.gd:223
 msgid "Invalid room code!"
 msgstr "Nevalida ĉambrokodo!"
 
@@ -1301,51 +1309,51 @@ msgstr "Nevalida ĉambrokodo!"
 msgid "System Default"
 msgstr "Sistema defaŭlto"
 
-#: ../Scripts/OptionsMenu.gd:67
+#: ../Scripts/OptionsMenu.gd:69
 msgid "Never"
 msgstr "Neniam"
 
-#: ../Scripts/OptionsMenu.gd:68
+#: ../Scripts/OptionsMenu.gd:70
 msgid "30 seconds"
 msgstr "30 sekundoj"
 
-#: ../Scripts/OptionsMenu.gd:69
+#: ../Scripts/OptionsMenu.gd:71
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: ../Scripts/OptionsMenu.gd:71
+#: ../Scripts/OptionsMenu.gd:73
 msgid "10 minutes"
 msgstr "10 minutoj"
 
-#: ../Scripts/OptionsMenu.gd:72
+#: ../Scripts/OptionsMenu.gd:74
 msgid "30 minutes"
 msgstr "30 minutoj"
 
-#: ../Scripts/OptionsMenu.gd:75
+#: ../Scripts/OptionsMenu.gd:77
 msgid "Borderless Fullscreen"
 msgstr "Senbordere plenekrana"
 
-#: ../Scripts/OptionsMenu.gd:76
+#: ../Scripts/OptionsMenu.gd:78
 msgid "Fullscreen"
 msgstr "Plenekrana"
 
-#: ../Scripts/OptionsMenu.gd:81
+#: ../Scripts/OptionsMenu.gd:83
 msgid "High"
 msgstr "Alta"
 
-#: ../Scripts/OptionsMenu.gd:82
+#: ../Scripts/OptionsMenu.gd:84
 msgid "Very High"
 msgstr "Tre alta"
 
-#: ../Scripts/OptionsMenu.gd:83
+#: ../Scripts/OptionsMenu.gd:85
 msgid "Ultra"
 msgstr "Supera"
 
-#: ../Scripts/OptionsMenu.gd:85
+#: ../Scripts/OptionsMenu.gd:87
 msgid "Small"
 msgstr "Malgranda"
 
-#: ../Scripts/OptionsMenu.gd:87
+#: ../Scripts/OptionsMenu.gd:89
 msgid "Large"
 msgstr "Granda"
 
@@ -1416,318 +1424,330 @@ msgstr "Ordigi laŭ"
 msgid "Timer"
 msgstr "Tempumilo"
 
-#: ../Scripts/Game/CameraController.gd:1272
+#: ../Scripts/Game/CameraController.gd:1278
+#, fuzzy
+#| msgid "Value: %d"
+msgid "Value: (None)"
+msgstr "Valoro: %d"
+
+#: ../Scripts/Game/CameraController.gd:1280
+#, fuzzy, python-format
+#| msgid "Value: %d"
+msgid "Value: %s"
+msgstr "Valoro: %d"
+
+#: ../Scripts/Game/CameraController.gd:1284
 #, python-format
 msgid "Total: %d"
 msgstr "Totalo: %d"
 
-#: ../Scripts/Game/CameraController.gd:1274
+#: ../Scripts/Game/CameraController.gd:1286
 #, python-format
 msgid "Total: %f"
 msgstr "Totalo: %f"
 
-#: ../Scripts/Game/CameraController.gd:1294
+#: ../Scripts/Game/CameraController.gd:1306
 msgid "Collect selected"
 msgstr "Kolekti elektitajn"
 
-#: ../Scripts/Game/CameraController.gd:1298
+#: ../Scripts/Game/CameraController.gd:1310
 msgid "Add objects..."
 msgstr "Aldoni objektojn..."
 
-#: ../Scripts/Game/CameraController.gd:1299
+#: ../Scripts/Game/CameraController.gd:1311
 msgid "Peek inside"
 msgstr "Rigardi enen"
 
-#: ../Scripts/Game/CameraController.gd:1301
+#: ../Scripts/Game/CameraController.gd:1313
 msgid "Take objects out"
 msgstr "Elpreni objektojn"
 
-#: ../Scripts/Game/CameraController.gd:1317
+#: ../Scripts/Game/CameraController.gd:1329
 msgid "Speaker"
 msgstr "Laŭtparolilo"
 
-#: ../Scripts/Game/CameraController.gd:1329
+#: ../Scripts/Game/CameraController.gd:1341
 msgid "Details…"
 msgstr "Detaloj…"
 
-#: ../Scripts/Game/CameraController.gd:1341
+#: ../Scripts/Game/CameraController.gd:1353
 msgid "Cut"
 msgstr "Tondi"
 
-#: ../Scripts/Game/CameraController.gd:1342
+#: ../Scripts/Game/CameraController.gd:1354
 msgid "Copy"
 msgstr "Kopii"
 
-#: ../Scripts/Game/CameraController.gd:1344
-#: ../Scripts/Game/CameraController.gd:1383
+#: ../Scripts/Game/CameraController.gd:1356
+#: ../Scripts/Game/CameraController.gd:1395
 msgid "Paste"
 msgstr "Alglui"
 
-#: ../Scripts/Game/CameraController.gd:1355
+#: ../Scripts/Game/CameraController.gd:1367
 msgid "Unlock"
 msgstr "Malŝlosi"
 
-#: ../Scripts/Game/CameraController.gd:1357
+#: ../Scripts/Game/CameraController.gd:1369
 msgid "Lock"
 msgstr "Ŝlosi"
 
-#: ../Scripts/Game/CameraController.gd:1361
+#: ../Scripts/Game/CameraController.gd:1373
 msgid "Transform"
 msgstr "Transformi"
 
-#: ../Scripts/Game/CameraController.gd:1388
+#: ../Scripts/Game/CameraController.gd:1400
 msgid "Set spawn point here"
 msgstr "Meti aperejon ĉi tien"
 
-#: ../Scripts/Game/CameraController.gd:1389
+#: ../Scripts/Game/CameraController.gd:1401
 msgid "Spawn object here"
 msgstr "Aperigi objekton ĉi tie"
 
-#: ../Scripts/Game/CameraController.gd:1408
+#: ../Scripts/Game/CameraController.gd:1420
 #, python-format
 msgid "Alt + %s"
 msgstr "Alt + %s"
 
-#: ../Scripts/Game/CameraController.gd:1409
+#: ../Scripts/Game/CameraController.gd:1421
 #, python-format
 msgid "Ctrl + %s"
 msgstr "Reg + %s"
 
-#: ../Scripts/Game/CameraController.gd:1410
+#: ../Scripts/Game/CameraController.gd:1422
 #, python-format
 msgid "Cmd + %s"
 msgstr "Cmd + %s"
 
-#: ../Scripts/Game/CameraController.gd:1411
+#: ../Scripts/Game/CameraController.gd:1423
 #, python-format
 msgid "Hold %s"
 msgstr "Deteni %s"
 
-#: ../Scripts/Game/CameraController.gd:1412
+#: ../Scripts/Game/CameraController.gd:1424
 #, python-format
 msgid "Release %s"
 msgstr "Malteni %s"
 
-#: ../Scripts/Game/CameraController.gd:1419
+#: ../Scripts/Game/CameraController.gd:1431
 msgid "Scroll Wheel"
 msgstr "Rulumilo"
 
-#: ../Scripts/Game/CameraController.gd:1422
+#: ../Scripts/Game/CameraController.gd:1434
 msgid "Move camera"
 msgstr "Movi kameraon"
 
-#: ../Scripts/Game/CameraController.gd:1426
+#: ../Scripts/Game/CameraController.gd:1438
 msgid "Rotate camera"
 msgstr "Turni kameraon"
 
-#: ../Scripts/Game/CameraController.gd:1427
+#: ../Scripts/Game/CameraController.gd:1439
 #, python-format
 msgid "Hold %s + Move Mouse"
 msgstr "Deteni %s + movi muson"
 
-#: ../Scripts/Game/CameraController.gd:1435
+#: ../Scripts/Game/CameraController.gd:1447
 msgid "Zoom camera"
 msgstr "Zomigi kameraon"
 
-#: ../Scripts/Game/CameraController.gd:1445
+#: ../Scripts/Game/CameraController.gd:1457
 msgid "Release selected"
 msgstr "Malteni elektitajn"
 
-#: ../Scripts/Game/CameraController.gd:1447
+#: ../Scripts/Game/CameraController.gd:1459
 msgid "Stop box selecting"
 msgstr "Ĉesigi skatolan elektadon"
 
-#: ../Scripts/Game/CameraController.gd:1450
+#: ../Scripts/Game/CameraController.gd:1462
 msgid "Select object"
 msgstr "Elekti objekton"
 
-#: ../Scripts/Game/CameraController.gd:1452
+#: ../Scripts/Game/CameraController.gd:1464
 msgid "Add to selection"
 msgstr "Aldoni al elektaĵo"
 
-#: ../Scripts/Game/CameraController.gd:1455
+#: ../Scripts/Game/CameraController.gd:1467
 msgid "Take random object"
 msgstr "Preni hazardan objekton"
 
-#: ../Scripts/Game/CameraController.gd:1456
-#: ../Scripts/Game/CameraController.gd:1459
+#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1471
 #, python-format
 msgid "%s + Move Mouse"
 msgstr "%s + movi muson"
 
-#: ../Scripts/Game/CameraController.gd:1458
+#: ../Scripts/Game/CameraController.gd:1470
 msgid "Take top object"
 msgstr "Preni supran objekton"
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab selected"
 msgstr "Kapti elektitajn"
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab object"
 msgstr "Kapti objekton"
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Stop moving"
 msgstr "Ĉesi moviĝi"
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Start moving"
 msgstr "Komenci moviĝi"
 
-#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1480
 msgid "Box select"
 msgstr "Skatola elektado"
 
-#: ../Scripts/Game/CameraController.gd:1472
+#: ../Scripts/Game/CameraController.gd:1484
 msgid "Flick object"
 msgstr "Ĵeteti objekton"
 
-#: ../Scripts/Game/CameraController.gd:1474
+#: ../Scripts/Game/CameraController.gd:1486
 msgid "Prepare to flick"
 msgstr "Prepari ĵeteton"
 
-#: ../Scripts/Game/CameraController.gd:1478
+#: ../Scripts/Game/CameraController.gd:1490
 msgid "Stop measuring"
 msgstr "Ĉesi mezuri"
 
-#: ../Scripts/Game/CameraController.gd:1480
+#: ../Scripts/Game/CameraController.gd:1492
 msgid "Start measuring"
 msgstr "Komenci mezuri"
 
-#: ../Scripts/Game/CameraController.gd:1484
+#: ../Scripts/Game/CameraController.gd:1496
 msgid "Create hidden area"
 msgstr "Krei kaŝitan areon"
 
-#: ../Scripts/Game/CameraController.gd:1486
+#: ../Scripts/Game/CameraController.gd:1498
 msgid "Draw hidden area"
 msgstr "Desegni kaŝitan areon"
 
-#: ../Scripts/Game/CameraController.gd:1489
+#: ../Scripts/Game/CameraController.gd:1501
 msgid "Paint Table"
 msgstr "Desegni sur la tablo"
 
-#: ../Scripts/Game/CameraController.gd:1492
+#: ../Scripts/Game/CameraController.gd:1504
 msgid "Erase Paint"
 msgstr "Viŝi desegnaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1502
+#: ../Scripts/Game/CameraController.gd:1514
 msgid "Object menu"
 msgstr "Objekta menuo"
 
-#: ../Scripts/Game/CameraController.gd:1504
+#: ../Scripts/Game/CameraController.gd:1516
 msgid "Table menu"
 msgstr "Tabla menuo"
 
-#: ../Scripts/Game/CameraController.gd:1508
+#: ../Scripts/Game/CameraController.gd:1520
 msgid "Stop flicking"
 msgstr "Ĉesi ĵeteti"
 
-#: ../Scripts/Game/CameraController.gd:1512
+#: ../Scripts/Game/CameraController.gd:1524
 msgid "Remove last ruler"
 msgstr "Forigi lastan rektilon"
 
-#: ../Scripts/Game/CameraController.gd:1516
+#: ../Scripts/Game/CameraController.gd:1528
 msgid "Remove hidden area"
 msgstr "Forigi kaŝitan areon"
 
-#: ../Scripts/Game/CameraController.gd:1536
+#: ../Scripts/Game/CameraController.gd:1548
 msgid "Lift selected"
 msgstr "Levi elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1537
+#: ../Scripts/Game/CameraController.gd:1549
 msgid "Zoom selected"
 msgstr "Zomigi elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1538
+#: ../Scripts/Game/CameraController.gd:1550
 msgid "Rotate selected"
 msgstr "Turni elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Unlock selected"
 msgstr "Malŝlosi elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Lock selected"
 msgstr "Ŝlosi elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1550
+#: ../Scripts/Game/CameraController.gd:1562
 msgid "Delete selected"
 msgstr "Forigi elektaĵon"
 
-#: ../Scripts/Game/CameraController.gd:1562
-#: ../Scripts/Game/CameraController.gd:1579
+#: ../Scripts/Game/CameraController.gd:1574
+#: ../Scripts/Game/CameraController.gd:1591
 msgid "Reset orientation"
 msgstr "Restarigi orientiĝon"
 
-#: ../Scripts/Game/CameraController.gd:1564
-#: ../Scripts/Game/CameraController.gd:1581
+#: ../Scripts/Game/CameraController.gd:1576
+#: ../Scripts/Game/CameraController.gd:1593
 msgid "Flip orientation"
 msgstr "Renversi orientiĝon"
 
-#: ../Scripts/Game/CameraController.gd:1570
+#: ../Scripts/Game/CameraController.gd:1582
 msgid "Flip card"
 msgstr "Renversi karton"
 
-#: ../Scripts/Game/CameraController.gd:1572
+#: ../Scripts/Game/CameraController.gd:1584
 msgid "Face card up"
 msgstr "Frontigi karton supren"
 
-#: ../Scripts/Game/CameraController.gd:1588
+#: ../Scripts/Game/CameraController.gd:1600
 msgid "Reset camera"
 msgstr "Restarigi kameraon"
 
-#: ../Scripts/Game/CameraController.gd:1741
+#: ../Scripts/Game/CameraController.gd:1753
 msgid "Pause track"
 msgstr "Paŭzigi trakon"
 
-#: ../Scripts/Game/CameraController.gd:1746
+#: ../Scripts/Game/CameraController.gd:1758
 msgid "Resume track"
 msgstr "Daŭrigi trakon"
 
-#: ../Scripts/Game/CameraController.gd:1750
+#: ../Scripts/Game/CameraController.gd:1762
 msgid "Stop track"
 msgstr "Haltigi trakon"
 
-#: ../Scripts/Game/CameraController.gd:1752
+#: ../Scripts/Game/CameraController.gd:1764
 msgid "Play track"
 msgstr "Ludi trakon"
 
-#: ../Scripts/Game/CameraController.gd:1757
+#: ../Scripts/Game/CameraController.gd:1769
 msgid "No track loaded"
 msgstr "Neniu trako estas ŝargita"
 
-#: ../Scripts/Game/CameraController.gd:1759
+#: ../Scripts/Game/CameraController.gd:1771
 #, python-format
 msgid "Playing: %s"
 msgstr "Ludata: %s"
 
-#: ../Scripts/Game/CameraController.gd:1761
+#: ../Scripts/Game/CameraController.gd:1773
 #, python-format
 msgid "Loaded: %s"
 msgstr "Ŝargita: %s"
 
-#: ../Scripts/Game/CameraController.gd:1777
+#: ../Scripts/Game/CameraController.gd:1789
 msgid "Pause timer"
 msgstr "Paŭzigi tempumilon"
 
-#: ../Scripts/Game/CameraController.gd:1782
+#: ../Scripts/Game/CameraController.gd:1794
 msgid "Resume timer"
 msgstr "Daŭrigi tempumilon"
 
-#: ../Scripts/Game/CameraController.gd:1786
+#: ../Scripts/Game/CameraController.gd:1798
 msgid "Stop countdown"
 msgstr "Haltigi ĝisnombradon"
 
-#: ../Scripts/Game/CameraController.gd:1788
+#: ../Scripts/Game/CameraController.gd:1800
 msgid "Start countdown"
 msgstr "Komenci ĝisnombradon"
 
-#: ../Scripts/Game/CameraController.gd:1792
+#: ../Scripts/Game/CameraController.gd:1804
 msgid "Stop stopwatch"
 msgstr "Haltigi tempmezurilon"
 
-#: ../Scripts/Game/CameraController.gd:1794
+#: ../Scripts/Game/CameraController.gd:1806
 msgid "Start stopwatch"
 msgstr "Komencigi tempmezurilon"
 
@@ -1962,28 +1982,28 @@ msgstr "Neniu priskribo."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:88
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:54
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:83
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:85
 #, python-format
 msgid "Author: %s"
 msgstr "Aŭtoro: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:92
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:60
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:87
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:89
 #, python-format
 msgid "License: %s"
 msgstr "Permesilo: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:96
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:66
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:91
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:93
 #, python-format
 msgid "Modified by: %s"
 msgstr "Modifita de: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:100
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:72
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:95
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:97
 #, python-format
 msgid "URL: %s"
 msgstr "URL: %s"
@@ -2170,6 +2190,15 @@ msgstr "Tempumiloj"
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
 msgstr "Ĵetonoj"
+
+#~ msgid "Tabletop Club on Itch.io"
+#~ msgstr "Tabletop Club en Itch.io"
+
+#~ msgid "Discord"
+#~ msgstr "Discord"
+
+#~ msgid "Matrix.org"
+#~ msgstr "Matrix.org"
 
 #~ msgid "New Page"
 #~ msgstr "Nova paĝo"
