@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-08-05 20:22+0100\n"
-"PO-Revision-Date: 2024-08-10 17:09+0000\n"
+"PO-Revision-Date: 2024-08-14 00:09+0000\n"
 "Last-Translator: Eddie Procópio <eddienotablet@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "tabletop-club/game/pt_BR/>\n"
@@ -1500,273 +1500,273 @@ msgstr "Defina o ponto de spawn aqui"
 
 #: ../Scripts/Game/CameraController.gd:1401
 msgid "Spawn object here"
-msgstr ""
+msgstr "(Spawn) Gerar objeto aqui"
 
 #: ../Scripts/Game/CameraController.gd:1420
 #, python-format
 msgid "Alt + %s"
-msgstr ""
+msgstr "Alt + %s"
 
 #: ../Scripts/Game/CameraController.gd:1421
 #, python-format
 msgid "Ctrl + %s"
-msgstr ""
+msgstr "Ctrl + %s"
 
 #: ../Scripts/Game/CameraController.gd:1422
 #, python-format
 msgid "Cmd + %s"
-msgstr ""
+msgstr "Cmd + %s"
 
 #: ../Scripts/Game/CameraController.gd:1423
 #, python-format
 msgid "Hold %s"
-msgstr ""
+msgstr "Segure %s"
 
 #: ../Scripts/Game/CameraController.gd:1424
 #, python-format
 msgid "Release %s"
-msgstr ""
+msgstr "Solte %s"
 
 #: ../Scripts/Game/CameraController.gd:1431
 msgid "Scroll Wheel"
-msgstr ""
+msgstr "Roda de Rolagem do Mouse"
 
 #: ../Scripts/Game/CameraController.gd:1434
 msgid "Move camera"
-msgstr ""
+msgstr "Mover câmera"
 
 #: ../Scripts/Game/CameraController.gd:1438
 msgid "Rotate camera"
-msgstr ""
+msgstr "Girar câmera"
 
 #: ../Scripts/Game/CameraController.gd:1439
 #, python-format
 msgid "Hold %s + Move Mouse"
-msgstr ""
+msgstr "Segure %s + Mova o Mouse"
 
 #: ../Scripts/Game/CameraController.gd:1447
 msgid "Zoom camera"
-msgstr ""
+msgstr "Câmera com zoom"
 
 #: ../Scripts/Game/CameraController.gd:1457
 msgid "Release selected"
-msgstr ""
+msgstr "Lançamento selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1459
 msgid "Stop box selecting"
-msgstr ""
+msgstr "Parar de selecionar em caixa"
 
 #: ../Scripts/Game/CameraController.gd:1462
 msgid "Select object"
-msgstr ""
+msgstr "Selecionar objeto"
 
 #: ../Scripts/Game/CameraController.gd:1464
 msgid "Add to selection"
-msgstr ""
+msgstr "Adicionar à seleção"
 
 #: ../Scripts/Game/CameraController.gd:1467
 msgid "Take random object"
-msgstr ""
+msgstr "Pegue um objeto aleatório"
 
 #: ../Scripts/Game/CameraController.gd:1468
 #: ../Scripts/Game/CameraController.gd:1471
 #, python-format
 msgid "%s + Move Mouse"
-msgstr ""
+msgstr "%s + Mover o Mouse"
 
 #: ../Scripts/Game/CameraController.gd:1470
 msgid "Take top object"
-msgstr ""
+msgstr "Pegue o objeto de cima"
 
 #: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab selected"
-msgstr ""
+msgstr "Pegue selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab object"
-msgstr ""
+msgstr "Pegar objeto"
 
 #: ../Scripts/Game/CameraController.gd:1476
 msgid "Stop moving"
-msgstr ""
+msgstr "Parar movimento"
 
 #: ../Scripts/Game/CameraController.gd:1476
 msgid "Start moving"
-msgstr ""
+msgstr "Começar movimento"
 
 #: ../Scripts/Game/CameraController.gd:1480
 msgid "Box select"
-msgstr ""
+msgstr "Caixa de seleção"
 
 #: ../Scripts/Game/CameraController.gd:1484
 msgid "Flick object"
-msgstr ""
+msgstr "Movimento rápido de objeto"
 
 #: ../Scripts/Game/CameraController.gd:1486
 msgid "Prepare to flick"
-msgstr ""
+msgstr "Preparar para movimentação rápida"
 
 #: ../Scripts/Game/CameraController.gd:1490
 msgid "Stop measuring"
-msgstr ""
+msgstr "Pare de medir"
 
 #: ../Scripts/Game/CameraController.gd:1492
 msgid "Start measuring"
-msgstr ""
+msgstr "Iniciar medição"
 
 #: ../Scripts/Game/CameraController.gd:1496
 msgid "Create hidden area"
-msgstr ""
+msgstr "Criar área oculta"
 
 #: ../Scripts/Game/CameraController.gd:1498
 msgid "Draw hidden area"
-msgstr ""
+msgstr "Desenhar área oculta"
 
 #: ../Scripts/Game/CameraController.gd:1501
 msgid "Paint Table"
-msgstr ""
+msgstr "Pintura de mesa"
 
 #: ../Scripts/Game/CameraController.gd:1504
 msgid "Erase Paint"
-msgstr ""
+msgstr "Apagar desenho"
 
 #: ../Scripts/Game/CameraController.gd:1514
 msgid "Object menu"
-msgstr ""
+msgstr "Menu de objetos"
 
 #: ../Scripts/Game/CameraController.gd:1516
 msgid "Table menu"
-msgstr ""
+msgstr "Menu de mesa"
 
 #: ../Scripts/Game/CameraController.gd:1520
 msgid "Stop flicking"
-msgstr ""
+msgstr "Parar de dar flicks"
 
 #: ../Scripts/Game/CameraController.gd:1524
 msgid "Remove last ruler"
-msgstr ""
+msgstr "Remover a última régua"
 
 #: ../Scripts/Game/CameraController.gd:1528
 msgid "Remove hidden area"
-msgstr ""
+msgstr "Remover área oculta"
 
 #: ../Scripts/Game/CameraController.gd:1548
 msgid "Lift selected"
-msgstr ""
+msgstr "Elevador selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1549
 msgid "Zoom selected"
-msgstr ""
+msgstr "Zoom selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1550
 msgid "Rotate selected"
-msgstr ""
+msgstr "rotação selecionada"
 
 #: ../Scripts/Game/CameraController.gd:1559
 msgid "Unlock selected"
-msgstr ""
+msgstr "Desbloquear selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1559
 msgid "Lock selected"
-msgstr ""
+msgstr "Bloquear selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1562
 msgid "Delete selected"
-msgstr ""
+msgstr "Deletar selecionado"
 
 #: ../Scripts/Game/CameraController.gd:1574
 #: ../Scripts/Game/CameraController.gd:1591
 msgid "Reset orientation"
-msgstr ""
+msgstr "Resetar orientação"
 
 #: ../Scripts/Game/CameraController.gd:1576
 #: ../Scripts/Game/CameraController.gd:1593
 msgid "Flip orientation"
-msgstr ""
+msgstr "Orientação de inversão"
 
 #: ../Scripts/Game/CameraController.gd:1582
 msgid "Flip card"
-msgstr ""
+msgstr "Virar carta"
 
 #: ../Scripts/Game/CameraController.gd:1584
 msgid "Face card up"
-msgstr ""
+msgstr "Carta virada pra cima"
 
 #: ../Scripts/Game/CameraController.gd:1600
 msgid "Reset camera"
-msgstr ""
+msgstr "Resetar câmera"
 
 #: ../Scripts/Game/CameraController.gd:1753
 msgid "Pause track"
-msgstr ""
+msgstr "Pausar trilha"
 
 #: ../Scripts/Game/CameraController.gd:1758
 msgid "Resume track"
-msgstr ""
+msgstr "Retomar trilha"
 
 #: ../Scripts/Game/CameraController.gd:1762
 msgid "Stop track"
-msgstr ""
+msgstr "Parar trilha"
 
 #: ../Scripts/Game/CameraController.gd:1764
 msgid "Play track"
-msgstr ""
+msgstr "Tocar trilha"
 
 #: ../Scripts/Game/CameraController.gd:1769
 msgid "No track loaded"
-msgstr ""
+msgstr "Nenhuma trilha lida"
 
 #: ../Scripts/Game/CameraController.gd:1771
 #, python-format
 msgid "Playing: %s"
-msgstr ""
+msgstr "Tocando: %s"
 
 #: ../Scripts/Game/CameraController.gd:1773
 #, python-format
 msgid "Loaded: %s"
-msgstr ""
+msgstr "Lido: %s"
 
 #: ../Scripts/Game/CameraController.gd:1789
 msgid "Pause timer"
-msgstr ""
+msgstr "Timer pausado"
 
 #: ../Scripts/Game/CameraController.gd:1794
 msgid "Resume timer"
-msgstr ""
+msgstr "Retomar timer"
 
 #: ../Scripts/Game/CameraController.gd:1798
 msgid "Stop countdown"
-msgstr ""
+msgstr "Parar contagem regressiva"
 
 #: ../Scripts/Game/CameraController.gd:1800
 msgid "Start countdown"
-msgstr ""
+msgstr "Iniciar contagem regressiva"
 
 #: ../Scripts/Game/CameraController.gd:1804
 msgid "Stop stopwatch"
-msgstr ""
+msgstr "Pare o cronômetro"
 
 #: ../Scripts/Game/CameraController.gd:1806
 msgid "Start stopwatch"
-msgstr ""
+msgstr "Iniciar o cronômetro"
 
 #: ../Scripts/Game/Game.gd:548
 #, python-format
 msgid "Downloading %s ..."
-msgstr ""
+msgstr "Baixando %s ..."
 
 #: ../Scripts/Game/Game.gd:707
 msgid "Download completed!"
-msgstr ""
+msgstr "Download finalizado!"
 
 #: ../Scripts/Game/Game.gd:746
 #, python-format
 msgid "Verified %d out of %d files!"
-msgstr ""
+msgstr "%d de %d arquivos verificados!"
 
 #: ../Scripts/Game/Game.gd:1023
 msgid "Loaded table has no version information. Load anyway?"
-msgstr ""
+msgstr "A tabela carregada não tem informações de versão. Carregar mesmo assim?"
 
 #: ../Scripts/Game/Game.gd:1025
 #, python-format
@@ -1774,189 +1774,192 @@ msgid ""
 "Loaded table was saved with a different version of the game (Current: %s, "
 "Table: %s). Load anyway?"
 msgstr ""
+"A tabela carregada foi salva com uma versão diferente do jogo (Atual: %s, "
+"Tabela: %s). Carregar mesmo assim?"
 
 #: ../Scripts/Game/Game.gd:1027
 msgid "Loaded table is not in the correct format."
-msgstr ""
+msgstr "A tabela carregada não está no formato correto."
 
 #: ../Scripts/Game/Game.gd:1071
 #, python-format
 msgid "Client version (%s) does not match server version (%s)!"
-msgstr ""
+msgstr "A versão do cliente (%s) não corresponde à versão do servidor (%s)!"
 
 #: ../Scripts/Game/Game.gd:1214
 #, python-format
 msgid "Importing %s ..."
-msgstr ""
+msgstr "Importando %s ..."
 
 #: ../Scripts/Game/Game.gd:1232
 #, python-format
 msgid "Saved screenshot to '%s'."
-msgstr ""
+msgstr "Captura de tela salva em '%s'."
 
 #: ../Scripts/Game/Game.gd:1246
 msgid "Quicksave file saved."
-msgstr ""
+msgstr "Arquivo salvo."
 
 #: ../Scripts/Game/Game.gd:1309
 msgid "Connecting to the master server..."
-msgstr ""
+msgstr "Conectando ao servidor mestre..."
 
 #: ../Scripts/Game/Game.gd:1718
 #, python-format
 msgid "Could not open the file at path '%s' (error %d)."
-msgstr ""
+msgstr "Não foi possível abrir o arquivo no caminho '%s' (erro %d)."
 
 #: ../Scripts/Game/Game.gd:1884
 msgid "Establishing connection with the host..."
-msgstr ""
+msgstr "Estabelecendo conexão com o host..."
 
 #: ../Scripts/Game/Game.gd:1899
 #, python-format
 msgid "Disconnected from the server! Code: %d Reason: %s"
-msgstr ""
+msgstr "Desconectado do servidor! Código: %d Motivo: %s"
 
 #: ../Scripts/Game/Game.gd:1995
 msgid "Room has been closed by the host."
-msgstr ""
+msgstr "A sala foi fechada pelo host."
 
 #: ../Scripts/Game/MasterServer.gd:42
 msgid "Could not connect to the master server."
-msgstr ""
+msgstr "Não foi possível conectar ao servidor mestre."
 
 #: ../Scripts/Game/MasterServer.gd:43
 msgid "Have not joined a room yet."
-msgstr ""
+msgstr "Ainda não entrei em nenhuma sala."
 
 #: ../Scripts/Game/MasterServer.gd:44
 msgid "Host has disconnected from the room."
-msgstr ""
+msgstr "Host se desconectou da sala."
 
 #: ../Scripts/Game/MasterServer.gd:45
 msgid "Only the host can seal the room."
-msgstr ""
+msgstr "Somente o host pode fechar a sala."
 
 #: ../Scripts/Game/MasterServer.gd:46
 msgid "Too many rooms are open."
-msgstr ""
+msgstr "Há muitas salas abertas."
 
 #: ../Scripts/Game/MasterServer.gd:47
 msgid "Already in a room."
-msgstr ""
+msgstr "Já pronto em uma sala."
 
 #: ../Scripts/Game/MasterServer.gd:48
 msgid "Room does not exist."
-msgstr ""
+msgstr "Sala não existe."
 
 #: ../Scripts/Game/MasterServer.gd:49
 msgid "Room is sealed."
-msgstr ""
+msgstr "A sala está fechada."
 
 #: ../Scripts/Game/MasterServer.gd:50
 msgid "Message format is invalid."
-msgstr ""
+msgstr "O formato da mensagem é inválido."
 
 #: ../Scripts/Game/MasterServer.gd:51
 msgid "Message is invalid when not in a room."
-msgstr ""
+msgstr "A mensagem é inválida quando não estiver em uma sala."
 
 #: ../Scripts/Game/MasterServer.gd:52
 msgid "Internal server error."
-msgstr ""
+msgstr "Erro do servidor Interno."
 
 #: ../Scripts/Game/MasterServer.gd:53
 msgid "Invalid destination."
-msgstr ""
+msgstr "Destino inválido."
 
 #: ../Scripts/Game/MasterServer.gd:54
 msgid "Invalid command."
-msgstr ""
+msgstr "Comando inválido."
 
 #: ../Scripts/Game/MasterServer.gd:55
 msgid "Too many players connected."
-msgstr ""
+msgstr "Muitos jogadores conectados."
 
 #: ../Scripts/Game/MasterServer.gd:56
 msgid "Transfer mode is invalid."
-msgstr ""
+msgstr "O modo de transferência é inválido."
 
 #: ../Scripts/Game/MasterServer.gd:57
 msgid "Too many connections."
-msgstr ""
+msgstr "Muitas conexões."
 
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
-msgstr ""
+msgstr "Reconectou muito rápido."
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
-msgstr ""
+msgstr "Muito texto sendo enviado, esperando..."
 
 #: ../Scripts/Game/UI/ChatBox.gd:152
 msgid "Show the list of commands that can be invoked."
-msgstr ""
+msgstr "Exibir a lista de comandos que podem ser usados."
 
 #: ../Scripts/Game/UI/ChatBox.gd:154
 msgid "Privately send a message to another player."
-msgstr ""
+msgstr "Envie uma mensagem privada para outro jogador."
 
 #: ../Scripts/Game/UI/GameUI.gd:150
 msgid "Clear Paint"
-msgstr ""
+msgstr "Limpar desenho"
 
 #: ../Scripts/Game/UI/GameUI.gd:170
 msgid "Welcome to Tabletop Club!"
-msgstr ""
+msgstr "Bem-vindo ao Tabletop Club!"
 
 #: ../Scripts/Game/UI/GameUI.gd:171
 msgid "To view a list of commands, type /? or /help in this chat box."
 msgstr ""
+"Para ver uma lista de comandos, digite /? ou /help nesta caixa de bate-papo."
 
 #: ../Scripts/Game/UI/GameUI.gd:248
 #, python-format
 msgid "Room Code: [b]%s[/b]"
-msgstr ""
+msgstr "Código da Sala: [b]%s[/b]"
 
 #: ../Scripts/Game/UI/GameUI.gd:252
 msgid "Hide Room Code"
-msgstr ""
+msgstr "Ocultar código da sala"
 
 #: ../Scripts/Game/UI/GameUI.gd:254
 msgid "Show Room Code"
-msgstr ""
+msgstr "Mostrar o código da sala"
 
 #: ../Scripts/Game/UI/GameUI.gd:322
 #, python-format
 msgid "%s has joined the game."
-msgstr ""
+msgstr "%s entrou no jogo."
 
 #: ../Scripts/Game/UI/GameUI.gd:329
 #, python-format
 msgid "%s changed their name to %s"
-msgstr ""
+msgstr "%s mudou seu nome para %s"
 
 #: ../Scripts/Game/UI/GameUI.gd:334
 #, python-format
 msgid "%s has left the game."
-msgstr ""
+msgstr "%s saiu do jogo."
 
 #: ../Scripts/Game/UI/GameUI.gd:389
 msgid "View notebook"
-msgstr ""
+msgstr "Ver caderno"
 
 #: ../Scripts/Game/UI/Dialogs/ContainerContentDialog.gd:40
 #, python-format
 msgid "Contents of %s"
-msgstr ""
+msgstr "Conteúdo de %s"
 
 #: ../Scripts/Game/UI/Dialogs/ContainerContentDialog.gd:45
 #, python-format
 msgid "%s is empty."
-msgstr ""
+msgstr "%s está vazia."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:61
 msgid "No objects have been selected."
-msgstr ""
+msgstr "Nenhum objeto foi selecionado."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:74
 #, python-format
