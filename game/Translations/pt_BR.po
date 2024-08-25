@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-08-05 20:22+0100\n"
-"PO-Revision-Date: 2024-08-14 00:09+0000\n"
+"PO-Revision-Date: 2024-08-26 06:58+0000\n"
 "Last-Translator: Eddie Procópio <eddienotablet@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "tabletop-club/game/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -1964,134 +1964,137 @@ msgstr "Nenhum objeto foi selecionado."
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:74
 #, python-format
 msgid "A stack of %d cards."
-msgstr ""
+msgstr "Uma pilha de %d cartas."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:76
 #, python-format
 msgid "A stack of %d tokens."
-msgstr ""
+msgstr "Uma pilha de %d tokens."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:83
 msgid "No description."
-msgstr ""
+msgstr "Sem descrição."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:88
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:54
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:85
 #, python-format
 msgid "Author: %s"
-msgstr ""
+msgstr "Autor(a): %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:92
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:60
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:89
 #, python-format
 msgid "License: %s"
-msgstr ""
+msgstr "Licença: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:96
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:66
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:93
 #, python-format
 msgid "Modified by: %s"
-msgstr ""
+msgstr "Modificado por: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:100
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:72
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:97
 #, python-format
 msgid "URL: %s"
-msgstr ""
+msgstr "URL: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:102
 #, python-format
 msgid "A total of %d objects were selected:"
-msgstr ""
+msgstr "Um total de %d objetos foram selecionados:"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:112
 #, python-format
 msgid "Stack of %d cards"
-msgstr ""
+msgstr "Pilha de %d cartas"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:114
 #, python-format
 msgid "Stack of %d tokens"
-msgstr ""
+msgstr "Pilha de %d tokens"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:267
 msgid ""
 "You can use this notebook to write down information that will persist "
 "between sessions."
 msgstr ""
+"Você pode usar este caderno para anotar informações que persistirão entre as "
+"sessões."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:269
 msgid "This player does not have any public pages in their notebook."
-msgstr ""
+msgstr "Este jogador não tem nenhuma página pública em seu notebook."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:702
 msgid "<Unknown>"
-msgstr ""
+msgstr "<Desconhecido>"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:713
 #, python-format
 msgid "%s's Notebook"
-msgstr ""
+msgstr "Caderno de anotações de %s"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:757
 #, python-format
 msgid "Are you sure you want to delete the page '%s'?"
-msgstr ""
+msgstr "Tem certeza de que deseja excluir a página '%s'?"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:849
 #, python-format
 msgid "New %s"
-msgstr ""
+msgstr "Notícias %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:121
 #, python-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Modificado: %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:164
 msgid "Save a file"
-msgstr ""
+msgstr "Salvar um arquivo"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Load"
-msgstr ""
+msgstr "Carregar"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:180
 msgid "Sort:"
-msgstr ""
+msgstr "Organizar:"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:184
 msgid "Last Modified"
-msgstr ""
+msgstr "Última modificação"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:210
 msgid "Delete file?"
-msgstr ""
+msgstr "Excluir arquivo?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:218
 msgid "Overwrite file?"
-msgstr ""
+msgstr "Substituir arquivo?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:226
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:262
 msgid "Rename"
-msgstr ""
+msgstr "Renomear"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:227
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicada"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:233
+#, fuzzy
 msgid "Invalid name!"
-msgstr ""
+msgstr "Nome inválido!"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:235
 #, python-format
@@ -2099,86 +2102,88 @@ msgid ""
 "File names cannot contain any of the following characters:\n"
 "%s"
 msgstr ""
+"Os nomes de arquivo não podem conter nenhum dos seguintes caracteres:\n"
+"%s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:241
 msgid "Rename file..."
-msgstr ""
+msgstr "Renomear arquivo..."
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:251
 msgid "Please enter a new name for the file:"
-msgstr ""
+msgstr "Por favor, digite um novo nome para o arquivo:"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:371
 #, python-format
 msgid "Are you sure you want to delete '%s'?"
-msgstr ""
+msgstr "Tem certeza de que deseja excluir '%s'?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:384
 #, python-format
 msgid "The file '%s' already exists. Are you sure you want to overwrite it?"
-msgstr ""
+msgstr "O arquivo '%s' já existe. Tem certeza de que deseja sobrescrevê-lo?"
 
 #: ../Scripts/Game/UI/Previews/ObjectPreviewGrid.gd:108
 #, python-format
 msgid "Page %d/%d"
-msgstr ""
+msgstr "Página %d/%d"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:114
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:302
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:281
 msgid "Boards"
-msgstr ""
+msgstr "Tabuleiros"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:282
 msgid "Cards"
-msgstr ""
+msgstr "Cartas"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:283
 msgid "Containers"
-msgstr ""
+msgstr "Recipientes"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:284
 msgid "Dice"
-msgstr ""
+msgstr "Dados"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:286
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:287
 msgid "Pieces"
-msgstr ""
+msgstr "Peças"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:288
 msgid "Skyboxes"
-msgstr ""
+msgstr "Ambientes"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:289
 msgid "Sounds"
-msgstr ""
+msgstr "Sons"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:290
 msgid "Speakers"
-msgstr ""
+msgstr "Caixa de som"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:291
 msgid "Stacks"
-msgstr ""
+msgstr "Pilhas"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:292
 msgid "Tables"
-msgstr ""
+msgstr "Mesas"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:294
 msgid "Timers"
-msgstr ""
+msgstr "Cronômetros"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
-msgstr ""
+msgstr "Tokens"
 
 #~ msgid "Tabletop Club on Itch.io"
 #~ msgstr "Tabletop Club no Itch.io"
