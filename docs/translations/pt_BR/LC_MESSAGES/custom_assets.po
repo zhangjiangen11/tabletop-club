@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 11:14+0100\n"
-"PO-Revision-Date: 2024-08-10 22:09+0000\n"
+"PO-Revision-Date: 2024-08-26 06:58+0000\n"
 "Last-Translator: Eddie Procópio <eddienotablet@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "tabletop-club/docs-custom-assets/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:3
 msgid "Asset pack structure"
@@ -357,7 +357,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:169
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:192
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:139
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
@@ -379,7 +379,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:178
 msgid "Cards"
-msgstr ""
+msgstr "Cartas"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:141
 msgid ""
@@ -402,7 +402,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:157
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:171
 msgid "Tables"
-msgstr ""
+msgstr "Mesas"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:143
 msgid "``0.5``"
@@ -518,7 +518,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_types.rst:97
 msgid "Dice"
-msgstr ""
+msgstr "Dados"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
@@ -647,7 +647,7 @@ msgstr ""
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:185
 msgid "Skyboxes"
-msgstr ""
+msgstr "Ambientes"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:173
 msgid "``Vector3(0.0, 0.0, 0.0)``"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "Containers"
-msgstr ""
+msgstr "Recipientes"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid ""
@@ -1018,7 +1018,7 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/asset_types.rst:199
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 #: ../../custom_assets/asset_packs/asset_types.rst:201
 msgid ""
