@@ -113,7 +113,7 @@ enum {
 
 
 ## The location of the official master server.
-const OFFICIAL_URL := "wss://tabletop-club.duckdns.org:9080"
+const OFFICIAL_URL := "wss://lobby.tabletopclub.net"
 
 
 ## The web socket client that connects to the master server.
