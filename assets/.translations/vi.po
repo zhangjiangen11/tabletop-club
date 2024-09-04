@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-09 09:03\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-09-06 00:09+0000\n"
+"Last-Translator: goatastronaut0212 <goatastronaut0212@proton.me>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/tabletop-club/"
+"default-asset-pack/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: extract_pot.py\n"
 
 #: ../TabletopClub/boards/Chess_Board:1
@@ -838,7 +841,7 @@ msgstr ""
 
 #: ../TabletopClub/skyboxes/Forest:1
 msgid "Forest"
-msgstr ""
+msgstr "Khu rừng"
 
 #: ../TabletopClub/skyboxes/Hornstulls_Strand:1
 msgid "Hornstulls Strand"
@@ -1074,7 +1077,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Green:1
 msgid "Green"
-msgstr ""
+msgstr "Xanh lá"
 
 #: ../TabletopClub/tokens/cube/Green:2
 msgid "A green token."
@@ -1082,7 +1085,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Orange:1
 msgid "Orange"
-msgstr ""
+msgstr "Cam"
 
 #: ../TabletopClub/tokens/cube/Orange:2
 msgid "An orange token."
@@ -1090,7 +1093,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Pink:1
 msgid "Pink"
-msgstr ""
+msgstr "Hồng"
 
 #: ../TabletopClub/tokens/cube/Pink:2
 msgid "A pink token."
@@ -1098,7 +1101,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Purple:1
 msgid "Purple"
-msgstr ""
+msgstr "Tím"
 
 #: ../TabletopClub/tokens/cube/Purple:2
 msgid "A purple token."
@@ -1106,7 +1109,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Red:1
 msgid "Red"
-msgstr ""
+msgstr "Đỏ"
 
 #: ../TabletopClub/tokens/cube/Red:2
 msgid "A red token."
@@ -1114,7 +1117,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/White:1
 msgid "White"
-msgstr ""
+msgstr "Trắng"
 
 #: ../TabletopClub/tokens/cube/White:2
 msgid "A white token."
@@ -1122,7 +1125,7 @@ msgstr ""
 
 #: ../TabletopClub/tokens/cube/Yellow:1
 msgid "Yellow"
-msgstr ""
+msgstr "Vàng"
 
 #: ../TabletopClub/tokens/cube/Yellow:2
 msgid "A yellow token."
