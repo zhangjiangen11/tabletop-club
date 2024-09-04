@@ -49,10 +49,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   slash character so the player can start typing in a command.
 - The binding for selecting and grabbing objects is now editable.
 
-#### Documentation
-
-- Added icon links to various websites for the project.
-
 #### Graphics
 
 - Added the Fast Approximate Anti-Aliasing (FXAA) algorithm, which is now the
@@ -164,14 +160,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   action, that action's binding will change to the new default.
 - When changing a binding, instead of a dialog pop-up being shown, the binding's
   text simply changes to indicate it is waiting for a button press.
-
-#### Documentation
-
-- Updated `sphinx` from v4.5.0 to v7.2.6.
-- Updated `sphinx-book-theme` from v0.3.2 to v1.1.2.
-- Updated `sphinx-intl` from v2.0.1 to v2.1.0.
-- The default number of levels shown by default in the contents navigation bar
-  has been increased from one to two.
 
 #### Graphics
 
@@ -293,10 +281,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed the `--export-asset-db` command-line argument.
 - The following properties are no longer used in configuration files: `default`,
   `main_menu`.
-
-#### Documentation
-
-- Removed the text title below the project logo.
 
 #### UI
 
