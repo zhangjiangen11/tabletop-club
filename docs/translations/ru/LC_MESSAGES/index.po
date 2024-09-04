@@ -8,18 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: 2022-07-04 16:53+0000\n"
-"Last-Translator: Nikita Epifanov <nikgreens@protonmail.com>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2023-07-19 10:05+0000\n"
+"Last-Translator: MacIT <ptichka.denozavra05@mail.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tabletop-club/"
 "docs-index/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: ../../index.rst:25
 msgid "General"
@@ -46,9 +46,9 @@ msgstr ""
 "противном случае вы можете воспользоваться оглавлением, боковой панелью или "
 "строкой поиска, чтобы найти то, что вам нужно!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
-msgstr ""
+msgstr "Скриншоты из игры"
 
 #: ../../index.rst:19
 msgid ""

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: 2023-05-08 06:50+0000\n"
-"Last-Translator: PK <tar4nis+weblate@gmail.com>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2023-11-16 14:06+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/tabletop-club/"
 "docs-index/pl/>\n"
 "Language: pl\n"
@@ -19,14 +19,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2\n"
 
-#: ../../index.rst:25
 #: ../../index.rst:25
 msgid "General"
 msgstr "Ogólne"
 
-#: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
 msgstr "Zasoby Niestandardowe"
@@ -36,33 +34,46 @@ msgid "Tabletop Club Documentation"
 msgstr "Dokumentacja Tabletop Club"
 
 #: ../../index.rst:9
-msgid "Welcome to the documentation for Tabletop Club, a free and open source tabletop board game simulator! If you're new to the project, feel free to check out the :ref:`about-tabletop-club` page. Otherwise, you can use either the table of contents, the sidebar, or the search bar to find what you need!"
+msgid ""
+"Welcome to the documentation for Tabletop Club, a free and open source "
+"tabletop board game simulator! If you're new to the project, feel free to "
+"check out the :ref:`about-tabletop-club` page. Otherwise, you can use either "
+"the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
 "Witamy w dokumentacji Tabletop Club, darmowego i otwartego symulatora gier "
 "planszowych! Jeśli nie znasz projektu, sprawdź stronę :ref:`about-tabletop-"
 "club`. W przeciwnym wypadku, skorzystaj ze spisu treści, belki bocznej lub "
 "pola wyszukiwania w celu odszukania interesującego Cię tematu!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "Zrzuty ekranu z gry"
 
 #: ../../index.rst:19
-msgid "The documentation, as well as the project in general, is open to suggestions and contributions! If you feel that something is not explained well, or you think that information is missing, then please don't hesitate to open an issue or a pull request on the project's `GitHub repository <https://github.com/drwhut/tabletop-club/issues>`_!"
+msgid ""
+"The documentation, as well as the project in general, is open to suggestions "
+"and contributions! If you feel that something is not explained well, or you "
+"think that information is missing, then please don't hesitate to open an "
+"issue or a pull request on the project's `GitHub repository <https://github."
+"com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
+"Dokumentacja, jak i cały projekt, jest otwarta na sugestie i uwagi! Jeśli "
+"uważasz, że coś nie zostało dobrze wyjaśnione lub uważasz, że brakuje "
+"informacji, nie wahaj się otworzyć zgłoszenia w repozytorium `GitHub "
+"projektu <https://github.com/drwhut/tabletop-club/issues>`_!"
 
 #: ../../index.rst:42
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indeksy i tabele"
 
 #: ../../index.rst:44
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:45
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:46
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"

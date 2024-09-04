@@ -9,58 +9,58 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-04 13:50+0100\n"
-"PO-Revision-Date: 2024-06-10 05:09+0000\n"
-"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"tabletop-club/game/zh_Hant/>\n"
-"Language: zh_Hant\n"
+"PO-Revision-Date: 2023-12-07 14:04+0000\n"
+"Last-Translator: Tibor Eszes <teszes@pm.me>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/tabletop-club/"
+"game/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
 msgid "Importing assets..."
-msgstr "正在匯入資源…"
+msgstr "Játékeszközök betöltése..."
 
 #: ../Scenes/ImportAssets.tscn:56
 msgid "Missing Asset Folder"
-msgstr "缺少資源資料夾"
+msgstr "Hiányzó játékeszköz-könyvtár"
 
 #: ../Scenes/ImportAssets.tscn:62
 msgid "Missing Module"
-msgstr "缺少模組"
+msgstr "Hiányzó modul"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
-msgstr "載入中…"
+msgstr "Betöltés..."
 
 #: ../Scenes/MainMenu.tscn:51
 msgid "Singleplayer"
-msgstr "單人遊戲"
+msgstr "Egy játékos"
 
 #: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:158
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
-msgstr "多人遊戲"
+msgstr "Több játékos"
 
 #: ../Scenes/Game/UI/GameUI.tscn:222 ../Scenes/MainMenu.tscn:65
 msgid "Options"
-msgstr "選項"
+msgstr "Beállítások"
 
 #: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:315
 msgid "Credits"
-msgstr "鳴謝"
+msgstr "Készítők"
 
 #: ../Scenes/MainMenu.tscn:79
 msgid "Quit"
-msgstr "退出"
+msgstr "Kilépés"
 
 #: ../Scenes/MainMenu.tscn:97 ../Scenes/MainMenu.tscn:340
 msgid "Import Log"
-msgstr "匯入日誌"
+msgstr "Betöltési napló"
 
 #: ../Scenes/MainMenu.tscn:98
 msgid "0"
@@ -72,11 +72,11 @@ msgstr ""
 
 #: ../Scenes/MainMenu.tscn:115
 msgid "Source Code"
-msgstr "原始碼"
+msgstr "Forráskód"
 
 #: ../Scenes/MainMenu.tscn:124
 msgid "Documentation"
-msgstr "文件"
+msgstr "Dokumentáció"
 
 #: ../Scenes/MainMenu.tscn:133
 msgid "Community"
@@ -88,31 +88,33 @@ msgstr ""
 
 #: ../Scenes/MainMenu.tscn:151 ../Scenes/MainMenu.tscn:246
 msgid "Information"
-msgstr "資訊"
+msgstr "Információ"
 
 #: ../Scenes/MainMenu.tscn:176
 msgid "Host Game"
-msgstr "主持遊戲"
+msgstr "Új játékszoba"
 
 #: ../Scenes/MainMenu.tscn:182
 msgid "Create a new lobby for your friends to join over the Internet."
-msgstr "建立一個新大廳供你的朋友透過網路加入。"
+msgstr ""
+"Hozz létre egy új szobát ahol a barátaid becsatlakozhatnak a játékba az "
+"Interneten."
 
 #: ../Scenes/MainMenu.tscn:194 ../Scenes/MainMenu.tscn:241
 msgid "Join Game"
-msgstr "加入遊戲"
+msgstr "Csatlakozás egy játékszobához"
 
 #: ../Scenes/MainMenu.tscn:200
 msgid "Use a room code to join your friend's lobby."
-msgstr "使用房間代碼加入你朋友的大廳。"
+msgstr "Csatlakozz egy barátod játékszobájához egy kóddal."
 
 #: ../Scenes/MainMenu.tscn:206
 msgid "Enter Room Code"
-msgstr "輸入房間代碼"
+msgstr "Írd be a játékszoba kódját"
 
 #: ../Scenes/MainMenu.tscn:226
 msgid "Room Code:"
-msgstr "房間代碼："
+msgstr "Játékszoba kódja:"
 
 #: ../Scenes/MainMenu.tscn:235
 msgid "ABCD"
@@ -120,680 +122,702 @@ msgstr "ABCD"
 
 #: ../Scenes/MainMenu.tscn:333
 msgid "Error"
-msgstr "錯誤"
+msgstr "Hiba"
 
 #: ../Scenes/OptionsMenu.tscn:48
 msgid "Audio"
-msgstr "音訊"
+msgstr "Hang"
 
 #: ../Scenes/OptionsMenu.tscn:61
 msgid "Master Volume"
-msgstr "主音量"
+msgstr "Általános hangerő"
 
 #: ../Scenes/OptionsMenu.tscn:68
 msgid "Sets the overall volume of all sources of sound in the game."
-msgstr "設定遊戲中所有聲音來源的總音量。"
+msgstr "A játék összes hangjának általános hangerejét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:79
 msgid "Music Volume"
-msgstr "音樂音量"
+msgstr "Zene hangereje"
 
 #: ../Scenes/OptionsMenu.tscn:87
 msgid "Sets the volume of all music sources in the game."
-msgstr "設定遊戲中所有音樂來源的音量。"
+msgstr "Minden zeneforrás hangerejét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:98
 msgid "Sounds Volume"
-msgstr "聲音音量"
+msgstr "Hangok hangereje"
 
 #: ../Scenes/OptionsMenu.tscn:106
 msgid ""
 "Sets the volume of sound sources played manually throughout the game, for "
 "example, from speakers."
-msgstr "設定整個遊戲過程中手動播放的聲音來源的音量，例如揚聲器。"
+msgstr ""
+"A manuálisan elindított hangforrások, például a hangszórók hangerejét "
+"állítja."
 
 #: ../Scenes/OptionsMenu.tscn:117
 msgid "Effects Volume"
-msgstr "效果音量"
+msgstr "Effektek hangereje"
 
 #: ../Scenes/OptionsMenu.tscn:125
 msgid ""
 "Sets the volume of sound effects played automatically throughout the game, "
 "for example, pieces falling on the table. "
-msgstr "設定整個遊戲過程中自動播放的聲音效果的音量，例如棋子掉落在桌子上。 "
+msgstr ""
+"A játékban automatikusan játszott effektek hangerejét állítja, mint például "
+"amikor a játékbábuk az asztalra esnek. "
 
 #: ../Scenes/OptionsMenu.tscn:142
 msgid "Controls"
-msgstr "控制"
+msgstr "Vezérlés"
 
 #: ../Scenes/OptionsMenu.tscn:155
 msgid "Mouse Horizontal Sensitivity"
-msgstr "滑鼠水平靈敏度"
+msgstr "Vízszintes egérérzékenység"
 
 #: ../Scenes/OptionsMenu.tscn:162
 msgid "Sets the horizontal sensitivity of the rotation of the camera."
-msgstr "設定相機旋轉的水平靈敏度。"
+msgstr "A kameraforgatás vízszintes érzékenységét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:174
 msgid "Mouse Vertical Sensitivity"
-msgstr "滑鼠垂直靈敏度"
+msgstr "Függőleges egérérzékenység"
 
 #: ../Scenes/OptionsMenu.tscn:182
 msgid "Sets the vertical sensitivity of the rotation of the camera."
-msgstr "設定相機旋轉的垂直靈敏度。"
+msgstr "A kameraforgatás függőleges érzékenységét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:194
 msgid "Mouse Horizontal Invert"
-msgstr "滑鼠水平反轉"
+msgstr "Egérmozgatás vízszintes invertálása"
 
 #: ../Scenes/OptionsMenu.tscn:202
 msgid "Used to invert the rotation of the camera horizontally."
-msgstr "用於水平反轉相機的旋轉。"
+msgstr "Megcseréli a kameramozgatás irányát vízszintesen."
 
 #: ../Scenes/OptionsMenu.tscn:209
 msgid "Mouse Vertical Invert"
-msgstr "滑鼠垂直反轉"
+msgstr "Egérmozgatás függőleges invertálása"
 
 #: ../Scenes/OptionsMenu.tscn:217
 msgid "Used to invert the rotation of the camera vertically."
-msgstr "用於垂直反轉相機的旋轉。"
+msgstr "Megcseréli a kameramozgatás irányát függőlegesen."
 
 #: ../Scenes/OptionsMenu.tscn:224
 msgid "Camera Movement Speed"
-msgstr "相機移動速度"
+msgstr "Kamerasebesség"
 
 #: ../Scenes/OptionsMenu.tscn:232
 msgid "Used to set how fast the camera moves across the table."
-msgstr "用於設定相機在桌子上移動的速度。"
+msgstr "A kamera asztal feletti mozgatásának sebességét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:244
 msgid "Hold Left Click to Move Camera"
-msgstr "按住滑鼠左鍵以移動相機"
+msgstr "Kamera mozgatása bal egérgombbal"
 
 #: ../Scenes/OptionsMenu.tscn:252
 msgid ""
 "Used to allow the player to move the camera by dragging the mouse across the "
 "table."
-msgstr "用於允許玩家透過拖曳滑鼠來在桌子上移動相機。"
+msgstr "A kamera mozgatását a bal egérgomb lenyomva tartásához köti."
 
 #: ../Scenes/OptionsMenu.tscn:259
 msgid "Zoom Sensitivity"
-msgstr "縮放靈敏度"
+msgstr "Nagyítás érzékenysége"
 
 #: ../Scenes/OptionsMenu.tscn:267
 msgid ""
 "Sets how fast the camera zooms in and out of the table when using the scroll "
 "wheel."
-msgstr "設定使用滑鼠滾輪時相機放大縮小桌子的速度。"
+msgstr "A kamera egérgörgővel való nagyításának sebességét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:279
 msgid "Zoom Invert"
-msgstr "縮放反轉"
+msgstr "Zoom invertálása"
 
 #: ../Scenes/OptionsMenu.tscn:287
 msgid "Used to invert the direction of zooming when using the scroll wheel."
-msgstr ""
+msgstr "A kamera egérgörgővel való nagyításának irányát cseréli meg."
 
 #: ../Scenes/OptionsMenu.tscn:294
 msgid "Piece Lift Sensitivity"
-msgstr ""
+msgstr "Játékelem megemelésének érzékenysége"
 
 #: ../Scenes/OptionsMenu.tscn:302
 msgid "Sets how fast a piece will move when lifting it off the table."
-msgstr ""
+msgstr "Játékelemek megemelésének sebességét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:314
 msgid "Piece Lift Invert"
-msgstr ""
+msgstr "Játékelem megemelésének invertálása"
 
 #: ../Scenes/OptionsMenu.tscn:322
 msgid ""
 "Used to invert the direction a piece will go when lifting it off the table."
-msgstr ""
+msgstr "Megfordítja a játékelem megemelésének mozgási irányát."
 
 #: ../Scenes/OptionsMenu.tscn:329
 msgid "Piece Rotation Invert"
-msgstr ""
+msgstr "Játékelem forgatásának invertálása"
 
 #: ../Scenes/OptionsMenu.tscn:337
 msgid "Used to invert the direction a piece will rotate."
-msgstr ""
+msgstr "Megfordítja a játékelem forgásának irányát."
 
 #: ../Scenes/OptionsMenu.tscn:344
 msgid "Hand Preview Enabled"
-msgstr ""
+msgstr "Kártyaelőnézet"
 
 #: ../Scenes/OptionsMenu.tscn:352
 msgid ""
 "When set, hovering over a card in your hand will display an enhanced preview "
 "of the card after a short period of time."
-msgstr "設定後，懸停在手中的卡牌上將在短時間內顯示該卡牌的增強預覽。"
+msgstr ""
+"Ha be van kapcsolva, a paklidban lévő kártyára vive az egeret egy bővített "
+"előnézetet hívhatsz elő."
 
 #: ../Scenes/OptionsMenu.tscn:360
 msgid "Hand Preview Delay"
-msgstr ""
+msgstr "Kártyaelőnézet késleltetése"
 
 #: ../Scenes/OptionsMenu.tscn:368
 msgid ""
 "Used to set how long the mouse needs to be kept still before a preview of a "
 "card is displayed from the hand."
-msgstr "用於設定在手上顯示卡牌預覽之前滑鼠需要懸停的時間。"
+msgstr ""
+"Azt állítja hogy milyen hosszan kell az egeret egy helyben tartani mielőtt "
+"az előnézet megjelenik."
 
 #: ../Scenes/OptionsMenu.tscn:380
 msgid "Hand Preview Size"
-msgstr ""
+msgstr "Kártyaelőnézet mérete"
 
 #: ../Scenes/OptionsMenu.tscn:388
 msgid "Used to control how large the card preview is."
-msgstr ""
+msgstr "A kártyaelőnézet nagyságát állítja."
 
 #: ../Scenes/OptionsMenu.tscn:400
 msgid "Hide Control Hints"
-msgstr ""
+msgstr "Vezérlési tippek elrejtése"
 
 #: ../Scenes/OptionsMenu.tscn:408
 msgid "Used to hide the dynamic text displaying how to control the game."
-msgstr ""
+msgstr "A dinamikusan megjelenő játékvezérlést segítő szövegek elrejtése."
 
 #: ../Scenes/OptionsMenu.tscn:421
 msgid "General"
-msgstr "一般"
+msgstr "Általános"
 
 #: ../Scenes/OptionsMenu.tscn:435
 msgid "Language"
-msgstr "語言"
+msgstr "Nyelv"
 
 #: ../Scenes/OptionsMenu.tscn:455
 msgid "Autosave Interval"
-msgstr "自動儲存間隔"
+msgstr "Automatikus mentési időköz"
 
 #: ../Scenes/OptionsMenu.tscn:463
 msgid "Used to set how often autosaves are created."
-msgstr "用於設定建立自動儲存的頻率。"
+msgstr "Az automatikus mentések között eltelt időt állítja."
 
 #: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:72
 msgid "5 minutes"
-msgstr "5 分鐘"
+msgstr "5 perc"
 
 #: ../Scenes/OptionsMenu.tscn:474
 msgid "Autosave File Count"
-msgstr "自動儲存檔案數量"
+msgstr "Automatikus mentések száma"
 
 #: ../Scenes/OptionsMenu.tscn:482
 msgid "Used to set the maximum number of autosave files that are made."
-msgstr ""
+msgstr "A maximális automatikus mentések számát állítja."
 
 #: ../Scenes/OptionsMenu.tscn:492
 msgid "Skip Splash Screen"
-msgstr "跳過啟動畫面"
+msgstr "Kezdőképernyő kihagyása"
 
 #: ../Scenes/OptionsMenu.tscn:500
 msgid "Skips the Godot Engine splash screen when the game starts."
-msgstr "遊戲開始時跳過 Godot 引擎啟動畫面。"
+msgstr "Kikapcsolja a Godot Engine kezdőképernyőt a játék indításakor."
 
 #: ../Scenes/OptionsMenu.tscn:508
 msgid "Show System Warnings"
-msgstr "顯示系統警告"
+msgstr "Rendszerfigyelmeztetések mutatása"
 
 #: ../Scenes/OptionsMenu.tscn:516
 msgid "Displays system warnings in the chat box."
-msgstr "在聊天框中顯示系統警告。"
+msgstr "A chatben mutatja a rendszerfigyelmezetetéseket."
 
 #: ../Scenes/OptionsMenu.tscn:525
 msgid "Show System Errors"
-msgstr "顯示系統錯誤"
+msgstr "Rendszerhibák mutatása"
 
 #: ../Scenes/OptionsMenu.tscn:533
 msgid "Displays system errors in the chat box."
-msgstr "在聊天框中顯示系統錯誤。"
+msgstr "A chatben mutatja a rendszerhibákat."
 
 #: ../Scenes/OptionsMenu.tscn:561
 msgid "Opens the assets folder in your file explorer."
-msgstr ""
+msgstr "Megnyitja a játékeszközök mappáját a fájlkezelődben."
 
 #: ../Scenes/OptionsMenu.tscn:563
 msgid "Open Assets Folder"
-msgstr ""
+msgstr "Játékeszközmappa megnyitása"
 
 #: ../Scenes/OptionsMenu.tscn:579
 msgid "Reimport Assets"
-msgstr ""
+msgstr "Játékeszközök újbóli betöltése"
 
 #: ../Scenes/OptionsMenu.tscn:592
 msgid "Key Bindings"
-msgstr "按鍵綁定"
+msgstr "Billentyűzetkiosztás"
 
 #: ../Scenes/OptionsMenu.tscn:606
 msgid "Move Forward"
-msgstr ""
+msgstr "Mozgás előre"
 
 #: ../Scenes/OptionsMenu.tscn:613
 msgid "Moves the camera forward."
-msgstr ""
+msgstr "Előre mozgatja a kamerát."
 
 #: ../Scenes/OptionsMenu.tscn:623
 msgid "Move Back"
-msgstr ""
+msgstr "Mozgás hátra"
 
 #: ../Scenes/OptionsMenu.tscn:631
 msgid "Moves the camera backwards."
-msgstr ""
+msgstr "Hátra mozgatja a kamerát."
 
 #: ../Scenes/OptionsMenu.tscn:641
 msgid "Move Left"
-msgstr ""
+msgstr "Mozgás balra"
 
 #: ../Scenes/OptionsMenu.tscn:649
 msgid "Moves the camera left."
-msgstr ""
+msgstr "Balra mozgatja a kamerát."
 
 #: ../Scenes/OptionsMenu.tscn:659
 msgid "Move Right"
-msgstr ""
+msgstr "Mozgás jobbra"
 
 #: ../Scenes/OptionsMenu.tscn:667
 msgid "Moves the camera right."
-msgstr ""
+msgstr "Jobbra mozgatja a kamerát."
 
 #: ../Scenes/OptionsMenu.tscn:677
 msgid "Rotate Camera"
-msgstr ""
+msgstr "Kamera forgatása"
 
 #: ../Scenes/OptionsMenu.tscn:685
 msgid "Enable rotation of the camera when moving the mouse."
-msgstr ""
+msgstr "Az egér mozgatásával teszi forgathatóvá a kamerát."
 
 #: ../Scenes/OptionsMenu.tscn:695
 msgid "Reset Camera"
-msgstr ""
+msgstr "Kamera alaphelyzetbe állítása"
 
 #: ../Scenes/OptionsMenu.tscn:703
 msgid "Resets the camera to the default position."
-msgstr ""
+msgstr "Visszaállítja a kamerát a kezdeti pozícióba."
 
 #: ../Scenes/OptionsMenu.tscn:713
 msgid "Zoom In / Lift Piece Down"
-msgstr ""
+msgstr "Nagyítás / Játékelem lefele mozgatása"
 
 #: ../Scenes/OptionsMenu.tscn:721
 msgid "Zoom the camera towards the table, or lift a piece down onto the table."
 msgstr ""
+"A kamerával az asztal fele nagyít, vagy egy játékelemet leenged az asztal "
+"fele."
 
 #: ../Scenes/OptionsMenu.tscn:731
 msgid "Zoom Out / Lift Piece Up"
-msgstr ""
+msgstr "Kicsinyítés / Játékelem felfele mozgatása"
 
 #: ../Scenes/OptionsMenu.tscn:739
 msgid "Zoom the camera away from the table, or lift a piece up from the table."
 msgstr ""
+"A kamerával az asztaltól elfele kicsinyít, vagy egy játékelemet felemel az "
+"asztal felől."
 
 #: ../Scenes/OptionsMenu.tscn:749
 msgid "Flip Piece Orientation"
-msgstr ""
+msgstr "Játékelem átfordítása"
 
 #: ../Scenes/OptionsMenu.tscn:757
 msgid ""
 "Flip the selected piece or the piece the mouse is over on the horizontal "
 "axis."
 msgstr ""
+"Átfordítja a kiválasztott vagy az egérrel mutatott játékelemet a vízszintes "
+"tengelye körül."
 
 #: ../Scenes/OptionsMenu.tscn:767
 msgid "Reset Piece Orientation"
-msgstr ""
+msgstr "Játékelem alaphelyzetbe"
 
 #: ../Scenes/OptionsMenu.tscn:775
 msgid ""
 "Resets the selected piece or the piece the mouse is over to its default "
 "orientation."
 msgstr ""
+"Visszaállítja a kiválasztott vagy az egérrel mutatott játékelemet az eredeti "
+"vízszintes orientációjába."
 
 #: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1589
 msgid "Rotate Piece"
-msgstr ""
+msgstr "Játékelem forgatása"
 
 #: ../Scenes/OptionsMenu.tscn:793
 msgid "Rotates the the piece that is selected, or that the mouse is over."
-msgstr ""
+msgstr "Forgatja a kiválasztott vagy az egérrel mutatott játékelemet."
 
 #: ../Scenes/OptionsMenu.tscn:803 ../Scripts/Game/CameraController.gd:1210
 #: ../Scripts/Game/CameraController.gd:1542
 #: ../Scripts/Game/CameraController.gd:1597
 msgid "Shuffle"
-msgstr "洗牌"
+msgstr "Keverés"
 
 #: ../Scenes/OptionsMenu.tscn:811
 msgid ""
 "Shuffle stacks of cards or tokens that are selected, or that the mouse is "
 "over."
 msgstr ""
+"Megkeveri a kiválasztott vagy az egérrel mutatott kártya vagy jelölőpaklit."
 
 #: ../Scenes/OptionsMenu.tscn:821
 msgid "Lock/Unlock Piece"
-msgstr ""
+msgstr "Játékelem mozgatásáak lezárása"
 
 #: ../Scenes/OptionsMenu.tscn:829
 msgid ""
 "Toggles the lock on the selected piece, fixing its position and rotation."
 msgstr ""
+"Kapcsolja a kiválasztott játékelem mozgatásának és forgatásának lezárását."
 
 #: ../Scenes/OptionsMenu.tscn:839
 msgid "Delete Piece"
-msgstr ""
+msgstr "Játékelem eltávolítása"
 
 #: ../Scenes/OptionsMenu.tscn:847
 msgid "Deletes the currently selected piece."
-msgstr ""
+msgstr "Eltávolítja a kiválasztott játékelemet."
 
 #: ../Scenes/OptionsMenu.tscn:857
 msgid "Toggle Debug Info"
-msgstr ""
+msgstr "Hibaelhárítási információ be/ki"
 
 #: ../Scenes/OptionsMenu.tscn:865
 msgid "Toggles whether debug information is displayed."
-msgstr ""
+msgstr "Ki/bekapcsolja a hibaelhárítási információ mutatását."
 
 #: ../Scenes/OptionsMenu.tscn:875
 msgid "Quicksave"
-msgstr "快速儲存"
+msgstr "Gyors mentés"
 
 #: ../Scenes/OptionsMenu.tscn:883
 msgid "Creates a quicksave file."
-msgstr "建立一個快速儲存檔案。"
+msgstr "Elmenti a játékot egy gyors mentési fájlba."
 
 #: ../Scenes/OptionsMenu.tscn:893
 msgid "Quickload"
-msgstr "快速載入"
+msgstr "Gyors betöltés"
 
 #: ../Scenes/OptionsMenu.tscn:901
 msgid "Loads the latest quicksave file."
-msgstr "載入最新的快速儲存檔案。"
+msgstr "Betölti a legutóbbi gyors mentési fájlt."
 
 #: ../Scenes/OptionsMenu.tscn:911
 msgid "Toggle UI"
-msgstr "切換介面"
+msgstr "Kezelőfelület elrejtése"
 
 #: ../Scenes/OptionsMenu.tscn:919
 msgid "Toggles whether the entire UI is displayed."
-msgstr ""
+msgstr "Ki/bekapcsolja a teljes kezelőfelületet."
 
 #: ../Scenes/OptionsMenu.tscn:929
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Képernyőkép készítése"
 
 #: ../Scenes/OptionsMenu.tscn:937
 msgid "Takes a screenshot of the game in its current state."
-msgstr ""
+msgstr "A játék jelenlegi állásáról készít képernyőképet."
 
 #: ../Scenes/OptionsMenu.tscn:952
 msgid "Used to reset the key bindings to their default values."
-msgstr ""
+msgstr "Visszaállítja a billentyűzetkiosztást az eredeti állapotába."
 
 #: ../Scenes/OptionsMenu.tscn:953 ../Scenes/OptionsMenu.tscn:1413
 msgid "Reset Bindings"
-msgstr "重置綁定"
+msgstr "Billentyűzetkiosztás visszaállítása"
 
 #: ../Scenes/OptionsMenu.tscn:980 ../Scripts/Game/CameraController.gd:1227
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:185
 msgid "Name"
-msgstr "名稱"
+msgstr "Név"
 
 #: ../Scenes/OptionsMenu.tscn:987
 msgid "The player's displayed name in multiplayer lobbies."
-msgstr ""
+msgstr "Többjátékos szobákban a játékos mutatott neve."
 
 #: ../Scenes/OptionsMenu.tscn:989
 msgid "Player"
-msgstr "玩家"
+msgstr "Játékos"
 
 #: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1350
 msgid "Color"
-msgstr "顏色"
+msgstr "Szín"
 
 #: ../Scenes/OptionsMenu.tscn:1005
 msgid "The player's displayed colour in multiplayer lobbies."
-msgstr ""
+msgstr "Többjátékos szobákban a játékos mutatott színe."
 
 #: ../Scenes/OptionsMenu.tscn:1015
 msgid "Chat Font Size"
-msgstr "聊天字體大小"
+msgstr "Chat szöveg mérete"
 
 #: ../Scenes/OptionsMenu.tscn:1023
 msgid "Changes the size of the text in the chat box."
-msgstr ""
+msgstr "A chat szöveg betűinek méretét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:1025 ../Scenes/OptionsMenu.tscn:1156
 #: ../Scripts/OptionsMenu.gd:82
 msgid "Medium"
-msgstr "中"
+msgstr "Közepes"
 
 #: ../Scenes/OptionsMenu.tscn:1034
 msgid "Hide Player Cursors"
-msgstr ""
+msgstr "Játékoskurzorok elrejtése"
 
 #: ../Scenes/OptionsMenu.tscn:1042
 msgid ""
 "Used to stop showing other player's cursors when in multiplayer lobbies."
-msgstr ""
+msgstr "Többjátékos szobákban elrejti a többi játékos kurzorját."
 
 #: ../Scenes/OptionsMenu.tscn:1050
 msgid "Censor Profanity"
-msgstr ""
+msgstr "Trágárságok cenzúrázása"
 
 #: ../Scenes/OptionsMenu.tscn:1058
 msgid ""
 "Used to censor potentially offensive words in the chat window when in "
 "multiplayer lobbies."
-msgstr "用於在多人遊戲大廳中審查聊天視窗中潛在的冒犯性字詞。"
+msgstr ""
+"Cenzúrázza a potenciálisan sértő kifejezéseket a chatben többjátékos "
+"szobákban."
 
 #: ../Scenes/OptionsMenu.tscn:1073
 msgid "Video"
-msgstr ""
+msgstr "Videó"
 
 #: ../Scenes/OptionsMenu.tscn:1087
 msgid "Window Mode"
-msgstr ""
+msgstr "Ablak mód"
 
 #: ../Scenes/OptionsMenu.tscn:1094
 msgid "Sets the mode in which the game window is displayed."
-msgstr ""
+msgstr "A játékablak megjelenítésének módját állítja."
 
 #: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:76
 msgid "Windowed"
-msgstr ""
+msgstr "Ablakban"
 
 #: ../Scenes/OptionsMenu.tscn:1105
 msgid "Field of View"
-msgstr ""
+msgstr "Látótér"
 
 #: ../Scenes/OptionsMenu.tscn:1113
 msgid "Sets the field of view of the in-game camera."
-msgstr ""
+msgstr "A játék kamerájának látóterének szélességét állítja."
 
 #: ../Scenes/OptionsMenu.tscn:1126
 msgid "VSync"
-msgstr "垂直同步"
+msgstr "Vertikális szinkronizáció (VSync)"
 
 #: ../Scenes/OptionsMenu.tscn:1145
 msgid "Shadow Detail"
-msgstr "陰影細節"
+msgstr "Árnyékok részletessége"
 
 #: ../Scenes/OptionsMenu.tscn:1165
 msgid "Multisample Anti-Aliasing (MSAA)"
-msgstr ""
+msgstr "Többmintás élsimítás (MSAA)"
 
 #: ../Scenes/OptionsMenu.tscn:1177 ../Scenes/OptionsMenu.tscn:1199
 #: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:80
 msgid "None"
-msgstr "無"
+msgstr "Nincs"
 
 #: ../Scenes/OptionsMenu.tscn:1186
 msgid "Screen Space Ambient Occlusion (SSAO)"
-msgstr ""
+msgstr "Screen Space Ambient Occlusion (SSAO)"
 
 #: ../Scenes/OptionsMenu.tscn:1208
 msgid "Skybox Radiance Detail"
-msgstr ""
+msgstr "Skybox részletessége"
 
 #: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:81
 msgid "Low"
-msgstr "低"
+msgstr "Alacsony"
 
 #: ../Scenes/OptionsMenu.tscn:1228
 msgid "Depth of Field"
-msgstr "景深"
+msgstr "Mélységélesség"
 
 #: ../Scenes/OptionsMenu.tscn:1249
 msgid "Depth of Field Amount"
-msgstr ""
+msgstr "Mélységélesség erőssége"
 
 #: ../Scenes/OptionsMenu.tscn:1257
 msgid ""
 "Used to determine how much the background is blurred when using depth of "
 "field."
 msgstr ""
+"A háttér életlenségének mértékét állítja ha a mélységélesség be van "
+"kapcsolva."
 
 #: ../Scenes/OptionsMenu.tscn:1269
 msgid "Depth of Field Distance"
-msgstr "景深距離"
+msgstr "Mélységélesség távolsága"
 
 #: ../Scenes/OptionsMenu.tscn:1277
 msgid ""
 "Used to set the threshold of what is considered the background when using "
 "depth of field."
-msgstr "用於設定使用景深時被視為背景的閾值。"
+msgstr "A háttér távolsághatárát állítja ha a mélységélesség be van kapcsolva."
 
 #: ../Scenes/OptionsMenu.tscn:1289
 msgid "Table Paint Filtering"
-msgstr ""
+msgstr "Asztal festésének szűrése"
 
 #: ../Scenes/OptionsMenu.tscn:1312
 msgid "Back"
-msgstr "返回"
+msgstr "Vissza"
 
 #: ../Scenes/Game/CameraController.tscn:410
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:154
 #: ../Scenes/OptionsMenu.tscn:1318
 msgid "Apply"
-msgstr "套用"
+msgstr "Érvényesítés"
 
 #: ../Scenes/Game/CameraController.tscn:502
 #: ../Scenes/Game/CameraController.tscn:575
 #: ../Scenes/Game/CameraController.tscn:642
 #: ../Scenes/Game/CameraController.tscn:696 ../Scenes/OptionsMenu.tscn:1325
 msgid "OK"
-msgstr "好的"
+msgstr "Oké"
 
 #: ../Scenes/OptionsMenu.tscn:1370
 msgid "Please press a key or button to bind it..."
-msgstr ""
+msgstr "Nyomj meg egy gombot a beállításhoz..."
 
 #: ../Scenes/OptionsMenu.tscn:1390
 msgid "Cancel"
-msgstr "取消"
+msgstr "Mégsem"
 
 #: ../Scenes/OptionsMenu.tscn:1397
 msgid "Keep video settings?"
-msgstr ""
+msgstr "Megtartod a videóbeállításokat?"
 
 #: ../Scenes/OptionsMenu.tscn:1405
 msgid "Reimporting Assets"
-msgstr ""
+msgstr "Játékeszközök újbóli betöltése"
 
 #: ../Scenes/OptionsMenu.tscn:1423
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Figyelmeztetés!"
 
 #: ../Scenes/RandomMusicPlayer.tscn:23
 msgid "Now Playing:"
-msgstr ""
+msgstr "Most játszik:"
 
 #: ../Scenes/Game/CameraController.tscn:99
 msgid "Deal X cards"
-msgstr ""
+msgstr "X kártya osztása"
 
 #: ../Scenes/Game/CameraController.tscn:129
 msgid "Select track"
-msgstr ""
+msgstr "Hangsáv kiválasztása"
 
 #: ../Scenes/Game/CameraController.tscn:147
 msgid "Positional audio"
-msgstr ""
+msgstr "Helyzeti hang"
 
 #: ../Scenes/Game/CameraController.tscn:153
 msgid "Range:"
-msgstr "範圍："
+msgstr "Távolság:"
 
 #: ../Scenes/Game/CameraController.tscn:173
 msgid "Take X off top"
-msgstr ""
+msgstr "X elvétele a tetejéről"
 
 #: ../Scenes/Game/CameraController.tscn:186
 msgid "Take X out"
-msgstr ""
+msgstr "X kivétele"
 
 #: ../Scenes/Game/CameraController.tscn:242
 msgid "Position:"
-msgstr "位置："
+msgstr "Pozíció:"
 
 #: ../Scenes/Game/CameraController.tscn:253
 #: ../Scenes/Game/CameraController.tscn:311
 #: ../Scenes/Game/CameraController.tscn:363
 msgid "X:"
-msgstr "X："
+msgstr "X:"
 
 #: ../Scenes/Game/CameraController.tscn:269
 #: ../Scenes/Game/CameraController.tscn:325
 #: ../Scenes/Game/CameraController.tscn:379
 msgid "Y:"
-msgstr "Y："
+msgstr "Y:"
 
 #: ../Scenes/Game/CameraController.tscn:285
 #: ../Scenes/Game/CameraController.tscn:339
 #: ../Scenes/Game/CameraController.tscn:395
 msgid "Z:"
-msgstr "Z："
+msgstr "Z:"
 
 #: ../Scenes/Game/CameraController.tscn:300
 msgid "Rotation (°):"
-msgstr "旋轉（°）："
+msgstr "Forgatás (°):"
 
 #: ../Scenes/Game/CameraController.tscn:352
 #: ../Scenes/Game/CameraController.tscn:529
 msgid "Scale:"
-msgstr ""
+msgstr "Méret:"
 
 #: ../Scenes/Game/CameraController.tscn:430
 msgid "Value:"
-msgstr ""
+msgstr "Érték:"
 
 #: ../Scenes/Game/CameraController.tscn:442
 #: ../Scripts/Game/CameraController.gd:1300
 msgid "Set value"
-msgstr ""
+msgstr "Érték beállítása"
 
 #: ../Scenes/Game/CameraController.tscn:473
 msgid "Strength:"
-msgstr ""
+msgstr "Erő:"
 
 #: ../Scenes/Game/CameraController.tscn:484
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../Scenes/Game/CameraController.tscn:561
 msgid "System:"
-msgstr "系統："
+msgstr "Rendszer:"
 
 #: ../Scenes/Game/CameraController.tscn:567
 msgid "Metric"
-msgstr "公制"
+msgstr "Metrikus"
 
 #: ../Scenes/Game/CameraController.tscn:602
 msgid "Brush Color:"
-msgstr "刷子顏色："
+msgstr "Ecsetszín:"
 
 #: ../Scenes/Game/CameraController.tscn:615
 msgid "Brush Size:"
-msgstr "刷子尺寸："
+msgstr "Ecsetméret:"
 
 #: ../Scenes/Game/CameraController.tscn:626
 #: ../Scenes/Game/CameraController.tscn:680
@@ -802,20 +826,20 @@ msgstr "1"
 
 #: ../Scenes/Game/CameraController.tscn:669
 msgid "Eraser Size:"
-msgstr "橡皮擦尺寸："
+msgstr "Radírméret:"
 
 #: ../Scenes/Game/CameraController.tscn:699
 msgid "Select a track..."
-msgstr ""
+msgstr "Válassz hangsávot..."
 
 #: ../Scenes/Game/CameraController.tscn:704
 #, python-format
 msgid "Loaded %d tracks."
-msgstr ""
+msgstr "%d hangsáv betöltve."
 
 #: ../Scenes/Game/Game.tscn:35
 msgid "Missing Assets"
-msgstr "缺少資源"
+msgstr "Hiányzó játékeszközök"
 
 #: ../Scenes/Game/Game.tscn:44
 #, python-format
@@ -825,8 +849,9 @@ msgid ""
 "of %d missing assets, and %d assets differ between your client and the "
 "host's client:"
 msgstr ""
-"主持已匯入你的用戶端缺少的資源。這意味著你無法在遊戲中看到這些資源。總共有 "
-"%d 個缺少的資源，而且你的用戶端和主持的用戶端之間有 %d 個資源不同："
+"A szervező nálad hiányzó játékeszközöket töltött be. Ez azt jelenti, hogy "
+"nem látod majd ezeket a játékeszközöket a játékban. Összesen %d játékeszköz "
+"hiányzik, és %d játékeszköz tér el a kliensed és a szervező kliense között:"
 
 #: ../Scenes/Game/Game.tscn:58
 #, python-format
@@ -834,81 +859,82 @@ msgid ""
 "Your client is also missing %d files, and %d files differ from that of the "
 "host's, which in total is %s of data:"
 msgstr ""
-"你的用戶端也缺少 %d 個檔案，而且 %d 個檔案與主持的檔案不同，總共有 %s 資料："
+"A kliensedről %d fájl hiányzik, és %d fájl eltér a szervezőéhez képest, ami "
+"összesen %s adatmennyiség:"
 
 #: ../Scenes/Game/Game.tscn:86
 msgid "Yes, download missing assets."
-msgstr "是，下載缺少的資源。"
+msgstr "Igen, letöltöm a hiányzó játékeszközöket."
 
 #: ../Scenes/Game/Game.tscn:93
 msgid "No, continue without them."
-msgstr "否，忽略並繼續。"
+msgstr "Nem, folytatás nélkülük."
 
 #: ../Scenes/Game/Game.tscn:99
 msgid "Download Assets?"
-msgstr "下載資源？"
+msgstr "Le akarod tölteni a játékeszközöket?"
 
 #: ../Scenes/Game/Game.tscn:108
 msgid "Downloading..."
-msgstr "正在下載…"
+msgstr "Letöltés..."
 
 #: ../Scenes/Game/Game.tscn:123
 msgid "Waiting for download..."
-msgstr "正在等待下載…"
+msgstr "Várakozás a letöltésre..."
 
 #: ../Scenes/Game/Game.tscn:136
 msgid "Waiting to verify integrity..."
-msgstr "正在等待驗證完整性…"
+msgstr "Várakozás a hibaellenőrzésre..."
 
 #: ../Scenes/Game/Game.tscn:149
 msgid "Waiting to import assets..."
-msgstr "正在等待匯入資源…"
+msgstr "Várakozás a játékeszközök betöltésére..."
 
 #: ../Scenes/Game/Game.tscn:168 ../Scenes/Game/Game.tscn:186
 msgid "Error!"
-msgstr "錯誤！"
+msgstr "Hiba!"
 
 #: ../Scenes/Game/Game.tscn:176
 msgid "Download Folder Locked"
-msgstr "下載資料夾已鎖定"
+msgstr "Letöltési mappa lezárva"
 
 #: ../Scenes/Game/UI/ChatBox.tscn:54
 msgid "Type a message here..."
-msgstr "在此輸入訊息…"
+msgstr "Írj egy üzenetet ide..."
 
 #: ../Scenes/Game/UI/ChatBox.tscn:60
 msgid "Send"
-msgstr "傳送"
+msgstr "Küldés"
 
 #: ../Scenes/Game/UI/GameUI.tscn:37 ../Scenes/Game/UI/GameUI.tscn:146
 msgid "Objects"
-msgstr "物件"
+msgstr "Tárgyak"
 
 #: ../Scenes/Game/UI/GameUI.tscn:43 ../Scenes/Game/UI/GameUI.tscn:162
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:285
 msgid "Games"
-msgstr "遊戲"
+msgstr "Játékok"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:11
 #: ../Scenes/Game/UI/GameUI.tscn:49
 msgid "Room"
-msgstr "房間"
+msgstr "Szoba"
 
 #: ../Scenes/Game/UI/GameUI.tscn:55
 msgid "Notebook"
-msgstr ""
+msgstr "Jegyzettömb"
 
 #: ../Scenes/Game/UI/GameUI.tscn:61
 msgid "Flip Table"
-msgstr "翻桌"
+msgstr "Tábla felborítása"
 
 #: ../Scenes/Game/UI/GameUI.tscn:67
 msgid "Clear Table"
-msgstr ""
+msgstr "Tábla letörlése"
 
 #: ../Scenes/Game/UI/GameUI.tscn:74
 msgid "Undo"
-msgstr ""
+msgstr "Visszavonás"
 
 #: ../Scenes/Game/UI/GameUI.tscn:83
 msgid "45°"
@@ -916,87 +942,87 @@ msgstr "45°"
 
 #: ../Scenes/Game/UI/GameUI.tscn:91
 msgid "Menu"
-msgstr "選單"
+msgstr "Menü"
 
 #: ../Scenes/Game/UI/GameUI.tscn:157
 msgid "Add"
-msgstr "新增"
+msgstr "Hozzáadás"
 
 #: ../Scenes/Game/UI/GameUI.tscn:158
 #, python-format
 msgid "Added %s."
-msgstr "已新增 %s。"
+msgstr "%s hozzáadva."
 
 #: ../Scenes/Game/UI/GameUI.tscn:159
 #, python-format
 msgid "Added %d objects."
-msgstr "已新增 %d 個物件。"
+msgstr "%d tárgy hozzáadva."
 
 #: ../Scenes/Game/UI/GameUI.tscn:166
 #, python-format
 msgid "Loaded %d games."
-msgstr "已載入 %d 個遊戲。"
+msgstr "%d játék betöltve."
 
 #: ../Scenes/Game/UI/GameUI.tscn:204
 msgid "Back to game"
-msgstr ""
+msgstr "Vissza a játékba"
 
 #: ../Scenes/Game/UI/GameUI.tscn:210
 msgid "Save game"
-msgstr "儲存遊戲"
+msgstr "Játék mentése"
 
 #: ../Scenes/Game/UI/GameUI.tscn:216
 msgid "Load game"
-msgstr "載入遊戲"
+msgstr "Játék betöltése"
 
 #: ../Scenes/Game/UI/GameUI.tscn:228
 msgid "Quit to main menu"
-msgstr "退出至主選單"
+msgstr "Kilépés a főmenübe"
 
 #: ../Scenes/Game/UI/GameUI.tscn:234
 msgid "Quit to desktop"
-msgstr "退出至桌面"
+msgstr "Kilépés az asztalra"
 
 #: ../Scenes/Game/UI/GameUI.tscn:239
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:164
 msgid "Load a file"
-msgstr ""
+msgstr "Fájl betöltése"
 
 #: ../Scenes/Game/UI/Dialogs/ContainerContentDialog.tscn:42
 msgid "Take"
-msgstr "拿取"
+msgstr "Elvétel"
 
 #: ../Scenes/Game/UI/Dialogs/ContainerContentDialog.tscn:50
 msgid "Take All"
-msgstr "拿取全部"
+msgstr "Mind elvétele"
 
 #: ../Scenes/Game/UI/Dialogs/DetailsDialog.tscn:12
 msgid "Details"
-msgstr ""
+msgstr "Részletek"
 
 #: ../Scenes/Game/UI/Dialogs/DetailsDialog.tscn:33
 msgid "Show advanced developer information in JSON form."
-msgstr ""
+msgstr "Mutasd a részletes fejlesztői információt JSON formátumban."
 
 #: ../Scenes/Game/UI/Dialogs/DetailsDialog.tscn:34
 msgid "Advanced view"
-msgstr ""
+msgstr "Részletes nézet"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:35
 msgid "+ New Page"
-msgstr "+ 新頁面"
+msgstr "+ Új oldal"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:54
 msgid "Title"
-msgstr "標題"
+msgstr "Cím"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:60
 msgid "When ticked, this page will be visible to other players."
-msgstr ""
+msgstr "Ha ki van pipálva, ez az oldal látható lesz a többi játékosnak."
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:62
 msgid "Public"
-msgstr "公開"
+msgstr "Nyilvános"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:94
 msgid "-"
@@ -1012,58 +1038,58 @@ msgstr "+"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:122
 msgid "Move Up"
-msgstr ""
+msgstr "Felfele"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:130
 msgid "Move Down"
-msgstr ""
+msgstr "Lefele"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:138
 #: ../Scripts/Game/CameraController.gd:1371
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:228
 msgid "Delete"
-msgstr "刪除"
+msgstr "Eltávolítás"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:143
 msgid "Delete page?"
-msgstr "刪除頁面？"
+msgstr "Oldal eltávolítása?"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:147
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:293
 msgid "Templates"
-msgstr "範本"
+msgstr "Sablonok"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:151
 msgid "Open"
-msgstr "開啟"
+msgstr "Megnyitás"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:41
 msgid "Current table:"
-msgstr ""
+msgstr "Jelenlegi asztal:"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:52
 msgid "Change table"
-msgstr ""
+msgstr "Asztal lecserélése"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:67
 msgid "Current skybox:"
-msgstr "目前天空盒："
+msgstr "Jelenlegi skybox:"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:79
 msgid "Change skybox"
-msgstr "變更天空盒"
+msgstr "Skybox lecserélése"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:93
 msgid "Lamp Type"
-msgstr ""
+msgstr "Lámpa típusa"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:99
 msgid "Sunlight"
-msgstr ""
+msgstr "Napfény"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:107
 msgid "Lamp Intensity"
-msgstr ""
+msgstr "Lámpa erőssége"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:128
 msgid "10%"
@@ -1071,152 +1097,154 @@ msgstr "10%"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:134
 msgid "Lamp Color"
-msgstr ""
+msgstr "Lámpa színe"
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:157
 msgid "Select a skybox..."
-msgstr "選擇一個天空盒…"
+msgstr "Válassz skyboxot..."
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:161
 #, python-format
 msgid "Loaded %d skyboxes."
-msgstr "已載入 %d 個天空盒。"
+msgstr "%d skybox betöltve."
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:164
 msgid "Select a table..."
-msgstr ""
+msgstr "Válassz asztalt..."
 
 #: ../Scenes/Game/UI/Dialogs/RoomDialog.tscn:168
 #, python-format
 msgid "Loaded %d tables."
-msgstr ""
+msgstr "%d asztal betöltve."
 
 #: ../Scenes/Game/UI/Previews/ObjectPreview.tscn:70
 msgid "This item is made up of multiple objects."
-msgstr ""
+msgstr "Ez az elem több tárgyból áll."
 
 #: ../Scenes/Game/UI/Previews/PreviewFilter.tscn:21
 msgid "Pack:"
-msgstr ""
+msgstr "Csomag:"
 
 #: ../Scenes/Game/UI/Previews/PreviewFilter.tscn:35
 msgid "Type:"
-msgstr "類型："
+msgstr "Típus:"
 
 #: ../Scripts/AssetDB.gd:433
 msgid "Cleaning old files..."
-msgstr ""
+msgstr "Régi fájlok takarítása..."
 
 #: ../Scripts/BindManager.gd:51
 msgid "Not bound"
-msgstr ""
+msgstr "Nincs beállítva"
 
 #: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1452
 msgid "Left Mouse Button"
-msgstr ""
+msgstr "Bal egérgomb"
 
 #: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1509
 msgid "Right Mouse Button"
-msgstr ""
+msgstr "Jobb egérgomb"
 
 #: ../Scripts/BindManager.gd:62
 msgid "Middle Mouse Button"
-msgstr ""
+msgstr "Középső egérgomb"
 
 #: ../Scripts/BindManager.gd:64
 msgid "Extra Mouse Button 1"
-msgstr ""
+msgstr "Extra egérgomb 1"
 
 #: ../Scripts/BindManager.gd:66
 msgid "Extra Mouse Button 2"
-msgstr ""
+msgstr "Extra egérgomb 2"
 
 #: ../Scripts/BindManager.gd:68
 msgid "Mouse Wheel Up"
-msgstr ""
+msgstr "Egérgörgő fel"
 
 #: ../Scripts/BindManager.gd:70
 msgid "Mouse Wheel Down"
-msgstr ""
+msgstr "Egérgörgő le"
 
 #: ../Scripts/BindManager.gd:72
 msgid "Mouse Wheel Left"
-msgstr ""
+msgstr "Egérgörgő balra"
 
 #: ../Scripts/BindManager.gd:74
 msgid "Mouse Wheel Right"
-msgstr ""
+msgstr "Egérgörgő jobbra"
 
 #: ../Scripts/BindManager.gd:76
 msgid "Unknown Mouse Button"
-msgstr ""
+msgstr "Ismeretlen egérgomb"
 
 #: ../Scripts/BindManager.gd:78
 msgid "Unknown event type"
-msgstr ""
+msgstr "Ismeretlen eseménytípus"
 
 #: ../Scripts/ImportAssets.gd:79
 msgid "Tabletop Club could not find any asset packs in the following folders:"
-msgstr ""
+msgstr "A Tabletop Club nem talált eszközcsomagot a következő mappákban:"
 
 #: ../Scripts/ImportAssets.gd:81
 msgid ""
 "Tabletop Club could not find an assets folder in any of the following places:"
-msgstr ""
+msgstr "A Tabletop Club nem talált eszközcsomagot a következő helyeken:"
 
 #: ../Scripts/ImportAssets.gd:87
 msgid ""
 "Please place an asset pack into one of these folders, and restart the game."
 msgstr ""
+"Helyezz egy eszközcsomagot a következő mappák egyikébe, majd indítsd újra a "
+"játékot."
 
 #: ../Scripts/ImportAssets.gd:89
 msgid "Please create one of these folders and restart the game."
-msgstr ""
+msgstr "Hozd létre a következő mappák egyikét és indítsd újra a játékot."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:709 ../Scripts/Lobby.gd:64
 #: ../Scripts/Lobby.gd:70
 msgid "<No Name>"
-msgstr "<沒有名稱>"
+msgstr "<Névtelen>"
 
 #: ../Scripts/MainMenu.gd:95
 msgid "Alpha Testers"
-msgstr "Alpha 測試者"
+msgstr "Alfa tesztelők"
 
 #: ../Scripts/MainMenu.gd:96
 msgid "Contributors"
-msgstr "貢獻者"
+msgstr "Közreműködők"
 
 #: ../Scripts/MainMenu.gd:97
 msgid "Cursors"
-msgstr ""
+msgstr "Kurzorok"
 
 #: ../Scripts/MainMenu.gd:98
 msgid "Developers"
-msgstr "開發者"
+msgstr "Fejlesztők"
 
 #: ../Scripts/MainMenu.gd:99
 msgid "Fonts"
-msgstr "字體"
+msgstr "Betűtípusok"
 
 #: ../Scripts/MainMenu.gd:100
 msgid "Images"
-msgstr ""
+msgstr "Képek"
 
 #: ../Scripts/MainMenu.gd:101
 msgid "Logo and Icon"
-msgstr ""
+msgstr "Logó és ikon"
 
 #: ../Scripts/MainMenu.gd:102
 msgid "Sound Effects"
-msgstr ""
+msgstr "Hangeffektek"
 
 #: ../Scripts/MainMenu.gd:103
 msgid "Tool Icons"
-msgstr ""
+msgstr "Eszközikonok"
 
 #: ../Scripts/MainMenu.gd:104
 msgid "Translators"
-msgstr "翻譯者"
+msgstr "Fordítók"
 
 #: ../Scripts/MainMenu.gd:106
 msgid "Chinese"
@@ -1224,31 +1252,31 @@ msgstr ""
 
 #: ../Scripts/MainMenu.gd:107
 msgid "Dutch"
-msgstr "荷蘭語"
+msgstr "Holland"
 
 #: ../Scripts/MainMenu.gd:108
 msgid "Esperanto"
-msgstr "世界語"
+msgstr "Eszperantó"
 
 #: ../Scripts/MainMenu.gd:109
 msgid "French"
-msgstr "法語"
+msgstr "Francia"
 
 #: ../Scripts/MainMenu.gd:110
 msgid "German"
-msgstr "德語"
+msgstr "Német"
 
 #: ../Scripts/MainMenu.gd:111
 msgid "Indonesian"
-msgstr "印尼語"
+msgstr "Indonéz"
 
 #: ../Scripts/MainMenu.gd:112
 msgid "Italian"
-msgstr "意大利語"
+msgstr "Olasz"
 
 #: ../Scripts/MainMenu.gd:113
 msgid "Norwegian"
-msgstr "挪威語"
+msgstr "Norvég"
 
 #: ../Scripts/MainMenu.gd:114
 msgid "Polish"
@@ -1256,218 +1284,221 @@ msgstr ""
 
 #: ../Scripts/MainMenu.gd:115
 msgid "Portuguese"
-msgstr "葡萄牙語"
+msgstr "Portugál"
 
 #: ../Scripts/MainMenu.gd:116
 msgid "Russian"
-msgstr "俄語"
+msgstr "Orosz"
 
 #: ../Scripts/MainMenu.gd:117
 msgid "Spanish"
-msgstr "西班牙語"
+msgstr "Spanyol"
 
 #: ../Scripts/MainMenu.gd:218
 msgid "Room code must be four characters long!"
-msgstr "房間代碼必須是四個字符長！"
+msgstr "A szobakód négy karakter kell legyen!"
 
 #: ../Scripts/MainMenu.gd:223
 msgid "Invalid room code!"
-msgstr "無效房間代碼！"
+msgstr "Érvénytelen szobakód!"
 
 #: ../Scripts/OptionsMenu.gd:30
 msgid "System Default"
-msgstr "系統預設"
+msgstr "Rendszer alapbeállítása"
 
 #: ../Scripts/OptionsMenu.gd:69
 msgid "Never"
-msgstr "永不"
+msgstr "Soha"
 
 #: ../Scripts/OptionsMenu.gd:70
 msgid "30 seconds"
-msgstr "30 秒"
+msgstr "30 másodperc"
 
 #: ../Scripts/OptionsMenu.gd:71
 msgid "1 minute"
-msgstr "1 分鐘"
+msgstr "1 perc"
 
 #: ../Scripts/OptionsMenu.gd:73
 msgid "10 minutes"
-msgstr "10 分鐘"
+msgstr "10 perc"
 
 #: ../Scripts/OptionsMenu.gd:74
 msgid "30 minutes"
-msgstr "30 分鐘"
+msgstr "30 perc"
 
 #: ../Scripts/OptionsMenu.gd:77
 msgid "Borderless Fullscreen"
-msgstr "無邊框全螢幕"
+msgstr "Keret nélküli teljes képernyő"
 
 #: ../Scripts/OptionsMenu.gd:78
 msgid "Fullscreen"
-msgstr "全螢幕"
+msgstr "Teljes képernyő"
 
 #: ../Scripts/OptionsMenu.gd:83
 msgid "High"
-msgstr "高"
+msgstr "Magas"
 
 #: ../Scripts/OptionsMenu.gd:84
 msgid "Very High"
-msgstr "非常高"
+msgstr "Nagyon magas"
 
 #: ../Scripts/OptionsMenu.gd:85
 msgid "Ultra"
-msgstr "極致"
+msgstr "Ultra"
 
 #: ../Scripts/OptionsMenu.gd:87
 msgid "Small"
-msgstr "小"
+msgstr "Kicsi"
 
 #: ../Scripts/OptionsMenu.gd:89
 msgid "Large"
-msgstr "大"
+msgstr "Nagy"
 
 #: ../Scripts/RandomMusicPlayer.gd:34
 msgid "Nothing"
-msgstr ""
+msgstr "Semmi"
 
 #: ../Scripts/RandomMusicPlayer.gd:59
 #, python-format
 msgid "Now Playing: %s"
-msgstr ""
+msgstr "Soron: %s"
 
 #: ../Scripts/Game/CameraController.gd:1132
 msgid "Add selected objects..."
-msgstr ""
+msgstr "Kiválasztott tárgyak hozzáadása..."
 
 #: ../Scripts/Game/CameraController.gd:1171
 #, python-format
 msgid "Count: %d"
-msgstr ""
+msgstr "Mennyiség: %d"
 
 #: ../Scripts/Game/CameraController.gd:1173
 #, python-format
 msgid "Value: %d"
-msgstr ""
+msgstr "Érték: %d"
 
 #: ../Scripts/Game/CameraController.gd:1193
 msgid "Put in hand"
-msgstr ""
+msgstr "Kézbe"
 
 #: ../Scripts/Game/CameraController.gd:1197
 msgid "Collect individuals"
-msgstr ""
+msgstr "Begyűjtés egyesével"
 
 #: ../Scripts/Game/CameraController.gd:1198
 msgid "Collect all"
-msgstr ""
+msgstr "Összes begyűjtése"
 
 #: ../Scripts/Game/CameraController.gd:1202
 msgid "Deal cards"
-msgstr ""
+msgstr "Kártyák osztása"
 
 #: ../Scripts/Game/CameraController.gd:1205
 msgid "Take off top"
-msgstr ""
+msgstr "Húzás a tetejéről"
 
 #: ../Scripts/Game/CameraController.gd:1208
 msgid "Orient all up"
-msgstr ""
+msgstr "Összes felfordítása"
 
 #: ../Scripts/Game/CameraController.gd:1209
 msgid "Orient all down"
-msgstr ""
+msgstr "Összes lefordítása"
 
 #: ../Scripts/Game/CameraController.gd:1229
 msgid "Suit"
-msgstr ""
+msgstr "Szín"
 
 #: ../Scripts/Game/CameraController.gd:1231
 msgid "Value"
-msgstr ""
+msgstr "Szám"
 
 #: ../Scripts/Game/CameraController.gd:1233
 msgid "Sort by"
-msgstr "排序方式"
+msgstr "Rendezés alapja"
 
 #: ../Scripts/Game/CameraController.gd:1242
 msgid "Timer"
-msgstr ""
+msgstr "Stopper"
 
 #: ../Scripts/Game/CameraController.gd:1278
+#, fuzzy
+#| msgid "Value: %d"
 msgid "Value: (None)"
-msgstr ""
+msgstr "Érték: %d"
 
 #: ../Scripts/Game/CameraController.gd:1280
-#, python-format
+#, fuzzy, python-format
+#| msgid "Value: %d"
 msgid "Value: %s"
-msgstr ""
+msgstr "Érték: %d"
 
 #: ../Scripts/Game/CameraController.gd:1284
 #, python-format
 msgid "Total: %d"
-msgstr "總計：%d"
+msgstr "Összeg: %d"
 
 #: ../Scripts/Game/CameraController.gd:1286
 #, python-format
 msgid "Total: %f"
-msgstr "總計：%f"
+msgstr "Összeg: %f"
 
 #: ../Scripts/Game/CameraController.gd:1306
 msgid "Collect selected"
-msgstr ""
+msgstr "Kiválasztottak begyűjtése"
 
 #: ../Scripts/Game/CameraController.gd:1310
 msgid "Add objects..."
-msgstr ""
+msgstr "Tárgyak hozzáadása..."
 
 #: ../Scripts/Game/CameraController.gd:1311
 msgid "Peek inside"
-msgstr ""
+msgstr "Belesés"
 
 #: ../Scripts/Game/CameraController.gd:1313
 msgid "Take objects out"
-msgstr ""
+msgstr "Tárgyak kivétele"
 
 #: ../Scripts/Game/CameraController.gd:1329
 msgid "Speaker"
-msgstr ""
+msgstr "Hangszóró"
 
 #: ../Scripts/Game/CameraController.gd:1341
 msgid "Details…"
-msgstr ""
+msgstr "Részletek…"
 
 #: ../Scripts/Game/CameraController.gd:1353
 msgid "Cut"
-msgstr "剪下"
+msgstr "Kivágás"
 
 #: ../Scripts/Game/CameraController.gd:1354
 msgid "Copy"
-msgstr "複製"
+msgstr "Másolás"
 
 #: ../Scripts/Game/CameraController.gd:1356
 #: ../Scripts/Game/CameraController.gd:1395
 msgid "Paste"
-msgstr "貼上"
+msgstr "Beillesztés"
 
 #: ../Scripts/Game/CameraController.gd:1367
 msgid "Unlock"
-msgstr ""
+msgstr "Kinyitás"
 
 #: ../Scripts/Game/CameraController.gd:1369
 msgid "Lock"
-msgstr ""
+msgstr "Lezárás"
 
 #: ../Scripts/Game/CameraController.gd:1373
 msgid "Transform"
-msgstr ""
+msgstr "Átalakítás"
 
 #: ../Scripts/Game/CameraController.gd:1400
 msgid "Set spawn point here"
-msgstr ""
+msgstr "Kezdőpont ide"
 
 #: ../Scripts/Game/CameraController.gd:1401
 msgid "Spawn object here"
-msgstr ""
+msgstr "Tárgy létrehozása itt"
 
 #: ../Scripts/Game/CameraController.gd:1420
 #, python-format
@@ -1487,253 +1518,253 @@ msgstr "Cmd + %s"
 #: ../Scripts/Game/CameraController.gd:1423
 #, python-format
 msgid "Hold %s"
-msgstr ""
+msgstr "%s lenyomva tartva"
 
 #: ../Scripts/Game/CameraController.gd:1424
 #, python-format
 msgid "Release %s"
-msgstr ""
+msgstr "%s felengedve"
 
 #: ../Scripts/Game/CameraController.gd:1431
 msgid "Scroll Wheel"
-msgstr ""
+msgstr "Egérgörgő"
 
 #: ../Scripts/Game/CameraController.gd:1434
 msgid "Move camera"
-msgstr ""
+msgstr "Kamera mozgatása"
 
 #: ../Scripts/Game/CameraController.gd:1438
 msgid "Rotate camera"
-msgstr ""
+msgstr "Kamera forgatása"
 
 #: ../Scripts/Game/CameraController.gd:1439
 #, python-format
 msgid "Hold %s + Move Mouse"
-msgstr ""
+msgstr "%s lenyomva tartva + egér mozgatása"
 
 #: ../Scripts/Game/CameraController.gd:1447
 msgid "Zoom camera"
-msgstr ""
+msgstr "Kamera nagyítása"
 
 #: ../Scripts/Game/CameraController.gd:1457
 msgid "Release selected"
-msgstr ""
+msgstr "Kiválasztott elengedése"
 
 #: ../Scripts/Game/CameraController.gd:1459
 msgid "Stop box selecting"
-msgstr ""
+msgstr "Kiválasztás befejezése"
 
 #: ../Scripts/Game/CameraController.gd:1462
 msgid "Select object"
-msgstr ""
+msgstr "Tárgy kiválasztása"
 
 #: ../Scripts/Game/CameraController.gd:1464
 msgid "Add to selection"
-msgstr ""
+msgstr "Hozzáadás a kiválasztáshoz"
 
 #: ../Scripts/Game/CameraController.gd:1467
 msgid "Take random object"
-msgstr ""
+msgstr "Véletlenszerű tárgy kivétele"
 
 #: ../Scripts/Game/CameraController.gd:1468
 #: ../Scripts/Game/CameraController.gd:1471
 #, python-format
 msgid "%s + Move Mouse"
-msgstr ""
+msgstr "%s + egér mozgatása"
 
 #: ../Scripts/Game/CameraController.gd:1470
 msgid "Take top object"
-msgstr ""
+msgstr "Legfelső tárgy elvétele"
 
 #: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab selected"
-msgstr ""
+msgstr "Kiválasztott megfogása"
 
 #: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab object"
-msgstr ""
+msgstr "Tárgy megfogása"
 
 #: ../Scripts/Game/CameraController.gd:1476
 msgid "Stop moving"
-msgstr ""
+msgstr "Mozgás megállítása"
 
 #: ../Scripts/Game/CameraController.gd:1476
 msgid "Start moving"
-msgstr ""
+msgstr "Mozgás elindítása"
 
 #: ../Scripts/Game/CameraController.gd:1480
 msgid "Box select"
-msgstr ""
+msgstr "Több kiválasztása"
 
 #: ../Scripts/Game/CameraController.gd:1484
 msgid "Flick object"
-msgstr ""
+msgstr "Tárgy pöckölése"
 
 #: ../Scripts/Game/CameraController.gd:1486
 msgid "Prepare to flick"
-msgstr ""
+msgstr "Felkészülés a pöckölésre"
 
 #: ../Scripts/Game/CameraController.gd:1490
 msgid "Stop measuring"
-msgstr ""
+msgstr "Mérés befejezése"
 
 #: ../Scripts/Game/CameraController.gd:1492
 msgid "Start measuring"
-msgstr ""
+msgstr "Mérés elkezdése"
 
 #: ../Scripts/Game/CameraController.gd:1496
 msgid "Create hidden area"
-msgstr ""
+msgstr "Rejtett terület létrehozása"
 
 #: ../Scripts/Game/CameraController.gd:1498
 msgid "Draw hidden area"
-msgstr ""
+msgstr "Rejtett terület rajzolása"
 
 #: ../Scripts/Game/CameraController.gd:1501
 msgid "Paint Table"
-msgstr ""
+msgstr "Asztal festése"
 
 #: ../Scripts/Game/CameraController.gd:1504
 msgid "Erase Paint"
-msgstr ""
+msgstr "Festék törlése"
 
 #: ../Scripts/Game/CameraController.gd:1514
 msgid "Object menu"
-msgstr ""
+msgstr "Tárgy menü"
 
 #: ../Scripts/Game/CameraController.gd:1516
 msgid "Table menu"
-msgstr ""
+msgstr "Asztal menü"
 
 #: ../Scripts/Game/CameraController.gd:1520
 msgid "Stop flicking"
-msgstr ""
+msgstr "Pöckölés befejezése"
 
 #: ../Scripts/Game/CameraController.gd:1524
 msgid "Remove last ruler"
-msgstr ""
+msgstr "Utolsó vonalzó eltávolítása"
 
 #: ../Scripts/Game/CameraController.gd:1528
 msgid "Remove hidden area"
-msgstr ""
+msgstr "Rejtett terület törlése"
 
 #: ../Scripts/Game/CameraController.gd:1548
 msgid "Lift selected"
-msgstr ""
+msgstr "Kiválasztott megemelése"
 
 #: ../Scripts/Game/CameraController.gd:1549
 msgid "Zoom selected"
-msgstr ""
+msgstr "Kiválasztott nagyítása"
 
 #: ../Scripts/Game/CameraController.gd:1550
 msgid "Rotate selected"
-msgstr ""
+msgstr "Kiválasztott forgatása"
 
 #: ../Scripts/Game/CameraController.gd:1559
 msgid "Unlock selected"
-msgstr ""
+msgstr "Kiválasztott kinyitása"
 
 #: ../Scripts/Game/CameraController.gd:1559
 msgid "Lock selected"
-msgstr ""
+msgstr "Kiválasztott lezárása"
 
 #: ../Scripts/Game/CameraController.gd:1562
 msgid "Delete selected"
-msgstr ""
+msgstr "Kiválasztott eltávolítása"
 
 #: ../Scripts/Game/CameraController.gd:1574
 #: ../Scripts/Game/CameraController.gd:1591
 msgid "Reset orientation"
-msgstr ""
+msgstr "Forgatás alaphelyzetbe"
 
 #: ../Scripts/Game/CameraController.gd:1576
 #: ../Scripts/Game/CameraController.gd:1593
 msgid "Flip orientation"
-msgstr ""
+msgstr "Megfordítás"
 
 #: ../Scripts/Game/CameraController.gd:1582
 msgid "Flip card"
-msgstr ""
+msgstr "Kártya átfordítása"
 
 #: ../Scripts/Game/CameraController.gd:1584
 msgid "Face card up"
-msgstr ""
+msgstr "Kártya felfordítása"
 
 #: ../Scripts/Game/CameraController.gd:1600
 msgid "Reset camera"
-msgstr ""
+msgstr "Kamera alaphelyzetbe"
 
 #: ../Scripts/Game/CameraController.gd:1753
 msgid "Pause track"
-msgstr ""
+msgstr "Hangsáv szüneteltetése"
 
 #: ../Scripts/Game/CameraController.gd:1758
 msgid "Resume track"
-msgstr ""
+msgstr "Hangsáv folytatása"
 
 #: ../Scripts/Game/CameraController.gd:1762
 msgid "Stop track"
-msgstr ""
+msgstr "Hangsáv leállítása"
 
 #: ../Scripts/Game/CameraController.gd:1764
 msgid "Play track"
-msgstr ""
+msgstr "Hangsáv lejátszása"
 
 #: ../Scripts/Game/CameraController.gd:1769
 msgid "No track loaded"
-msgstr ""
+msgstr "Nincs betöltött hangsáv"
 
 #: ../Scripts/Game/CameraController.gd:1771
 #, python-format
 msgid "Playing: %s"
-msgstr ""
+msgstr "Most játszott: %s"
 
 #: ../Scripts/Game/CameraController.gd:1773
 #, python-format
 msgid "Loaded: %s"
-msgstr ""
+msgstr "Betöltve: %s"
 
 #: ../Scripts/Game/CameraController.gd:1789
 msgid "Pause timer"
-msgstr ""
+msgstr "Stopper szüneteltetése"
 
 #: ../Scripts/Game/CameraController.gd:1794
 msgid "Resume timer"
-msgstr ""
+msgstr "Stopper folytatása"
 
 #: ../Scripts/Game/CameraController.gd:1798
 msgid "Stop countdown"
-msgstr ""
+msgstr "Visszaszámlálás szüneteltetése"
 
 #: ../Scripts/Game/CameraController.gd:1800
 msgid "Start countdown"
-msgstr ""
+msgstr "Visszaszámlálás indítása"
 
 #: ../Scripts/Game/CameraController.gd:1804
 msgid "Stop stopwatch"
-msgstr ""
+msgstr "Stopper leállítása"
 
 #: ../Scripts/Game/CameraController.gd:1806
 msgid "Start stopwatch"
-msgstr ""
+msgstr "Stopper indítása"
 
 #: ../Scripts/Game/Game.gd:548
 #, python-format
 msgid "Downloading %s ..."
-msgstr ""
+msgstr "%s letöltése..."
 
 #: ../Scripts/Game/Game.gd:707
 msgid "Download completed!"
-msgstr ""
+msgstr "Letöltés befejezve!"
 
 #: ../Scripts/Game/Game.gd:746
 #, python-format
 msgid "Verified %d out of %d files!"
-msgstr ""
+msgstr "%d a %d fájlból ellenőrizve!"
 
 #: ../Scripts/Game/Game.gd:1023
 msgid "Loaded table has no version information. Load anyway?"
-msgstr ""
+msgstr "A betöltött asztalnak nincs verzióinformációja. Biztos betöltöd?"
 
 #: ../Scripts/Game/Game.gd:1025
 #, python-format
@@ -1741,120 +1772,121 @@ msgid ""
 "Loaded table was saved with a different version of the game (Current: %s, "
 "Table: %s). Load anyway?"
 msgstr ""
-"載入的桌子是使用不同版本的遊戲儲存的（目前：%s，桌子：%s）。仍要載入嗎？"
+"A betöltött asztal a játék más verziójához készült (jelenlegi: %s, az "
+"asztalé: %s). Biztos betöltöd?"
 
 #: ../Scripts/Game/Game.gd:1027
 msgid "Loaded table is not in the correct format."
-msgstr ""
+msgstr "A betöltött asztal nem a megfelelő formátumban van."
 
 #: ../Scripts/Game/Game.gd:1071
 #, python-format
 msgid "Client version (%s) does not match server version (%s)!"
-msgstr ""
+msgstr "A kliens verziója (%s) nem egyezik a szerver verziójával (%s)!"
 
 #: ../Scripts/Game/Game.gd:1214
 #, python-format
 msgid "Importing %s ..."
-msgstr ""
+msgstr "%s betöltése..."
 
 #: ../Scripts/Game/Game.gd:1232
 #, python-format
 msgid "Saved screenshot to '%s'."
-msgstr ""
+msgstr "Képernyőkép mentve '%s' alá."
 
 #: ../Scripts/Game/Game.gd:1246
 msgid "Quicksave file saved."
-msgstr ""
+msgstr "Gyorsmentés kész."
 
 #: ../Scripts/Game/Game.gd:1309
 msgid "Connecting to the master server..."
-msgstr ""
+msgstr "Csatlakozás a fő szerverhez..."
 
 #: ../Scripts/Game/Game.gd:1718
 #, python-format
 msgid "Could not open the file at path '%s' (error %d)."
-msgstr ""
+msgstr "Hiba a '%s' alatti fájl betöltésekor (hibaszám %d)."
 
 #: ../Scripts/Game/Game.gd:1884
 msgid "Establishing connection with the host..."
-msgstr ""
+msgstr "Kapcsolat létrehozása a szervezővel..."
 
 #: ../Scripts/Game/Game.gd:1899
 #, python-format
 msgid "Disconnected from the server! Code: %d Reason: %s"
-msgstr ""
+msgstr "A kapcsolat megszakadt a szerverrel! Kód: %d Ok: %s"
 
 #: ../Scripts/Game/Game.gd:1995
 msgid "Room has been closed by the host."
-msgstr ""
+msgstr "A szobát a szervező lezárta."
 
 #: ../Scripts/Game/MasterServer.gd:42
 msgid "Could not connect to the master server."
-msgstr ""
+msgstr "Hiba a főszerverhez való kapcsolódás során."
 
 #: ../Scripts/Game/MasterServer.gd:43
 msgid "Have not joined a room yet."
-msgstr ""
+msgstr "Még nem csatlakozott szobához."
 
 #: ../Scripts/Game/MasterServer.gd:44
 msgid "Host has disconnected from the room."
-msgstr ""
+msgstr "A szervező lekapcsolódott a szobáról."
 
 #: ../Scripts/Game/MasterServer.gd:45
 msgid "Only the host can seal the room."
-msgstr ""
+msgstr "Csak a szervező zárhatja le a szobát."
 
 #: ../Scripts/Game/MasterServer.gd:46
 msgid "Too many rooms are open."
-msgstr ""
+msgstr "Túl sok nyitott szoba."
 
 #: ../Scripts/Game/MasterServer.gd:47
 msgid "Already in a room."
-msgstr ""
+msgstr "Már egy szobában vagy."
 
 #: ../Scripts/Game/MasterServer.gd:48
 msgid "Room does not exist."
-msgstr ""
+msgstr "A szoba nem létezik."
 
 #: ../Scripts/Game/MasterServer.gd:49
 msgid "Room is sealed."
-msgstr ""
+msgstr "A szoba le van zárva."
 
 #: ../Scripts/Game/MasterServer.gd:50
 msgid "Message format is invalid."
-msgstr ""
+msgstr "Üzenetformátum érvénytelen."
 
 #: ../Scripts/Game/MasterServer.gd:51
 msgid "Message is invalid when not in a room."
-msgstr ""
+msgstr "Az üzenet szobán kívül érvénytelen."
 
 #: ../Scripts/Game/MasterServer.gd:52
 msgid "Internal server error."
-msgstr ""
+msgstr "Belső szerverhiba."
 
 #: ../Scripts/Game/MasterServer.gd:53
 msgid "Invalid destination."
-msgstr ""
+msgstr "Érvénytelen cél."
 
 #: ../Scripts/Game/MasterServer.gd:54
 msgid "Invalid command."
-msgstr ""
+msgstr "Érvénytelen parancs."
 
 #: ../Scripts/Game/MasterServer.gd:55
 msgid "Too many players connected."
-msgstr ""
+msgstr "Túl sok játékos van kapcsolódva."
 
 #: ../Scripts/Game/MasterServer.gd:56
 msgid "Transfer mode is invalid."
-msgstr ""
+msgstr "A transzfer mód érvénytelen."
 
 #: ../Scripts/Game/MasterServer.gd:57
 msgid "Too many connections."
-msgstr ""
+msgstr "Túl sok kapcsolat."
 
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
-msgstr ""
+msgstr "Túl gyorsan kapcsolódott újra."
 
 #: ../Scripts/Game/MasterServer.gd:59
 msgid "Join queue is full."
@@ -1862,205 +1894,209 @@ msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
-msgstr ""
+msgstr "Túl sok szöveg lett küldve, várakozás..."
 
 #: ../Scripts/Game/UI/ChatBox.gd:152
 msgid "Show the list of commands that can be invoked."
-msgstr ""
+msgstr "Mutasd a kiadható parancsok listáját."
 
 #: ../Scripts/Game/UI/ChatBox.gd:154
 msgid "Privately send a message to another player."
-msgstr ""
+msgstr "Másik játékosnak privát üzenet küldése."
 
 #: ../Scripts/Game/UI/GameUI.gd:150
 msgid "Clear Paint"
-msgstr ""
+msgstr "Festék letörlése"
 
 #: ../Scripts/Game/UI/GameUI.gd:170
 msgid "Welcome to Tabletop Club!"
-msgstr ""
+msgstr "Üdv a Tabletop Clubban!"
 
 #: ../Scripts/Game/UI/GameUI.gd:171
 msgid "To view a list of commands, type /? or /help in this chat box."
 msgstr ""
+"A parancsok listájának megtekintéséhez küldj egy /? vagy egy /help parancsot "
+"ebben a chatben."
 
 #: ../Scripts/Game/UI/GameUI.gd:248
 #, python-format
 msgid "Room Code: [b]%s[/b]"
-msgstr ""
+msgstr "Szobakód: [b]%s[/b]"
 
 #: ../Scripts/Game/UI/GameUI.gd:252
 msgid "Hide Room Code"
-msgstr ""
+msgstr "Szobakód elrejtése"
 
 #: ../Scripts/Game/UI/GameUI.gd:254
 msgid "Show Room Code"
-msgstr ""
+msgstr "Szobakód mutatása"
 
 #: ../Scripts/Game/UI/GameUI.gd:322
 #, python-format
 msgid "%s has joined the game."
-msgstr ""
+msgstr "%s csatlakozott a játékhoz."
 
 #: ../Scripts/Game/UI/GameUI.gd:329
 #, python-format
 msgid "%s changed their name to %s"
-msgstr ""
+msgstr "%s megváltoztatta a nevét %s-re"
 
 #: ../Scripts/Game/UI/GameUI.gd:334
 #, python-format
 msgid "%s has left the game."
-msgstr ""
+msgstr "%s elhagyta a játékot."
 
 #: ../Scripts/Game/UI/GameUI.gd:389
 msgid "View notebook"
-msgstr ""
+msgstr "Jegyzettömb megtekintése"
 
 #: ../Scripts/Game/UI/Dialogs/ContainerContentDialog.gd:40
 #, python-format
 msgid "Contents of %s"
-msgstr ""
+msgstr "%s tartalma"
 
 #: ../Scripts/Game/UI/Dialogs/ContainerContentDialog.gd:45
 #, python-format
 msgid "%s is empty."
-msgstr ""
+msgstr "%s üres."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:61
 msgid "No objects have been selected."
-msgstr ""
+msgstr "Nincsenek kiválasztott tárgyak."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:74
 #, python-format
 msgid "A stack of %d cards."
-msgstr ""
+msgstr "%d kártyából álló pakli."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:76
 #, python-format
 msgid "A stack of %d tokens."
-msgstr ""
+msgstr "%d elemű jelölőkupac."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:83
 msgid "No description."
-msgstr ""
+msgstr "Nincs leírás."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:88
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:54
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:85
 #, python-format
 msgid "Author: %s"
-msgstr ""
+msgstr "Szerző: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:92
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:60
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:89
 #, python-format
 msgid "License: %s"
-msgstr ""
+msgstr "Licenszszerződés: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:96
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:66
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:93
 #, python-format
 msgid "Modified by: %s"
-msgstr ""
+msgstr "Módosítva általa: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:100
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:72
 #: ../Scripts/Game/UI/Previews/ObjectPreview.gd:97
 #, python-format
 msgid "URL: %s"
-msgstr ""
+msgstr "URL: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:102
 #, python-format
 msgid "A total of %d objects were selected:"
-msgstr ""
+msgstr "%d tárgy van kiválasztva:"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:112
 #, python-format
 msgid "Stack of %d cards"
-msgstr ""
+msgstr "%d kártyából álló pakli"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:114
 #, python-format
 msgid "Stack of %d tokens"
-msgstr ""
+msgstr "%d elemű jelölőkupac"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:267
 msgid ""
 "You can use this notebook to write down information that will persist "
 "between sessions."
 msgstr ""
+"Ezt a jegyzettömböt játékalkalmakon keresztül megmaradó jegyzetek "
+"készítésére használhatod."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:269
 msgid "This player does not have any public pages in their notebook."
-msgstr ""
+msgstr "Ennek a játékosnak a jegyzettömbjében nincs nyilvános oldal."
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:702
 msgid "<Unknown>"
-msgstr ""
+msgstr "<Ismeretlen>"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:713
 #, python-format
 msgid "%s's Notebook"
-msgstr ""
+msgstr "%s jegyzettömbje"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:757
 #, python-format
 msgid "Are you sure you want to delete the page '%s'?"
-msgstr ""
+msgstr "Biztosan törölni szeretnéd a '%s' oldalt?"
 
 #: ../Scripts/Game/UI/Dialogs/NotebookDialog.gd:849
 #, python-format
 msgid "New %s"
-msgstr "新 %s"
+msgstr "Új %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:121
 #, python-format
 msgid "Modified: %s"
-msgstr "已修改：%s"
+msgstr "Módosítva: %s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:164
 msgid "Save a file"
-msgstr "儲存一個檔案"
+msgstr "Fájl mentése"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Save"
-msgstr "儲存"
+msgstr "Mentés"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:167
 msgid "Load"
-msgstr "載入"
+msgstr "Betöltés"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:180
 msgid "Sort:"
-msgstr "排序："
+msgstr "Rendezés:"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:184
 msgid "Last Modified"
-msgstr ""
+msgstr "Utolsó módosítás"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:210
 msgid "Delete file?"
-msgstr "刪除檔案？"
+msgstr "Biztos törölni akarod a fájlt?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:218
 msgid "Overwrite file?"
-msgstr "覆寫檔案？"
+msgstr "Biztos felülírod a fájlt?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:226
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:262
 msgid "Rename"
-msgstr "重新命名"
+msgstr "Átnevezés"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:227
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplikálás"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:233
 msgid "Invalid name!"
-msgstr "無效名稱！"
+msgstr "Érvénytelen név!"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:235
 #, python-format
@@ -2068,91 +2104,91 @@ msgid ""
 "File names cannot contain any of the following characters:\n"
 "%s"
 msgstr ""
-"檔案名稱不能包含以下任何字元：\n"
+"A fájlnevek nem tartalmazhatják a következő karaktereket:\n"
 "%s"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:241
 msgid "Rename file..."
-msgstr "重新命名檔案…"
+msgstr "Fájl átnevezése..."
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:251
 msgid "Please enter a new name for the file:"
-msgstr "請輸入檔案的新名稱："
+msgstr "Kérlek adj egy új nevet a fájlnak:"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:371
 #, python-format
 msgid "Are you sure you want to delete '%s'?"
-msgstr "你確定你要刪除「%s」嗎？"
+msgstr "Biztosan törölni szeretnéd a '%s'-t?"
 
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:384
 #, python-format
 msgid "The file '%s' already exists. Are you sure you want to overwrite it?"
-msgstr "檔案「%s」已經存在。你確定你要覆寫它嗎？"
+msgstr "A '%s' fájl már létezik. Biztosan felül akarod írni?"
 
 #: ../Scripts/Game/UI/Previews/ObjectPreviewGrid.gd:108
 #, python-format
 msgid "Page %d/%d"
-msgstr "第 %d／%d 頁"
+msgstr "%d/%d oldal"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:114
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:302
 msgid "All"
-msgstr "全部"
+msgstr "Minden"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:281
 msgid "Boards"
-msgstr "棋盤"
+msgstr "Játéktáblák"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:282
 msgid "Cards"
-msgstr "卡牌"
+msgstr "Kártyák"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:283
 msgid "Containers"
-msgstr "容器"
+msgstr "Tárolók"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:284
 msgid "Dice"
-msgstr "骰子"
+msgstr "Dobókockák"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:286
 msgid "Music"
-msgstr "音樂"
+msgstr "Zene"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:287
 msgid "Pieces"
-msgstr ""
+msgstr "Játékbábuk"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:288
 msgid "Skyboxes"
-msgstr "天空盒"
+msgstr "Skyboxok"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:289
 msgid "Sounds"
-msgstr "聲音"
+msgstr "Hangok"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:290
 msgid "Speakers"
-msgstr "揚聲器"
+msgstr "Hangszórók"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:291
 msgid "Stacks"
-msgstr ""
+msgstr "Kupacok"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:292
 msgid "Tables"
-msgstr "桌子"
+msgstr "Asztalok"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:294
 msgid "Timers"
-msgstr "計時器"
+msgstr "Stopperek"
 
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
-msgstr ""
+msgstr "Jelölők"
 
 #~ msgid "Tabletop Club on Itch.io"
-#~ msgstr "Itch.io 上的 Tabletop Club"
+#~ msgstr "Tabletop Club az Itch.io-n"
 
 #~ msgid "Discord"
 #~ msgstr "Discord"
