@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 20:22+0100\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-05-10 19:51+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/tabletop-club/game/"
@@ -1888,6 +1888,10 @@ msgstr "Er zijn teveel verbindingen."
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
 msgstr "Er is te snel opnieuw verbinding gemaakt."
+
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
+msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 20:22+0100\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-05-09 08:08+0000\n"
 "Last-Translator: mayukh <mayukh4321@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/tabletop-club/game/"
@@ -1856,6 +1856,10 @@ msgstr ""
 
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
+msgstr ""
+
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
 msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:56

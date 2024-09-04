@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 20:22+0100\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2024-08-23 10:09+0000\n"
 "Last-Translator: Salvatore <salvatore.digennaro@outlook.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/tabletop-club/"
@@ -349,7 +349,8 @@ msgstr "Salta introduzione"
 
 #: ../Scenes/OptionsMenu.tscn:500
 msgid "Skips the Godot Engine splash screen when the game starts."
-msgstr "Salta la schermata di introduzione di Godot Engine all'avvio del gioco."
+msgstr ""
+"Salta la schermata di introduzione di Godot Engine all'avvio del gioco."
 
 #: ../Scenes/OptionsMenu.tscn:508
 msgid "Show System Warnings"
@@ -1909,6 +1910,10 @@ msgstr "Troppe connessioni."
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
 msgstr "Riconnesso troppo rapidamente."
+
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
+msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."

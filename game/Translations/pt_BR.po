@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 20:22+0100\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2024-08-26 06:58+0000\n"
 "Last-Translator: Eddie Procópio <eddienotablet@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -462,8 +462,8 @@ msgid ""
 "Resets the selected piece or the piece the mouse is over to its default "
 "orientation."
 msgstr ""
-"Redefine a peça selecionada (ou a peça sobre a qual o mouse está posicionado)"
-" para sua orientação padrão."
+"Redefine a peça selecionada (ou a peça sobre a qual o mouse está "
+"posicionado) para sua orientação padrão."
 
 #: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1589
 msgid "Rotate Piece"
@@ -493,7 +493,8 @@ msgstr "Bloqueie/desbloqueie a peça"
 #: ../Scenes/OptionsMenu.tscn:829
 msgid ""
 "Toggles the lock on the selected piece, fixing its position and rotation."
-msgstr "Alterna o bloqueio da peça selecionada (fixando sua posição e rotação)."
+msgstr ""
+"Alterna o bloqueio da peça selecionada (fixando sua posição e rotação)."
 
 #: ../Scenes/OptionsMenu.tscn:839
 msgid "Delete Piece"
@@ -545,7 +546,8 @@ msgstr "Faz uma captura de tela do jogo em andamento."
 
 #: ../Scenes/OptionsMenu.tscn:952
 msgid "Used to reset the key bindings to their default values."
-msgstr "Usado para redefinir as combinações de teclas para seus valores padrão."
+msgstr ""
+"Usado para redefinir as combinações de teclas para seus valores padrão."
 
 #: ../Scenes/OptionsMenu.tscn:953 ../Scenes/OptionsMenu.tscn:1413
 msgid "Reset Bindings"
@@ -1766,7 +1768,8 @@ msgstr "%d de %d arquivos verificados!"
 
 #: ../Scripts/Game/Game.gd:1023
 msgid "Loaded table has no version information. Load anyway?"
-msgstr "A tabela carregada não tem informações de versão. Carregar mesmo assim?"
+msgstr ""
+"A tabela carregada não tem informações de versão. Carregar mesmo assim?"
 
 #: ../Scripts/Game/Game.gd:1025
 #, python-format
@@ -1889,6 +1892,10 @@ msgstr "Muitas conexões."
 #: ../Scripts/Game/MasterServer.gd:58
 msgid "Reconnected too quickly."
 msgstr "Reconectou muito rápido."
+
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
+msgstr ""
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
