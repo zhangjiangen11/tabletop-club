@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Combined the "Discord" and "Matrix" buttons on the main menu into one
   "Community" button that opens `tabletopclub.net/community` in the default
   browser.
+- Updated the master server's URL and SSL certificate.
 
 ### Removed
 
