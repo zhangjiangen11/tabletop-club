@@ -9,6 +9,11 @@ what are called **asset packs**, which are essentially just specially-made
 folders. This chapter describes the specification for the custom assets, and
 the asset packs that contain them.
 
+If you just want to download community-made asset packs and install them, feel
+free to have a look at the `official forum <https://forum.tabletopclub.net/c/asset-packs>`_.
+Instructions for installing asset packs can be found
+`here <https://forum.tabletopclub.net/t/about-the-asset-packs-category/13>`_.
+
 For reference, you can have a look at the Tabletop Club asset pack, which comes
 with the game by default.
 

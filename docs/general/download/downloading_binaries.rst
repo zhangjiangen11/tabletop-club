@@ -44,10 +44,14 @@ As a standalone executable
 --------------------------
 
 You can also download the game as a standalone application that you can run
-anywhere on your system from the `itch.io page
-<https://drwhut.itch.io/tabletop-club>`_, or from the `GitHub repository
-<https://github.com/drwhut/tabletop-club/releases>`_. Once it is downloaded,
-there's only a couple of steps needed to run the game (see below)!
+anywhere on your system from the following websites:
+
+* `tabletopclub.net <https://tabletopclub.net/downloads>`_
+* `github.com <https://github.com/drwhut/tabletop-club/releases>`_
+* `itch.io <https://drwhut.itch.io/tabletop-club>`_
+
+Once you have downloaded the game, there's only a couple of steps left in order
+to play it (see below)!
 
 In most cases, you'll want to download the latest *stable* version of the game.
 While beta versions of the game have new features and are very helpful for

@@ -68,6 +68,13 @@ Here is a simple example that will apply a back face texture (in this example,
    ; back face will be imported.
    ignore = true
 
+.. tip::
+
+   When cards are placed in other player's hands, the front face is covered
+   with the colour at the top-left pixel. If your cards use different background
+   colours, consider adding a border around the edge of the front face so that
+   other players cannot tell the difference between the cards.
+
 
 .. _object-type-container:
 

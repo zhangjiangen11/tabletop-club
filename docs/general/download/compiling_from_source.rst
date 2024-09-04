@@ -29,20 +29,17 @@ command in a terminal to download the fork of Godot:
 
 .. note::
 
-   The version number after ``-b tabletop`` refers to the Godot version the
-   modified code is based on. You might need to change which version of Godot
-   to download if you're planning on downloading a specific version of
-   Tabletop Club, as different versions of Tabletop Club might use different
-   versions of Godot.
+   The text after ``-b`` refers to the branch of the fork that is downloaded.
+   You may need to change the branch depending on which version of Tabletop Club
+   you plan to compile:
 
-   If you just plan on downloading the current ``master`` branch from
-   Tabletop Club, then you don't need to change the above command.
-
-   If you know which version of Tabletop Club you want to download, check this
-   page in it's documentation and look for a command similar to the one above.
-   Then, replace what comes after the ``-b`` above with what the documentation
-   says. This way, you know you're compiling a compatible version of Godot for
-   the Tabletop Club version you want.
+   +-----------------------+---------------+--------------------+
+   | Tabletop Club Version | Godot Version | Git Branch         |
+   +=======================+===============+====================+
+   | 0.1.x                 | 3.4.5         | ``tabletop-3.4.5`` |
+   +-----------------------+---------------+--------------------+
+   | 0.2.x                 | 3.5.3         | ``tabletop-3.5.3`` |
+   +-----------------------+---------------+--------------------+
 
 .. tip::
 
@@ -71,20 +68,15 @@ For all platforms, you will need *at least* the following:
 * `Python 3.5+ <https://www.python.org/downloads/>`_. Make sure Python is added
   to your ``PATH`` environment variable.
 
-* `SCons 3.0+ <https://www.scons.org/>`_. Once you have Python installed, you
-  can install it by opening a terminal/command prompt and running:
+* `SCons 3.0+ <https://www.scons.org/>`_.
 
-  .. code-block:: bash
+You can check to see whether you have installed Python and SCons correctly by
+running:
 
-     python -m pip install scons
-  
-  You can check to see whether you have installed Python and SCons correctly by
-  running:
+.. code-block:: bash
 
-  .. code-block:: bash
-
-     python --version
-     scons --version
+   python --version
+   scons --version
 
 
 Compiling Godot for Windows
