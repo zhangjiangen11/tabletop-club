@@ -35,7 +35,7 @@ signal offer_received(id, offer)
 signal peer_connected(id)
 signal peer_disconnected(id)
 
-const URL: String = "wss://tabletop-club.duckdns.org:9080"
+const URL: String = "wss://lobby.tabletopclub.net"
 
 # See: https://github.com/drwhut/tabletop_club_master_server/blob/master/server.js
 var ERROR_MESSAGES = {
@@ -56,6 +56,7 @@ var ERROR_MESSAGES = {
 	4015: tr("Transfer mode is invalid."),
 	4016: tr("Too many connections."),
 	4017: tr("Reconnected too quickly."),
+	4018: tr("Join queue is full."),
 }
 
 export(String) var room_code = "" # If empty, create a new room.
