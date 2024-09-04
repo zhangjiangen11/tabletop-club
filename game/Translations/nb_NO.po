@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-04-18 21:48+0000\n"
-"Last-Translator: Blood Axe <bloodaxenor@protonmail.com>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2024-03-19 18:01+0000\n"
+"Last-Translator: corupz <small.kai@hotmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "tabletop-club/game/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../Scenes/ImportAssets.tscn:35
 msgid "Importing assets..."
-msgstr "Importer ressurser..."
+msgstr "Importerer ressurser..."
 
 #: ../Scenes/ImportAssets.tscn:56
 msgid "Missing Asset Folder"
@@ -34,13 +34,14 @@ msgstr "Mangler modul"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
-msgstr "Laster inn …"
+msgstr "Laster inn…"
 
 #: ../Scenes/MainMenu.tscn:51
+#, fuzzy
 msgid "Singleplayer"
 msgstr "Enkeltspiller"
 
-#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:159
+#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:158
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
 msgstr "Flerspiller"
@@ -49,7 +50,8 @@ msgstr "Flerspiller"
 msgid "Options"
 msgstr "Innstillinger"
 
-#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:316
+#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:315
+#, fuzzy
 msgid "Credits"
 msgstr "Bidragsytere"
 
@@ -57,67 +59,67 @@ msgstr "Bidragsytere"
 msgid "Quit"
 msgstr "Avslutt"
 
-#: ../Scenes/MainMenu.tscn:98 ../Scenes/MainMenu.tscn:341
+#: ../Scenes/MainMenu.tscn:97 ../Scenes/MainMenu.tscn:340
 msgid "Import Log"
 msgstr "Importlogg"
 
-#: ../Scenes/MainMenu.tscn:99
+#: ../Scenes/MainMenu.tscn:98
 msgid "0"
 msgstr "0"
 
-#: ../Scenes/MainMenu.tscn:107
-msgid "Tabletop Club on Itch.io"
-msgstr "Tabletop Club på Itch.io"
+#: ../Scenes/MainMenu.tscn:106
+msgid "Website"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:116
+#: ../Scenes/MainMenu.tscn:115
 msgid "Source Code"
 msgstr "Kildekode"
 
-#: ../Scenes/MainMenu.tscn:125
+#: ../Scenes/MainMenu.tscn:124
 msgid "Documentation"
 msgstr "Dokumentasjon"
 
-#: ../Scenes/MainMenu.tscn:134
-msgid "Discord"
-msgstr "Discord"
+#: ../Scenes/MainMenu.tscn:133
+msgid "Community"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:143
-msgid "Matrix.org"
-msgstr "Matrix.org"
+#: ../Scenes/MainMenu.tscn:142
+msgid "Donate"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:152 ../Scenes/MainMenu.tscn:247
+#: ../Scenes/MainMenu.tscn:151 ../Scenes/MainMenu.tscn:246
 msgid "Information"
 msgstr "Informasjon"
 
-#: ../Scenes/MainMenu.tscn:177
+#: ../Scenes/MainMenu.tscn:176
 msgid "Host Game"
 msgstr "Vertstjen spill"
 
-#: ../Scenes/MainMenu.tscn:183
+#: ../Scenes/MainMenu.tscn:182
 msgid "Create a new lobby for your friends to join over the Internet."
 msgstr "Opprett ny lobby for venner som tar del over Internett."
 
-#: ../Scenes/MainMenu.tscn:195 ../Scenes/MainMenu.tscn:242
+#: ../Scenes/MainMenu.tscn:194 ../Scenes/MainMenu.tscn:241
 msgid "Join Game"
 msgstr "Bli med i spill"
 
-#: ../Scenes/MainMenu.tscn:201
+#: ../Scenes/MainMenu.tscn:200
 msgid "Use a room code to join your friend's lobby."
 msgstr "Bruk en romkode for å bli med i din venns lobby."
 
-#: ../Scenes/MainMenu.tscn:207
+#: ../Scenes/MainMenu.tscn:206
 msgid "Enter Room Code"
 msgstr "Skriv inn romkode"
 
-#: ../Scenes/MainMenu.tscn:227
+#: ../Scenes/MainMenu.tscn:226
 msgid "Room Code:"
 msgstr "Romkode:"
 
-#: ../Scenes/MainMenu.tscn:236
+#: ../Scenes/MainMenu.tscn:235
 msgid "ABCD"
 msgstr "ABCD"
 
-#: ../Scenes/MainMenu.tscn:334
+#: ../Scenes/MainMenu.tscn:333
 msgid "Error"
 msgstr "Feil"
 
@@ -323,7 +325,7 @@ msgstr "Autolagringsintervall"
 msgid "Used to set how often autosaves are created."
 msgstr "Brukes til å angi hvor ofte autolagringer opprettes."
 
-#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:70
+#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:72
 msgid "5 minutes"
 msgstr "5 minutter"
 
@@ -463,7 +465,7 @@ msgstr ""
 "Tilbakestiller den valgte brikken, eller brikken musen er over, til "
 "standardretningen."
 
-#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1577
+#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1589
 msgid "Rotate Piece"
 msgstr "Roter brikke"
 
@@ -472,8 +474,8 @@ msgid "Rotates the the piece that is selected, or that the mouse is over."
 msgstr "Roterer brikken som er valgt, eller den musen er over."
 
 #: ../Scenes/OptionsMenu.tscn:803 ../Scripts/Game/CameraController.gd:1210
-#: ../Scripts/Game/CameraController.gd:1530
-#: ../Scripts/Game/CameraController.gd:1585
+#: ../Scripts/Game/CameraController.gd:1542
+#: ../Scripts/Game/CameraController.gd:1597
 msgid "Shuffle"
 msgstr "Stokk"
 
@@ -565,7 +567,7 @@ msgstr "Spillerens viste navn i flerspillerlobbyer."
 msgid "Player"
 msgstr "Spiller"
 
-#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1338
+#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1350
 msgid "Color"
 msgstr "Farge"
 
@@ -582,7 +584,7 @@ msgid "Changes the size of the text in the chat box."
 msgstr "Endrer størrelsen på teksten i chatteboksen."
 
 #: ../Scenes/OptionsMenu.tscn:1025 ../Scenes/OptionsMenu.tscn:1156
-#: ../Scripts/OptionsMenu.gd:80
+#: ../Scripts/OptionsMenu.gd:82
 msgid "Medium"
 msgstr "Middels"
 
@@ -621,7 +623,7 @@ msgstr "Vindusmodus"
 msgid "Sets the mode in which the game window is displayed."
 msgstr "Angir modusen som spillvinduet vises i."
 
-#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:74
+#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:76
 msgid "Windowed"
 msgstr "Vindu"
 
@@ -646,7 +648,7 @@ msgid "Multisample Anti-Aliasing (MSAA)"
 msgstr "Multisample Anti-Aliasing (MSAA)"
 
 #: ../Scenes/OptionsMenu.tscn:1177 ../Scenes/OptionsMenu.tscn:1199
-#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:78
+#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:80
 msgid "None"
 msgstr "Ingen"
 
@@ -658,7 +660,7 @@ msgstr "Screen Space Ambient Okklusjon (SSAO)"
 msgid "Skybox Radiance Detail"
 msgstr "Skybox ustrålingsdetaljer"
 
-#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:79
+#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:81
 msgid "Low"
 msgstr "Lav"
 
@@ -795,7 +797,7 @@ msgid "Value:"
 msgstr "Verdi:"
 
 #: ../Scenes/Game/CameraController.tscn:442
-#: ../Scripts/Game/CameraController.gd:1288
+#: ../Scripts/Game/CameraController.gd:1300
 msgid "Set value"
 msgstr "Angi verdi"
 
@@ -1050,7 +1052,7 @@ msgid "Move Down"
 msgstr "Flytt ned"
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:138
-#: ../Scripts/Game/CameraController.gd:1359
+#: ../Scripts/Game/CameraController.gd:1371
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:228
 msgid "Delete"
 msgstr "Slett"
@@ -1134,7 +1136,7 @@ msgstr "Pakke:"
 msgid "Type:"
 msgstr "Type:"
 
-#: ../Scripts/AssetDB.gd:439
+#: ../Scripts/AssetDB.gd:433
 msgid "Cleaning old files..."
 msgstr "Rensker gamle filer..."
 
@@ -1142,11 +1144,11 @@ msgstr "Rensker gamle filer..."
 msgid "Not bound"
 msgstr "Ikke bundet"
 
-#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1440
+#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1452
 msgid "Left Mouse Button"
 msgstr "Venstre museknapp"
 
-#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1497
+#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1509
 msgid "Right Mouse Button"
 msgstr "Høyre museknapp"
 
@@ -1252,50 +1254,58 @@ msgid "Translators"
 msgstr "Oversettere"
 
 #: ../Scripts/MainMenu.gd:106
+msgid "Chinese"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:107
 msgid "Dutch"
 msgstr "Nederlandsk"
 
-#: ../Scripts/MainMenu.gd:107
+#: ../Scripts/MainMenu.gd:108
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: ../Scripts/MainMenu.gd:108
+#: ../Scripts/MainMenu.gd:109
 msgid "French"
 msgstr "Fransk"
 
-#: ../Scripts/MainMenu.gd:109
+#: ../Scripts/MainMenu.gd:110
 msgid "German"
 msgstr "Tysk"
 
-#: ../Scripts/MainMenu.gd:110
+#: ../Scripts/MainMenu.gd:111
 msgid "Indonesian"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:111
+#: ../Scripts/MainMenu.gd:112
 msgid "Italian"
 msgstr "Italiensk"
 
-#: ../Scripts/MainMenu.gd:112
+#: ../Scripts/MainMenu.gd:113
 msgid "Norwegian"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:113
+#: ../Scripts/MainMenu.gd:114
+msgid "Polish"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:115
 msgid "Portuguese"
 msgstr "Portugisisk"
 
-#: ../Scripts/MainMenu.gd:114
+#: ../Scripts/MainMenu.gd:116
 msgid "Russian"
 msgstr "Russisk"
 
-#: ../Scripts/MainMenu.gd:115
+#: ../Scripts/MainMenu.gd:117
 msgid "Spanish"
 msgstr "Spansk"
 
-#: ../Scripts/MainMenu.gd:216
+#: ../Scripts/MainMenu.gd:218
 msgid "Room code must be four characters long!"
 msgstr "Romkoden må være fire tegn lang!"
 
-#: ../Scripts/MainMenu.gd:221
+#: ../Scripts/MainMenu.gd:223
 msgid "Invalid room code!"
 msgstr "Ugyldig romkode!"
 
@@ -1303,51 +1313,51 @@ msgstr "Ugyldig romkode!"
 msgid "System Default"
 msgstr "Systemstandard"
 
-#: ../Scripts/OptionsMenu.gd:67
+#: ../Scripts/OptionsMenu.gd:69
 msgid "Never"
 msgstr "Aldri"
 
-#: ../Scripts/OptionsMenu.gd:68
+#: ../Scripts/OptionsMenu.gd:70
 msgid "30 seconds"
 msgstr "30 sekunder"
 
-#: ../Scripts/OptionsMenu.gd:69
+#: ../Scripts/OptionsMenu.gd:71
 msgid "1 minute"
 msgstr "1 minutt"
 
-#: ../Scripts/OptionsMenu.gd:71
+#: ../Scripts/OptionsMenu.gd:73
 msgid "10 minutes"
 msgstr "10 minutter"
 
-#: ../Scripts/OptionsMenu.gd:72
+#: ../Scripts/OptionsMenu.gd:74
 msgid "30 minutes"
 msgstr "30 minutter"
 
-#: ../Scripts/OptionsMenu.gd:75
+#: ../Scripts/OptionsMenu.gd:77
 msgid "Borderless Fullscreen"
 msgstr "Kantløs fullskjerm"
 
-#: ../Scripts/OptionsMenu.gd:76
+#: ../Scripts/OptionsMenu.gd:78
 msgid "Fullscreen"
 msgstr "Fullskjerm"
 
-#: ../Scripts/OptionsMenu.gd:81
+#: ../Scripts/OptionsMenu.gd:83
 msgid "High"
 msgstr "Høy"
 
-#: ../Scripts/OptionsMenu.gd:82
+#: ../Scripts/OptionsMenu.gd:84
 msgid "Very High"
 msgstr "Veldig høy"
 
-#: ../Scripts/OptionsMenu.gd:83
+#: ../Scripts/OptionsMenu.gd:85
 msgid "Ultra"
 msgstr "Ultra"
 
-#: ../Scripts/OptionsMenu.gd:85
+#: ../Scripts/OptionsMenu.gd:87
 msgid "Small"
 msgstr "Liten"
 
-#: ../Scripts/OptionsMenu.gd:87
+#: ../Scripts/OptionsMenu.gd:89
 msgid "Large"
 msgstr "Stor"
 
@@ -1418,318 +1428,330 @@ msgstr "Sorter etter"
 msgid "Timer"
 msgstr "Tidsur"
 
-#: ../Scripts/Game/CameraController.gd:1272
+#: ../Scripts/Game/CameraController.gd:1278
+#, fuzzy
+#| msgid "Value: %d"
+msgid "Value: (None)"
+msgstr "Verdi: %d"
+
+#: ../Scripts/Game/CameraController.gd:1280
+#, fuzzy, python-format
+#| msgid "Value: %d"
+msgid "Value: %s"
+msgstr "Verdi: %d"
+
+#: ../Scripts/Game/CameraController.gd:1284
 #, python-format
 msgid "Total: %d"
 msgstr "Total: %d"
 
-#: ../Scripts/Game/CameraController.gd:1274
+#: ../Scripts/Game/CameraController.gd:1286
 #, python-format
 msgid "Total: %f"
 msgstr "Total: %f"
 
-#: ../Scripts/Game/CameraController.gd:1294
+#: ../Scripts/Game/CameraController.gd:1306
 msgid "Collect selected"
 msgstr "Samle valgt"
 
-#: ../Scripts/Game/CameraController.gd:1298
+#: ../Scripts/Game/CameraController.gd:1310
 msgid "Add objects..."
 msgstr "Legg til objekter..."
 
-#: ../Scripts/Game/CameraController.gd:1299
+#: ../Scripts/Game/CameraController.gd:1311
 msgid "Peek inside"
 msgstr "Kikk inni"
 
-#: ../Scripts/Game/CameraController.gd:1301
+#: ../Scripts/Game/CameraController.gd:1313
 msgid "Take objects out"
 msgstr "Ta ut objekter"
 
-#: ../Scripts/Game/CameraController.gd:1317
+#: ../Scripts/Game/CameraController.gd:1329
 msgid "Speaker"
 msgstr "Høytaler"
 
-#: ../Scripts/Game/CameraController.gd:1329
+#: ../Scripts/Game/CameraController.gd:1341
 msgid "Details…"
 msgstr "Detaljer…"
 
-#: ../Scripts/Game/CameraController.gd:1341
+#: ../Scripts/Game/CameraController.gd:1353
 msgid "Cut"
 msgstr "Skjær"
 
-#: ../Scripts/Game/CameraController.gd:1342
+#: ../Scripts/Game/CameraController.gd:1354
 msgid "Copy"
 msgstr "Kopier"
 
-#: ../Scripts/Game/CameraController.gd:1344
-#: ../Scripts/Game/CameraController.gd:1383
+#: ../Scripts/Game/CameraController.gd:1356
+#: ../Scripts/Game/CameraController.gd:1395
 msgid "Paste"
 msgstr "Lim inn"
 
-#: ../Scripts/Game/CameraController.gd:1355
+#: ../Scripts/Game/CameraController.gd:1367
 msgid "Unlock"
 msgstr "Lås opp"
 
-#: ../Scripts/Game/CameraController.gd:1357
+#: ../Scripts/Game/CameraController.gd:1369
 msgid "Lock"
 msgstr "Lås"
 
-#: ../Scripts/Game/CameraController.gd:1361
+#: ../Scripts/Game/CameraController.gd:1373
 msgid "Transform"
 msgstr "Transformer"
 
-#: ../Scripts/Game/CameraController.gd:1388
+#: ../Scripts/Game/CameraController.gd:1400
 msgid "Set spawn point here"
 msgstr "Angi opprinnelsespunkt her"
 
-#: ../Scripts/Game/CameraController.gd:1389
+#: ../Scripts/Game/CameraController.gd:1401
 msgid "Spawn object here"
 msgstr "Skap objekt her"
 
-#: ../Scripts/Game/CameraController.gd:1408
+#: ../Scripts/Game/CameraController.gd:1420
 #, python-format
 msgid "Alt + %s"
 msgstr "Alt + %s"
 
-#: ../Scripts/Game/CameraController.gd:1409
+#: ../Scripts/Game/CameraController.gd:1421
 #, python-format
 msgid "Ctrl + %s"
 msgstr "Ctrl + %s"
 
-#: ../Scripts/Game/CameraController.gd:1410
+#: ../Scripts/Game/CameraController.gd:1422
 #, python-format
 msgid "Cmd + %s"
 msgstr "Cmd + %s"
 
-#: ../Scripts/Game/CameraController.gd:1411
+#: ../Scripts/Game/CameraController.gd:1423
 #, python-format
 msgid "Hold %s"
 msgstr "Hold %s"
 
-#: ../Scripts/Game/CameraController.gd:1412
+#: ../Scripts/Game/CameraController.gd:1424
 #, python-format
 msgid "Release %s"
 msgstr "Slipp %s"
 
-#: ../Scripts/Game/CameraController.gd:1419
+#: ../Scripts/Game/CameraController.gd:1431
 msgid "Scroll Wheel"
 msgstr "Musehjul"
 
-#: ../Scripts/Game/CameraController.gd:1422
+#: ../Scripts/Game/CameraController.gd:1434
 msgid "Move camera"
 msgstr "Flytt kamera"
 
-#: ../Scripts/Game/CameraController.gd:1426
+#: ../Scripts/Game/CameraController.gd:1438
 msgid "Rotate camera"
 msgstr "Roter kamera"
 
-#: ../Scripts/Game/CameraController.gd:1427
+#: ../Scripts/Game/CameraController.gd:1439
 #, python-format
 msgid "Hold %s + Move Mouse"
 msgstr "Hold %s + Beveg musen"
 
-#: ../Scripts/Game/CameraController.gd:1435
+#: ../Scripts/Game/CameraController.gd:1447
 msgid "Zoom camera"
 msgstr "Zoom kameraet"
 
-#: ../Scripts/Game/CameraController.gd:1445
+#: ../Scripts/Game/CameraController.gd:1457
 msgid "Release selected"
 msgstr "Slipp valgte"
 
-#: ../Scripts/Game/CameraController.gd:1447
+#: ../Scripts/Game/CameraController.gd:1459
 msgid "Stop box selecting"
 msgstr "Avslutt boksvalg"
 
-#: ../Scripts/Game/CameraController.gd:1450
+#: ../Scripts/Game/CameraController.gd:1462
 msgid "Select object"
 msgstr "Velg objekt"
 
-#: ../Scripts/Game/CameraController.gd:1452
+#: ../Scripts/Game/CameraController.gd:1464
 msgid "Add to selection"
 msgstr "Legg til i utvalget"
 
-#: ../Scripts/Game/CameraController.gd:1455
+#: ../Scripts/Game/CameraController.gd:1467
 msgid "Take random object"
 msgstr "Ta tilfeldig objekt"
 
-#: ../Scripts/Game/CameraController.gd:1456
-#: ../Scripts/Game/CameraController.gd:1459
+#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1471
 #, python-format
 msgid "%s + Move Mouse"
 msgstr "%s + Flytt musen"
 
-#: ../Scripts/Game/CameraController.gd:1458
+#: ../Scripts/Game/CameraController.gd:1470
 msgid "Take top object"
 msgstr "Ta øverste objekt"
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab selected"
 msgstr "Ta tak i valgt"
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab object"
 msgstr "Ta tak i objekt"
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Stop moving"
 msgstr "Slutt å bevege"
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Start moving"
 msgstr "Begynn å bevege"
 
-#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1480
 msgid "Box select"
 msgstr "Boksvalg"
 
-#: ../Scripts/Game/CameraController.gd:1472
+#: ../Scripts/Game/CameraController.gd:1484
 msgid "Flick object"
 msgstr "Knips objekt"
 
-#: ../Scripts/Game/CameraController.gd:1474
+#: ../Scripts/Game/CameraController.gd:1486
 msgid "Prepare to flick"
 msgstr "Forbered deg på å knipse"
 
-#: ../Scripts/Game/CameraController.gd:1478
+#: ../Scripts/Game/CameraController.gd:1490
 msgid "Stop measuring"
 msgstr "Avslutt måling"
 
-#: ../Scripts/Game/CameraController.gd:1480
+#: ../Scripts/Game/CameraController.gd:1492
 msgid "Start measuring"
 msgstr "Start måling"
 
-#: ../Scripts/Game/CameraController.gd:1484
+#: ../Scripts/Game/CameraController.gd:1496
 msgid "Create hidden area"
 msgstr "Opprett skjult område"
 
-#: ../Scripts/Game/CameraController.gd:1486
+#: ../Scripts/Game/CameraController.gd:1498
 msgid "Draw hidden area"
 msgstr "Tegn skjult område"
 
-#: ../Scripts/Game/CameraController.gd:1489
+#: ../Scripts/Game/CameraController.gd:1501
 msgid "Paint Table"
 msgstr "Mal bordet"
 
-#: ../Scripts/Game/CameraController.gd:1492
+#: ../Scripts/Game/CameraController.gd:1504
 msgid "Erase Paint"
 msgstr "Slett maling"
 
-#: ../Scripts/Game/CameraController.gd:1502
+#: ../Scripts/Game/CameraController.gd:1514
 msgid "Object menu"
 msgstr "Objektmeny"
 
-#: ../Scripts/Game/CameraController.gd:1504
+#: ../Scripts/Game/CameraController.gd:1516
 msgid "Table menu"
 msgstr "Bordmeny"
 
-#: ../Scripts/Game/CameraController.gd:1508
+#: ../Scripts/Game/CameraController.gd:1520
 msgid "Stop flicking"
 msgstr "Avslutt knipsing"
 
-#: ../Scripts/Game/CameraController.gd:1512
+#: ../Scripts/Game/CameraController.gd:1524
 msgid "Remove last ruler"
 msgstr "Fjerne siste linjal"
 
-#: ../Scripts/Game/CameraController.gd:1516
+#: ../Scripts/Game/CameraController.gd:1528
 msgid "Remove hidden area"
 msgstr "Fjerne skjult område"
 
-#: ../Scripts/Game/CameraController.gd:1536
+#: ../Scripts/Game/CameraController.gd:1548
 msgid "Lift selected"
 msgstr "Løft valgt"
 
-#: ../Scripts/Game/CameraController.gd:1537
+#: ../Scripts/Game/CameraController.gd:1549
 msgid "Zoom selected"
 msgstr "Zoom valgt"
 
-#: ../Scripts/Game/CameraController.gd:1538
+#: ../Scripts/Game/CameraController.gd:1550
 msgid "Rotate selected"
 msgstr "Roter valgt"
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Unlock selected"
 msgstr "Lås opp valgt"
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Lock selected"
 msgstr "Lås valgt"
 
-#: ../Scripts/Game/CameraController.gd:1550
+#: ../Scripts/Game/CameraController.gd:1562
 msgid "Delete selected"
 msgstr "Slett valgt"
 
-#: ../Scripts/Game/CameraController.gd:1562
-#: ../Scripts/Game/CameraController.gd:1579
+#: ../Scripts/Game/CameraController.gd:1574
+#: ../Scripts/Game/CameraController.gd:1591
 msgid "Reset orientation"
 msgstr "Tilbakestill orientering"
 
-#: ../Scripts/Game/CameraController.gd:1564
-#: ../Scripts/Game/CameraController.gd:1581
+#: ../Scripts/Game/CameraController.gd:1576
+#: ../Scripts/Game/CameraController.gd:1593
 msgid "Flip orientation"
 msgstr "Speil orientering"
 
-#: ../Scripts/Game/CameraController.gd:1570
+#: ../Scripts/Game/CameraController.gd:1582
 msgid "Flip card"
 msgstr "Snu kort"
 
-#: ../Scripts/Game/CameraController.gd:1572
+#: ../Scripts/Game/CameraController.gd:1584
 msgid "Face card up"
 msgstr "Snu kortet oppover"
 
-#: ../Scripts/Game/CameraController.gd:1588
+#: ../Scripts/Game/CameraController.gd:1600
 msgid "Reset camera"
 msgstr "Tilbakestill kamera"
 
-#: ../Scripts/Game/CameraController.gd:1741
+#: ../Scripts/Game/CameraController.gd:1753
 msgid "Pause track"
 msgstr "Pause lydspor"
 
-#: ../Scripts/Game/CameraController.gd:1746
+#: ../Scripts/Game/CameraController.gd:1758
 msgid "Resume track"
 msgstr "Gjenoppta lydspor"
 
-#: ../Scripts/Game/CameraController.gd:1750
+#: ../Scripts/Game/CameraController.gd:1762
 msgid "Stop track"
 msgstr "Stopp lydspor"
 
-#: ../Scripts/Game/CameraController.gd:1752
+#: ../Scripts/Game/CameraController.gd:1764
 msgid "Play track"
 msgstr "Spill av lydspor"
 
-#: ../Scripts/Game/CameraController.gd:1757
+#: ../Scripts/Game/CameraController.gd:1769
 msgid "No track loaded"
 msgstr "Ingen lydspor lastet inn"
 
-#: ../Scripts/Game/CameraController.gd:1759
+#: ../Scripts/Game/CameraController.gd:1771
 #, python-format
 msgid "Playing: %s"
 msgstr "Spiller: %s"
 
-#: ../Scripts/Game/CameraController.gd:1761
+#: ../Scripts/Game/CameraController.gd:1773
 #, python-format
 msgid "Loaded: %s"
 msgstr "Lastet inn: %s"
 
-#: ../Scripts/Game/CameraController.gd:1777
+#: ../Scripts/Game/CameraController.gd:1789
 msgid "Pause timer"
 msgstr "Pause tidsur"
 
-#: ../Scripts/Game/CameraController.gd:1782
+#: ../Scripts/Game/CameraController.gd:1794
 msgid "Resume timer"
 msgstr "Gjenoppta tidsur"
 
-#: ../Scripts/Game/CameraController.gd:1786
+#: ../Scripts/Game/CameraController.gd:1798
 msgid "Stop countdown"
 msgstr "Stopp nedtelling"
 
-#: ../Scripts/Game/CameraController.gd:1788
+#: ../Scripts/Game/CameraController.gd:1800
 msgid "Start countdown"
 msgstr "Start nedtelling"
 
-#: ../Scripts/Game/CameraController.gd:1792
+#: ../Scripts/Game/CameraController.gd:1804
 msgid "Stop stopwatch"
 msgstr "Stopp stoppeklokke"
 
-#: ../Scripts/Game/CameraController.gd:1794
+#: ../Scripts/Game/CameraController.gd:1806
 msgid "Start stopwatch"
 msgstr "Start stoppeklokke"
 
@@ -1873,6 +1895,10 @@ msgstr "For mange tilkoblinger."
 msgid "Reconnected too quickly."
 msgstr "Koblet til igjen for raskt."
 
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
+msgstr ""
+
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
 msgstr "For mye tekst blir sendt, venter..."
@@ -1961,28 +1987,28 @@ msgstr "Ingen beskrivelse."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:88
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:54
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:83
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:85
 #, python-format
 msgid "Author: %s"
 msgstr "Skaper: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:92
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:60
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:87
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:89
 #, python-format
 msgid "License: %s"
 msgstr "Lisens: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:96
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:66
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:91
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:93
 #, python-format
 msgid "Modified by: %s"
 msgstr "Endret av: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:100
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:72
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:95
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:97
 #, python-format
 msgid "URL: %s"
 msgstr "URL: %s"
@@ -2168,6 +2194,15 @@ msgstr "Tidsur"
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
 msgstr "Symboler"
+
+#~ msgid "Tabletop Club on Itch.io"
+#~ msgstr "Tabletop Club på Itch.io"
+
+#~ msgid "Discord"
+#~ msgstr "Discord"
+
+#~ msgid "Matrix.org"
+#~ msgstr "Matrix.org"
 
 #~ msgid "Dice - d6"
 #~ msgstr "Terning - d6"

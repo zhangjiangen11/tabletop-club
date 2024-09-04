@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-09 09:02+0100\n"
-"PO-Revision-Date: 2023-04-04 16:43+0000\n"
-"Last-Translator: Neko Nekowazarashi <kodra@nekoweb.my.id>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2023-09-06 17:48+0000\n"
+"Last-Translator: Christian Elbrianno <crse@protonmail.ch>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/tabletop-club/"
 "game/id/>\n"
 "Language: id\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -31,7 +31,7 @@ msgstr "Folder Aset Tidak Ada"
 
 #: ../Scenes/ImportAssets.tscn:62
 msgid "Missing Module"
-msgstr ""
+msgstr "Modul tidak ditemukan"
 
 #: ../Scenes/Loading.tscn:41
 msgid "Loading..."
@@ -41,7 +41,7 @@ msgstr "Memuat..."
 msgid "Singleplayer"
 msgstr "Satu Pemain"
 
-#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:159
+#: ../Scenes/MainMenu.tscn:58 ../Scenes/MainMenu.tscn:158
 #: ../Scenes/OptionsMenu.tscn:966
 msgid "Multiplayer"
 msgstr "Multi Pemain"
@@ -50,7 +50,7 @@ msgstr "Multi Pemain"
 msgid "Options"
 msgstr "Pilihan"
 
-#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:316
+#: ../Scenes/MainMenu.tscn:72 ../Scenes/MainMenu.tscn:315
 msgid "Credits"
 msgstr "Kredit"
 
@@ -58,67 +58,67 @@ msgstr "Kredit"
 msgid "Quit"
 msgstr "Keluar"
 
-#: ../Scenes/MainMenu.tscn:98 ../Scenes/MainMenu.tscn:341
+#: ../Scenes/MainMenu.tscn:97 ../Scenes/MainMenu.tscn:340
 msgid "Import Log"
 msgstr "Impor Log"
 
-#: ../Scenes/MainMenu.tscn:99
+#: ../Scenes/MainMenu.tscn:98
 msgid "0"
 msgstr "0"
 
-#: ../Scenes/MainMenu.tscn:107
-msgid "Tabletop Club on Itch.io"
-msgstr "Tabletop Club di Itch.io"
+#: ../Scenes/MainMenu.tscn:106
+msgid "Website"
+msgstr ""
 
-#: ../Scenes/MainMenu.tscn:116
+#: ../Scenes/MainMenu.tscn:115
 msgid "Source Code"
 msgstr "Kode Sumber"
 
-#: ../Scenes/MainMenu.tscn:125
+#: ../Scenes/MainMenu.tscn:124
 msgid "Documentation"
 msgstr "Dokumentasi"
 
-#: ../Scenes/MainMenu.tscn:134
-msgid "Discord"
+#: ../Scenes/MainMenu.tscn:133
+msgid "Community"
 msgstr ""
 
-#: ../Scenes/MainMenu.tscn:143
-msgid "Matrix.org"
+#: ../Scenes/MainMenu.tscn:142
+msgid "Donate"
 msgstr ""
 
-#: ../Scenes/MainMenu.tscn:152 ../Scenes/MainMenu.tscn:247
+#: ../Scenes/MainMenu.tscn:151 ../Scenes/MainMenu.tscn:246
 msgid "Information"
 msgstr "Informasi"
 
-#: ../Scenes/MainMenu.tscn:177
+#: ../Scenes/MainMenu.tscn:176
 msgid "Host Game"
 msgstr "Hos Permainan"
 
-#: ../Scenes/MainMenu.tscn:183
+#: ../Scenes/MainMenu.tscn:182
 msgid "Create a new lobby for your friends to join over the Internet."
 msgstr "Buat ruang baru untuk teman kamu untuk bergabung lewat internet."
 
-#: ../Scenes/MainMenu.tscn:195 ../Scenes/MainMenu.tscn:242
+#: ../Scenes/MainMenu.tscn:194 ../Scenes/MainMenu.tscn:241
 msgid "Join Game"
 msgstr "Gabung Permainan"
 
-#: ../Scenes/MainMenu.tscn:201
+#: ../Scenes/MainMenu.tscn:200
 msgid "Use a room code to join your friend's lobby."
 msgstr "Gunakan kode ruang untuk bergabung ke ruang teman kamu."
 
-#: ../Scenes/MainMenu.tscn:207
+#: ../Scenes/MainMenu.tscn:206
 msgid "Enter Room Code"
 msgstr "Masukkan Kode Ruang"
 
-#: ../Scenes/MainMenu.tscn:227
+#: ../Scenes/MainMenu.tscn:226
 msgid "Room Code:"
 msgstr "Kode Ruang:"
 
-#: ../Scenes/MainMenu.tscn:236
+#: ../Scenes/MainMenu.tscn:235
 msgid "ABCD"
 msgstr "ABCD"
 
-#: ../Scenes/MainMenu.tscn:334
+#: ../Scenes/MainMenu.tscn:333
 msgid "Error"
 msgstr "Galat"
 
@@ -316,7 +316,7 @@ msgstr "Jarak Simpan Otomatis"
 msgid "Used to set how often autosaves are created."
 msgstr "Digunakan untuk mengatur berapa kali simpan otomatis dilakukan."
 
-#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:70
+#: ../Scenes/OptionsMenu.tscn:465 ../Scripts/OptionsMenu.gd:72
 msgid "5 minutes"
 msgstr "5 menit"
 
@@ -458,7 +458,7 @@ msgid ""
 "orientation."
 msgstr ""
 
-#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1577
+#: ../Scenes/OptionsMenu.tscn:785 ../Scripts/Game/CameraController.gd:1589
 msgid "Rotate Piece"
 msgstr "Rotasi Bidak"
 
@@ -467,8 +467,8 @@ msgid "Rotates the the piece that is selected, or that the mouse is over."
 msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:803 ../Scripts/Game/CameraController.gd:1210
-#: ../Scripts/Game/CameraController.gd:1530
-#: ../Scripts/Game/CameraController.gd:1585
+#: ../Scripts/Game/CameraController.gd:1542
+#: ../Scripts/Game/CameraController.gd:1597
 msgid "Shuffle"
 msgstr "Acak"
 
@@ -557,7 +557,7 @@ msgstr ""
 msgid "Player"
 msgstr "Pemain"
 
-#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1338
+#: ../Scenes/OptionsMenu.tscn:997 ../Scripts/Game/CameraController.gd:1350
 msgid "Color"
 msgstr "Warna"
 
@@ -574,7 +574,7 @@ msgid "Changes the size of the text in the chat box."
 msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1025 ../Scenes/OptionsMenu.tscn:1156
-#: ../Scripts/OptionsMenu.gd:80
+#: ../Scripts/OptionsMenu.gd:82
 msgid "Medium"
 msgstr "Medium"
 
@@ -611,7 +611,7 @@ msgstr "Mode Jendela"
 msgid "Sets the mode in which the game window is displayed."
 msgstr ""
 
-#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:74
+#: ../Scenes/OptionsMenu.tscn:1096 ../Scripts/OptionsMenu.gd:76
 msgid "Windowed"
 msgstr ""
 
@@ -636,7 +636,7 @@ msgid "Multisample Anti-Aliasing (MSAA)"
 msgstr ""
 
 #: ../Scenes/OptionsMenu.tscn:1177 ../Scenes/OptionsMenu.tscn:1199
-#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:78
+#: ../Scenes/OptionsMenu.tscn:1240 ../Scripts/OptionsMenu.gd:80
 msgid "None"
 msgstr ""
 
@@ -648,7 +648,7 @@ msgstr ""
 msgid "Skybox Radiance Detail"
 msgstr ""
 
-#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:79
+#: ../Scenes/OptionsMenu.tscn:1219 ../Scripts/OptionsMenu.gd:81
 msgid "Low"
 msgstr "Rendah"
 
@@ -783,7 +783,7 @@ msgid "Value:"
 msgstr ""
 
 #: ../Scenes/Game/CameraController.tscn:442
-#: ../Scripts/Game/CameraController.gd:1288
+#: ../Scripts/Game/CameraController.gd:1300
 msgid "Set value"
 msgstr ""
 
@@ -1033,7 +1033,7 @@ msgid "Move Down"
 msgstr ""
 
 #: ../Scenes/Game/UI/Dialogs/NotebookDialog.tscn:138
-#: ../Scripts/Game/CameraController.gd:1359
+#: ../Scripts/Game/CameraController.gd:1371
 #: ../Scripts/Game/UI/Dialogs/SaveDialog.gd:228
 msgid "Delete"
 msgstr "Hapus"
@@ -1117,7 +1117,7 @@ msgstr "Paket:"
 msgid "Type:"
 msgstr "Jenis:"
 
-#: ../Scripts/AssetDB.gd:439
+#: ../Scripts/AssetDB.gd:433
 msgid "Cleaning old files..."
 msgstr "Membersihkan berkas-berkas usang..."
 
@@ -1125,11 +1125,11 @@ msgstr "Membersihkan berkas-berkas usang..."
 msgid "Not bound"
 msgstr ""
 
-#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1440
+#: ../Scripts/BindManager.gd:58 ../Scripts/Game/CameraController.gd:1452
 msgid "Left Mouse Button"
 msgstr "Tombol Tetikus Kiri"
 
-#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1497
+#: ../Scripts/BindManager.gd:60 ../Scripts/Game/CameraController.gd:1509
 msgid "Right Mouse Button"
 msgstr "Tombol Tetikus Kanan"
 
@@ -1236,50 +1236,58 @@ msgid "Translators"
 msgstr "Penerjemah"
 
 #: ../Scripts/MainMenu.gd:106
-msgid "Dutch"
+msgid "Chinese"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:107
-msgid "Esperanto"
+msgid "Dutch"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:108
-msgid "French"
+msgid "Esperanto"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:109
-msgid "German"
+msgid "French"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:110
-msgid "Indonesian"
+msgid "German"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:111
-msgid "Italian"
+msgid "Indonesian"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:112
-msgid "Norwegian"
+msgid "Italian"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:113
-msgid "Portuguese"
+msgid "Norwegian"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:114
-msgid "Russian"
+msgid "Polish"
 msgstr ""
 
 #: ../Scripts/MainMenu.gd:115
+msgid "Portuguese"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:116
+msgid "Russian"
+msgstr ""
+
+#: ../Scripts/MainMenu.gd:117
 msgid "Spanish"
 msgstr ""
 
-#: ../Scripts/MainMenu.gd:216
+#: ../Scripts/MainMenu.gd:218
 msgid "Room code must be four characters long!"
 msgstr "Kode ruang harus empat karakter!"
 
-#: ../Scripts/MainMenu.gd:221
+#: ../Scripts/MainMenu.gd:223
 msgid "Invalid room code!"
 msgstr "Kode ruang tidak valid!"
 
@@ -1287,51 +1295,51 @@ msgstr "Kode ruang tidak valid!"
 msgid "System Default"
 msgstr "Baku Sistem"
 
-#: ../Scripts/OptionsMenu.gd:67
+#: ../Scripts/OptionsMenu.gd:69
 msgid "Never"
 msgstr "Tidak Pernah"
 
-#: ../Scripts/OptionsMenu.gd:68
+#: ../Scripts/OptionsMenu.gd:70
 msgid "30 seconds"
 msgstr "30 detik"
 
-#: ../Scripts/OptionsMenu.gd:69
+#: ../Scripts/OptionsMenu.gd:71
 msgid "1 minute"
 msgstr "1 menit"
 
-#: ../Scripts/OptionsMenu.gd:71
+#: ../Scripts/OptionsMenu.gd:73
 msgid "10 minutes"
 msgstr "10 menit"
 
-#: ../Scripts/OptionsMenu.gd:72
+#: ../Scripts/OptionsMenu.gd:74
 msgid "30 minutes"
 msgstr "30 menit"
 
-#: ../Scripts/OptionsMenu.gd:75
+#: ../Scripts/OptionsMenu.gd:77
 msgid "Borderless Fullscreen"
 msgstr "Layar Penuh Tanpa Batas"
 
-#: ../Scripts/OptionsMenu.gd:76
+#: ../Scripts/OptionsMenu.gd:78
 msgid "Fullscreen"
 msgstr "Layar Penuh"
 
-#: ../Scripts/OptionsMenu.gd:81
+#: ../Scripts/OptionsMenu.gd:83
 msgid "High"
 msgstr "Tinggi"
 
-#: ../Scripts/OptionsMenu.gd:82
+#: ../Scripts/OptionsMenu.gd:84
 msgid "Very High"
 msgstr "Sangat Tinggi"
 
-#: ../Scripts/OptionsMenu.gd:83
+#: ../Scripts/OptionsMenu.gd:85
 msgid "Ultra"
 msgstr "Ultra"
 
-#: ../Scripts/OptionsMenu.gd:85
+#: ../Scripts/OptionsMenu.gd:87
 msgid "Small"
 msgstr "Kecil"
 
-#: ../Scripts/OptionsMenu.gd:87
+#: ../Scripts/OptionsMenu.gd:89
 msgid "Large"
 msgstr "Besar"
 
@@ -1402,318 +1410,327 @@ msgstr "Urut berdasarkan"
 msgid "Timer"
 msgstr "Pewaktu"
 
-#: ../Scripts/Game/CameraController.gd:1272
+#: ../Scripts/Game/CameraController.gd:1278
+msgid "Value: (None)"
+msgstr ""
+
+#: ../Scripts/Game/CameraController.gd:1280
+#, python-format
+msgid "Value: %s"
+msgstr ""
+
+#: ../Scripts/Game/CameraController.gd:1284
 #, python-format
 msgid "Total: %d"
 msgstr "Total: %d"
 
-#: ../Scripts/Game/CameraController.gd:1274
+#: ../Scripts/Game/CameraController.gd:1286
 #, python-format
 msgid "Total: %f"
 msgstr "Total: %f"
 
-#: ../Scripts/Game/CameraController.gd:1294
+#: ../Scripts/Game/CameraController.gd:1306
 msgid "Collect selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1298
+#: ../Scripts/Game/CameraController.gd:1310
 msgid "Add objects..."
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1299
+#: ../Scripts/Game/CameraController.gd:1311
 msgid "Peek inside"
 msgstr "Intip ke dalam"
 
-#: ../Scripts/Game/CameraController.gd:1301
+#: ../Scripts/Game/CameraController.gd:1313
 msgid "Take objects out"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1317
+#: ../Scripts/Game/CameraController.gd:1329
 msgid "Speaker"
 msgstr "Pengeras suara"
 
-#: ../Scripts/Game/CameraController.gd:1329
+#: ../Scripts/Game/CameraController.gd:1341
 msgid "Details…"
 msgstr "Detail…"
 
-#: ../Scripts/Game/CameraController.gd:1341
+#: ../Scripts/Game/CameraController.gd:1353
 msgid "Cut"
 msgstr "Potong"
 
-#: ../Scripts/Game/CameraController.gd:1342
+#: ../Scripts/Game/CameraController.gd:1354
 msgid "Copy"
 msgstr "Salin"
 
-#: ../Scripts/Game/CameraController.gd:1344
-#: ../Scripts/Game/CameraController.gd:1383
+#: ../Scripts/Game/CameraController.gd:1356
+#: ../Scripts/Game/CameraController.gd:1395
 msgid "Paste"
 msgstr "Tempel"
 
-#: ../Scripts/Game/CameraController.gd:1355
+#: ../Scripts/Game/CameraController.gd:1367
 msgid "Unlock"
 msgstr "Buka Kunci"
 
-#: ../Scripts/Game/CameraController.gd:1357
+#: ../Scripts/Game/CameraController.gd:1369
 msgid "Lock"
 msgstr "Kunci"
 
-#: ../Scripts/Game/CameraController.gd:1361
+#: ../Scripts/Game/CameraController.gd:1373
 msgid "Transform"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1388
+#: ../Scripts/Game/CameraController.gd:1400
 msgid "Set spawn point here"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1389
+#: ../Scripts/Game/CameraController.gd:1401
 msgid "Spawn object here"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1408
+#: ../Scripts/Game/CameraController.gd:1420
 #, python-format
 msgid "Alt + %s"
 msgstr "Alt + %s"
 
-#: ../Scripts/Game/CameraController.gd:1409
+#: ../Scripts/Game/CameraController.gd:1421
 #, python-format
 msgid "Ctrl + %s"
 msgstr "Ctrl + %s"
 
-#: ../Scripts/Game/CameraController.gd:1410
+#: ../Scripts/Game/CameraController.gd:1422
 #, python-format
 msgid "Cmd + %s"
 msgstr "Cmd + %s"
 
-#: ../Scripts/Game/CameraController.gd:1411
+#: ../Scripts/Game/CameraController.gd:1423
 #, python-format
 msgid "Hold %s"
 msgstr "Tahan %s"
 
-#: ../Scripts/Game/CameraController.gd:1412
+#: ../Scripts/Game/CameraController.gd:1424
 #, python-format
 msgid "Release %s"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1419
+#: ../Scripts/Game/CameraController.gd:1431
 msgid "Scroll Wheel"
 msgstr "Gulir Tetikus"
 
-#: ../Scripts/Game/CameraController.gd:1422
+#: ../Scripts/Game/CameraController.gd:1434
 msgid "Move camera"
 msgstr "Pindahkan kamera"
 
-#: ../Scripts/Game/CameraController.gd:1426
+#: ../Scripts/Game/CameraController.gd:1438
 msgid "Rotate camera"
 msgstr "Rotasi kamera"
 
-#: ../Scripts/Game/CameraController.gd:1427
+#: ../Scripts/Game/CameraController.gd:1439
 #, python-format
 msgid "Hold %s + Move Mouse"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1435
+#: ../Scripts/Game/CameraController.gd:1447
 msgid "Zoom camera"
 msgstr "Perbesar kamera"
 
-#: ../Scripts/Game/CameraController.gd:1445
+#: ../Scripts/Game/CameraController.gd:1457
 msgid "Release selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1447
+#: ../Scripts/Game/CameraController.gd:1459
 msgid "Stop box selecting"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1450
+#: ../Scripts/Game/CameraController.gd:1462
 msgid "Select object"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1452
+#: ../Scripts/Game/CameraController.gd:1464
 msgid "Add to selection"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1455
+#: ../Scripts/Game/CameraController.gd:1467
 msgid "Take random object"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1456
-#: ../Scripts/Game/CameraController.gd:1459
+#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1471
 #, python-format
 msgid "%s + Move Mouse"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1458
+#: ../Scripts/Game/CameraController.gd:1470
 msgid "Take top object"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1461
+#: ../Scripts/Game/CameraController.gd:1473
 msgid "Grab object"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Stop moving"
 msgstr "Berhenti bergerak"
 
-#: ../Scripts/Game/CameraController.gd:1464
+#: ../Scripts/Game/CameraController.gd:1476
 msgid "Start moving"
 msgstr "Mulai bergerak"
 
-#: ../Scripts/Game/CameraController.gd:1468
+#: ../Scripts/Game/CameraController.gd:1480
 msgid "Box select"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1472
+#: ../Scripts/Game/CameraController.gd:1484
 msgid "Flick object"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1474
+#: ../Scripts/Game/CameraController.gd:1486
 msgid "Prepare to flick"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1478
+#: ../Scripts/Game/CameraController.gd:1490
 msgid "Stop measuring"
 msgstr "Berhenti mengukur"
 
-#: ../Scripts/Game/CameraController.gd:1480
+#: ../Scripts/Game/CameraController.gd:1492
 msgid "Start measuring"
 msgstr "Mulai mengukur"
 
-#: ../Scripts/Game/CameraController.gd:1484
+#: ../Scripts/Game/CameraController.gd:1496
 msgid "Create hidden area"
 msgstr "Buat area tersembunyi"
 
-#: ../Scripts/Game/CameraController.gd:1486
+#: ../Scripts/Game/CameraController.gd:1498
 msgid "Draw hidden area"
 msgstr "Gambar area tersembunyi"
 
-#: ../Scripts/Game/CameraController.gd:1489
+#: ../Scripts/Game/CameraController.gd:1501
 msgid "Paint Table"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1492
+#: ../Scripts/Game/CameraController.gd:1504
 msgid "Erase Paint"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1502
+#: ../Scripts/Game/CameraController.gd:1514
 msgid "Object menu"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1504
+#: ../Scripts/Game/CameraController.gd:1516
 msgid "Table menu"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1508
+#: ../Scripts/Game/CameraController.gd:1520
 msgid "Stop flicking"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1512
+#: ../Scripts/Game/CameraController.gd:1524
 msgid "Remove last ruler"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1516
+#: ../Scripts/Game/CameraController.gd:1528
 msgid "Remove hidden area"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1536
+#: ../Scripts/Game/CameraController.gd:1548
 msgid "Lift selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1537
+#: ../Scripts/Game/CameraController.gd:1549
 msgid "Zoom selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1538
+#: ../Scripts/Game/CameraController.gd:1550
 msgid "Rotate selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Unlock selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1547
+#: ../Scripts/Game/CameraController.gd:1559
 msgid "Lock selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1550
+#: ../Scripts/Game/CameraController.gd:1562
 msgid "Delete selected"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1562
-#: ../Scripts/Game/CameraController.gd:1579
+#: ../Scripts/Game/CameraController.gd:1574
+#: ../Scripts/Game/CameraController.gd:1591
 msgid "Reset orientation"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1564
-#: ../Scripts/Game/CameraController.gd:1581
+#: ../Scripts/Game/CameraController.gd:1576
+#: ../Scripts/Game/CameraController.gd:1593
 msgid "Flip orientation"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1570
+#: ../Scripts/Game/CameraController.gd:1582
 msgid "Flip card"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1572
+#: ../Scripts/Game/CameraController.gd:1584
 msgid "Face card up"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1588
+#: ../Scripts/Game/CameraController.gd:1600
 msgid "Reset camera"
 msgstr "Atur ulang kamera"
 
-#: ../Scripts/Game/CameraController.gd:1741
+#: ../Scripts/Game/CameraController.gd:1753
 msgid "Pause track"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1746
+#: ../Scripts/Game/CameraController.gd:1758
 msgid "Resume track"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1750
+#: ../Scripts/Game/CameraController.gd:1762
 msgid "Stop track"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1752
+#: ../Scripts/Game/CameraController.gd:1764
 msgid "Play track"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1757
+#: ../Scripts/Game/CameraController.gd:1769
 msgid "No track loaded"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1759
+#: ../Scripts/Game/CameraController.gd:1771
 #, python-format
 msgid "Playing: %s"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1761
+#: ../Scripts/Game/CameraController.gd:1773
 #, python-format
 msgid "Loaded: %s"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1777
+#: ../Scripts/Game/CameraController.gd:1789
 msgid "Pause timer"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1782
+#: ../Scripts/Game/CameraController.gd:1794
 msgid "Resume timer"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1786
+#: ../Scripts/Game/CameraController.gd:1798
 msgid "Stop countdown"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1788
+#: ../Scripts/Game/CameraController.gd:1800
 msgid "Start countdown"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1792
+#: ../Scripts/Game/CameraController.gd:1804
 msgid "Stop stopwatch"
 msgstr ""
 
-#: ../Scripts/Game/CameraController.gd:1794
+#: ../Scripts/Game/CameraController.gd:1806
 msgid "Start stopwatch"
 msgstr ""
 
@@ -1856,6 +1873,10 @@ msgstr "Terlalu banyak koneksi."
 msgid "Reconnected too quickly."
 msgstr ""
 
+#: ../Scripts/Game/MasterServer.gd:59
+msgid "Join queue is full."
+msgstr ""
+
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
 msgstr ""
@@ -1943,28 +1964,28 @@ msgstr "Tidak ada deskripsi."
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:88
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:54
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:83
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:85
 #, python-format
 msgid "Author: %s"
 msgstr "Pembuat: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:92
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:60
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:87
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:89
 #, python-format
 msgid "License: %s"
 msgstr "Lisensi: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:96
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:66
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:91
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:93
 #, python-format
 msgid "Modified by: %s"
 msgstr "Diubah oleh: %s"
 
 #: ../Scripts/Game/UI/Dialogs/DetailsDialog.gd:100
 #: ../Scripts/Game/UI/Previews/GenericPreview.gd:72
-#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:95
+#: ../Scripts/Game/UI/Previews/ObjectPreview.gd:97
 #, python-format
 msgid "URL: %s"
 msgstr "URL: %s"
@@ -2151,6 +2172,9 @@ msgstr "Pewaktu"
 #: ../Scripts/Game/UI/Previews/PreviewFilter.gd:295
 msgid "Tokens"
 msgstr "Token"
+
+#~ msgid "Tabletop Club on Itch.io"
+#~ msgstr "Tabletop Club di Itch.io"
 
 #, fuzzy
 #~| msgid "Used to set how fast the camera moves across the table."
