@@ -40,21 +40,20 @@ players, feel free to join one of our
 
 [![Translation Status](https://hosted.weblate.org/widgets/tabletop-club/-/svg-badge.svg)](https://hosted.weblate.org/engage/tabletop-club/)
 
-Language             | Game               | Documentation      | Default Asset Pack
--------------------- | ------------------ | ------------------ | ------------------
-Chinese (Simplified) | 99%                | :heavy_check_mark: | 99%
-English              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-Dutch                | :heavy_check_mark: | :x:                | :heavy_check_mark:
-Esperanto            | 94%                | :x:                | 99%
-French               | 99%                | :x:                | 99%
-German               | 99%                | :x:                | 99%
-Indonesian           | 55%                | :x:                | :x:
-Italian              | 88%                | :x:                | :x:
-Norwegian Bokmål     | 99%                | :x:                | 89%
-Polish               | 71%                | :x:                | :x:
-Portuguese           | 85%                | :x:                | 99%
-Russian              | 94%                | 90%                | 82%
-Spanish              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+* Chinese (Simplified)
+* English
+* Dutch
+* Esperanto
+* French
+* German
+* Indonesian
+* Italian
+* Norwegian Bokmål
+* Polish
+* Portuguese
+* Portuguese (Brazil)
+* Russian
+* Spanish
 
 If you want to help translate the project, you can go to the project's
 [Hosted Weblate](https://hosted.weblate.org/engage/tabletop-club/) page.

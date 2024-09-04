@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The value of die faces can now be text, as well as numbers. (#209)
 - Added a "Donate" button to the main menu that opens `ko-fi.com/drwhut` in the
   default browser.
+- Added Brazilian Portuguese as a playable language!
 
 ### Changed
 
@@ -27,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   browser.
 - Updated the master server's URL and SSL certificate.
 - Updated the documentation.
+- Updated translations from the community.
 
 ### Removed
 
