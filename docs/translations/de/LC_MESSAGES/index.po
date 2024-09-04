@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTabletop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-05-05 19:48+0000\n"
 "Last-Translator: Nils Büchner <n.buechner@united-gameserver.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/tabletop-club/"
@@ -43,7 +43,7 @@ msgstr ""
 "`about-tabletop-club` Seite. Andernfalls kannst du entweder das "
 "Inhaltsverzeichnis oder die Suchleiste nutzen, um das Gewünschte zu finden!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "Screenshots aus dem Spiel"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-07-19 10:05+0000\n"
 "Last-Translator: MacIT <ptichka.denozavra05@mail.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tabletop-club/"
@@ -46,7 +46,7 @@ msgstr ""
 "противном случае вы можете воспользоваться оглавлением, боковой панелью или "
 "строкой поиска, чтобы найти то, что вам нужно!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "Скриншоты из игры"
 

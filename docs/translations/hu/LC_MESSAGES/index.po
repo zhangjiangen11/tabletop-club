@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-12-07 14:04+0000\n"
 "Last-Translator: Tibor Eszes <teszes@pm.me>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/tabletop-club/"
@@ -21,11 +21,9 @@ msgstr ""
 "X-Generator: Weblate 5.3-dev\n"
 
 #: ../../index.rst:25
-#: ../../index.rst:25
 msgid "General"
 msgstr "Általános"
 
-#: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
 msgstr "Egyedi játékeszközök"
@@ -35,20 +33,29 @@ msgid "Tabletop Club Documentation"
 msgstr "Tabletop Club dokumentáció"
 
 #: ../../index.rst:9
-msgid "Welcome to the documentation for Tabletop Club, a free and open source tabletop board game simulator! If you're new to the project, feel free to check out the :ref:`about-tabletop-club` page. Otherwise, you can use either the table of contents, the sidebar, or the search bar to find what you need!"
+msgid ""
+"Welcome to the documentation for Tabletop Club, a free and open source "
+"tabletop board game simulator! If you're new to the project, feel free to "
+"check out the :ref:`about-tabletop-club` page. Otherwise, you can use either "
+"the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
 "Üdv a Tabletop Club dokumentációján! A Tabletop Club egy szabad és nyílt "
-"forráskódú asztali társasjátékszimulátor. Ha új vagy a projekten, nézd meg a "
-":ref:`about-tabletop-club` oldalt. Ellenkező esetben használhatod a "
+"forráskódú asztali társasjátékszimulátor. Ha új vagy a projekten, nézd meg "
+"a :ref:`about-tabletop-club` oldalt. Ellenkező esetben használhatod a "
 "tartalomjegyzéket, az oldalsávot vagy a keresőt hogy megtaláld amire "
 "szükséged van!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "Képernyőképek a játékból"
 
 #: ../../index.rst:19
-msgid "The documentation, as well as the project in general, is open to suggestions and contributions! If you feel that something is not explained well, or you think that information is missing, then please don't hesitate to open an issue or a pull request on the project's `GitHub repository <https://github.com/drwhut/tabletop-club/issues>`_!"
+msgid ""
+"The documentation, as well as the project in general, is open to suggestions "
+"and contributions! If you feel that something is not explained well, or you "
+"think that information is missing, then please don't hesitate to open an "
+"issue or a pull request on the project's `GitHub repository <https://github."
+"com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
 "A dokumentáció, valamint a projekt általában nyitott javaslatokra és "
 "hozzájárulásokra! Ha úgy érzed hogy valami nincs jól elmagyarázva, vagy úgy "

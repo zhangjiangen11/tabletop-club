@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-03-04 15:41+0000\n"
 "Last-Translator: Reese Rivers <doormattion@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/tabletop-club/"
@@ -45,7 +45,7 @@ msgstr ""
 "enhavtabelon, la flankan strion, aŭ la serĉbreton por trovi tion, kion vi "
 "bezonas!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "Ekranbildoj de la ludo"
 

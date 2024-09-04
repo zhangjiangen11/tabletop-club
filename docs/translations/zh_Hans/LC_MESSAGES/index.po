@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
 "PO-Revision-Date: 2023-05-08 06:50+0000\n"
 "Last-Translator: Luoyu <rainluoyu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -21,11 +21,9 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: ../../index.rst:25
-#: ../../index.rst:25
 msgid "General"
 msgstr "通用"
 
-#: ../../index.rst:33
 #: ../../index.rst:33
 msgid "Custom Assets"
 msgstr "自定义资源"
@@ -35,19 +33,27 @@ msgid "Tabletop Club Documentation"
 msgstr "Tabletop Club 文档"
 
 #: ../../index.rst:9
-msgid "Welcome to the documentation for Tabletop Club, a free and open source tabletop board game simulator! If you're new to the project, feel free to check out the :ref:`about-tabletop-club` page. Otherwise, you can use either the table of contents, the sidebar, or the search bar to find what you need!"
+msgid ""
+"Welcome to the documentation for Tabletop Club, a free and open source "
+"tabletop board game simulator! If you're new to the project, feel free to "
+"check out the :ref:`about-tabletop-club` page. Otherwise, you can use either "
+"the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
-"欢迎来到Tabletop "
-"Club的文档，这是一个免费的、开源的桌面棋盘游戏模拟器如果你是这个项目的新手，"
-"请随时查看 :ref:`about-tabletop-club` "
-"页面。另外，你也可以使用目录、侧边栏或搜索栏来寻找你所需要的东西!"
+"欢迎来到Tabletop Club的文档，这是一个免费的、开源的桌面棋盘游戏模拟器如果你是"
+"这个项目的新手，请随时查看 :ref:`about-tabletop-club` 页面。另外，你也可以使"
+"用目录、侧边栏或搜索栏来寻找你所需要的东西!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
 msgstr "游戏截图"
 
 #: ../../index.rst:19
-msgid "The documentation, as well as the project in general, is open to suggestions and contributions! If you feel that something is not explained well, or you think that information is missing, then please don't hesitate to open an issue or a pull request on the project's `GitHub repository <https://github.com/drwhut/tabletop-club/issues>`_!"
+msgid ""
+"The documentation, as well as the project in general, is open to suggestions "
+"and contributions! If you feel that something is not explained well, or you "
+"think that information is missing, then please don't hesitate to open an "
+"issue or a pull request on the project's `GitHub repository <https://github."
+"com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
 "这个文档以及整个项目都欢迎大家提出建议和贡献。如果你觉得有什么地方没有解释清"
 "楚，或者你认为缺少信息，那么请不要犹豫，在项目的`GitHub 仓库<https://github."
