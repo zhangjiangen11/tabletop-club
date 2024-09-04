@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTabletop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-06 00:02+0000\n"
-"PO-Revision-Date: 2022-11-26 15:06+0000\n"
-"Last-Translator: Hairic95 <hairic95@gmail.com>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2023-12-27 11:07+0000\n"
+"Last-Translator: Mario Nardi <marionardi@libero.it>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/tabletop-club/"
 "docs-index/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: ../../index.rst:25
 msgid "General"
@@ -25,11 +25,11 @@ msgstr "Generali"
 
 #: ../../index.rst:33
 msgid "Custom Assets"
-msgstr ""
+msgstr "Risorse personalizzate"
 
 #: ../../index.rst:7
 msgid "Tabletop Club Documentation"
-msgstr ""
+msgstr "Documentazione di Tabletop Club"
 
 #: ../../index.rst:9
 msgid ""
@@ -38,10 +38,15 @@ msgid ""
 "check out the :ref:`about-tabletop-club` page. Otherwise, you can use either "
 "the table of contents, the sidebar, or the search bar to find what you need!"
 msgstr ""
+"Benvenuti nella documentazione di Tabletop Club, un simulatore di giochi da "
+"tavolo da tavolo gratuito e open source! Se sei nuovo al progetto, sentiti "
+"libero di dare un'occhiata alla pagina :ref:`about-tabletop-club`. "
+"Altrimenti, puoi utilizzare il sommario, la barra laterale o la barra di "
+"ricerca per trovare ciò di cui hai bisogno!"
 
-#: ../../index.rst:None
+#: ../../index.rst:14
 msgid "Screenshots from the game"
-msgstr ""
+msgstr "Schermate del gioco"
 
 #: ../../index.rst:19
 msgid ""
@@ -51,19 +56,24 @@ msgid ""
 "issue or a pull request on the project's `GitHub repository <https://github."
 "com/drwhut/tabletop-club/issues>`_!"
 msgstr ""
+"La documentazione, così come il progetto in generale, è aperta a "
+"suggerimenti e contributi! Se ritieni che qualcosa non sia spiegato bene o "
+"ritieni che manchino informazioni, non esitare ad aprire un problema o una "
+"richiesta pull sul repository `GitHub repository <https://github.com/drwhut/"
+"tabletop-club/issues>`_!"
 
 #: ../../index.rst:42
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indici e tabelle"
 
 #: ../../index.rst:44
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:45
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../../index.rst:46
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"
