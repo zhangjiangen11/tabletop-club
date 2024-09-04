@@ -8,18 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tabletop Club\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 11:14+0100\n"
-"PO-Revision-Date: 2022-11-28 17:37+0000\n"
-"Last-Translator: Nikita Epifanov <nikgreens@protonmail.com>\n"
+"POT-Creation-Date: 2024-09-04 13:50+0100\n"
+"PO-Revision-Date: 2024-02-24 13:02+0000\n"
+"Last-Translator: Alexander Ivanov <saiv46.dev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tabletop-club/"
 "docs-custom-assets/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:3
 msgid "Asset pack structure"
@@ -101,10 +101,8 @@ msgid "Object Type"
 msgstr "Тип объекта"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
-#, fuzzy
-#| msgid "``cards/``"
 msgid "``boards/``"
-msgstr "``cards/``"
+msgstr "``boards/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:40
@@ -139,10 +137,8 @@ msgid ":ref:`asset-type-object`"
 msgstr ":ref:`asset-type-object`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:36
-#, fuzzy
-#| msgid ":ref:`object-type-card`"
 msgid ":ref:`object-type-board`"
-msgstr ":ref:`object-type-card`"
+msgstr ":ref:`object-type-board`"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:38
 msgid "``cards/``"
@@ -554,7 +550,7 @@ msgid "Dictionary"
 msgstr "Словарь"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:155
-#: ../../custom_assets/asset_packs/asset_types.rst:97
+#: ../../custom_assets/asset_packs/asset_types.rst:104
 msgid "Dice"
 msgstr "Кости"
 
@@ -757,16 +753,16 @@ msgstr "``\"generic\"``"
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:180
 msgid ""
 "Determines what the object sounds like when it collides with the table. "
-"Possible values are: ``\"generic\"``, ``\"glass\"``, ``\"glass_heavy\"``, ``"
-"\"glass_light\"``, ``\"metal\"``, ``\"metal_heavy\"``, ``\"metal_light\"``, "
-"``\"soft\"``, ``\"soft_heavy\"``, ``\"tin\"``, ``\"wood\"``, ``\"wood_heavy"
-"\"``, ``\"wood_light\"``."
+"Possible values are: ``\"generic\"``, ``\"glass\"``, ``\"glass_heavy\"``, "
+"``\"glass_light\"``, ``\"metal\"``, ``\"metal_heavy\"``, "
+"``\"metal_light\"``, ``\"soft\"``, ``\"soft_heavy\"``, ``\"tin\"``, "
+"``\"wood\"``, ``\"wood_heavy\"``, ``\"wood_light\"``."
 msgstr ""
 "Определяет, какой звук издает объект при столкновении со столом. Возможные "
-"значения: ``\"generic\"``, ``\"glass\"``, ``\"glass_heavy\"``, ``"
-"\"glass_light\"``, ``\"metal\"``, ``\"metal_heavy\"``, ``\"metal_light\"``, "
-"``\"soft\"``, ``\"soft_heavy\"``, ``\"tin\"``, ``\"wood\"``, ``\"wood_heavy"
-"\"``, ``\"wood_light\"``."
+"значения: ``\"generic\"``, ``\"glass\"``, ``\"glass_heavy\"``, "
+"``\"glass_light\"``, ``\"metal\"``, ``\"metal_heavy\"``, "
+"``\"metal_light\"``, ``\"soft\"``, ``\"soft_heavy\"``, ``\"tin\"``, "
+"``\"wood\"``, ``\"wood_heavy\"``, ``\"wood_light\"``."
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:183
 msgid "``shakable``"
@@ -822,7 +818,7 @@ msgstr "``skyboxes/``"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 msgid "Templates"
-msgstr ""
+msgstr "Шаблоны"
 
 #: ../../custom_assets/asset_packs/asset_pack_structure.rst:190
 #, fuzzy
@@ -941,7 +937,7 @@ msgstr ""
 msgid "Board"
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:20
 msgid "An empty chess board on a table."
 msgstr ""
 
@@ -957,7 +953,7 @@ msgstr ""
 msgid "Card"
 msgstr "Карта"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:33
 msgid ""
 "A row of five cards in a white rectangle representing the player's\n"
 "hand, from left to right, they are the ace of clubs, the ace of diamonds,\n"
@@ -1006,15 +1002,23 @@ msgstr ""
 "Вот простой пример, который применит текстуру задней стороны (в данном "
 "примере ``BackFace.png``) ко всем картам в папке:"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:75
+#: ../../custom_assets/asset_packs/asset_types.rst:73
+msgid ""
+"When cards are placed in other player's hands, the front face is covered "
+"with the colour at the top-left pixel. If your cards use different "
+"background colours, consider adding a border around the edge of the front "
+"face so that other players cannot tell the difference between the cards."
+msgstr ""
+
+#: ../../custom_assets/asset_packs/asset_types.rst:82
 msgid "Container"
 msgstr "Контейнер"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:84
 msgid "A red plastic cup is placed near the corner of a table."
 msgstr "Красный пластиковый стаканчик ставится на угол стола."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:80
+#: ../../custom_assets/asset_packs/asset_types.rst:87
 msgid ""
 "Containers are special objects that can hold an unlimited amount of other "
 "objects inside themselves (including other containers)! Containers are "
@@ -1030,7 +1034,7 @@ msgstr ""
 "кнопкой мыши и нажав :guilabel:`Заглянуть внутрь`, что откроет всплывающее "
 "окно, показывающее содержимое контейнера."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:86
+#: ../../custom_assets/asset_packs/asset_types.rst:93
 msgid ""
 "Objects can be placed inside a container by touching the container with the "
 "object you want to add, and objects can be randomly removed from the "
@@ -1040,7 +1044,7 @@ msgstr ""
 "который вы хотите добавить, а объекты можно произвольно удалять из "
 "контейнера, быстро перетаскивая их из контейнера."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:90
+#: ../../custom_assets/asset_packs/asset_types.rst:97
 msgid ""
 "Containers can also be configured to drop items out when they are shaken "
 "upside-down by setting ``shakable = true`` in the :ref:`config-cfg` file."
@@ -1048,17 +1052,17 @@ msgstr ""
 "Контейнеры также можно настроить на выпадение предметов при встряхивании "
 "вверх дном, задав ``shakable = true`` в файле :ref:`config-cfg`."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:106
 msgid "On the table is a set of dice of varying colours and sides."
 msgstr "На столе лежит набор игральных костей разных цветов и сторон."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:102
+#: ../../custom_assets/asset_packs/asset_types.rst:109
 msgid "Dice are objects that, when shaken, randomize their orientation."
 msgstr ""
 "Кости - это объекты, которые при встряхивании случайным образом меняют свою "
 "ориентацию."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:104
+#: ../../custom_assets/asset_packs/asset_types.rst:111
 msgid ""
 "They can also be configured to report certain values depending on their "
 "orientation in the :ref:`config-cfg` file, using the ``face_values`` "
@@ -1068,7 +1072,7 @@ msgstr ""
 "зависимости от их ориентации в файле :ref:`config-cfg`, используя свойство "
 "``face_values``:"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:132
+#: ../../custom_assets/asset_packs/asset_types.rst:144
 msgid ""
 "If the face values are configured correctly, then the player will easily be "
 "able to check the total of a set of thrown dice by selecting, then right-"
@@ -1078,7 +1082,7 @@ msgstr ""
 "общую сумму набора брошенных костей, выбрав, а затем щелкнув правой кнопкой "
 "мыши на костях. Сумма будет показана в верхней части контекстного меню."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:136
+#: ../../custom_assets/asset_packs/asset_types.rst:148
 msgid ""
 "If ``face_values`` is not configured, the dice will always report ``0`` as "
 "its value."
@@ -1086,27 +1090,27 @@ msgstr ""
 "Если ``face_values`` не настроено, кубик всегда будет сообщать ``0`` в "
 "качестве своего значения."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:143
+#: ../../custom_assets/asset_packs/asset_types.rst:154
 msgid "Piece"
 msgstr "Деталь"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:156
 msgid "On the table are two chess pieces, a white pawn and a black queen."
 msgstr "На столе стоят две шахматные фигуры - белая пешка и черный ферзь."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:148
+#: ../../custom_assets/asset_packs/asset_types.rst:159
 msgid "Pieces are generic objects with no special functionality."
 msgstr "Детали - это общие объекты, не обладающие особой функциональностью."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:154
+#: ../../custom_assets/asset_packs/asset_types.rst:165
 msgid "Speaker"
 msgstr "Динамик"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:167
 msgid "By the corner of the table is a large, metallic gramophone."
 msgstr "На углу стола стоит большой металлический граммофон."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:159
+#: ../../custom_assets/asset_packs/asset_types.rst:170
 #, fuzzy
 #| msgid ""
 #| "Speakers are objects that can play audio tracks. They emit sound "
@@ -1121,11 +1125,11 @@ msgstr ""
 "издают звук позиционно, поэтому звук будет меняться в зависимости от "
 "положения динамика относительно камеры."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:167
+#: ../../custom_assets/asset_packs/asset_types.rst:178
 msgid "Timer"
 msgstr "Таймер"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:169
+#: ../../custom_assets/asset_packs/asset_types.rst:180
 msgid ""
 "Timers are objects that can be used as countdowns, stopwatches, or to "
 "display the system time. If an audio track is loaded, it will automatically "
@@ -1136,11 +1140,11 @@ msgstr ""
 "звуковая дорожка, она будет автоматически воспроизводиться, когда обратный "
 "отсчет достигнет 0."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:177
+#: ../../custom_assets/asset_packs/asset_types.rst:188
 msgid "Token"
 msgstr "Жетон"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:190
 msgid ""
 "On the table are some stacks of poker chips varying in height,\n"
 "representing various values, those being 1, 5, 10, 25, and 100."
@@ -1148,7 +1152,7 @@ msgstr ""
 "На столе лежат несколько стопок покерных фишек разной высоты,\n"
 "представляющие различные значения, такие как 1, 5, 10, 25 и 100."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:183
+#: ../../custom_assets/asset_packs/asset_types.rst:194
 msgid ""
 "Tokens are objects that are vertically stackable, meaning they join together "
 "when their top and bottom faces touch, similar to cards."
@@ -1156,11 +1160,11 @@ msgstr ""
 "Жетоны - это объекты, которые можно складывать вертикально, то есть они "
 "соединяются, когда их верхняя и нижняя грани соприкасаются, подобно картам."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:190
+#: ../../custom_assets/asset_packs/asset_types.rst:201
 msgid "Sound"
 msgstr "Звук"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:192
+#: ../../custom_assets/asset_packs/asset_types.rst:203
 msgid ""
 "Sounds can be played through either a :ref:`object-type-speaker` or a :ref:"
 "`object-type-timer`."
@@ -1168,11 +1172,11 @@ msgstr ""
 "Звуки могут воспроизводиться либо через :ref:`object-type-speaker`, либо "
 "через :ref:`object-type-timer`."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:199
+#: ../../custom_assets/asset_packs/asset_types.rst:210
 msgid "Music"
 msgstr "Музыка"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:201
+#: ../../custom_assets/asset_packs/asset_types.rst:212
 msgid ""
 "Music tracks are the same as sounds, but they can also be configured to play "
 "in the main menu. See the ``main_menu`` property in :ref:`config-cfg`."
@@ -1181,11 +1185,11 @@ msgstr ""
 "настроить на воспроизведение в главном меню. Смотрите свойство ``main_menu`` "
 "в :ref:`config-cfg`."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:208
+#: ../../custom_assets/asset_packs/asset_types.rst:219
 msgid "Game"
 msgstr "Игра"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:210
+#: ../../custom_assets/asset_packs/asset_types.rst:221
 msgid ""
 "A game is a :ref:`file-type-save` that has been pre-made such that players "
 "can instantly setup the table to play a particular game."
@@ -1194,7 +1198,7 @@ msgstr ""
 "образом, чтобы игроки могли мгновенно настроить стол для игры в определенную "
 "игру."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:215
+#: ../../custom_assets/asset_packs/asset_types.rst:226
 msgid ""
 "If there is an image next to the save file with the same name, it will be "
 "shown next to the save file in-game."
@@ -1202,11 +1206,11 @@ msgstr ""
 "Если рядом с файлом сохранения есть изображение с таким же именем, оно будет "
 "показано рядом с файлом сохранения в игре."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:222
+#: ../../custom_assets/asset_packs/asset_types.rst:233
 msgid "Skybox"
 msgstr "Скайбокс"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:224
+#: ../../custom_assets/asset_packs/asset_types.rst:235
 msgid ""
 "Skyboxes are special textures that determine what the environment around the "
 "table looks like."
@@ -1214,7 +1218,7 @@ msgstr ""
 "Скайбоксы - это специальные текстуры, которые определяют, как выглядит "
 "окружение вокруг стола."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:227
+#: ../../custom_assets/asset_packs/asset_types.rst:238
 msgid ""
 "Skybox textures in Tabletop Club use equirectangular mappings, as opposed to "
 "six-image cube mappings. Godot recommends using `this tool <https://danilw."
@@ -1227,7 +1231,7 @@ msgstr ""
 "cubemap_to_panorama_js/cubemap_to_panorama.html>`_ для преобразования "
 "кубических скайбоксов в равносторонние."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:232
+#: ../../custom_assets/asset_packs/asset_types.rst:243
 msgid ""
 "For the best lighting quality, it is recommended to use a HDR panorama. "
 "Tabletop Club supports the Radiance HDR (``.hdr``) and OpenEXR (``.exr``) "
@@ -1237,7 +1241,7 @@ msgstr ""
 "Tabletop Club поддерживает форматы Radiance HDR (``.hdr``) и OpenEXR (``."
 "exr``)."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:238
+#: ../../custom_assets/asset_packs/asset_types.rst:249
 msgid ""
 "If the skybox is either too bright or too dim, then you can change the "
 "strength of the ambient light generated by the skybox by setting the "
@@ -1247,11 +1251,11 @@ msgstr ""
 "окружающего света, создаваемого скайбоксом, установив значение ``strength`` "
 "в файле :ref:`config-cfg`."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:246
+#: ../../custom_assets/asset_packs/asset_types.rst:257
 msgid "Table"
 msgstr "Стол"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:248
+#: ../../custom_assets/asset_packs/asset_types.rst:259
 msgid ""
 "A table is a :ref:`file-type-3d` that is placed in the centre of the game "
 "world for players to put objects on."
@@ -1259,7 +1263,7 @@ msgstr ""
 "Стол - это :ref:`file-type-3d`, который размещается в центре игрового мира, "
 "чтобы игроки могли ставить на него объекты."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:251
+#: ../../custom_assets/asset_packs/asset_types.rst:262
 msgid ""
 "However, unlike custom objects, the position and scale of the exported model "
 "matters. Keep the following points in mind when you export models to be used "
@@ -1269,11 +1273,11 @@ msgstr ""
 "экспортируемой модели имеют значение. Помните о следующих моментах при "
 "экспорте моделей для использования в качестве столов:"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:255
+#: ../../custom_assets/asset_packs/asset_types.rst:266
 msgid "One unit in the exported model = one centimeter (cm) in-game."
 msgstr "Одна единица в экспортированной модели = один сантиметр (см) в игре."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:256
+#: ../../custom_assets/asset_packs/asset_types.rst:267
 msgid ""
 "The lowest vertical position the camera can zoom to is ``0`` (this is either "
 "the y or z axis, depending on the program you're using)."
@@ -1282,7 +1286,7 @@ msgstr ""
 "изображение, равно ``0`` (это ось y или z, в зависимости от используемой "
 "программы)."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:259
+#: ../../custom_assets/asset_packs/asset_types.rst:270
 msgid ""
 "Tables also have a set of hand positions, which are assigned to players by "
 "the server when they join the game. These hand positions can be defined in "
@@ -1292,7 +1296,7 @@ msgstr ""
 "когда они присоединяются к игре. Эти позиции рук могут быть определены в "
 "файле ``config.cfg``:"
 
-#: ../../custom_assets/asset_packs/asset_types.rst:285
+#: ../../custom_assets/asset_packs/asset_types.rst:296
 msgid ""
 "Tables can also be painted on by the players! You can set the size of the "
 "area that the players can paint on by setting the ``paint_plane`` property "
@@ -1302,34 +1306,34 @@ msgstr ""
 "на которой могут рисовать игроки, установив свойство ``paint_plane`` в "
 "файле :ref:`config-cfg`."
 
-#: ../../custom_assets/asset_packs/asset_types.rst:293
+#: ../../custom_assets/asset_packs/asset_types.rst:304
 msgid "Template"
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:None
+#: ../../custom_assets/asset_packs/asset_types.rst:306
 msgid ""
 "An example of a template being used by the notebook to keep track of\n"
 "player's scores over a number of rounds."
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:299
+#: ../../custom_assets/asset_packs/asset_types.rst:310
 msgid ""
 "A template is a pre-made page for the in-game notebook. It can either be an :"
 "ref:`file-type-image` or a text file (``.txt``)."
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:302
+#: ../../custom_assets/asset_packs/asset_types.rst:313
 msgid ""
 "If it is a text file, then the page itself will also resemble a text file. "
 "If it is an image, then textboxes can be configured using the ``config.cfg`` "
 "file so the player can save text on top of the image."
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:306
+#: ../../custom_assets/asset_packs/asset_types.rst:317
 msgid "The template can be selected when creating a new page in the notebook."
 msgstr ""
 
-#: ../../custom_assets/asset_packs/asset_types.rst:308
+#: ../../custom_assets/asset_packs/asset_types.rst:319
 msgid "Textboxes for image templates can be configured in the following ways:"
 msgstr ""
 
@@ -1612,13 +1616,21 @@ msgstr ""
 
 #: ../../custom_assets/asset_packs/index.rst:12
 msgid ""
+"If you just want to download community-made asset packs and install them, "
+"feel free to have a look at the `official forum <https://forum.tabletopclub."
+"net/c/asset-packs>`_. Instructions for installing asset packs can be found "
+"`here <https://forum.tabletopclub.net/t/about-the-asset-packs-category/13>`_."
+msgstr ""
+
+#: ../../custom_assets/asset_packs/index.rst:17
+msgid ""
 "For reference, you can have a look at the Tabletop Club asset pack, which "
 "comes with the game by default."
 msgstr ""
 "Для справки вы можете взглянуть на пакет ассетов Tabletop Club, который "
 "поставляется с игрой по умолчанию."
 
-#: ../../custom_assets/asset_packs/index.rst:15
+#: ../../custom_assets/asset_packs/index.rst:20
 msgid ""
 "For easy-to-follow tutorials on how to make assets and asset packs, see :ref:"
 "`custom-asset-tutorials`."
@@ -1866,7 +1878,7 @@ msgstr ""
 "специальной функциональности."
 
 #: ../../custom_assets/tutorials/add_3d_models.rst:113
-#: ../../custom_assets/tutorials/add_cards_tokens.rst:146
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:159
 #: ../../custom_assets/tutorials/add_notebook_templates.rst:119
 msgid "See more"
 msgstr "См. подробнее"
@@ -2083,10 +2095,30 @@ msgstr ""
 "данном случае может быть просто ``1.0``."
 
 #: ../../custom_assets/tutorials/add_cards_tokens.rst:124
+msgid ""
+"If you are on Windows, you may need to ensure that the file extension is "
+"actually ``.cfg``, rather than ``.txt``, since Windows hides file extensions "
+"by default."
+msgstr ""
+
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:128
+msgid ""
+"**Windows 10:** In File Explorer, click on :guilabel:`View`, and then tick "
+"the :guilabel:`File name extensions` checkbox."
+msgstr ""
+
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:131
+msgid ""
+"**Windows 11:** In File Explorer, click on :guilabel:`View`, then click on "
+"the :guilabel:`Show` dropdown, and then make sure the :guilabel:`File name "
+"extensions` checkbox is ticked."
+msgstr ""
+
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:137
 msgid "Configuring card backs"
 msgstr "Настройка задней стороны карты"
 
-#: ../../custom_assets/tutorials/add_cards_tokens.rst:126
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:139
 msgid ""
 "Using the :ref:`config-cfg` file, you can also tell the game what image to "
 "use for the back face of cards. Using ``Back.png`` as an example:"
@@ -2095,11 +2127,11 @@ msgstr ""
 "изображение использовать для обратной стороны карт. Используя в качестве "
 "примера ``Back.png``:"
 
-#: ../../custom_assets/tutorials/add_cards_tokens.rst:148
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:161
 msgid "Congratulations, you now have your own cards and tokens in the game!"
 msgstr "Поздравляем, теперь у вас есть свои собственные карты и жетоны в игре!"
 
-#: ../../custom_assets/tutorials/add_cards_tokens.rst:150
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:163
 msgid ""
 "If you want to further configure your objects, see :ref:`object-type-card`, :"
 "ref:`object-type-token`, and :ref:`config-cfg`."
@@ -2107,7 +2139,7 @@ msgstr ""
 "Если вы хотите дополнительно настроить свои объекты, смотрите :ref:`object-"
 "type-card`, :ref:`object-type-token` и :ref:`config-cfg`."
 
-#: ../../custom_assets/tutorials/add_cards_tokens.rst:153
+#: ../../custom_assets/tutorials/add_cards_tokens.rst:166
 msgid ""
 "If you want to add pre-made stacks of cards and tokens to your asset pack, "
 "see :ref:`stacks-cfg`."
@@ -2354,7 +2386,7 @@ msgstr ""
 "Единственный формат, который принимает игра, - это равносторонние "
 "изображения, такие как это:"
 
-#: ../../custom_assets/tutorials/add_skyboxes.rst:None
+#: ../../custom_assets/tutorials/add_skyboxes.rst:22
 msgid ""
 "A 360 degree image of an urban park, projected onto a rectangular\n"
 "image."
