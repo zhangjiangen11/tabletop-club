@@ -104,6 +104,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://assets/entry/entry_template_text.gd"
 }, {
+"base": "Reference",
+"class": "AssetNode",
+"language": "GDScript",
+"path": "res://assets/nodes/asset_node.gd"
+}, {
 "base": "Resource",
 "class": "AssetPack",
 "language": "GDScript",
@@ -539,6 +544,7 @@ _global_script_class_icons={
 "AssetEntryTemplate": "",
 "AssetEntryTemplateImage": "",
 "AssetEntryTemplateText": "",
+"AssetNode": "",
 "AssetPack": "",
 "AssetPackCatalog": "",
 "AssetPackTypeCatalog": "",
@@ -653,6 +659,7 @@ NetworkManager="*res://network/network_manager.gd"
 Lobby="*res://network/lobby.gd"
 StateFreeze="*res://room/state/state_freeze.gd"
 DataBroadcaster="*res://network/transfer/data_broadcaster.gd"
+AssetTree="*res://assets/nodes/asset_tree.gd"
 
 [debug]
 
