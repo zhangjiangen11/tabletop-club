@@ -38,6 +38,8 @@
   "hide_result_tree": false,
   "hide_output_text": false,
   "hide_settings": false,
-  "use_colors": false
+  "use_colors": false,
+  "output_font_name": "Default",
+  "output_font_size": 30
  }
 }

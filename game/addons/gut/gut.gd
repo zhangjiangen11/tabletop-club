@@ -62,6 +62,10 @@ const WAITING_MESSAGE = '/# waiting #/'
 const PAUSE_MESSAGE = '/# Pausing.  Press continue button...#/'
 const COMPLETED = 'completed'
 
+# use a class as a sentinel value since it can be used in expressions that require a const value
+class YIELD_FROM_OBJ:
+	pass
+
 var _utils = load('res://addons/gut/utils.gd').get_instance()
 var _lgr = _utils.get_logger()
 var _strutils = _utils.Strutils.new()
@@ -320,10 +324,18 @@ func _on_log_level_changed(value):
 # This is the most number of parameters GUT supports on signals.  The comment
 # on _on_watched_signal explains reasoning.
 # ------------------------------------------------------------------------------
-func _yielding_callback(from_obj=false,
+func _yielding_callback(
 		__arg1=null, __arg2=null, __arg3=null,
 		__arg4=null, __arg5=null, __arg6=null,
-		__arg7=null, __arg8=null, __arg9=null):
+		__arg7=null, __arg8=null, __arg9=null,
+		# one extra for the sentinel
+		__arg10=null):
+	var args = [
+		__arg1, __arg2, __arg3, __arg4, __arg5,
+		__arg6, __arg7, __arg8, __arg9, __arg10
+	]
+	var from_obj = YIELD_FROM_OBJ in args
+
 	_lgr.end_yield()
 	if(_yielding_to.obj):
 		_yielding_to.obj.call_deferred(
@@ -332,6 +344,8 @@ func _yielding_callback(from_obj=false,
 			'_yielding_callback')
 		_yielding_to.obj = null
 		_yielding_to.signal_name = ''
+
+	_yield_timer.stop()
 
 	if(from_obj):
 		# we must yield for a little longer after the signal is emitted so that
@@ -1340,19 +1354,37 @@ func get_yield_between_tests():
 	return _yield_between.should
 
 # ------------------------------------------------------------------------------
-# Call _process or _fixed_process, if they exist, on obj and all it's children
-# and their children and so and so forth.  Delta will be passed through to all
-# the _process or _fixed_process methods.
+# Simulate a number of frames by calling '_process' and '_physics_process' (if
+# the methods exist) on an object and all of its descendents. The specified frame
+# time, 'delta', will be passed to each simulated call.
+#
+# NOTE: Objects can disable their processing methods using 'set_process(false)' and
+# 'set_physics_process(false)'. This is reflected in the 'Object' methods
+# 'is_processing()' and 'is_physics_processing()', respectively. To make 'simulate'
+# respect this status, for example if you are testing an object which toggles
+# processing, pass 'check_is_processing' as 'true'.
 # ------------------------------------------------------------------------------
-func simulate(obj, times, delta):
+func simulate(obj, times, delta, check_is_processing: bool = false):
 	for _i in range(times):
-		if(obj.has_method("_process")):
+		if (
+			obj.has_method("_process")
+			and (
+				not check_is_processing
+				or obj.is_processing()
+			)
+		):
 			obj._process(delta)
-		if(obj.has_method("_physics_process")):
+		if(
+			obj.has_method("_physics_process")
+			and (
+				not check_is_processing
+				or obj.is_physics_processing()
+			)
+		):
 			obj._physics_process(delta)
 
 		for kid in obj.get_children():
-			simulate(kid, 1, delta)
+			simulate(kid, 1, delta, check_is_processing)
 
 # ------------------------------------------------------------------------------
 # Starts an internal timer with a timeout of the passed in time.  A 'timeout'
@@ -1398,7 +1430,7 @@ func set_yield_frames(frames, text=''):
 # number of seconds, whichever comes first.
 # ------------------------------------------------------------------------------
 func set_yield_signal_or_time(obj, signal_name, max_wait, text=''):
-	obj.connect(signal_name, self, '_yielding_callback', [true])
+	obj.connect(signal_name, self, '_yielding_callback', [YIELD_FROM_OBJ])
 	_yielding_to.obj = obj
 	_yielding_to.signal_name = signal_name
 
