@@ -193,7 +193,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Project
 
-- Updated the Godot Engine from 3.4.5-stable to 3.5.2-stable.
+- Updated the Godot Engine from 3.4.5-stable to 3.6-stable.
 - Updated the custom module to be more flexible in how files are imported.
 - Replaced the physics frame interpolation patch with the engine-provided
   implementation.

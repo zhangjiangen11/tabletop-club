@@ -38,7 +38,7 @@ func handles_type(typename: String) -> bool:
 	return typename == "Resource"
 
 
-func load(path: String, _original_path: String):
+func load(path: String, _original_path: String, _no_subresource_cache: bool):
 	var file := File.new()
 	var err := file.open(path, File.READ)
 	if err != OK:
