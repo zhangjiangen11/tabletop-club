@@ -260,6 +260,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	URL: https://www.svgrepo.com/svg/7368/dollar-coin-in-a-hand
 
 
+- Folder icon
+
+	Files:
+		icons/folder_icon.svg
+	Author: Noah Jacobus
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/535400/folder
+
+
 - Godot logo
 
 	Files:
