@@ -97,6 +97,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   save file, will immediately load the file's save state upon launching the
   game. Example usage on Linux:
   `./TabletopClub.x86_64 --preload ~/Documents/TabletopClub/saves/quicksave.tc`
+- The game is now available for ARM platforms (`arm32`, `arm64`) on Linux.
 
 #### UI
 
