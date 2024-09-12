@@ -46,7 +46,7 @@ const MAX_CHARS_PER_HINT_LINE := 80
 
 
 ## The layout that the asset grid uses to display assets.
-export(GridLayout) var layout := GridLayout.LIST setget set_layout
+export(GridLayout) var layout := GridLayout.ICON setget set_layout
 
 ## The zoom level for the grid, which determines how big the buttons are.
 export(int, 3) var zoom := 1 setget set_zoom
@@ -77,9 +77,9 @@ func refresh() -> void:
 		var dir_button := AssetButton.new()
 		dir_button.name = child_node.id
 		# TODO: Make sure changing the locale globally changes the name.
-		dir_button.text = _get_node_name(child_node.id)
+		dir_button.text = AssetTree.get_node_name(child_node.id)
 		# TODO: Set button icon.
-		dir_button.hint = _get_node_hint(child_node.id)
+		dir_button.hint = AssetTree.get_node_hint(child_node.id)
 		dir_button.folder = true
 		dir_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		dir_button.connect("pressed", self, "_on_node_button_pressed",
@@ -136,6 +136,7 @@ func _apply_layout_and_zoom() -> void:
 				0:
 					columns = 5
 					button_height = 100.0
+					button_font = preload("res://fonts/res/asset_menu_font_minor.tres")
 				1:
 					columns = 4
 					button_height = 125.0
@@ -171,85 +172,6 @@ func _apply_layout_and_zoom() -> void:
 		button.appearance = button_type
 		button.font_override = button_font
 		button.rect_min_size = Vector2(0.0, button_height)
-
-
-# Get the translated name for nodes with the given ID.
-func _get_node_name(node_id: String) -> String:
-	match node_id:
-		AssetTree.ALL_PACKS_ID:
-			return tr("All Packs")
-		AssetTree.INDIVIDUAL_CARDS_ID:
-			return tr("Individual Cards")
-		AssetTree.OTHER_DICE_ID:
-			return tr("Other")
-		AssetTree.INDIVIDUAL_TOKENS_ID:
-			return tr("Individual Tiles / Tokens")
-		"boards":
-			return tr("Boards")
-		"cards":
-			return tr("Cards")
-		"containers":
-			return tr("Containers")
-		"dice":
-			return tr("Dice")
-		"music":
-			return tr("Music")
-		"pieces":
-			return tr("Pieces")
-		"sounds":
-			return tr("Sound Effects")
-		"speakers":
-			return tr("Speakers")
-		"timers":
-			return tr("Timers")
-		"tokens":
-			return tr("Tiles / Tokens")
-		_:
-			# Check to see if the ID is that of an asset pack.
-			for element in AssetDB.get_all_packs():
-				var pack: AssetPack = element
-				if pack.id == node_id:
-					return pack.name
-			
-			push_error("Could not find name for node with ID '%s'" % node_id)
-			return "#ERROR#"
-
-
-# Get the translated tooltip hint for nodes with the given ID.
-func _get_node_hint(node_id: String) -> String:
-	match node_id:
-		AssetTree.ALL_PACKS_ID:
-			return tr("Browse assets from all imported asset packs.")
-		AssetTree.INDIVIDUAL_CARDS_ID:
-			return tr("Browse individual cards, instead of pre-made decks.")
-		AssetTree.OTHER_DICE_ID:
-			return tr("Browse dice with non-standard numbers of faces.")
-		AssetTree.INDIVIDUAL_TOKENS_ID:
-			return tr("Browse individual tiles and tokens, instead of pre-made stacks.")
-		"boards":
-			return tr("Boards are used as a surface to place objects on.")
-		"cards":
-			return tr("Cards can be stacked on top of each other, and placed in your hand.")
-		"containers":
-			return tr("Containers can hold any number of other objects.")
-		"dice":
-			return tr("Dice can be rolled to create random values.")
-		"music":
-			# TODO: Revisit hint for music and sounds, are they still accurate
-			# after v0.2.0 re-write?
-			return tr("Music consists of audio tracks that are played on repeat.")
-		"pieces":
-			return tr("Pieces are generic objects with no special functionality.")
-		"sounds":
-			return tr("Sound effects are audio tracks that are played one-off.")
-		"speakers":
-			return tr("Speakers can play music or sound effects.")
-		"timers":
-			return tr("Timers can be used in stopwatch, timer, or clock mode.")
-		"tokens":
-			return tr("Tiles and tokens can be stacked on top of each other.")
-		_:
-			return ""
 
 
 # Add new-line characters to a hint if they are needed to make sure that the

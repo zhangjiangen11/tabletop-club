@@ -24,6 +24,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://assets/objects/advanced_rigid_body.gd"
 }, {
+"base": "HBoxContainer",
+"class": "AssetBreadcrumb",
+"language": "GDScript",
+"path": "res://ui/asset_menu/asset_breadcrumb.gd"
+}, {
 "base": "Control",
 "class": "AssetButton",
 "language": "GDScript",
@@ -538,6 +543,7 @@ _global_script_class_icons={
 "ActualTextFile": "",
 "AdvancedConfigFile": "",
 "AdvancedRigidBody3D": "",
+"AssetBreadcrumb": "",
 "AssetButton": "",
 "AssetCatalog": "",
 "AssetCatalogInteractive": "",

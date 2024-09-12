@@ -31,6 +31,10 @@ extends Node
 ## TODO: Test this node, as well as [AssetNode], fully once they are complete.
 
 
+## Fired when the tree is generated after the AssetDB has changed.
+signal tree_generated()
+
+
 ## The ID for pack nodes that contain all asset packs.
 const ALL_PACKS_ID := "%ALL_PACKS%"
 
@@ -86,6 +90,119 @@ func get_asset_node(full_path: String) -> AssetNode:
 		component_index += 1
 	
 	return current_node
+
+
+## Get the translated name for nodes with the given ID.
+func get_node_name(node_id: String) -> String:
+	match node_id:
+		# Categories:
+		"objects":
+			return tr("Objects")
+		"games":
+			return tr("Games")
+		"audio":
+			return tr("Audio")
+		"skyboxes":
+			return tr("Skyboxes")
+		"tables":
+			return tr("Tables")
+		"templates":
+			return tr("Templates")
+		
+		# Special IDs:
+		ALL_PACKS_ID:
+			return tr("All Packs")
+		INDIVIDUAL_CARDS_ID:
+			return tr("Individual Cards")
+		OTHER_DICE_ID:
+			return tr("Other")
+		INDIVIDUAL_TOKENS_ID:
+			return tr("Individual Pieces")
+		
+		# Objects:
+		"boards":
+			return tr("Boards")
+		"cards":
+			return tr("Cards")
+		"containers":
+			return tr("Containers")
+		"dice":
+			return tr("Dice")
+		"music":
+			return tr("Music")
+		"pieces":
+			return tr("Pieces")
+		"sounds":
+			return tr("Sound Effects")
+		"speakers":
+			return tr("Speakers")
+		"timers":
+			return tr("Timers")
+		"tokens":
+			return tr("Tiles / Tokens")
+		
+		# Dice:
+		"d4":
+			return tr("d4")
+		"d6":
+			return tr("d6")
+		"d8":
+			return tr("d8")
+		"d10":
+			return tr("d10")
+		"d12":
+			return tr("d12")
+		"d20":
+			return tr("d20")
+		_:
+			# Check to see if the ID is that of an asset pack.
+			for element in AssetDB.get_all_packs():
+				var pack: AssetPack = element
+				if pack.id == node_id:
+					return pack.name
+			
+			push_error("Could not find name for node with ID '%s'" % node_id)
+			return "#ERROR#"
+
+
+## Get the translated tooltip hint for nodes with the given ID.
+func get_node_hint(node_id: String) -> String:
+	match node_id:
+		# Special IDs:
+		ALL_PACKS_ID:
+			return tr("Browse assets from all imported asset packs.")
+		INDIVIDUAL_CARDS_ID:
+			return tr("Browse individual cards, instead of pre-made decks.")
+		OTHER_DICE_ID:
+			return tr("Browse dice with non-standard numbers of faces.")
+		INDIVIDUAL_TOKENS_ID:
+			return tr("Browse individual tiles and tokens, instead of pre-made stacks.")
+		
+		# Objects:
+		"boards":
+			return tr("Boards are used as a surface to place objects on.")
+		"cards":
+			return tr("Cards can be stacked on top of each other, and placed in your hand.")
+		"containers":
+			return tr("Containers can hold any number of other objects.")
+		"dice":
+			return tr("Dice can be rolled to create random values.")
+		"music":
+			# TODO: Revisit hint for music and sounds, are they still accurate
+			# after v0.2.0 re-write?
+			return tr("Music consists of audio tracks that are played on repeat.")
+		"pieces":
+			return tr("Pieces are generic objects with no special functionality.")
+		"sounds":
+			return tr("Sound effects are audio tracks that are played one-off.")
+		"speakers":
+			return tr("Speakers can play music or sound effects.")
+		"timers":
+			return tr("Timers can be used in stopwatch, timer, or clock mode.")
+		"tokens":
+			return tr("Tiles and tokens can be stacked on top of each other.")
+		_:
+			return ""
 
 
 # Add all registered packs as directories to the given node that contain the
@@ -249,3 +366,6 @@ func _on_AssetDB_content_changed():
 	var templates := AssetNode.new("templates")
 	_add_all(templates, [ "templates" ])
 	_root.add_child(templates)
+	
+	print("AssetTree: All directories generated.")
+	emit_signal("tree_generated")
