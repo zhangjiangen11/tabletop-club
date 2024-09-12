@@ -63,6 +63,7 @@ packs. Licensing information for these assets can be viewed in-game.
 
 	Files:
 		icons/back_icon.svg
+		icons/back_icon_flipped.svg
 	Author: SVG Repo
 	License: MIT
 	Modified By: Benjamin 'drwhut' Beddows
