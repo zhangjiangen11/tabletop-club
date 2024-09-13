@@ -59,6 +59,8 @@ onready var _forward_button: Button = $MainContainer/ButtonContainer/ForwardButt
 onready var _asset_breadcrumb: AssetBreadcrumb = $MainContainer/BreadcrumbScrollContainer/AssetBreadcrumb
 onready var _asset_grid: AssetGrid = $MainContainer/AssetScrollContainer/AssetGrid
 
+onready var _settings_window := $AssetWindowSettings
+
 
 func _ready():
 	# TEMP
@@ -68,6 +70,15 @@ func _ready():
 	AssetDB.commit_changes()
 	
 	call_deferred("popup_centered")
+	
+	# Make sure the settings window displays the correct layout and zoom.
+	_settings_window.category = category
+	_settings_window.layout = _asset_grid.layout
+	_settings_window.zoom = _asset_grid.zoom
+	
+	# Check to see if the settings for this category were changed in a previous
+	# playthrough.
+	_settings_window.check_if_saved()
 	
 	# This should generate the content for the default directory, as the AssetDB
 	# should have the default asset pack already added at the start of the game.
@@ -175,6 +186,10 @@ func _on_ForwardButton_pressed():
 		_forward_button.disabled = true
 
 
+func _on_SettingsButton_pressed():
+	_settings_window.popup_centered()
+
+
 func _on_AssetBreadcrumb_dir_selected(dir_path: String):
 	if dir_path == current_path:
 		return
@@ -200,3 +215,11 @@ func _on_AssetGrid_node_selected(node_id: String):
 	_asset_breadcrumb.append_dir(new_path)
 	_asset_grid.asset_node = asset_node
 	_asset_grid.refresh()
+
+
+func _on_AssetWindowSettings_layout_changed(new_layout: int):
+	_asset_grid.layout = new_layout
+
+
+func _on_AssetWindowSettings_zoom_changed(new_zoom: int):
+	_asset_grid.zoom = new_zoom

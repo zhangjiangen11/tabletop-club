@@ -280,6 +280,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	URL: https://godotengine.org/assets/press/logo_vertical_color_dark.svg
 
 
+- Grid icon
+
+	Files:
+		icons/grid_icon.svg
+	Author: Noah Jacobus
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/535419/grid
+
+
 - Help icon
 
 	Files:
@@ -350,6 +360,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	License: CC BY 3.0
 	Modified By: Benjamin 'drwhut' Beddows
 	URL: https://game-icons.net/1x1/delapouite/walk.html
+
+
+- List icon
+
+	Files:
+		icons/list_icon.svg
+	Author: Noah Jacobus
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/535474/lines
 
 
 - Loading background
@@ -459,6 +479,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	License: CC BY 3.0
 	Modified By: Benjamin 'drwhut' Beddows
 	URL: https://game-icons.net/1x1/lorc/cog.html
+
+
+- Settings icon (Lines)
+
+	Files:
+		icons/settings_icon_lines.svg
+	Author: SVG Repo
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/471876/settings-04
 
 
 - Singleplayer icon

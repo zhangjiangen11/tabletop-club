@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://fonts/res/popup_font_minor.tres" type="DynamicFont" id=1]
+[ext_resource path="res://ui/asset_menu/asset_window_settings.gd" type="Script" id=2]
+
+[node name="AssetWindowSettings" type="WindowDialog"]
+margin_right = 250.0
+margin_bottom = 100.0
+window_title = "Settings"
+script = ExtResource( 2 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 20
+custom_constants/margin_top = 10
+custom_constants/margin_left = 20
+custom_constants/margin_bottom = 10
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+margin_left = 20.0
+margin_top = 10.0
+margin_right = 230.0
+margin_bottom = 90.0
+custom_constants/hseparation = 15
+columns = 2
+
+[node name="LayoutLabel" type="Label" parent="MarginContainer/GridContainer"]
+margin_right = 62.0
+margin_bottom = 38.0
+size_flags_vertical = 7
+custom_fonts/font = ExtResource( 1 )
+text = "Layout:"
+align = 2
+valign = 1
+
+[node name="LayoutButton" type="OptionButton" parent="MarginContainer/GridContainer"]
+margin_left = 77.0
+margin_right = 210.0
+margin_bottom = 38.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 1 )
+expand_icon = true
+
+[node name="ZoomLabel" type="Label" parent="MarginContainer/GridContainer"]
+margin_top = 42.0
+margin_right = 62.0
+margin_bottom = 80.0
+size_flags_vertical = 7
+custom_fonts/font = ExtResource( 1 )
+text = "Zoom:"
+align = 2
+valign = 1
+
+[node name="ZoomSlider" type="HSlider" parent="MarginContainer/GridContainer"]
+margin_left = 77.0
+margin_top = 42.0
+margin_right = 210.0
+margin_bottom = 80.0
+size_flags_vertical = 1
+max_value = 3.0
+scrollable = false
+tick_count = 4
+ticks_on_borders = true
+
+[connection signal="popup_hide" from="." to="." method="_on_AssetWindowSettings_popup_hide"]
+[connection signal="item_selected" from="MarginContainer/GridContainer/LayoutButton" to="." method="_on_LayoutButton_item_selected"]
+[connection signal="value_changed" from="MarginContainer/GridContainer/ZoomSlider" to="." method="_on_ZoomSlider_value_changed"]

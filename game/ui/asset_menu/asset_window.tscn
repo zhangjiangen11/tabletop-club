@@ -1,13 +1,14 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://ui/asset_menu/asset_grid.gd" type="Script" id=1]
 [ext_resource path="res://ui/asset_menu/asset_window.gd" type="Script" id=2]
 [ext_resource path="res://ui/asset_menu/asset_breadcrumb.gd" type="Script" id=3]
 [ext_resource path="res://icons/back_icon.svg" type="Texture" id=4]
 [ext_resource path="res://icons/back_icon_flipped.svg" type="Texture" id=5]
+[ext_resource path="res://icons/settings_icon_lines.svg" type="Texture" id=6]
+[ext_resource path="res://ui/asset_menu/asset_window_settings.tscn" type="PackedScene" id=7]
 
 [node name="AssetWindow" type="WindowDialog"]
-visible = true
 margin_right = 520.0
 margin_bottom = 600.0
 script = ExtResource( 2 )
@@ -40,6 +41,20 @@ icon = ExtResource( 5 )
 flat = true
 expand_icon = true
 
+[node name="RightContainer" type="HBoxContainer" parent="MainContainer/ButtonContainer"]
+margin_left = 490.0
+margin_right = 520.0
+margin_bottom = 30.0
+size_flags_horizontal = 10
+
+[node name="SettingsButton" type="Button" parent="MainContainer/ButtonContainer/RightContainer"]
+margin_right = 30.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 30, 30 )
+hint_tooltip = "Settings"
+icon = ExtResource( 6 )
+expand_icon = true
+
 [node name="BreadcrumbScrollContainer" type="ScrollContainer" parent="MainContainer"]
 margin_top = 34.0
 margin_right = 520.0
@@ -63,8 +78,13 @@ margin_right = 520.0
 size_flags_horizontal = 3
 script = ExtResource( 1 )
 
+[node name="AssetWindowSettings" parent="." instance=ExtResource( 7 )]
+
 [connection signal="pressed" from="MainContainer/ButtonContainer/BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="MainContainer/ButtonContainer/ForwardButton" to="." method="_on_ForwardButton_pressed"]
+[connection signal="pressed" from="MainContainer/ButtonContainer/RightContainer/SettingsButton" to="." method="_on_SettingsButton_pressed"]
 [connection signal="dir_selected" from="MainContainer/BreadcrumbScrollContainer/AssetBreadcrumb" to="." method="_on_AssetBreadcrumb_dir_selected"]
 [connection signal="asset_selected" from="MainContainer/AssetScrollContainer/AssetGrid" to="." method="_on_AssetGrid_asset_selected"]
 [connection signal="node_selected" from="MainContainer/AssetScrollContainer/AssetGrid" to="." method="_on_AssetGrid_node_selected"]
+[connection signal="layout_changed" from="AssetWindowSettings" to="." method="_on_AssetWindowSettings_layout_changed"]
+[connection signal="zoom_changed" from="AssetWindowSettings" to="." method="_on_AssetWindowSettings_zoom_changed"]
