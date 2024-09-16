@@ -140,6 +140,59 @@ puppetsync func reverb_remove_multiple(piece_index_arr: PoolIntArray) -> void:
 		piece.state_mode = Piece.MODE_LIMBO
 
 
+## Request the server to set whether the pieces with the given indicies are
+## locked or not.
+##
+## [method response_set_locked_multiple] will be sent to the original caller,
+## with the list of indicies that were rejected. Afterwards, if there was at
+## least one valid index, then [method reverb_set_locked_multiple] will be sent
+## to all clients.
+master func request_set_locked_multiple(piece_index_arr: PoolIntArray, locked: bool) -> void:
+	var caller_id := get_tree().get_rpc_sender_id()
+	
+	var to_set_arr := PoolIntArray()
+	var ignore_arr := PoolIntArray()
+	
+	for index in piece_index_arr:
+		var piece: Piece = get_child_with_index(index)
+		if piece == null:
+			ignore_arr.push_back(index)
+			continue
+		
+		# TODO: Also consider flying, hovering modes.
+		if piece.state_mode == Piece.MODE_LIMBO:
+			ignore_arr.push_back(index)
+			continue
+		
+		to_set_arr.push_back(index)
+	
+	rpc_id(caller_id, "response_set_locked_multiple", ignore_arr)
+	
+	if not to_set_arr.empty():
+		rpc("reverb_set_locked_multiple", to_set_arr, locked)
+
+
+## Called by the server as a response to [method request_set_locked_multiple].
+##
+## If any pieces were not set as a result of the request, they are given as
+## the argument.
+puppetsync func response_set_locked_multiple(rejected_index_arr: PoolIntArray) -> void:
+	if not rejected_index_arr.empty():
+		push_warning("Server could not set %d pieces while completing our request" % rejected_index_arr.size())
+
+
+## Called by the server on all clients to set whether a given set of pieces
+## should be locked or unlocked.
+puppetsync func reverb_set_locked_multiple(piece_index_arr: PoolIntArray, locked: bool) -> void:
+	for index in piece_index_arr:
+		var piece: Piece = get_child_with_index(index)
+		if piece == null:
+			push_error("Cannot set if piece '%d' is locked, piece does not exist" % index)
+			continue
+		
+		piece.state_mode = Piece.MODE_LOCKED if locked else Piece.MODE_NORMAL
+
+
 # Perform a "limbo pass", where all of the pieces currently in limbo are marked
 # for removal, and all of the pieces that are marked for removal are removed
 # from the scene tree.

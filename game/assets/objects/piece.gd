@@ -104,6 +104,17 @@ var selected := false setget set_selected, is_selected
 ## See the [code]MODE_*[/code] constants for possible values.
 var state_mode := MODE_NORMAL setget set_state_mode
 
+## A basis that contains information about the piece's position and velocity
+## in the latest server state.
+##
+## X: Position
+## Y: Linear Velocity
+## Z: Angular Velocity
+var state_pos_and_vecs := Basis()
+
+## The piece's rotation in the latest server state.
+var state_rot := Quat.IDENTITY
+
 
 # The outline shader material, which is set as the next render pass for all of
 # the piece's materials.
@@ -128,6 +139,26 @@ func _ready():
 		_set_outline_color(OUTLINE_COLOR_LOCKED)
 	else:
 		_set_outline_color(OUTLINE_COLOR_NORMAL)
+	
+	connect("sleeping_state_changed", self, "_on_sleeping_state_changed")
+
+
+func _physics_process(_delta: float):
+	# TODO: Add limiter if there are many pieces, like in v0.1.x.
+	if get_tree().is_network_server():
+		if state_mode == MODE_NORMAL:
+			# Send the latest server state to all clients.
+			var pos_and_vecs := Basis(transform.origin, linear_velocity,
+					angular_velocity)
+			var rot_as_quat := transform.basis.get_rotation_quat()
+			rpc("ss", pos_and_vecs, rot_as_quat)
+	else:
+		# TEMP
+		if state_mode == MODE_NORMAL:
+			transform.basis = Basis(state_rot)
+			transform.origin = state_pos_and_vecs.x
+			linear_velocity = state_pos_and_vecs.y
+			angular_velocity = state_pos_and_vecs.z
 
 
 func is_selected() -> bool:
@@ -182,6 +213,9 @@ func set_state_mode(new_value: int) -> void:
 	mode = MODE_STATIC if state_mode == MODE_LIMBO or state_mode == MODE_LOCKED \
 			else MODE_RIGID
 	
+	can_sleep = true # TODO: Don't sleep when flying or hovering.
+	sleeping = (state_mode == MODE_SLEEP)
+	
 	# TODO: Account for being in another player's hidden area.
 	visible = (state_mode != MODE_LIMBO)
 	
@@ -207,6 +241,37 @@ func _set_outline_color(color: Color) -> void:
 	_outline_material.set_shader_param("OutlineColor", color)
 
 
+## Called by the server when it sends us a state update for the piece in normal
+## mode.
+##
+## [b]NOTE:[/b] 'ss' stands for 'set_state'. The reason for the compressed name
+## is because this is the most sent RPC in the entire game, and so we want to
+## try and reduce the amount of network traffic this function causes as much as
+## we can.
+puppet func ss(pos_and_vecs: Basis, rot: Quat) -> void:
+	state_pos_and_vecs = pos_and_vecs
+	state_rot = rot
+
+
+## Called by the server when the piece has started sleeping.
+puppet func start_sleep(pos: Vector3, rot: Quat) -> void:
+	state_pos_and_vecs.x = pos
+	state_pos_and_vecs.y = Vector3.ZERO
+	state_pos_and_vecs.z = Vector3.ZERO
+	state_rot = rot
+	
+	transform.basis = Basis(rot)
+	transform.origin = pos
+	reset_physics_interpolation()
+	
+	set_state_mode(MODE_SLEEP)
+
+
+## Called by the server when the piece has stopped sleeping.
+puppet func stop_sleep() -> void:
+	set_state_mode(MODE_NORMAL)
+
+
 # Update the outline colour depending on the piece's current state.
 func _update_outline_color() -> void:
 	if state_mode == MODE_LOCKED:
@@ -219,3 +284,32 @@ func _update_outline_color() -> void:
 			_set_outline_color(OUTLINE_COLOR_SELECTED)
 		else:
 			_set_outline_color(OUTLINE_COLOR_NORMAL)
+
+
+func _on_sleeping_state_changed():
+	if get_tree().is_network_server():
+		if sleeping:
+			# TODO: Could we not just set the variable itself rather than call
+			# the setter for optimisation? Need to think about what modes we
+			# could be in beforehand.
+			set_state_mode(MODE_SLEEP)
+			rpc("start_sleep", transform.origin,
+					transform.basis.get_rotation_quat())
+		else:
+			set_state_mode(MODE_NORMAL)
+			rpc("stop_sleep")
+	else:
+		if sleeping and state_mode != MODE_SLEEP:
+			# If the piece just went to sleep, but the server has not sent us
+			# a signal to suggest that the piece is sleeping, keep it awake.
+			sleeping = false
+		elif (not sleeping) and state_mode == MODE_SLEEP:
+			# If the piece has just woken up, and the server has not told us
+			# that it has woken, put it back to sleep.
+			# This prevents the piece from drifting away due to the fact that
+			# the server does not send us any state updates.
+			transform.basis = Basis(state_rot)
+			transform.origin = state_pos_and_vecs.x
+			reset_physics_interpolation()
+			
+			sleeping = true

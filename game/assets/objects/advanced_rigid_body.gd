@@ -142,6 +142,12 @@ func set_user_scale(new_scale: Vector3) -> void:
 		var collision_shape: CollisionShape = collision_shape_arr[index]
 		var initial_transform: Transform = initial_transform_arr[index]
 		
+		# TODO: Turns out we need to completely re-think how to do this.
+		# I've been wondering for years why box shapes tend to "dance" around
+		# on the table before settling, turns out it's because we're scaling
+		# the collision shape, and not adjusting the shape resource directly.
+		# So we need to edit the shape, as well as adjust the scale of the mesh
+		# instance.
 		collision_shape.transform = initial_transform.scaled(new_scale)
 	
 	_last_user_scale = new_scale
