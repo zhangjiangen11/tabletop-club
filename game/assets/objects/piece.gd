@@ -26,11 +26,55 @@ extends AdvancedRigidBody3D
 ## A dynamic physics object that can be selected and moved by players.
 
 
+## The distinct modes that a piece can be in, and transfer between.
+##
+## [b]NOTE:[/b] These modes are saved in room states. Therefore, to ensure that
+## future versions of the game are backwards compatible, additional modes need
+## to be added at the [i]end[/i] of the list, rather than in the middle.
+enum {
+	## The piece is invisible and does not interact with the world.
+	##
+	## This is the mode the piece should be in before it is removed from the
+	## scene tree. Once a piece is in limbo, it cannot be taken out of limbo.
+	##
+	## The reason this is needed is because not all clients will remove the
+	## piece from the scene tree at the same time - this can cause RPCs to
+	## arrive after a piece has been removed from the scene tree, causing
+	## errors. By delaying when the piece is freed from memory, it gives time
+	## for those RPCs to arrive and be ignored.
+	MODE_LIMBO,
+	
+	## The piece is interacting with the world, but it is not moving.
+	##
+	## This is an optimised state by the physics engine if the piece is not
+	## moving, then it will not process the piece until another object collides
+	## with it.
+	##
+	## It does however introduct a potential de-sync where a sleeping piece is
+	## collided with client-side, but the collision did not occur server-side,
+	## and thus the server piece continues sleeping while the client piece
+	## becomes active.
+	MODE_SLEEP,
+	
+	## The piece is being driven entirely by the physics engine.
+	##
+	## This is the piece as a regular rigid body, with no external forces being
+	## applied to it.
+	MODE_NORMAL,
+	
+	## The piece is locked in place, and acts as a static body.
+	MODE_LOCKED,
+	
+	## Used for verification only.
+	MODE_MAX,
+}
+
+
 ## The name of the group of pieces that are selected.
 ## TODO: Change to StringName in 4.x.
 const SELECTED_GROUP := "sel_pcs"
 
-## The name of the group of pieces that are in limbo. See [method put_in_limbo].
+## The name of the group of pieces that are in limbo.
 const LIMBO_GROUP := "lmbo"
 
 
@@ -52,11 +96,13 @@ const OUTLINE_COLOR_LOCKED_SELECTED := Color(0.75, 0.75, 0.75, 0.5)
 var entry_built_with: AssetEntryScene = null
 
 
-## Is the piece locked into place?
-var locked := false setget set_locked, is_locked
-
 ## Has the piece been selected by the player?
 var selected := false setget set_selected, is_selected
+
+## The mode that the piece is in, which determines it's behaviour.
+##
+## See the [code]MODE_*[/code] constants for possible values.
+var state_mode := MODE_NORMAL setget set_state_mode
 
 
 # The outline shader material, which is set as the next render pass for all of
@@ -78,53 +124,10 @@ func _ready():
 	
 	# The piece can't be selected outside of the scene tree, but it may have
 	# been locked.
-	if is_locked():
+	if state_mode == MODE_LOCKED:
 		_set_outline_color(OUTLINE_COLOR_LOCKED)
 	else:
 		_set_outline_color(OUTLINE_COLOR_NORMAL)
-
-
-## Check if the piece is in limbo, i.e. is it about to be freed from memory?
-func is_in_limbo() -> bool:
-	return collision_layer == 0
-
-
-## Put the piece into limbo. Once it is put into limbo, it cannot come out of
-## limbo.
-##
-## This will remove the piece from active play, but not from the scene tree.
-## Only after a certain amount of time the PieceManager will remove pieces that
-## are in limbo from the scene tree.
-##
-## The reason this is needed is because not all clients will remove the piece
-## from the scene tree at the same time - this can cause RPCs to arrive after
-## a piece has been removed from the scene tree, causing errors. By delaying
-## when the piece is freed from memory, it gives time for those RPCs to arrive
-## and be ignored.
-func put_in_limbo() -> void:
-	if not is_inside_tree():
-		push_error("Cannot put piece '%s' in limbo, not inside tree" % name)
-		return
-	
-	collision_layer = 0
-	collision_mask = 0
-	mode = MODE_STATIC
-	visible = false
-	
-	set_process(false)
-	set_process_internal(false)
-	
-	set_physics_process(false)
-	set_physics_process_internal(false)
-	
-	if is_in_group(SELECTED_GROUP):
-		remove_from_group(SELECTED_GROUP)
-	
-	add_to_group(LIMBO_GROUP)
-
-
-func is_locked() -> bool:
-	return mode == MODE_STATIC
 
 
 func is_selected() -> bool:
@@ -134,16 +137,8 @@ func is_selected() -> bool:
 	return is_in_group(SELECTED_GROUP)
 
 
-func set_locked(value: bool) -> void:
-	if is_in_limbo():
-		return
-	
-	mode = MODE_STATIC if value else MODE_RIGID
-	_update_outline_color()
-
-
 func set_selected(value: bool) -> void:
-	if is_in_limbo():
+	if state_mode == MODE_LIMBO:
 		return
 	
 	if not is_inside_tree():
@@ -160,13 +155,61 @@ func set_selected(value: bool) -> void:
 	_update_outline_color()
 
 
+func set_state_mode(new_value: int) -> void:
+	if new_value < 0 or new_value >= MODE_MAX:
+		push_error("Invalid value '%d' for state mode" % new_value)
+		return
+	
+	# Check to see if we can enter this new mode from the mode we are currently
+	# in.
+	match state_mode:
+		MODE_LIMBO:
+			push_error("Cannot change state mode of '%s', piece is already in limbo" % name)
+			return
+	
+	# Some modes require that the piece is in the scene tree, since they could
+	# add the piece to a group.
+	if new_value == MODE_LIMBO:
+		if not is_inside_tree():
+			push_error("Cannot put piece '%s' into limbo, piece is not in scene tree" % name)
+			return
+	
+	state_mode = new_value
+	
+	# Adjust the piece's physics properties based on the new mode.
+	collision_layer = 0 if state_mode == MODE_LIMBO else 1
+	collision_mask = 0 if state_mode == MODE_LIMBO else 1
+	mode = MODE_STATIC if state_mode == MODE_LIMBO or state_mode == MODE_LOCKED \
+			else MODE_RIGID
+	
+	# TODO: Account for being in another player's hidden area.
+	visible = (state_mode != MODE_LIMBO)
+	
+	if state_mode == MODE_LIMBO:
+		# Disable the piece entirely if it is in limbo, and add it to the limbo
+		# group so the PieceManager can detect and remove it from the scene tree.
+		set_process(false)
+		set_process_internal(false)
+		
+		set_physics_process(false)
+		set_physics_process_internal(false)
+		
+		if is_in_group(SELECTED_GROUP):
+			remove_from_group(SELECTED_GROUP)
+		
+		add_to_group(LIMBO_GROUP)
+	else:
+		# Adjust the appearance of the piece if needed.
+		_update_outline_color()
+
+
 func _set_outline_color(color: Color) -> void:
 	_outline_material.set_shader_param("OutlineColor", color)
 
 
 # Update the outline colour depending on the piece's current state.
 func _update_outline_color() -> void:
-	if is_locked():
+	if state_mode == MODE_LOCKED:
 		if is_selected():
 			_set_outline_color(OUTLINE_COLOR_LOCKED_SELECTED)
 		else:

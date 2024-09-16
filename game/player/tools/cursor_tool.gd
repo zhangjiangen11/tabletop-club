@@ -75,12 +75,13 @@ func _unhandled_input(event: InputEvent):
 		var all_locked := true
 		for element in get_tree().get_nodes_in_group(Piece.SELECTED_GROUP):
 			var piece: Piece = element
-			if not piece.locked:
+			if piece.state_mode != Piece.MODE_LOCKED:
 				all_locked = false
 				break
 		
 		# TODO: Send as an RPC.
-		get_tree().call_group(Piece.SELECTED_GROUP, "set_locked", not all_locked)
+		var new_mode := Piece.MODE_NORMAL if all_locked else Piece.MODE_LOCKED
+		get_tree().call_group(Piece.SELECTED_GROUP, "set_state_mode", new_mode)
 
 
 ## From all of the pieces that are currently selected, return a list of their

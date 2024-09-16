@@ -27,7 +27,7 @@ extends IndexManager
 
 
 ## The name of the group of pieces that are about to be removed from the scene.
-const ABOUT_TO_REMOVE_GROUP := "rem_pcs"
+const ABOUT_TO_REMOVE_GROUP := "rm_pcs"
 
 ## The amount of time inbetween "limbo passes", which is the mechanism used to
 ## remove pieces from the scene tree.
@@ -51,7 +51,7 @@ func add_piece(index: int, scene_entry: AssetEntryScene, transform: Transform) -
 	var piece := builder.build_piece(scene_entry)
 	
 	piece.transform = transform
-	piece.mode = RigidBody.MODE_STATIC
+	piece.state_mode = Piece.MODE_LOCKED
 	
 	add_child_with_index(index, piece)
 	
@@ -63,7 +63,7 @@ func get_piece_state(piece: Piece) -> PieceState:
 	var state := PieceState.new() # TODO: Change class depending on piece.
 	state.index_id = int(piece.name)
 	state.scene_entry = piece.entry_built_with
-	state.is_locked = piece.locked
+	state.is_locked = (piece.state_mode == Piece.MODE_LOCKED)
 	state.transform = piece.transform
 	state.user_scale = piece.get_user_scale()
 	state.user_albedo = piece.get_user_albedo()
@@ -77,7 +77,7 @@ func get_piece_state_all() -> Array:
 	for element in get_children():
 		var piece: Piece = element
 		
-		if piece.is_in_limbo() or piece.is_queued_for_deletion():
+		if piece.state_mode == Piece.MODE_LIMBO or piece.is_queued_for_deletion():
 			continue
 		
 		var state := get_piece_state(piece)
@@ -103,7 +103,7 @@ master func request_remove_multiple(piece_index_arr: PoolIntArray) -> void:
 			ignore_arr.push_back(index)
 			continue
 		
-		if piece.is_in_limbo():
+		if piece.state_mode == Piece.MODE_LIMBO:
 			ignore_arr.push_back(index)
 			continue
 		
@@ -133,11 +133,11 @@ puppetsync func reverb_remove_multiple(piece_index_arr: PoolIntArray) -> void:
 			push_error("Cannot remove piece '%d', piece does not exist" % index)
 			continue
 		
-		if piece.is_in_limbo():
+		if piece.state_mode == Piece.MODE_LIMBO:
 			push_warning("Cannot put piece '%d' in limbo, already in limbo" % index)
 			continue
 		
-		piece.put_in_limbo()
+		piece.state_mode = Piece.MODE_LIMBO
 
 
 # Perform a "limbo pass", where all of the pieces currently in limbo are marked

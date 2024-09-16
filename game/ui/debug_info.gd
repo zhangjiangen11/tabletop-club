@@ -162,9 +162,8 @@ func _process(_delta: float):
 					# another player's hand.
 					var entry_path := "???"
 					
-					cursor_over = "[Piece] %s (Asset: %s, Locked: %s, Selected: %s)" % [
-							body.name, entry_path,
-							"Yes" if body.locked else "No",
+					cursor_over = "[Piece] %s (Asset: %s, Mode: %d, Selected: %s)" % [
+							body.name, entry_path, body.state_mode,
 							"Yes" if body.selected else "No"]
 				else:
 					cursor_over = "[Unknown] %s" % body.name
