@@ -13,8 +13,9 @@ dest_files=[ "res://.import/picnic_bench.obj-3f2f04c4d27bcc377760f212f1626e54.me
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 2.4, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true
