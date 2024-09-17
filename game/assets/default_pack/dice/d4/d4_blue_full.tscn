@@ -4,11 +4,10 @@
 [ext_resource path="res://assets/objects/dice.gd" type="Script" id=2]
 
 [sub_resource type="ConvexPolygonShape" id=1]
-points = PoolVector3Array( 0.942809, -0.333333, 0, -0.471405, -0.333333, 0.816497, -0.471405, -0.333333, -0.816497, -4.61638e-05, 1, 0 )
+points = PoolVector3Array( 1.27279, -0.45, 0, -0.636396, -0.45, 1.10227, -0.636396, -0.45, -1.10227, -6.23465e-05, 1.35, 0 )
 
 [node name="D4Blue" type="RigidBody"]
 script = ExtResource( 2 )
 
 [node name="D4BlueCollisionShape" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1.35, 0, 0, 0, 1.35, 0, 0, 0, 1.35, 0, 0, 0 )
 shape = SubResource( 1 )

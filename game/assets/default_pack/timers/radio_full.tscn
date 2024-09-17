@@ -6,9 +6,8 @@
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 2.352, 2.974, 6.541 )
 
-[sub_resource type="CylinderShape" id=2]
-height = 5.2
-radius = 0.1
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 0.05, 2.6, 0.05 )
 
 [node name="Radio" type="RigidBody"]
 script = ExtResource( 2 )
