@@ -69,7 +69,7 @@ func _unhandled_input(event: InputEvent):
 		if index_arr.empty():
 			return
 		
-		piece_manager.rpc("request_remove_multiple", index_arr)
+		piece_manager.rpc_id(1, "request_remove_multiple", index_arr)
 	
 	elif event.is_action_pressed("game_lock_piece"):
 		var index_arr := PoolIntArray()
@@ -83,7 +83,8 @@ func _unhandled_input(event: InputEvent):
 			if piece.state_mode != Piece.MODE_LOCKED:
 				all_locked = false
 		
-		piece_manager.rpc("request_set_locked_multiple", index_arr, not all_locked)
+		piece_manager.rpc_id(1, "request_set_locked_multiple", index_arr,
+				not all_locked)
 
 
 ## From all of the pieces that are currently selected, return a list of their

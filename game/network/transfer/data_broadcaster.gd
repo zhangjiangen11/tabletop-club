@@ -252,7 +252,7 @@ puppet func request_transfer(data_name: String, data_type: int,
 	
 	_active_transfer_arr.push_back(state)
 	
-	rpc("accept_transfer_request")
+	rpc_id(1, "accept_transfer_request")
 
 
 ## Sent by the client to accept a transfer request they have just received from
@@ -378,7 +378,7 @@ puppet func send_chunk(chunk_bytes: PoolByteArray) -> void:
 	transfer_state.data.bytes = current_bytes
 	
 	print("DataBroadcaster: Sending acknowledge response #%d ..." % (transfer_state.num_packets_ackd + 1))
-	rpc("acknowledge_chunk")
+	rpc_id(1, "acknowledge_chunk")
 	
 	transfer_state.num_packets_sent += 1
 	transfer_state.num_packets_ackd += 1

@@ -157,7 +157,7 @@ puppet func client_freeze_state() -> void:
 	
 	# Send the acknowledgement back to the server.
 	print("StateFreeze: Sending acknowledgement back to the server...")
-	rpc("acknowledge_freeze")
+	rpc_id(1, "acknowledge_freeze")
 
 
 ## Called by clients to let the server know that they have received the freeze
