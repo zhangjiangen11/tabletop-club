@@ -35,6 +35,14 @@ extends RigidBody
 ## [b]TODO:[/b] Test this class fully once it is complete.
 
 
+## A structure used internally to store shapes and transforms pre-scale.
+class MeshData:
+	extends Reference
+	
+	var shape: Shape = null
+	var transform := Transform.IDENTITY
+
+
 # A dictionary which saves the original albedo colour for each of the scene's
 # materials.
 var _original_albedo_map := {}
@@ -46,11 +54,11 @@ var _original_albedo_saved := false
 # a user albedo of pure white.
 var _last_user_albedo := Color.white
 
-# An array of transforms for each of the scene's collision shapes.
-var _original_transform_arr := []
+# An array of original mesh data for each of the scene's collision shapes.
+var _original_mesh_data_arr := []
 
-# A flag which states if the original transforms have been saved.
-var _original_transform_saved := false
+# A flag which states if the original mesh data has been saved.
+var _original_mesh_data_saved := false
 
 # The last set value for the user scale. By default, all scenes start off with
 # a user scale of (1, 1, 1).
@@ -128,27 +136,41 @@ func get_user_scale() -> Vector3:
 
 ## Set the custom scale applied to this body.
 func set_user_scale(new_scale: Vector3) -> void:
+	if new_scale.is_equal_approx(_last_user_scale):
+		return
+	
 	var collision_shape_arr := get_collision_shapes()
 	if collision_shape_arr.empty():
 		return
 	
-	var initial_transform_arr := _get_original_transform_arr()
-	if collision_shape_arr.size() != initial_transform_arr.size():
+	var initial_mesh_data_arr := _get_original_mesh_data_arr()
+	if collision_shape_arr.size() != initial_mesh_data_arr.size():
 		push_error("Number of collision shapes '%d' does not match number of initial transforms '%d'" % [
-				collision_shape_arr.size(), initial_transform_arr.size()])
+				collision_shape_arr.size(), initial_mesh_data_arr.size()])
 		return
 	
 	for index in range(collision_shape_arr.size()):
 		var collision_shape: CollisionShape = collision_shape_arr[index]
-		var initial_transform: Transform = initial_transform_arr[index]
+		var initial_mesh_data: MeshData = initial_mesh_data_arr[index]
 		
-		# TODO: Turns out we need to completely re-think how to do this.
-		# I've been wondering for years why box shapes tend to "dance" around
-		# on the table before settling, turns out it's because we're scaling
-		# the collision shape, and not adjusting the shape resource directly.
-		# So we need to edit the shape, as well as adjust the scale of the mesh
-		# instance.
-		collision_shape.transform = initial_transform.scaled(new_scale)
+		# Scale the collision shape's internal shape, NOT the collision shape
+		# itself. Scaling the collision shape causes weird issues.
+		var new_shape := ShapeUtil.scale_shape(initial_mesh_data.shape,
+				new_scale)
+		if new_shape != null:
+			collision_shape.shape = new_shape
+		
+		# The mesh's translation is stored in the collision shape (in the event
+		# that the centre-of-mass is changed).
+		var new_origin := new_scale * initial_mesh_data.transform.origin
+		collision_shape.transform.origin = new_origin
+		
+		# If the mesh instance exists for this collision shape, then give it
+		# the new scaled basis.
+		if collision_shape.get_child_count() > 0:
+			var mesh_instance: MeshInstance = collision_shape.get_child(0)
+			var new_basis := initial_mesh_data.transform.basis.scaled(new_scale)
+			mesh_instance.transform.basis = new_basis
 	
 	_last_user_scale = new_scale
 	
@@ -170,17 +192,32 @@ func _get_original_albedo_map() -> Dictionary:
 	return _original_albedo_map
 
 
-# Get the original transforms assigned to each of this body's collision shapes.
-# The first time this function is called, the results are saved in the event
-# that the transforms are changed.
+# Get the original mesh data for each of this body's collision shapes.
+# The first time this function is called, the results are saved in the event
+# that either the shape or transforms are changed.
 # TODO: Make typed in 4.x
-func _get_original_transform_arr() -> Array:
-	if not _original_transform_saved:
-		_original_transform_arr = []
+func _get_original_mesh_data_arr() -> Array:
+	if not _original_mesh_data_saved:
+		_original_mesh_data_arr = []
 		for element in get_collision_shapes():
 			var collision_shape: CollisionShape = element
-			_original_transform_arr.push_back(collision_shape.transform)
+			var mesh_data := MeshData.new()
+			
+			# The collision shape includes the mesh's translation, as well as
+			# the shape itself.
+			mesh_data.shape = collision_shape.shape
+			mesh_data.transform.origin = collision_shape.transform.origin
+			
+			# The mesh instance (if it exists) contains the rotation and scale
+			# for the mesh. It doesn't matter if the mesh instance does not
+			# exist, since this data has already been embedded into the shape
+			# (see ObjectBuilder).
+			if collision_shape.get_child_count() > 0:
+				var mesh_instance: MeshInstance = collision_shape.get_child(0)
+				mesh_data.transform.basis = mesh_instance.transform.basis
+			
+			_original_mesh_data_arr.push_back(mesh_data)
 		
-		_original_transform_saved = true
+		_original_mesh_data_saved = true
 	
-	return _original_transform_arr
+	return _original_mesh_data_arr

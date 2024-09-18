@@ -678,6 +678,7 @@ Lobby="*res://network/lobby.gd"
 StateFreeze="*res://room/state/state_freeze.gd"
 DataBroadcaster="*res://network/transfer/data_broadcaster.gd"
 AssetTree="*res://assets/nodes/asset_tree.gd"
+ShapeUtil="*res://util/shape_util.gd"
 
 [debug]
 

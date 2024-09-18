@@ -88,9 +88,22 @@ func build_piece(piece_entry: AssetEntryScene) -> Piece:
 	
 	# Scale the piece using it's collision shape children. If the player sets
 	# the user scale after, it will be relative to this new scale.
+	# NOTE: This is done the exact same way that user scale is done in
+	# AdvancedRigidBody3D.
 	for child in piece_node.get_children():
 		if child is CollisionShape:
-			child.transform = child.transform.scaled(piece_entry.scale)
+			var new_shape := ShapeUtil.scale_shape(child.shape, piece_entry.scale)
+			if new_shape != null:
+				child.shape = new_shape
+			
+			var new_origin: Vector3 = piece_entry.scale * child.transform.origin
+			child.transform.origin = new_origin
+			
+			if child.get_child_count() > 0:
+				var mesh_instance: MeshInstance = child.get_child(0)
+				var new_basis := mesh_instance.transform.basis.scaled(
+						piece_entry.scale)
+				mesh_instance.transform.basis = new_basis
 	
 	adjust_centre_of_mass(piece_node, piece_entry, false)
 	
@@ -184,6 +197,9 @@ func setup_materials(mesh_instance: MeshInstance) -> void:
 ## Given a [MeshInstance], create a single [CollisionShape] representing the
 ## mesh. If [code]concave[/code] is [code]true[/code], the resulting shape will
 ## be concave, otherwise it will be convex.
+##
+## [b]NOTE:[/b] The [Shape] that is returned does not account for the transform
+## of the [MeshInstance], only the [Mesh] within.
 func create_single_shape(mesh_instance: MeshInstance,
 		concave: bool) -> CollisionShape:
 	
@@ -203,6 +219,10 @@ func create_single_shape(mesh_instance: MeshInstance,
 
 ## Given a [MeshInstance], create an array of [CollisionShape] representing the
 ## mesh.
+##
+## [b]NOTE:[/b] The [Shape] that is returned does not account for the transform
+## of the [MeshInstance], only the [Mesh] within.
+## TODO: Check if this is actually true.
 func create_multiple_shapes(mesh_instance: MeshInstance) -> Array:
 	mesh_instance.create_multiple_convex_collisions()
 	
@@ -294,13 +314,31 @@ func transfer_and_shape_mesh_instances(from_node: Node, to_node: Node,
 		
 		for element in collision_shape_arr:
 			var collision_shape: CollisionShape = element
-			collision_shape.transform = mesh_instance.transform
+			
+			# Take only the translation from the mesh instance - the rotation
+			# and scale will be embedded into the shape data.
+			# This way, we can avoid messing with the collision shape's basis
+			# and allow the physics engine to make optimisations.
+			collision_shape.transform.origin = mesh_instance.transform.origin
+			
+			# Apply the mesh instance's transform to the generated collision
+			# shape, so that it lines up with the mesh instance. We need to do
+			# this since the generated shape is only based on the mesh, not the
+			# mesh instance.
+			var transformed_shape := ShapeUtil.transform_shape(
+					collision_shape.shape, mesh_instance.transform.basis)
+			collision_shape.shape = transformed_shape
+			
 			to_node.add_child(collision_shape)
 			
 			# Add the mesh instance to the first available collision shape.
 			if mesh_instance.get_parent() == null:
-				mesh_instance.transform = Transform.IDENTITY
 				collision_shape.add_child(mesh_instance)
+		
+		# Since we have added the mesh's translation to all collision shapes,
+		# we need to remove it from the mesh instance so that the translation
+		# is not applied twice.
+		mesh_instance.transform.origin = Vector3.ZERO
 
 
 ## Adjust the centre-of-mass of an object using the geometric metadata in it's
