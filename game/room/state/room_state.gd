@@ -54,8 +54,18 @@ export(Resource) var table_entry = \
 	preload("res://assets/default_pack/tables/poker_table.tres") \
 	setget set_table_entry
 
-## The table's current transform. This should only change if the table has just
-## been flipped.
+## The table's current transform. This should only be used if the table has been
+## flipped, otherwise the table should always be in the same position, as
+## defined by it's centre-of-mass.
+##
+## NOTE: In v0.1.x, this transform was used regardless of whether the table was
+## flipped or not. The reason for this change is because the centre-of-mass of
+## the default asset pack tables have been adjusted, so if this value were to
+## be used before the table is flipped, the position of the table would be
+## incorrect.
+## TODO: The default table's COM were changed to fix a physics issue, but this
+## may still be an issue with custom tables. Should tables have a standard COM,
+## e.g. (0, -10, 0) or (0, 0, 0)? Test with radio that is scaled.
 export(Transform) var table_transform := Transform.IDENTITY
 
 ## If [code]true[/code], the table is currently in motion (from being flipped),

@@ -260,6 +260,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - An object's centre-of-mass will no longer change when the object is scaled.
 - Fixed an issue where if the 'Red Cup' container had a custom scale applied to
   it, the applied scale would change when loading a previous save state.
+- Fixed objects with box collision shapes dancing on the table before eventually
+  settling down. (#50)
 
 #### Multiplayer
 

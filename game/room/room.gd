@@ -104,7 +104,8 @@ func set_state(state: RoomState) -> void:
 	_room_environment.set_skybox(state.skybox_entry)
 	
 	_table_manager.set_table(state.table_entry)
-	_table_manager.set_table_transform(state.table_transform)
+	# Don't set the table's transform if it hasn't been flipped.
+	#_table_manager.set_table_transform(state.table_transform)
 	# TODO: Set if the table is rigid or not.
 	
 	# TODO: If there is no image, clear the paint viewport.
