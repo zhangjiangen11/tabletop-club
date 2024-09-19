@@ -85,6 +85,19 @@ func _unhandled_input(event: InputEvent):
 		
 		piece_manager.rpc_id(1, "request_set_locked_multiple", index_arr,
 				not all_locked)
+	
+	else:
+		if event is InputEventKey:
+			if not event.pressed:
+				return
+			
+			# Ctrl+A = Select all pieces.
+			# TODO: Make sure this, as well as other tool-related features,
+			# can't be used while the player is in the main menu.
+			if event.scancode == KEY_A and is_ctrl:
+				for element in piece_manager.get_children():
+					var piece: Piece = element
+					piece.selected = true
 
 
 ## From all of the pieces that are currently selected, return a list of their

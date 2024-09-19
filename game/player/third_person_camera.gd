@@ -175,7 +175,7 @@ func apply_options() -> void:
 # Read player input and adjust the position of the camera accordingly.
 func _process_movement(delta: float) -> void:
 	var movement_input := Vector2.ZERO
-	if not ignore_key_events:
+	if not (ignore_key_events or Input.is_physical_key_pressed(KEY_CONTROL)):
 		movement_input = Input.get_vector("game_left", "game_right",
 				"game_down", "game_up")
 	
