@@ -372,6 +372,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	URL: https://www.svgrepo.com/svg/535474/lines
 
 
+- Load icon
+
+	Files:
+		icons/load_icon.svg
+	Author: Delapouite
+	License: CC BY 3.0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://game-icons.net/1x1/delapouite/load.html
+
+
 - Loading background
 
 	Files:
@@ -379,6 +389,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	Author: Samantha Johnson
 	License: CC0
 	Modified By: Benjamin 'drwhut' Beddows
+
+
+- Menu icon
+
+	Files:
+		icons/menu_icon.svg
+	Author: Delapouite
+	License: CC BY 3.0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://game-icons.net/1x1/delapouite/hamburger-menu.html
 
 
 - Minimize icon
@@ -421,6 +441,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	URL: https://www.svgrepo.com/svg/134306/newspaper-folded
 
 
+- Notebook icon
+
+	Files:
+		icons/notebook_icon.svg
+	Author: jcubic
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/377644/notebook
+
+
 - Paint icon
 
 	Files:
@@ -429,6 +459,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	License: CC0
 	Modified By: Benjamin 'drwhut' Beddows
 	URL: https://www.svgrepo.com/svg/169944/paint
+
+
+- Pawn icon
+
+	Files:
+		icons/pawn_icon.svg
+	Author: Lorc
+	License: CC BY 3.0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://game-icons.net/1x1/lorc/pawn.html
 
 
 - Quit icon
@@ -459,6 +499,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	License: CC0
 	Modified By: Benjamin 'drwhut' Beddows
 	URL: https://www.svgrepo.com/svg/48874/ruler
+
+
+- Save icon
+
+	Files:
+		icons/save_icon.svg
+	Author: Delapouite
+	License: CC BY 3.0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://game-icons.net/1x1/delapouite/save.html
 
 
 - Search icon
@@ -511,6 +561,16 @@ packs. Licensing information for these assets can be viewed in-game.
 	URL: https://www.svgrepo.com/svg/442015/stack-alt
 
 
+- Table icon
+
+	Files:
+		icons/table_icon.svg
+	Author: Icooon Mono
+	License: CC0
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/477580/table-3
+
+
 - Tick icon
 
 	Files:
@@ -519,6 +579,17 @@ packs. Licensing information for these assets can be viewed in-game.
 	License: MIT
 	Modified By: Benjamin 'drwhut' Beddows
 	URL: https://www.svgrepo.com/svg/491147/tick
+
+
+- Undo icon
+
+	Files:
+		icons/undo_icon.svg
+		icons/undo_icon_flipped.svg
+	Author: Vlad Cristea
+	License: CC BY
+	Modified By: Benjamin 'drwhut' Beddows
+	URL: https://www.svgrepo.com/svg/522684/undo
 
 
 - Card sounds

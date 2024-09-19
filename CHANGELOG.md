@@ -127,6 +127,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - When selecting assets, assets are now organised into folders.
 - When selecting assets, the layout and scale in which assets are displayed can
   now be changed.
+- Added a "Redo" button to the in-game UI.
 
 ### Changed
 
@@ -250,6 +251,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - When selecting assets, a scroll bar is now used instead of pages when
   displaying lots of assets at once.
 - The "Tokens" object type has been renamed to "Tiles / Tokens".
+- Improved the in-game UI.
+- Moved the "Load Game" and "Save Game" buttons from the in-game menu to the top
+  of the in-game UI.
+- Moved the "Clear Table" and "Flip Table" buttons from the top of the in-game
+  UI to the room menu, as well as the table's context menu.
+- Moved the rotation amount button from the top of the in-game UI to the cursor
+  tool's settings.
 
 ### Fixed
 
