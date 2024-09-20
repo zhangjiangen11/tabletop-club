@@ -209,6 +209,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://util/controller_rich_text_label.gd"
 }, {
+"base": "Control",
+"class": "ControllerScrollContainer",
+"language": "GDScript",
+"path": "res://ui/controller_scroll_container.gd"
+}, {
 "base": "PlayerTool",
 "class": "CursorTool",
 "language": "GDScript",
@@ -580,6 +585,7 @@ _global_script_class_icons={
 "CommandParser": "",
 "ContainerState": "",
 "ControllerRichTextLabel": "",
+"ControllerScrollContainer": "",
 "CursorTool": "",
 "CustomValue": "",
 "DiceFaceValue": "",

@@ -16,9 +16,9 @@
 [node name="TopBarDesktop" type="HBoxContainer"]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -20.0
-margin_right = 20.0
-margin_bottom = 40.0
+margin_left = -312.0
+margin_right = 312.0
+margin_bottom = 80.0
 grow_horizontal = 2
 mouse_filter = 2
 custom_constants/separation = 40

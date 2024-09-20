@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://ui/controller_scroll_container.gd" type="Script" id=1]
+[ext_resource path="res://ui/top_bar_controller.gd" type="Script" id=2]
+[ext_resource path="res://fonts/res/game_ui_font.tres" type="DynamicFont" id=3]
+[ext_resource path="res://shaders/fade_edges.tres" type="Shader" id=4]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 4 )
+
+[node name="TopBarController" type="VBoxContainer"]
+script = ExtResource( 2 )
+
+[node name="ViewportContainer" type="ViewportContainer" parent="."]
+material = SubResource( 1 )
+margin_right = 600.0
+margin_bottom = 100.0
+
+[node name="Viewport" type="Viewport" parent="ViewportContainer"]
+size = Vector2( 600, 100 )
+transparent_bg = true
+
+[node name="ControllerScrollContainer" type="Control" parent="ViewportContainer/Viewport"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 600, 100 )
+script = ExtResource( 1 )
+switch_duration_secs = 0.25
+margin = 10.0
+font_override = ExtResource( 3 )

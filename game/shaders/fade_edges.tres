@@ -1,0 +1,12 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+void fragment() {
+	COLOR = texture(TEXTURE, UV);
+	float dist_from_centre = 2.0 * abs(0.5 - UV.x);
+	COLOR.a *= 1.0 - dist_from_centre;
+}
+"
