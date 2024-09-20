@@ -1,0 +1,133 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://fonts/res/game_ui_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://icons/pawn_icon.svg" type="Texture" id=2]
+[ext_resource path="res://icons/table_icon.svg" type="Texture" id=3]
+[ext_resource path="res://icons/undo_icon.svg" type="Texture" id=4]
+[ext_resource path="res://icons/undo_icon_flipped.svg" type="Texture" id=5]
+[ext_resource path="res://icons/menu_icon.svg" type="Texture" id=6]
+[ext_resource path="res://icons/notebook_icon.svg" type="Texture" id=7]
+[ext_resource path="res://icons/save_icon.svg" type="Texture" id=8]
+[ext_resource path="res://tools/vertical_button.gd" type="Script" id=9]
+[ext_resource path="res://icons/load_icon.svg" type="Texture" id=10]
+[ext_resource path="res://icons/collection_icon.svg" type="Texture" id=11]
+[ext_resource path="res://ui/top_bar_desktop.gd" type="Script" id=12]
+
+[node name="TopBarDesktop" type="HBoxContainer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -20.0
+margin_right = 20.0
+margin_bottom = 40.0
+grow_horizontal = 2
+mouse_filter = 2
+custom_constants/separation = 40
+script = ExtResource( 12 )
+
+[node name="WindowBar" type="HBoxContainer" parent="."]
+margin_right = 332.0
+margin_bottom = 80.0
+
+[node name="ObjectsButton" type="Button" parent="WindowBar"]
+margin_right = 80.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 80, 80 )
+script = ExtResource( 9 )
+texture = ExtResource( 2 )
+vertical_text = "Objects"
+font_override = ExtResource( 1 )
+
+[node name="GamesButton" type="Button" parent="WindowBar"]
+margin_left = 84.0
+margin_right = 164.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 80, 80 )
+disabled = true
+script = ExtResource( 9 )
+texture = ExtResource( 11 )
+vertical_text = "Games"
+font_override = ExtResource( 1 )
+
+[node name="RoomButton" type="Button" parent="WindowBar"]
+margin_left = 168.0
+margin_right = 248.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 80, 80 )
+disabled = true
+script = ExtResource( 9 )
+texture = ExtResource( 3 )
+vertical_text = "Room"
+font_override = ExtResource( 1 )
+
+[node name="NotebookButton" type="Button" parent="WindowBar"]
+margin_left = 252.0
+margin_right = 332.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 80, 80 )
+disabled = true
+script = ExtResource( 9 )
+texture = ExtResource( 7 )
+vertical_text = "Notebook"
+font_override = ExtResource( 1 )
+
+[node name="UndoRedoBar" type="HBoxContainer" parent="."]
+margin_left = 372.0
+margin_right = 456.0
+margin_bottom = 40.0
+size_flags_vertical = 0
+
+[node name="UndoButton" type="Button" parent="UndoRedoBar"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+hint_tooltip = "Undo"
+disabled = true
+icon = ExtResource( 4 )
+expand_icon = true
+
+[node name="RedoButton" type="Button" parent="UndoRedoBar"]
+margin_left = 44.0
+margin_right = 84.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+hint_tooltip = "Redo"
+disabled = true
+icon = ExtResource( 5 )
+expand_icon = true
+
+[node name="MenuBar" type="HBoxContainer" parent="."]
+margin_left = 496.0
+margin_right = 624.0
+margin_bottom = 40.0
+size_flags_vertical = 0
+
+[node name="LoadButton" type="Button" parent="MenuBar"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+hint_tooltip = "Load"
+disabled = true
+icon = ExtResource( 10 )
+expand_icon = true
+
+[node name="SaveButton" type="Button" parent="MenuBar"]
+margin_left = 44.0
+margin_right = 84.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+hint_tooltip = "Save"
+disabled = true
+icon = ExtResource( 8 )
+expand_icon = true
+
+[node name="MenuButton" type="Button" parent="MenuBar"]
+margin_left = 88.0
+margin_right = 128.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+hint_tooltip = "Menu"
+icon = ExtResource( 6 )
+expand_icon = true
+
+[connection signal="pressed" from="WindowBar/ObjectsButton" to="." method="_on_ObjectsButton_pressed"]
+[connection signal="pressed" from="MenuBar/MenuButton" to="." method="_on_MenuButton_pressed"]

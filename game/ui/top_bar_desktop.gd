@@ -22,43 +22,19 @@
 
 extends Control
 
-## The main script for the in-game UI.
+## The controls shown at the top of the in-game UI.
 
+
+## Fired when the player wants to open the objects window.
+signal open_objects_window()
 
 ## Fired when the player wants to open the game menu.
-signal show_game_menu()
+signal open_game_menu()
 
 
-## Should the in-game UI be visible to the player?
-var ui_visible: bool setget set_ui_visible, is_ui_visible
+func _on_ObjectsButton_pressed():
+	emit_signal("open_objects_window")
 
 
-## The list of players as a series of [PlayerButton].
-onready var player_list := $HideableUI/MultiplayerUI/PlayerList
-
-## The room code as displayed in the UI.
-onready var room_code_view := $HideableUI/MultiplayerUI/RoomCodeView
-
-onready var _hideable_ui := $HideableUI
-onready var _objects_window := $Windows/ObjectsWindow
-
-
-func is_ui_visible() -> bool:
-	return _hideable_ui.visible
-
-
-func set_ui_visible(value: bool) -> void:
-	_hideable_ui.visible = value
-
-
-func _on_TopBarDesktop_open_objects_window():
-	_objects_window.popup_centered()
-
-
-func _on_TopBarDesktop_open_game_menu():
-	emit_signal("show_game_menu")
-
-
-func _on_ObjectsWindow_asset_selected(asset_entry: AssetEntry):
-	# TODO: Allow the player to place the object where they want.
-	print(asset_entry.get_path())
+func _on_MenuButton_pressed():
+	emit_signal("open_game_menu")
