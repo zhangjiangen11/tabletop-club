@@ -63,14 +63,6 @@ onready var _settings_window := $AssetWindowSettings
 
 
 func _ready():
-	# TEMP
-	var ttc_pack := preload("res://assets/default_pack/ttc_pack.tres")
-	ttc_pack.reset_dictionary()
-	AssetDB.add_pack(ttc_pack)
-	AssetDB.commit_changes()
-	
-	call_deferred("popup_centered")
-	
 	# Make sure the settings window displays the correct layout and zoom.
 	_settings_window.category = category
 	_settings_window.layout = _asset_grid.layout
@@ -85,26 +77,6 @@ func _ready():
 	set_current_path("/" + category + default_path)
 	
 	AssetTree.connect("tree_generated", self, "_on_AssetTree_tree_generated")
-
-
-# TEMP
-func _unhandled_input(event):
-	if event is InputEventKey:
-		if event.is_released():
-			return
-		
-		if event.scancode == KEY_L:
-			_asset_grid.layout = AssetGrid.GridLayout.LIST
-		elif event.scancode == KEY_I:
-			_asset_grid.layout = AssetGrid.GridLayout.ICON
-		elif event.scancode == KEY_MINUS:
-			if _asset_grid.zoom == 0:
-				return
-			_asset_grid.zoom -= 1
-		elif event.scancode == KEY_EQUAL:
-			if _asset_grid.zoom == 3:
-				return
-			_asset_grid.zoom += 1
 
 
 func set_current_path(new_value: String) -> void:

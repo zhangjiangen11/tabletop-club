@@ -303,6 +303,10 @@ func _on_DisconnectHostDialog_save_and_return_to_main_menu():
 	set_menu_state(MenuState.STATE_MAIN_MENU)
 
 
+func _on_GameUI_show_game_menu():
+	set_menu_state(MenuState.STATE_GAME_MENU)
+
+
 func _on_ImportProgressPanel_visibility_changed():
 	# If the game is currently importing assets, then we do not want the player
 	# to host or join a room yet, as this will cause problems when trying to
