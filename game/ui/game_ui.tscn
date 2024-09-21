@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://ui/room_code_view.tscn" type="PackedScene" id=1]
 [ext_resource path="res://ui/player_list.gd" type="Script" id=2]
 [ext_resource path="res://ui/game_ui.gd" type="Script" id=3]
 [ext_resource path="res://room/state/state_freeze_ui.tscn" type="PackedScene" id=4]
 [ext_resource path="res://ui/top_bar_desktop.tscn" type="PackedScene" id=5]
+[ext_resource path="res://ui/top_bar_controller.tscn" type="PackedScene" id=6]
 [ext_resource path="res://ui/asset_menu/asset_window.tscn" type="PackedScene" id=16]
 
 [node name="GameUI" type="Control"]
@@ -19,6 +20,10 @@ anchor_bottom = 1.0
 mouse_filter = 2
 
 [node name="TopBarDesktop" parent="HideableUI" instance=ExtResource( 5 )]
+
+[node name="TopBarController" parent="HideableUI" instance=ExtResource( 6 )]
+visible = false
+input_disabled = true
 
 [node name="MultiplayerUI" type="VBoxContainer" parent="HideableUI"]
 anchor_left = 1.0
@@ -43,6 +48,8 @@ category = "objects"
 
 [node name="StateFreezeUI" parent="." instance=ExtResource( 4 )]
 
-[connection signal="open_game_menu" from="HideableUI/TopBarDesktop" to="." method="_on_TopBarDesktop_open_game_menu"]
-[connection signal="open_objects_window" from="HideableUI/TopBarDesktop" to="." method="_on_TopBarDesktop_open_objects_window"]
+[connection signal="open_game_menu" from="HideableUI/TopBarDesktop" to="." method="_on_TopBar_open_game_menu"]
+[connection signal="open_objects_window" from="HideableUI/TopBarDesktop" to="." method="_on_TopBar_open_objects_window"]
+[connection signal="open_game_menu" from="HideableUI/TopBarController" to="." method="_on_TopBar_open_game_menu"]
+[connection signal="open_objects_window" from="HideableUI/TopBarController" to="." method="_on_TopBar_open_objects_window"]
 [connection signal="asset_selected" from="Windows/ObjectsWindow" to="." method="_on_ObjectsWindow_asset_selected"]

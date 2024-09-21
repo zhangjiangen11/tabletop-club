@@ -40,7 +40,17 @@ onready var player_list := $HideableUI/MultiplayerUI/PlayerList
 onready var room_code_view := $HideableUI/MultiplayerUI/RoomCodeView
 
 onready var _hideable_ui := $HideableUI
+onready var _top_bar_controller := $HideableUI/TopBarController
+onready var _top_bar_desktop := $HideableUI/TopBarDesktop
+
 onready var _objects_window := $Windows/ObjectsWindow
+
+
+func _ready():
+	ControllerDetector.connect("using_controller", self,
+			"_on_ControllerDetector_using_controller")
+	ControllerDetector.connect("using_keyboard_and_mouse", self,
+			"_on_ControllerDetector_using_keyboard_and_mouse")
 
 
 func is_ui_visible() -> bool:
@@ -51,14 +61,26 @@ func set_ui_visible(value: bool) -> void:
 	_hideable_ui.visible = value
 
 
-func _on_TopBarDesktop_open_objects_window():
+func _on_TopBar_open_objects_window():
 	_objects_window.popup_centered()
 
 
-func _on_TopBarDesktop_open_game_menu():
+func _on_TopBar_open_game_menu():
 	emit_signal("show_game_menu")
 
 
 func _on_ObjectsWindow_asset_selected(asset_entry: AssetEntry):
 	# TODO: Allow the player to place the object where they want.
 	print(asset_entry.get_path())
+
+
+func _on_ControllerDetector_using_controller():
+	_top_bar_controller.visible = true
+	_top_bar_controller.input_disabled = false
+	_top_bar_desktop.visible = false
+
+
+func _on_ControllerDetector_using_keyboard_and_mouse():
+	_top_bar_controller.visible = false
+	_top_bar_controller.input_disabled = true
+	_top_bar_desktop.visible = true

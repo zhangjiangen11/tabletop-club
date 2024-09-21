@@ -25,10 +25,26 @@ extends Control
 ## The bar shown at the top of the in-game UI, when a controller is being used.
 
 
-onready var _controller_scroll: ControllerScrollContainer = $ViewportContainer/Viewport/ControllerScrollContainer
+## Fired when the player wants to open the objects window.
+signal open_objects_window()
+
+## Fired when the player wants to open the game menu.
+signal open_game_menu()
+
+
+## Sets whether the internal viewport should detect input from the player.
+export var input_disabled := false setget set_input_disabled
+
+
+onready var _controller_scroll: ControllerScrollContainer = \
+		$HBoxContainer/ViewportContainer/Viewport/ControllerScrollContainer
+onready var _viewport: Viewport = $HBoxContainer/ViewportContainer/Viewport
 
 
 func _ready():
+	# Exported variable is set before viewport is ready.
+	set_input_disabled(input_disabled)
+	
 	_controller_scroll.add_button("objects", preload("res://icons/pawn_icon.svg"))
 	_controller_scroll.add_button("games", preload("res://icons/collection_icon.svg"))
 	_controller_scroll.add_button("room", preload("res://icons/table_icon.svg"))
@@ -38,3 +54,67 @@ func _ready():
 	_controller_scroll.add_button("load", preload("res://icons/load_icon.svg"))
 	_controller_scroll.add_button("save", preload("res://icons/save_icon.svg"))
 	_controller_scroll.add_button("menu", preload("res://icons/menu_icon.svg"))
+	
+	_set_button_text()
+
+
+func set_input_disabled(new_value: bool) -> void:
+	input_disabled = new_value
+	
+	if _viewport == null:
+		return
+	
+	_viewport.gui_disable_input = input_disabled
+
+
+# Set the names of the buttons based on the current locale.
+func _set_button_text() -> void:
+	for element in _controller_scroll.get_buttons():
+		var button: VerticalButton = element
+		
+		var text := "#ERROR#"
+		match button.name:
+			"objects":
+				text = tr("Objects")
+			"games":
+				text = tr("Games")
+			"room":
+				text = tr("Room")
+			"notebook":
+				text = tr("Notebook")
+			"undo":
+				text = tr("Undo")
+			"redo":
+				text = tr("Redo")
+			"load":
+				text = tr("Load")
+			"save":
+				text = tr("Save")
+			"menu":
+				text = tr("Menu")
+		
+		button.vertical_text = text
+
+
+func _on_ControllerScrollContainer_button_pressed(button_id: String):
+	match button_id:
+		"objects":
+			emit_signal("open_objects_window")
+		"games":
+			pass
+		"room":
+			pass
+		"notebook":
+			pass
+		"undo":
+			pass
+		"redo":
+			pass
+		"load":
+			pass
+		"save":
+			pass
+		"menu":
+			emit_signal("open_game_menu")
+		_:
+			push_error("Unknown button name '%s'" % button_id)
