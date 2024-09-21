@@ -35,7 +35,7 @@ const FONT := preload("res://fonts/res/asset_menu_font_minor.tres")
 
 
 ## Append a button representing a directory to the end of the list.
-func append_dir(dir_path: String) -> void:
+func append_dir(dir_path: String, take_focus: bool = false) -> void:
 	# Check to see if there is already a node that isn't queued for deletion -
 	# if so, we need to add a divider before we add the button.
 	var node_exists := false
@@ -58,12 +58,18 @@ func append_dir(dir_path: String) -> void:
 	dir_button.add_font_override("font", FONT)
 	dir_button.connect("pressed", self, "_on_button_pressed", [ dir_path ])
 	add_child(dir_button)
+	
+	if take_focus:
+		dir_button.grab_focus()
 
 
 ## Set the directory represented by the list.
 func set_dir(dir_path: String) -> void:
-	for element in get_children():
-		var child: Node = element
+	var index_with_focus := -1
+	for index in range(get_child_count()):
+		var child: Control = get_child(index)
+		if child.has_focus():
+			index_with_focus = index
 		child.queue_free()
 	
 	# Add an extra "/" to the end so that the last element counts as a directory
@@ -71,11 +77,13 @@ func set_dir(dir_path: String) -> void:
 	dir_path += "/"
 	
 	# Skip the first "/" character.
+	var num_added := 0
 	for sub_length in range(1, dir_path.length()):
 		if dir_path[sub_length] != "/":
 			continue
 		
-		append_dir(dir_path.substr(0, sub_length))
+		append_dir(dir_path.substr(0, sub_length), num_added == index_with_focus)
+		num_added += 1
 
 
 func _on_button_pressed(dir_path: String):

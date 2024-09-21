@@ -125,6 +125,14 @@ func _init():
 	icon_container.add_child(_stack_icon)
 
 
+## Have the button take focus, no matter which button type is being displayed.
+func take_focus() -> void:
+	if _button_vertical.visible:
+		_button_vertical.grab_focus()
+	elif _button_horizontal.visible:
+		_button_horizontal.grab_focus()
+
+
 func get_appearance() -> int:
 	if _button_vertical.visible:
 		return ButtonType.VERTICAL

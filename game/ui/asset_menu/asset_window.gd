@@ -59,6 +59,7 @@ onready var _forward_button: Button = $MainContainer/ButtonContainer/ForwardButt
 onready var _asset_breadcrumb: AssetBreadcrumb = $MainContainer/BreadcrumbScrollContainer/AssetBreadcrumb
 onready var _asset_grid: AssetGrid = $MainContainer/AssetScrollContainer/AssetGrid
 
+onready var _settings_button := $MainContainer/ButtonContainer/RightContainer/SettingsButton
 onready var _settings_window := $AssetWindowSettings
 
 
@@ -187,6 +188,11 @@ func _on_AssetGrid_node_selected(node_id: String):
 	_asset_breadcrumb.append_dir(new_path)
 	_asset_grid.asset_node = asset_node
 	_asset_grid.refresh()
+	_asset_grid.take_focus()
+
+
+func _on_AssetWindow_about_to_show():
+	_asset_grid.call_deferred("take_focus")
 
 
 func _on_AssetWindowSettings_layout_changed(new_layout: int):
@@ -195,3 +201,7 @@ func _on_AssetWindowSettings_layout_changed(new_layout: int):
 
 func _on_AssetWindowSettings_zoom_changed(new_zoom: int):
 	_asset_grid.zoom = new_zoom
+
+
+func _on_AssetWindowSettings_popup_hide():
+	_settings_button.grab_focus()

@@ -79,6 +79,7 @@ script = ExtResource( 1 )
 
 [node name="AssetWindowSettings" parent="." instance=ExtResource( 7 )]
 
+[connection signal="about_to_show" from="." to="." method="_on_AssetWindow_about_to_show"]
 [connection signal="pressed" from="MainContainer/ButtonContainer/BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="MainContainer/ButtonContainer/ForwardButton" to="." method="_on_ForwardButton_pressed"]
 [connection signal="pressed" from="MainContainer/ButtonContainer/RightContainer/SettingsButton" to="." method="_on_SettingsButton_pressed"]
@@ -86,4 +87,5 @@ script = ExtResource( 1 )
 [connection signal="asset_selected" from="MainContainer/AssetScrollContainer/AssetGrid" to="." method="_on_AssetGrid_asset_selected"]
 [connection signal="node_selected" from="MainContainer/AssetScrollContainer/AssetGrid" to="." method="_on_AssetGrid_node_selected"]
 [connection signal="layout_changed" from="AssetWindowSettings" to="." method="_on_AssetWindowSettings_layout_changed"]
+[connection signal="popup_hide" from="AssetWindowSettings" to="." method="_on_AssetWindowSettings_popup_hide"]
 [connection signal="zoom_changed" from="AssetWindowSettings" to="." method="_on_AssetWindowSettings_zoom_changed"]

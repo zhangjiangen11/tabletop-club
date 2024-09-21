@@ -117,6 +117,10 @@ func _set_layout_button_text() -> void:
 	_layout_button.set_item_text(1, tr("List"))
 
 
+func _on_AssetWindowSettings_about_to_show():
+	_layout_button.call_deferred("grab_focus")
+
+
 func _on_AssetWindowSettings_popup_hide():
 	if category.empty():
 		push_warning("Cannot save settings, category not given")

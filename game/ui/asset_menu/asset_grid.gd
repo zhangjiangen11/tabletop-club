@@ -105,6 +105,17 @@ func refresh() -> void:
 	_apply_layout_and_zoom()
 
 
+## Have the first button in the grid take focus.
+func take_focus() -> void:
+	for element in get_children():
+		var button: AssetButton = element
+		if button.is_queued_for_deletion():
+			continue
+		
+		button.take_focus()
+		break
+
+
 func set_layout(new_value: int) -> void:
 	if new_value < GridLayout.ICON or new_value > GridLayout.LIST:
 		push_error("Invalid value '%d' for grid layout" % new_value)
