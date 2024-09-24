@@ -39,6 +39,9 @@ onready var player_list := $HideableUI/MultiplayerUI/PlayerList
 ## The room code as displayed in the UI.
 onready var room_code_view := $HideableUI/MultiplayerUI/RoomCodeView
 
+## The panel that appears when the player is adding an object to the room.
+onready var place_object_panel := $PlaceObjectPanel
+
 onready var _hideable_ui := $HideableUI
 onready var _top_bar_controller := $HideableUI/TopBarController
 onready var _top_bar_desktop := $HideableUI/TopBarDesktop
@@ -70,17 +73,38 @@ func _on_TopBar_open_game_menu():
 
 
 func _on_ObjectsWindow_asset_selected(asset_entry: AssetEntry):
-	# TODO: Allow the player to place the object where they want.
-	print(asset_entry.get_path())
+	_objects_window.visible = false
+	place_object_panel.start(asset_entry)
+
+
+func _on_PlaceObjectPanel_start_placing():
+	# Don't allow the player to interact with other elements of the UI while
+	# they are placing an object.
+	_top_bar_controller.visible = false
+	_top_bar_controller.input_disabled = true
+	_top_bar_desktop.visible = false
+
+
+func _on_PlaceObjectPanel_stop_placing():
+	if ControllerDetector.is_using_controller():
+		_on_ControllerDetector_using_controller()
+	else:
+		_on_ControllerDetector_using_keyboard_and_mouse()
 
 
 func _on_ControllerDetector_using_controller():
+	if place_object_panel.visible:
+		return
+	
 	_top_bar_controller.visible = true
 	_top_bar_controller.input_disabled = false
 	_top_bar_desktop.visible = false
 
 
 func _on_ControllerDetector_using_keyboard_and_mouse():
+	if place_object_panel.visible:
+		return
+	
 	_top_bar_controller.visible = false
 	_top_bar_controller.input_disabled = true
 	_top_bar_desktop.visible = true

@@ -70,6 +70,8 @@ func _ready():
 	var player_camera: Camera = camera_controller.get_camera()
 	_main_menu_camera.camera_transition_to = player_camera
 	
+	_game_ui.place_object_panel.player_controller = _player_controller
+	
 	# Initialize the main menu state.
 	set_menu_state(MenuState.STATE_MAIN_MENU)
 	

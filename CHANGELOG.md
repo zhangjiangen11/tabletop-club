@@ -258,6 +258,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   UI to the room menu, as well as the table's context menu.
 - Moved the rotation amount button from the top of the in-game UI to the cursor
   tool's settings.
+- When selecting an object in the objects menu, you can now choose where the
+  object spawns, instead of the object being placed at a "spawn point".
 
 ### Fixed
 

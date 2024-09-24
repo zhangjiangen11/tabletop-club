@@ -147,7 +147,7 @@ func _process(_delta: float):
 		text += "Camera Rotation: (%.3f, %.3f, %.3f)\n" % [rad2deg(camera_rot.x),
 				rad2deg(camera_rot.y), rad2deg(camera_rot.z)]
 		
-		var current_tool: PlayerTool = _player_controller.get_current_tool()
+		var current_tool: PlayerTool = _player_controller.get_current_tool_node()
 		if current_tool != null:
 			text += "Tool: %s\n" % current_tool.name
 			

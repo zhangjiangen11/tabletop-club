@@ -36,12 +36,15 @@ export(bool) var disabled: bool setget set_disabled, is_disabled
 export(bool) var ignore_key_events := false setget set_ignore_key_events
 
 
+## The name of the [PlayerTool] that is currently enabled.
+var current_tool := "" setget set_current_tool
+
+
 onready var _third_person_camera: CameraController = $ThirdPersonCamera
 
-# NOTE: We don't need to disable all of the tools at the start, since the main
-# game script disables the entire player controller at the start of the game.
 onready var _cursor_tool: CursorTool = $CursorTool
-onready var _tool_list := [ _cursor_tool ]
+onready var _place_tool: PlaceTool = $PlaceTool
+onready var _tool_list := [ _cursor_tool, _place_tool ]
 
 
 func _ready():
@@ -50,6 +53,9 @@ func _ready():
 	for element in _tool_list:
 		var player_tool: PlayerTool = element
 		player_tool.camera = _third_person_camera.get_camera()
+	
+	# Have the cursor tool be the default starting tool.
+	set_current_tool("CursorTool")
 
 
 ## Get the currently active camera controller.
@@ -58,9 +64,8 @@ func get_camera_controller() -> CameraController:
 
 
 ## Get a reference to the currently active tool.
-func get_current_tool() -> PlayerTool:
-	# TODO: Add the ability to switch tools, return null if no tool is active.
-	return _cursor_tool
+func get_current_tool_node() -> PlayerTool:
+	return get_node(current_tool) as PlayerTool
 
 
 ## Returns [code]true[/code] if either the PlayerController or the currently
@@ -89,6 +94,21 @@ func set_refs(piece_manager: PieceManager) -> void:
 
 func is_disabled() -> bool:
 	return not is_processing()
+
+
+func set_current_tool(new_tool: String) -> void:
+	current_tool = ""
+	
+	for element in _tool_list:
+		var player_tool: PlayerTool = element
+		if player_tool.name == new_tool:
+			current_tool = new_tool
+			player_tool.enabled = true
+		else:
+			player_tool.enabled = false
+	
+	if current_tool.empty():
+		push_error("Cannot enable tool '%s', does not exist" % new_tool)
 
 
 func set_disabled(value: bool) -> void:

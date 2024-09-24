@@ -71,6 +71,11 @@ func _input(event: InputEvent):
 		_input_detected(false)
 
 
+## Is the player currently using a controller?
+func is_using_controller() -> bool:
+	return _last_input_was_controller
+
+
 # Called when an input is detected - if the type of input has changed, send a
 # signal.
 func _input_detected(is_controller: bool) -> void:

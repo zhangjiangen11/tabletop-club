@@ -429,6 +429,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://assets/objects/timer.gd"
 }, {
+"base": "PlayerTool",
+"class": "PlaceTool",
+"language": "GDScript",
+"path": "res://player/tools/place_tool.gd"
+}, {
 "base": "Reference",
 "class": "Player",
 "language": "GDScript",
@@ -629,6 +634,7 @@ _global_script_class_icons={
 "PieceStackable": "",
 "PieceState": "",
 "PieceTimer": "",
+"PlaceTool": "",
 "Player": "",
 "PlayerList": "",
 "PlayerTool": "",
