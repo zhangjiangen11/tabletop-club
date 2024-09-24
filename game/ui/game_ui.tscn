@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://ui/room_code_view.tscn" type="PackedScene" id=1]
 [ext_resource path="res://ui/player_list.gd" type="Script" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://ui/top_bar_desktop.tscn" type="PackedScene" id=5]
 [ext_resource path="res://ui/top_bar_controller.tscn" type="PackedScene" id=6]
 [ext_resource path="res://ui/place_object_panel.tscn" type="PackedScene" id=7]
+[ext_resource path="res://ui/controller_crosshair.gd" type="Script" id=8]
+[ext_resource path="res://icons/cancel_icon.svg" type="Texture" id=9]
 [ext_resource path="res://ui/asset_menu/asset_window.tscn" type="PackedScene" id=16]
 
 [node name="GameUI" type="Control"]
@@ -49,6 +51,13 @@ margin_left = -174.5
 margin_top = 100.0
 margin_right = 174.5
 margin_bottom = 259.0
+
+[node name="ControllerCrosshair" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 8 )
+texture = ExtResource( 9 )
+icon_size = Vector2( 20, 20 )
 
 [node name="Windows" type="Node" parent="."]
 

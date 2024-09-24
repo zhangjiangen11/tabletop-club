@@ -76,6 +76,16 @@ func is_using_controller() -> bool:
 	return _last_input_was_controller
 
 
+## Send either [signal using_controller] or [signal using_keyboard_and_mouse],
+## depending on which type of input was last used, so that UI elements across
+## the game can adjust accordingly.
+func send_signal() -> void:
+	if _last_input_was_controller:
+		emit_signal("using_controller")
+	else:
+		emit_signal("using_keyboard_and_mouse")
+
+
 # Called when an input is detected - if the type of input has changed, send a
 # signal.
 func _input_detected(is_controller: bool) -> void:
@@ -83,8 +93,4 @@ func _input_detected(is_controller: bool) -> void:
 		return
 	
 	_last_input_was_controller = is_controller
-	
-	if is_controller:
-		emit_signal("using_controller")
-	else:
-		emit_signal("using_keyboard_and_mouse")
+	send_signal()

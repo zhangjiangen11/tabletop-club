@@ -80,6 +80,11 @@ func _ready():
 	# receive the apply_settings signal from GameConfig.
 	GameConfig.apply_all()
 	
+	# Just in case the controller was used during the splash screen, fire the
+	# ControllerDetector's signal so that the UI elements can know for sure what
+	# type of input is being used from the start of the game.
+	ControllerDetector.send_signal()
+	
 	# We want to interface with the Lobby rather than the NetworkManager in most
 	# cases, but before a client can join the lobby, they first need to check
 	# if their game version matches the server's, otherwise there is no point in
