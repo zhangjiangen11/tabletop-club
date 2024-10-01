@@ -43,6 +43,20 @@ func build_piece(piece_entry: AssetEntryScene) -> Piece:
 	if instance is Piece:
 		piece_node = instance
 		
+		# Cards need to be given their own custom meshes, since they can have
+		# differing corners.
+		if piece_entry.scene_path == "res://assets/scenes/card.tscn":
+			var collision_shape: CollisionShape = piece_node.get_child(0)
+			var mesh_instance: MeshInstance = collision_shape.get_child(0)
+			mesh_instance.mesh = CardMeshCache.get_mesh(
+					Vector2(piece_entry.scale.x, piece_entry.scale.z),
+					Vector2(0.25, 0.25)) # TODO: Editable corner size.
+			
+			# Can't set multiple surface materials in the editor, so need to
+			# add them in code.
+			mesh_instance.set_surface_material(0, SpatialMaterial.new())
+			mesh_instance.set_surface_material(1, SpatialMaterial.new())
+		
 		# All materials need to be instanced individually, so that each piece
 		# can be modified separately. As far as I can tell, with the way the
 		# in-built scenes are constructed, there is no way to set the materials
@@ -107,9 +121,30 @@ func build_piece(piece_entry: AssetEntryScene) -> Piece:
 	
 	adjust_centre_of_mass(piece_node, piece_entry, false)
 	
-	# TODO: Assign textures.
-	
 	piece_node.set_user_albedo(piece_entry.albedo_color)
+	
+	# If the entry tells us to override the piece's textures, do so here.
+	if not piece_entry.texture_overrides.empty():
+		var material_list := piece_node.get_materials()
+		if piece_entry.texture_overrides.size() != material_list.size():
+			push_warning("Texture override count (%d) does not match material count (%d)" % [
+					piece_entry.texture_overrides.size(), material_list.size()])
+		
+		var index := 0
+		while (
+			index < piece_entry.texture_overrides.size() and
+			index < material_list.size()
+		):
+			var material: SpatialMaterial = material_list[index]
+			var texture_path: String = piece_entry.texture_overrides[index]
+			
+			var texture := ResourceLoader.load(texture_path, "Texture") as Texture
+			if texture != null:
+				material.albedo_texture = texture
+			else:
+				push_error("Failed to load texture override '%s'" % texture_path)
+			
+			index += 1
 	
 	# TODO: Setup outline materials.
 	

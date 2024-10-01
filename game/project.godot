@@ -698,6 +698,7 @@ DataBroadcaster="*res://network/transfer/data_broadcaster.gd"
 AssetTree="*res://assets/nodes/asset_tree.gd"
 ShapeUtil="*res://util/shape_util.gd"
 ControllerDetector="*res://util/controller_detector.gd"
+CardMeshCache="*res://assets/card_mesh_cache.gd"
 
 [debug]
 

@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Both 'Picnic Bench' and 'Table' are now textured.
 - Objects now have a black outline when they are unselected, and a grey outline
   when they are locked in place.
+- All cards in the default asset pack now have rounded corners.
 
 #### Commands
 

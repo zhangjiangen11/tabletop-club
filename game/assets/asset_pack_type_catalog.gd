@@ -318,7 +318,9 @@ func setup_scene_entry_custom(entry: AssetEntryScene, scene_file_name: String) -
 		# loaded and freed in the main thread. Looking at the source code, it
 		# looks like forcing no cache loading may work, as it should just load
 		# the resource from scratch every time as unique references.
-		var packed_scene := ResourceLoader.load(scene_file_path, "PackedScene") as PackedScene
+		var packed_scene := ResourceLoader.load(scene_file_path, "PackedScene",
+				true) as PackedScene
+		
 		if packed_scene != null:
 			var scene := packed_scene.instance()
 			
