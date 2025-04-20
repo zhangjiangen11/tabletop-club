@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-04 13:50+0100\n"
-"PO-Revision-Date: 2025-03-09 18:37+0000\n"
+"PO-Revision-Date: 2025-04-21 05:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/tabletop-club/game/"
 "ta/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 "Generated-By: Babel 2.13.1\n"
 
 #: ../Scenes/ImportAssets.tscn:35
@@ -936,7 +936,7 @@ msgstr "நோட்புக்"
 
 #: ../Scenes/Game/UI/GameUI.tscn:61
 msgid "Flip Table"
-msgstr "அட்டவணை"
+msgstr "மாற்றும் அட்டவணை"
 
 #: ../Scenes/Game/UI/GameUI.tscn:67
 msgid "Clear Table"
@@ -1454,7 +1454,7 @@ msgstr "மொத்தம்: %d"
 #: ../Scripts/Game/CameraController.gd:1286
 #, python-format
 msgid "Total: %f"
-msgstr "மொத்தம்: %எஃப்"
+msgstr "மொத்தம்: %f"
 
 #: ../Scripts/Game/CameraController.gd:1306
 msgid "Collect selected"
@@ -1516,7 +1516,7 @@ msgstr "ச்பான் பொருள் இங்கே"
 #: ../Scripts/Game/CameraController.gd:1420
 #, python-format
 msgid "Alt + %s"
-msgstr "மாற்று + %s."
+msgstr "மாற்று + %s"
 
 #: ../Scripts/Game/CameraController.gd:1421
 #, python-format
@@ -1903,7 +1903,7 @@ msgstr "மிக விரைவாக மீண்டும் இணைக்
 
 #: ../Scripts/Game/MasterServer.gd:59
 msgid "Join queue is full."
-msgstr "வரிசை வரிசை நிரம்பியுள்ளது."
+msgstr "இணை வரிசை நிரம்பியுள்ளது."
 
 #: ../Scripts/Game/UI/ChatBox.gd:56
 msgid "Too much text being sent, waiting..."
