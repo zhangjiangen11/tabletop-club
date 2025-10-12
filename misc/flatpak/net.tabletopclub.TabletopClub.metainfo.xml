@@ -86,6 +86,26 @@
   </supports>
 
   <releases>
+    <release version="0.1.4" date="2025-10-12">
+      <url type="details">https://tabletopclub.net/2025/10/12/release-v0.1.4/</url>
+      <description>
+        <p>Added:</p>
+        <ul>
+          <li>Added Bulgarian, Hungarian, Korean, and Tamil as playable languages!</li>
+        </ul>
+        <p>Changed:</p>
+        <ul>
+          <li>Updated Godot WebRTC library from v0.5 to v1.1.0.</li>
+          <li>Updated the lobby server's SSL certificate.</li>
+          <li>Updated translations from the community.</li>
+          <li>Replaced the “Droid Sans” font with “Source Han Sans” for Chinese.</li>
+        </ul>
+        <p>Removed:</p>
+        <ul>
+          <li>Removed the “Donate” button from the main menu, as the project is no longer accepting donations.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.3" date="2024-09-04">
       <url type="details">https://tabletopclub.net/2024/09/04/release-v0.1.3/</url>
       <description>
